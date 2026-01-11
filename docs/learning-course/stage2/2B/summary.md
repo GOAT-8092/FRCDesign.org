@@ -1,22 +1,22 @@
-# 2B: Dead Axle Pivot
+# 2B: Dingil Silisi Pivot
 
 ## Summary
 
-You've completed Stage 2B! To summarize what you've learned in this stage:
+Stage 2B'yi tamamladınız! Bu aşamada öğrendiklerinizi özetlemek için:
 
-- Different types of axle usage
-- Principles of designing a good pivot
-- Applications of pivots (wrists, arms)
-- One way of tensioning chain
-- Different sources of backlash in a power transmission
-- How to model a subsystem with multiple moving parts using the origin cube
+- Farklı mil kullanım tipleri
+- İyi bir pivot tasarlama ilkeleri
+- Pivotların uygulamaları (bilekler, kollar)
+- Zincir germe yöntemlerinden biri
+- Bir güç aktarımındaki farklı backlash kaynakları
+- Origin cube kullanarak birden fazla hareketli parça ile bir alt sistemi modelleme
 
-This mechanism being completed leads to many more mechanisms that have multiple moving parts. Most robots have at least one pivot, though each one can be designed differently depending on the use case and packaging. 
+Bu mekanizmanın tamamlanması, birden fazla hareketli parça olan daha birçok mekanizmaya yol açar. Çoğu robotun en az bir pivot'u vardır, ancak her biri kullanım durumuna ve paketlemeye bağlı olarak farklı şekilde tasarlanabilir.
 
-Each pivot has some things in common though: try to minimize backlash, use a dead axle (usually with chain), and it will obviously need a power transmission included. 
+Her pivot'un bazı ortak noktaları vardır: backlash'ı en aza indirmeye çalışın, bir dead axle kullanın (genellikle zincir ile) ve obviously dahil edilen bir güç aktarımına ihtiyaç duyacaktır.
 
-In the next stage, you'll apply very similar concepts to an intake with a pivot and several rollers.
+Bir sonraki aşamada, bir pivot ve birkaç roller ile bir intakedown için çok benzer kavramları uygulayacaksınız.
 
-Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 2B so we can collect data and get a better idea of how to improve the website!
+2B için basit [**geri bildirim formumuzu**](https://forms.gle/qykF1UoxiymAEGWc8) doldurduğunuzdan emin olun, böylece veri toplayabilir ve web sitesini nasıl geliştireceğimize dair daha iyi bir fikir edinebiliriz!
 
 <br>

@@ -2,25 +2,25 @@
 
 ## Pivot
 
-### Gear Ratio
+### Diş Oranı
 
-The pivot is powered by a single Kraken motor on a 2-stage MAXplanetary gearbox. The 4:1 stages in the MAXplanetary (16:1) and the 12:48 sprocket reduction make a total of 42:1 overall reduction for the pivot. 
+Pivot, 2 aşamalı MAXplanetary dişli kutusu üzerinde tek bir Kraken motor ile güçlendirilir. MAXplanetary'deki 4:1 aşamaları (16:1) ve 12:48 sprocket redüksiyonu pivot için toplam 42:1 genel redüksiyon yapar.
 
-You can assess whether you want this much reduction on your own mechanism by using an arm calculator, but around 30:1 to 42:1 should be good for most intakes.
+Bir kol hesaplayıcı kullanarak kendi mekanizmanızda bu kadar redüksiyon isteyip istemediğinizi değerlendirebilirsiniz, ancak çoğu intake için 30:1 ile 42:1 arası iyi olmalıdır.
 
-### Pivot Design
+### Pivot Tasarımı
 
-The MAXplanetary uses a 1:1 belt/pulley to transfer rotation to a long cross-axle. All custom pulleys have pockets for COTS metal inserts to prevent them from stripping. There are sprockets on either end of this cross axle, with chain going up to sprockets attached to the arm. This setup is to ensure both sides of the intake are moved up and down equally so there's no weird twisting forces on the intake.
+MAXplanetary, dönüşü uzun bir çapraz mile transfer etmek için 1:1 kayış/kasnak kullanır. Tüm özel kasnaklar, onların soyulmasını önlemek için COTS metal insertler için cepler vardır. Bu çapraz milin her iki ucunda sprocket'ler vardır, zincir kola bağlı sprocket'lere yukarı çıkar. Bu kurulum, intake'ın her iki tarafının eşit olarak yukarı ve aşağı hareket etmesini sağlar, böylece intake üzerinde garip bükülme kuvvetleri yoktur.
 
-### Backlash and Sensor Feedback
+### Backlash ve Sensör Geri Bildirimi
 
-To reduce backlash in the system, the 1:1 belt/pulley is exact center-center distance and the chains are tensioned with inline tensioners. Large sprockets on the output of the arms are good as well for more teeth engagement with the chain.
+Sistemdeki backlash'ı azaltmak için, 1:1 kayış/kasnak tam merkezden merkeze mesafededir ve zincirler inline tensioner'larla gerilir. Kolların çıkışındaki büyük sprocket'ler de zincirle daha fazla diş teması için iyidir.
 
-For controlling the intake position, no absolute encoder is needed. You can zero the position when it is stowed and against the hardstop or have it rest on the ground when the robot is turned on, and use the relative encoder to take it to a specific position down.
+Intake pozisyonunu kontrol etmek için, mutlak bir kodlayıcıya gerek yoktur. Depolandığında ve hardstop'a karşıyken konumu sıfırlayabilir veya robot açıkken zeminde dinlenmesini sağlayabilir ve belirli bir aşağı pozisyona götürmek için göreli kodlayıcıyı kullanabilirsiniz.
 
 <figure>
     <img src="\img\learning-course\stage2-slapdown\pivot.webp" alt="Power Example" width="60%" style="border:5px solid #ADADAD">
-    <figcaption> Reference Design Intake Pivot</figcaption>
+    <figcaption> Referans Tasarım Intake Pivot'u</figcaption>
 </figure>
 
 <br>

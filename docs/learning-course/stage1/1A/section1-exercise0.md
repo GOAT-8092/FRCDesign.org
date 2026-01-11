@@ -1,36 +1,36 @@
-# 1A: Onshape Fundamentals - Section 1
+# 1A: Onshape Temelleri - Bölüm 1
 
-## Exercise 0: Setup and Navigating Onshape
-
-!!! Warning
-    Make sure you made a copy of the 1A Exercises Document before starting this exercise. You can find the link to the document in the [1A Setup](/learning-course/stage1/1A/section1-setup/){:target="_blank"} section.
-
-### Navigating in a Part Studio
-Using the document you copied on the previous page, follow along with the video. Mess around with the controls till you feel comfortable with it before moving on.
+## Egzersiz 0: Kurulum ve Onshape'de Gezinme
 
 !!! Warning
-    **Don't watch the video and immediately skip to the next page! Please make sure to go through all of the content.**
+    Bu egzersize başlamadan önce 1A Alıştırmaları Belgesini kopyaladığınızdan emin olun. Belgeye bağlantıyı [1A Kurulum](/learning-course/stage1/1A/section1-setup/){:target="_blank"} bölümünde bulabilirsiniz.
+
+### Bir Part Studio'da Gezinme
+Önceki sayfada kopyaladığınız belgeyi kullanarak videoyu takip edin. Rahat hissedene kadar kontrollerle oynayın, sonra ilerleyin.
+
+!!! Warning
+    **Videoyu izleyin ve hemen sonraki sayfaya atlamayın! Lütfen tüm içeriğe gittiğinizden emin olun.**
 
 <figure>
     <iframe src="https://www.youtube.com/embed/45Vkal4VDkE?controls=1&rel=0&showinfo=0&vq=hd1080" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 </figure>
 
-!!! tip "Basic Controls"
+!!! tip "Temel Kontroller"
 
-    - The right mouse button rotates the model view.
-    - The middle mouse button pans the view.
-    - The mouse scroll wheel zooms the view.
-    - Holding `Ctrl + Right Click` allows you to pan
-    - Holding `Alt + Right Click` allows you to rotate flat
+    - Sağ fare tuşu model görünümünü döndürür.
+    - Orta fare tuşu görünümü kaydırır.
+    - Fare tekerleği görünümü yakınlaştırır.
+    - `Ctrl + Sağ Tık` tuşlarını basılı tutarak kaydırabilirsiniz
+    - `Alt + Sağ Tık` tuşlarını basılı tutarak düz döndürebilirsiniz
 
-!!! info "Keep in mind"
+!!! info "Aklınızda tutun"
 
-    You'll probably not remember all of the controls right away, try each one at a time, and mess around with these controls to achieve what you need.
+    Tüm kontrolleri hemen hatırlamayacaksınız, her birini tek tek deneyin ve ihtiyacınız olan şeyi başarmak için bu kontrollerle oynayın.
 
-### Navigating to Different Exercises
-The folders in the bottom store the exercises. **Open the part studio named "Exercise 1" in Section 1, Exercise 1 and move on to the next page.**
+### Farklı Egzersizlere Gezinme
+Alttaki klasörler egzersizleri saklar. **Bölüm 1, Egzersiz 1'deki "Egzersiz 1" adlı part studio'yu açın ve bir sonraki sayfaya geçin.**
 
-!!! Info "Tab Types"
-    Part studios, assemblies, and drawings are all different tabs within a document. You design custom parts referencing each other within part studios, then put it all together with buyable components and fasteners in the assemblies.
+!!! Info "Sekme Türleri"
+    Part studio'lar, assembly'ler ve drawing'ler hepsi bir belge içinde farklı sekmelerdir. Birbirine referans veren özel parçaları part studio'larda tasarlar, sonra assembly'lerde satın alınabilir bileşenler ve cıvatalarla hepsini bir araya getirirsiniz.
 
 <br>

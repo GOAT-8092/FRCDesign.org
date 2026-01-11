@@ -1,36 +1,37 @@
-# 1A: Onshape Fundamentals - Section 3
+# 1A: Onshape Temelleri - Bölüm 3
 
-## Assembly Introduction
+## Assembly Girintisi
 
-So far in 1A, you've been modeling custom parts in part studios. An assembly (a new type of tab) is where you **take those custom parts, assemble them together, and add buyable components like motors and fasteners**. 
+Şimdiye kadar 1A'da, part studio'larda özel parçalar modellediniz. Bir assembly (yeni bir sekme türü), **bu özel parçaları alıp, bir araya getirdiğiniz ve motorlar ve cıvatalar gibi satın alınabilir bileşenler eklediğiniz** yerdir.
 
-While the part studio is used to plan and design individual components next to each other, the assembly is used to **create a 3D blueprint of all the parts involved and how they go together**.
+Part studio, bileşenleri birbirinin yanında planlamak ve tasarlamak için kullanılırken, assembly, **tüm involved parçaların ve nasıl bir araya geldiklerinin 3D planını oluşturmak** için kullanılır.
 
 !!! Warning
-    As this is the first exercise where FRCDesignLib is being used, please be sure you have it added by following [the tutorial in course setup!](../../course-setup/required-course-tools/part-library.md "Adding FRCDesignApp Tutorial Page"){:target="_blank"} FRCDesignLib is a parts library for FRC used for inserting COTS components into assemblies.
+    Bu, FRCDesignLib'nin kullanıldığı ilk egzersiz olduğundan, lütfen [kurs kurulumundaki öğreticiyi takip ederek eklediğinizden emin olun!](../../course-setup/required-course-tools/part-library.md "Adding FRCDesignApp Tutorial Page"){:target="_blank"} FRCDesignLib, assembly'lere COTS bileşenleri eklemek için kullanılan FRC için bir parça kitaplığıdır.
+
 ---
 
-## Exercise 1: Rivets
+## Egzersiz 1: Perçinler
 
-To get started, find the "S3 Exercise 1" assembly in the "Section 3" folder in your copy of the template document. 
+Başlamak için, şablon belgenizin kopyasındaki "Bölüm 3" klasöründeki "S3 Egzersiz 1" assembly'sini bulun.
 
-1. Follow the video below to learn how to **insert a rivet** into your assembly **from FRCDesignLib** and **fasten** it to the gusset.
+1. Aşağıdaki videoyu takip ederek assembly'nize **FRCDesignLib'den bir perçin nasıl ekleyeceğinizi** ve gusset'e nasıl **fasten** yapacağınızı öğrenin.
 
     <figure>
     <iframe width="768" height="432" src="https://www.youtube.com/embed/kkZGQZb0buc?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
     </figure>
 
-2. Repeat the process of fastening rivets until there is a rivet in all gusset holes.
+2. Tüm gusset deliklerinde bir perçin olana kadar perçinleri fasten etme sürecini tekrarlayın.
 
-3. When done with the first gusset, copy and paste it, fasten the copied part to one of the holes on the bottom (making sure the holes line up), and continue fastening rivets for that gusset.
+3. İlk gusset'i bitirdiğinizde, onu kopyalayın ve yapıştırın, kopyalanmış parçayı alttaki deliklerden birine fasten edin (deliklerin hizalandığından emin olun) ve o gusset için perçin fasten etmeye devam edin.
 
 ---
 
 !!! tip
-    Holding **Shift** while selecting mate connectors can help you pick ones not on directly on the face.
+    Mate connector'leri seçerken **Shift** tuşunu basılı tutmak, doğrudan yüzeyde olmayanları seçmenize yardımcı olabilir.
 
 <br>
 
-When you're done fastening rivets to both gussets, move on to the next exercise.
+Her iki gusset'e de perçin fasten etmeyi bitirdiğinizde, bir sonraki egzersize geçin.
 
 <br>

@@ -1,7 +1,7 @@
-# Intakes
+# Intake'ler
 
-A guide on intake design.
+Intake tasarımı rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

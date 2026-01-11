@@ -1,22 +1,22 @@
 ---
-title: Design Challenges
-description: Design challenges are offered to help students practice their CAD skills and develop their own designs.
+title: Tasarım Meydan Okumaları
+description: Tasarım meydan okumaları, öğrencilerin CAD becerilerini pratik yapmaları ve kendi tasarımlarını geliştirmeleri için sunulur.
 ---
 
-# Design Challenges
+# Tasarım Meydan Okumaları
 
-Design Challenges are at the core of what makes DDS Special. Design Challenges provide a variety of different practice scenarios to iron your design skills and compete against others in a mutually beneficial way.
+Tasarım Meydan Okumaları, DDS Special'ı özel yapan şeyin merkezindedir. Tasarım Meydan Okumaları, tasarım becerilerinizi ütülemek ve karşılıklı fayda sağlayan bir şekilde başkalarıyla rekabet etmek için çeşitli pratik senaryolar sağlar.
 
-## Scoring
-Each Design Challenge will net a total of 7 points maximum, with 4 for completion and 3 possible bonuses. **Late submissions** will allow participants to win up to 2 completion points and all 3 bonus points. 
+## Puanlama
+Her Tasarım Meydan Okuması maksimum 7 puan kazanabilir, tamamlanma için 4 ve mümkün 3 bonus puanı. **Geç gönderimler** katılımcıların 2 tamamlanma puanı ve tüm 3 bonus puanı kazanmalarına izin verir.
 
-### Bonuses
-- Simplicity bonus: Awarded to submissions that simplify design to increase the quality of life of their team. 
-- Quality bonus: Awarded to submissions that embody good CAD and design principles and reflect the time and effort put into making a design as clean as possible.
-- Special bonus: Bonus point specific to each design challenge, usually involving the way the challenge is approached and the design is executed. 
+### Bonuslar
+- Basitlik bonusu: Takımlarının yaşam kalitesini artırmak için tasarımı basitleştiren gönderilere verilir.
+- Kalite bonusu: İyi CAD ve tasarım ilkelerini yansıtan ve tasarımı mümkün olduğunca temiz yapmak için harcanan zaman ve çabayı yansıtan gönderilere verilir.
+- Özel bonus: Her tasarım meydan okumasına özgü bonus puanı, genellikle meydan okumanın yaklaşıldığı ve tasarımın uygulandığı şekilde içerir.
 
-### Leaderboards
+### Lider Tabloları
 
-Design challenges will feature two separate leaderboards: **Beginner** and **Intermediate/Advanced**. Each leaderboard will function independently, but points will be transferred when beginner members gain experience and self identify as intermediate. **Please correctly self identify with your skill level!** DDS is meant to be a community for learning, and trying to game the system by identifying as a beginner only discourages others. We operate on an honor system, but if someone is trying to game the system, we will punish them accordingly. 
+Tasarım meydan okumaları iki ayrı lider tablosu içerecektir: **Başlangıç** ve **Orta/İleri**. Her lider tablosu bağımsız olarak çalışır, ancak başlangıç üyeleri deneyim kazandığında ve kendilerini orta olarak tanımladığında puanlar aktarılır. **Lütfen yetenek seviyenizi doğru bir şekilde tanımlayın!** DDS öğrenmek için bir topluluktur ve sadece başlangıç olarak tanımlanmak sistemi oyunlandırmak başkalarını cesaretini kırar. Onur sistemimizle çalışıyoruz, ancak biri sistemi oyunlandırmaya çalışırsa, buna göre cezalandıracağız.
 
 <br>

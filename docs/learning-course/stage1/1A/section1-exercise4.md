@@ -1,56 +1,56 @@
-# 1A: Onshape Fundamentals - Section 1
-## Exercise 4: Sketching the Drivetrain Frame
+# 1A: Onshape Temelleri - Bölüm 1
+## Egzersiz 4: Sürücü Sistemi Çerçevesini Sketchleme
 
-Now that you’ve sketched individual parts, it's time to create a full drivetrain frame.
+Şimdiye kadar ayrı parçaları sketch'lediniz, şimdi tam bir sürücü sistemi çerçevesi oluşturma zamanı.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise4-dt-frame.webp" style="width:100%">
-  <figcaption>Final Frame</figcaption>
+  <figcaption>Final Çerçeve</figcaption>
 </figure>
 
-In the document you copied previously, navigate to the part studio for Exercise 4.
+Önceden kopyaladığınız belgede, Egzersiz 4 için part studio'ya gidin.
 
-Watch the video below and follow along to create your drivetrain sketch while learning and practicing several part creation techniques.
+Aşağıdaki videoyu izleyin ve birkaç parça oluşturma tekniğini öğrenip pratik yaparken sürücü sistemi sketch'inizi oluşturmak için takip edin.
 <br>
 
 <figure>
   <iframe width="768" height="432" src="https://www.youtube.com/embed/lDW9H3a70aM?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 </figure>
 
-Your goal is to sketch and extrude the rectangles shown below, then convert them into tubes them using `Tube Converter`.
+Amacınız aşağıda gösterilen dikdörtgenleri sketch'lemek ve extrude etmek, ardından onları `Tube Converter` kullanarak borulara dönüştürmektir.
 
 !!! Tip
-    Make sure to **mirror or pattern your sketches** using construction lines — don't manually draw both sides.
+    Construction çizgilerini kullanarak sketch'lerinizi **aynalamayı veya desenlemeyi** unutmayın — her iki tarafı manuel olarak çizmeyin.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise4-drivetrain-sketch.webp" style="width:100%">
-  <figcaption>Drivetrain Sketch</figcaption>
+  <figcaption>Sürücü Sistemi Sketch'i</figcaption>
 </figure>
 
-!!! warning "Important Notes for the Sketches"
+!!! warning "Sketch'ler İçin Önemli Notlar"
 
-    - Make sure to mirror across both X and Y axes.
-    - Avoid overdimensioning your sketches — use symmetry whenever possible.
-    - Make sure the cross beams are also mirrored properly.
-    - Use the origin as the center reference point for everything.
+    - Hem X hem de Y eksenlerinde aynaladığınızdan emin olun.
+    - Sketch'lerinizi aşırı dimensionlamaktan kaçının — mümkün olduğunca simetri kullanın.
+    - Çapraz kirişlerin de düzgün şekilde aynalandığından emin olun.
+    - Origin'i her şey için merkez referans noktası olarak kullanın.
 
-If your sketch is fully constrained (everything turns black), you’re doing it right! You can **now use `extrude` and `tube converter` to turn the sketch into your drivetrain box tubes.**
+Sketch'iniz tam olarak kısıtlanmışsa (her şey siyaha dönerse), doğru yapıyorsunuz! Şimdi sürücü sistemi kutu borularınızı oluşturmak için `extrude` ve `tube converter` kullanabilirsiniz.**
 
 
-### Finishing Up
+### Bitirme
 
-1. **Add cross rails** as you did in the last exercise **to complete the drivetrain tubes.**
-2. **Double-check** that no parts are fused together incorrectly.
-3. Use the dot and top plane (origin and ground) to verify alignment.
-4. Make sure tubes line up properly with the module placements.
+1. Sürücü sistemi borularını **tamamlamak için** son egzersizde yaptığınız gibi **çapraz raylar ekleyin**.
+2. Hiçbir parçanın yanlışlıkla birleşmediğinden **iki kez kontrol edin**.
+3. Hizalamayı doğrulamak için noktayı ve üst düzlemi (origin ve ground) kullanın.
+4. Boruların modül yerleşimleriyle düzgün şekilde hizalandığından emin olun.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise4-dt-frame.webp" style="width:90%">
-  <figcaption>Final Frame</figcaption>
+  <figcaption>Final Çerçeve</figcaption>
 </figure>
 
 ---
 
-Once you're done with the above tasks and checks, move on to the next exercise.
+Yukarıdaki görevleri ve kontrolleri bitirdiğinizde, bir sonraki egzersize geçin.
 
 <br>

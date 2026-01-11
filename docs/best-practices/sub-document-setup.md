@@ -1,36 +1,36 @@
 ---
-title: Best Practices
-description: The best practices to follow with organizing your mechanism documents in Onshape.
+title: En İyi Uygulamalar
+description: Onshape'da mekanizma belgelerinizi organize ederken takip edilmesi gereken en iyi uygulamalar.
 ---
 
-# Sub-Document Setup
+# Alt Belge Kurulumu
 
-Each subsystem document should have at least one part studio and one assembly associated with it.
+Her alt sistem belgesinin en az bir part studio'su ve bir assembly'si olmalıdır.
 
-The Stage 2A Basic Shooter is a simple subsystem with no moving parts. This contains only a part studio and a rigid assembly.
+Aşama 2A Temel Shooter, hareketli parçası olmayan basit bir alt sistemdir. Bu sadece bir part studio ve bir rijit assembly içerir.
 
-<center markdown>[Stage 2A - Basic Shooter](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Stage 2A Basic Shooter Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
+<center markdown>[Aşama 2A - Temel Shooter](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Aşama 2A Temel Shooter Onshape Belgesi"){:target="_blank" .md-button .md-button--primary}</center>
 
 <center><img src="/img/best-practices/shooterAssembly.webp" style="border:5px solid #ADADAD"></center>
 
-### Subsystems with Multiple Degrees of Freedom
+### Birden Fazla Serbestlik Derecesine Sahip Alt Sistemler
 
-You may want to split subsystems with multiple degrees of freedom into multiple rigid assemblies. Each separate moving part of the subsystem should have a 'rigid' assembly (no degrees of freedom allowed for any part), while the top-level subsystem assembly only defines the motion between them.
+Birden fazla serbestlik derecesine sahip alt sistemleri birden fazla rijit assembly'ye ayırmak isteyebilirsiniz. Alt sistemin her ayrı hareketli parçasının bir 'rijit' assembly'si olmalıdır (hiçbir parça için serbestlik derecesine izin verilmez), üst düzey alt sistem assembly'si sadece aralarındaki hareketi tanımlar.
 
-!!! Note
-    A rigid assembly, when inserted, is treated as a solid body with no mates calculated. It decreases load time in top-level assemblies greatly. You will learn how to integrate the origin cube into this system for easy parametric mates in [assembly best practices](assembly-setup.md).
+!!! Not
+    Bir rijit assembly, eklendiğinde, hesaplanan hiçbir mate olmadan katı bir gövde olarak ele alınır. Üst düzey assembly'lerde yükleme süresini büyük ölçüde azaltır. Parametrik mate'ler için origin cube'u bu sisteme nasıl entegre edeceğinizi [assembly en iyi uygulamalarında](assembly-setup.md) öğreneceksiniz.
 
-For example, you could split an elevator document into one part studio and corresponding rigid assembly for each stage. The top-level elevator assembly would thus include each of the stage subassemblies within it and the slider mates.
+Örneğin, bir asansör belgesini her aşama için bir part studio ve ilgili rijit assembly'ye ayırabilirsiniz. Üst düzey asansör assembly'si böylece her aşama alt assembly'sini ve slider mate'leri içerecektir.
 
-The Stage 2C Slapdown Intake is a subsystem with a static portion and a pivoting portion. Functionally, this contains a part studio, a static assembly for the gearboxes and pivot, a rigid assembly for the arms and rollers, and a top-level assembly combining the two subassemblies.
+Aşama 2C Slapdown Intake, statik bir bölümü ve dönen bir bölümü olan bir alt sistemdir. İşlevsel olarak, bu bir part studio, dişli kutuları ve pivot için statik bir assembly, kollar ve silindirler için rijit bir assembly ve iki alt assembly'yi birleştiren üst düzey bir assembly içerir.
 
-<center markdown>[Stage 2C - Slapdown Intake](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2 "Stage 2C Slapdown Intake Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
+<center markdown>[Aşama 2C - Slapdown Intake](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2 "Aşama 2C Slapdown Intake Onshape Belgesi"){:target="_blank" .md-button .md-button--primary}</center>
 
 <center><img src="/img/best-practices/subassembly.webp" style="border:5px solid #ADADAD"></center>
 
-The Stage 2D Cascade Elevator is a subsystem with a static portion and two subassemblies that slide linearly. This contains a part studio, a static frame/gearbox assembly, assemblies for the first stage and carriage, and a top-level assembly combining the 3 subassemblies with slider mates.
+Aşama 2D Cascade Asansör, statik bir bölümü ve lineer kayan iki alt assembly'yi olan bir alt sistemdir. Bu bir part studio, statik bir çerçeve/dişli kutusu assembly'si, ilk aşama ve carriage için assembly'ler ve slider mate'lerle 3 alt assembly'yi birleştiren üst düzey bir assembly içerir.
 
-<center markdown>[Stage 2D Cascade Elevator](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1 "Stage 2D Cascade Elevator Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
+<center markdown>[Aşama 2D - Cascade Asansör](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1 "Aşama 2D - Cascade Asansör Onshape Belgesi"){:target="_blank" .md-button .md-button--primary}</center>
 
 <center><img src="/img/best-practices/elevatorAssembly.webp" style="border:5px solid #ADADAD"></center>
 

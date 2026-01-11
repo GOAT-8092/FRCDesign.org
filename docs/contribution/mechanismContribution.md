@@ -1,36 +1,36 @@
-# Contributing to Mechanism Examples
+# Mekanizma Örneklerine Katkıda Bulunma
 
-The [mechanism examples](../mechanism-examples/index.md "Mechanism Examples Page"){:target="\_blank"} pages are the ones that would benefit the most from outside contribution. You can add examples from other teams, of course, but adding your own mechanism and going behind the design and performance on it will be ideal. If adding an example from another team, try to interview them for their input and more accurate information.
+[Mekanizma örnekleri](../mechanism-examples/index.md "Mekanizma Örnekleri Sayfası"){:target="\_blank"} sayfaları, dış katkıdan en çok fayda sağlayacak sayfalardır. Elbette diğer takımlardan örnekler ekleyebilirsiniz, ancak kendi mekanizmanızı eklemek ve tasarım ve performans hakkında arkasından gitmek ideal olacaktır. Başka bir takımdan bir örnek ekliyorsanız, onların girdilerini ve daha doğru bilgi almak için onlarla röportaj yapmaya çalışın.
 
-**Criteria for Mechanism Examples:**
+**Mekanizma Örnekleri için Kriterler:**
 
-- It must have been actually built and used at a competition
-- You must show both the good parts and the bad parts. What was it designed for? Why were certain decisions made? How easy was it to build and manufacture? How did it actually perform? What went well and what would be changed if it was redesigned?
-- Go into detail about specific parts of the design, such as the materials and parts used and why, any specific mechanisms or processes, etc.
-- Detailed pictures of the CAD and/or the actual robot. Preferably public CAD made in or uploaded to Onshape.
-- Extra media and links if available and applicable.
+- Bir yarışmada gerçekten inşa edilmiş ve kullanılmış olmalıdır
+- Hem iyi hem de kötü parçaları göstermelidir. Ne için tasarlandı? Neden belirli kararlar verildi? İnşa etmek ve üretmek ne kadar kolaydı? Gerçekte nasıl performans gösterdi? Yeniden tasarlanırsa ne iyi gider ve ne değiştirilebilir?
+- Tasarımın belirli parçaları hakkında detaylı bilgi verin, kullanılan malzemeler ve parçalar ve nedenleri, belirli mekanizmalar veya süreçler vb.
+- CAD ve/veya gerçek robotun detaylı resimleri. Tercihen Onshape'de yapılan veya yüklenen halka açık CAD.
+- Müsaitse ve uygulanırsa ekstra medya ve bağlantılar.
 
-## Adding Mechanism Examples
+## Mekanizma Örnekleri Ekleme
 
-As was described in [methods of contributing](methodsOfContributing.md "Contribution Guide Page"), there are two methods:
+[katkıda bulunma yöntemlerinde](methodsOfContributing.md "Katkı Kılavuzu Sayfası") açıklandığı gibi, iki yöntem vardır:
 
-1. Writing the contribution on a separate platform (such as Google Docs) and getting an internal contributor to add it to the website
-2. Forking and making a pull request on GitHub
+1. Ayrı bir platformda (örneğin Google Docs) katkıyı yazmak ve bir iç katkıda bulunanın web sitesine eklemesini sağlamak
+2. GitHub'da fork yapmak ve bir pull request yapmak
 
-The first method is pretty self explanatory, but if you choose to fork and make a pull request on GitHub, there is some formatting required. Make sure to follow the contribution guide on the [methods of contributing](methodsOfContributing.md "Contribution Guide Page") page to get up and running with GitHub and VS Code.
+İlk yöntem oldukça açıklayıcıdır, ancak GitHub'da fork yapmayı ve bir pull request yapmayı seçerseniz, bazı biçimlendirmeler gereklidir. GitHub'da ve VS Code'da çalışmaya başlamak için [katkıda bulunma yöntemleri](methodsOfContributing.md "Katkı Kılavuzu Sayfası") sayfasındaki katkı kılavuzunu izleyin.
 
-## Adding a Mechanism Category (OPTIONAL)
+## Bir Mekanizma Kategorisi Ekleme (İSTEĞE BAĞLI)
 
-If you need to add a mechanism category, you must add a landing page for the mechanism examples in that category and a grid card to the [mechanism examples landing page](../mechanism-examples/index.md "Mechanism Example Index Page").
+Bir mekanizma kategorisi eklemeniz gerekiyorsa, kategorideki mekanizma örnekleri için bir açılış sayfası ve [mekanizma örnekleri açılış sayfasına](../mechanism-examples/index.md "Mekanizma Örneği Dizin Sayfası") bir grid kartı eklemelisiniz.
 
-### Adding the Folders and Files
+### Klasörleri ve Dosyaları Ekleme
 
-1. Create a new folder under `mechanism-examples` with the name of the new mechanism category. All mechanism example pages and the landing page for the category will be in this folder.
+1. Yeni mekanizma kategorisinin adıyla `mechanism-examples` altında yeni bir klasör oluşturun. Tüm mekanizma örnek sayfaları ve kategorinin açılış sayfası bu klasörde olacaktır.
 
-   !!! Note
-   If there are multiple types of the mechanism (such as with elevators and intakes), you can create multiple folders in that with the landing pages in each separate folder. For example, the folder `elevator` contains the folders `cascade` and `continuous`, both of which contain a landing page `index.md`.
+   !!! Not
+   Mekanizmanın birden fazla türü varsa (örneğin asansörler ve intakeler gibi), oradaki açılış sayfalarıyla her biri ayrı klasörde birden fazla klasör oluşturabilirsiniz. Örneğin, `elevator` klasörü `cascade` ve `continuous` klasörlerini içerir, her ikisi de bir `index.md` açılış sayfası içerir.
 
-2. In the root folder of the new category, create a new file called `.meta.yml` and copy the following code into it:
+2. Yeni kategorinin kök klasöründe `.meta.yml` adında yeni bir dosya oluşturun ve içine aşağıdaki kodu kopyalayın:
 
    ```yml
    social:
@@ -38,23 +38,23 @@ If you need to add a mechanism category, you must add a landing page for the mec
      cards_layout: mechanism_fundamentals_wide
    ```
 
-   This sets the size of image you will use for the social card for embeds for the whole category. You can choose between `mechanism_fundamentals_wide` or `mechanism_fundamentals_tall` for the `cards_layout` option.
+   Bu, tüm kategori için sosyal kart için kullanacağınız resmin boyutunu ayarlar. `cards_layout` seçeneği için `mechanism_fundamentals_wide` veya `mechanism_fundamentals_tall` arasında seçim yapabilirsiniz.
 
-   Images have to be 1:1.545 or 1.545:1, any size. More information provided [here](mechanismContribution.md#adding-an-image-for-the-example "Adding images section")
+   Resimler 1:1.545 veya 1.545:1 olmalıdır, herhangi bir boyut. Daha fazla bilgi [burada](mechanismContribution.md#adding-an-image-for-the-example "Resimleri ekleme bölümü") sağlanır.
 
-3. Create the landing page(s) for the category, named `index.md`. Only one of these can be made per folder.
+3. Kategorinin açılış sayfalarını oluşturun, `index.md` adında. Her klasörde sadece bir tanesini yapabilirsiniz.
 
-   Copy this template for the category landing page and fill it out with your information:
+   Kategori açılış sayfası için bu şablonu kopyalayın ve bilgilerinizle doldurun:
 
    ```md
    ---
-   title: page-title
+   title: sayfa-başlığı
    image: link-to-social-card-image
    ---
 
-   # page-title
+   # sayfa-başlığı
 
-   description
+   açıklama
 
    <div class="grid cards" markdown>
 
@@ -71,17 +71,17 @@ If you need to add a mechanism category, you must add a landing page for the mec
    <br>
    ```
 
-   The following is the code for the drivebase examples landing page:
+   Drivebase örnekleri açılış sayfası için kod şöyledir:
 
    ```
    ---
-   title: Drivebase Examples
+   title: Drivebase Örnekleri
    image: docs/img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp
    ---
 
 
    # Swerve Drivebases
-   The drivebase is the single most important part of your robot, providing a bed for every other subsystem to build off. Examples of different drivebases can provide inspiration for electronics layout, bellypan shapes, and structural cross members for mounting, all of which can be a hard but crucial part of designing a robot, as accessibility and maintainability need to be preserved even as subsystems get placed on top of the robot.
+   Drivebase, robotunuzun en önemli parçasıdır, her diğer alt sistem için bir yatak sağlar. Farklı drivebase'lerin örnekleri, elektronik düzeni, bellypan şekilleri ve montaj için yapısal cross üyeler için ilham sağlayabilir, bunların hepsi robot tasarlamanın zor ama kritik bir parçasıdır, çünkü erişilebilirlik ve bakım sağlanmalıdır, alt sistemler robotun üstüne yerleştirilirken.
 
    <div class="grid cards" markdown>
 
@@ -90,7 +90,7 @@ If you need to add a mechanism category, you must add a landing page for the mec
 
        ---
 
-       A custom plate to keep the radio and breaker accessible, holes with grommets to allow wires to pass through the cross members
+       Radyo ve breaker için erişilebilir kılan özel bir plaka, tellerin cross üyelerden geçmesine izin veren delikler ve grommets
 
        [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910_2023_dt.md)
        [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910_2023_dt.md)
@@ -100,7 +100,7 @@ If you need to add a mechanism category, you must add a landing page for the mec
 
        ---
 
-       A central 2x2 cross member, a brainpan, and citrus bumper mounting plates.
+       Merkezi 2x2 cross üye, bir brainpan ve narenciye bumper monteleme plakaları.
 
        [:octicons-arrow-right-24: 972 Brainpan Drivebase](972_2024_dt.md)
        [:octicons-arrow-right-24: 972 Brainpan Drivebase](972_2024_dt.md)
@@ -110,55 +110,54 @@ If you need to add a mechanism category, you must add a landing page for the mec
    <br>
    ```
 
-### Adding a Grid Card to the Mechanism Examples Landing Page
+### Mekanizma Örnekleri Açılış Sayfasına Bir Grid Kartı Ekleme
 
-All grid cards are contained in the `<div class="grid cards" markdown>` div. See the [mkdocs-material docs about grid cards](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-card-grids "MKdocs Card Documentation"){:target="\_blank"} for more information.
+Tüm grid kartları `<div class="grid cards" markdown>` div içindedir. Daha fazla bilgi için [mkdocs-material grid kartlar hakkında dokümlara](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-card-grids "MKdocs Kart Dokümantasyonu"){:target="\_blank"} bakın.
 
-Copy and paste the following code into the div and replace all template information with your own.
+Aşağıdaki kodu div içine yapıştırın ve tüm şablon bilgilerini kendi bilgilerinizle değiştirin.
 
 ```md
 - <center markdown>[![](link-to-image)](link-to-category-page)</center>
 
   ***
 
-  Example Description
+  Örnek Açıklama
 
   [:octicons-arrow-right-24: category-name](link-to-category-page)
 ```
 
-!!! Note
-Leave a line break in the code between each card, otherwise the card content will merge.
+!!! Not
+Her kart arasında kodda bir satır sonu bırakın, aksi takdirde kart içeriği birleşir.
 
-The following is the code for the drivebase examples grid card:
+Drivebase örnekleri grid kartı için kod şöyledir:
 
 ```md
 - <center markdown>[![](../img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp)](drivebase/swerve/index.md)</center>
 - <center markdown>[![](../img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp)](drivebase/swerve/index.md)</center>
-
   ***
 
-  Swerve drivebases with examples of electronics layout
+  Swerve drivebase'ler elektronik düzen örnekleriyle
 
   [:octicons-arrow-right-24: Swerve Drivebases](drivebase/swerve/index.md)
   [:octicons-arrow-right-24: Swerve Drivebases](drivebase/swerve/index.md)
 ```
 
-## Adding a Mechanism Example Page
+## Bir Mekanizma Örnek Sayfası Ekleme
 
-Adding a mechanism example page to an already existing category requires a few things to be done. The page has to be created, a grid card for it must be created in the category landing page, and an standard image for the example needs to be created.
+Halihazırda var olan bir kategoriye bir mekanizma örnek sayfası eklemek için yapılması gereken birkaç şey vardır. Sayfa oluşturulmalı, kategori açılış sayfasında bir grid kartı oluşturulmalı ve örnek için standart bir resim oluşturulmalıdır.
 
-### Creating the Page
+### Sayfayı Oluşturma
 
-Create a new `.md` file in the category folder for your example.
+Örneğiniz için kategori klasöründe yeni bir `.md` dosyası oluşturun.
 
-Copy the following template into it and fill out the information using Markdown formatting:
+İçine aşağıdaki şablonu kopyalayın ve Markdown biçimlendirmesini kullanarak bilgileri doldurun:
 
 ```
 ---
 image: link-to-social-card-image
 ---
 
-# mechanism-example-name
+# mekanizma-örnek-adı
 
 <figure markdown="span">
     [![alt-text](link-to-image){height=80% width=80%}](link-to-cad){target = "_blank"}
@@ -173,7 +172,7 @@ image: link-to-social-card-image
 <br>
 ```
 
-The following is an example of the 2910 Charged Up Drivebase page without content written:
+Aşağıda içerik yazılmamış 2910 Charged Up Drivebase sayfasının bir örneği vardır:
 
 ```
 ---
@@ -197,22 +196,22 @@ image: docs\img\mechanism-examples\drivebase\2910_2023_dt.webp
 <br>
 ```
 
-Add any images you use for your page in `/docs/img/mechanism-examples/[category]/[example]/`.
+Sayfanız için kullandığınız resimleri `/docs/img/mechanism-examples/[category]/[example]/` ekleyin.
 
-### Adding an Image for the Example
+### Örnek İçin Bir Resim Ekleme
 
-Check the category's .meta.yml for the default card layout (tall or wide). This will be the orientation of the 1:1.545 image you will use for the mechanism example.
+Kategorinin .meta.yml'sini varsayılan kart düzeni (uzun veya geniş) için kontrol edin. Bu, mekanizma örneği için kullanacağınız 1:1.545 resminin yönü olacaktır.
 
-1:1.545 is the aspect ratio of a picture outputted from Onshape's "print" function using the "tabloid" paper size. You can select landscape or portrait from there for wide or tall.
+1:1.545, Onshape'in "baskı" işlevini kullanarak "tabloid" kağıt boyutu ile çıkarılan bir resmin en boy oranıdır. Oradan geniş veya uzun için manzara veya portre seçebilirsiniz.
 
-!!! Tip
-For images you already have, you can use GIMP and a calculator to crop an image by adding pixels to get it to the desired aspect ratio.
+!!! İpucu
+Zaten sahip olduğunuz resimler için, GIMP ve bir hesap makinesi kullanarak bir resmi istenen en boy oranına getirmek için piksel ekleyerek kırpmak için kullanabilirsiniz.
 
-## Adding Pages to Site Navigation
+## Site Gezintisine Sayfaları Ekleme
 
-Any new pages added have to be added to the site navigation.
+Eklenen tüm yeni sayfalar site gezintisine eklenmelidir.
 
-Follow the standard formatting presented in the `mkdocs.yml file` to add more pages, categories, and landing pages as necessary:
+Gerekirse daha fazla sayfa, kategori ve açılış sayfası eklemek için `mkdocs.yml dosyasında` sunulan standart biçimlendirmeyi izleyin:
 
 ```yml title="mkdocs.yml"
 - Mechanism Examples:
@@ -276,7 +275,7 @@ Follow the standard formatting presented in the `mkdocs.yml file` to add more pa
             - mechanism-examples/turret/index.md
 ```
 
-As you can see, the formatting goes:
+Görebileceğiniz gibi, biçimlendirme şöyledir:
 
 ```yml
 - Mechanism Examples:
@@ -287,6 +286,6 @@ As you can see, the formatting goes:
         - Mechanism 2: link-to-mech-2-page
 ```
 
-Thanks for your contribution!
+Katınız için teşekkürler!
 
 <br>

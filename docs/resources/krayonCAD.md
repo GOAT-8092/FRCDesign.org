@@ -1,7 +1,7 @@
 ---
 hide:
 - toc
-social:  
+social:
   cards_layout: special-resource
   cards_layout_options:
     background_image: docs/resources/images/krayonCAD/krayoncad.webp
@@ -11,38 +11,38 @@ social:
 
 <center><img src="../images/krayonCAD/krayoncad.webp"></center>
 
-## What is KrayonCAD?
+## KrayonCAD Nedir?
 
-KrayonCAD is a collection of simplified, configurable Onshape assemblies for the most common FRC subsystems. These subsystems can be modified by changing just a few variables, allowing you to piece together a robot concept extremely quickly and efficiently. KrayonCAD Assemblies only contain the necessary parts to communicate design intent, while minimizing detail and part count to ensure quick load times.
+KrayonCAD, en yaygın FRC alt sistemleri için basitleştirilmiş, yapılandırılabilir Onshape assembly'leri koleksiyonudur. Bu alt sistemler sadece birkaç değişkeni değiştirerek değiştirilebilir, bu da bir robot konseptini çok hızlı ve verimli bir şekilde bir araya getirmenizi sağlar. KrayonCAD Assembly'leri sadece tasarım amacını iletmek için gerekli parçaları içerir, ayrıca hızlı yükleme sürelerini sağlamak için detayı ve parça sayısını en aza indirir.
 
 <center><img src="../images/krayonCAD/6657krayon.webp" width="50%"></center>
 
-## Why should I use KrayonCAD?
-After brainstorming ideas for a new game, the first CAD iteration is sometimes a heavily simplified design, commonly referred to as “Crayola CAD.” This workflow is used by many teams, including team 254. This is where KrayonCAD comes in; using a library of configurable subsystems, KrayonCAD allows you to:
+## Neden KrayonCAD Kullanmalıyım?
+Yeni bir oyun için fikirler beyin fırtınası yaptıktan sonra, ilk CAD iterasyonu bazen ağır basitleştirilmiş bir tasarımdır, genellikle "Crayola CAD" olarak adlandırılır. Bu iş akışı, takım 254 dahil olmak üzere birçok takım tarafından kullanılır. İşte KrayonCAD burada devreye giriyor; yapılandırılabilir alt sistemler kütüphanesini kullanarak, KrayonCAD şunları yapmanıza izin verir:
 
-- Investigate robot architectures
-- Budget space
-- Verify geometries for robot designs
-- Further flesh out robot designs to scale and in 3D
+- Robot mimarilerini incelemek
+- Alan bütçelemek
+- Robot tasarımlarının geometrilerini doğrulamak
+- Robot tasarımlarını ölçekte ve 3D olarak daha fazla şekillendirmek
 
-KrayonCAD is fast! You can go from an idea in your head or a sketch to a 3D model in minutes!
+KrayonCAD hızlıdır! Fikrinizi veya bir sketch'i başınızdan dakikalar içinde 3D bir modele dönüştürebilirsiniz!
 
-## How do I use KrayonCAD?
-KrayonCAD is a simple as 1, 2, 3:
+## KrayonCAD Nasıl Kullanılır?
+KrayonCAD 1, 2, 3 kadar basittir:
 
-1. Insert: From any Onshape assembly, use the FRCDesignApp to insert a KrayonCAD Assembly. You can configure the Assembly before inserting.
+1. Ekleyin: Herhangi bir Onshape assembly'sinden, FRCDesignApp'ı kullanarak bir KrayonCAD Assembly ekleyin. Eklemeden önce Assembly'yi yapılandırabilirsiniz.
 
     <center><img src="../images/krayonCAD/krayoncad-insert.gif"></center>
 
-2. Configure: Right click a KrayonCAD Assembly in the parts list > Configure > change dimensions, check or uncheck boxes, and choose options from drop down lists to configure the assembly to your liking.
+2. Yapılandırın: Parçalar listesinde bir KrayonCAD Assembly'ye sağ tıklayın > Yapılandır > boyutları değiştirmek, kutuları işaretleyin veya işaretini kaldırın ve assembly'yi istediğiniz gibi yapılandırmak için açılır listelerden seçenekler seçin.
 
     <center><img src="../images/krayonCAD/krayoncad-configure.gif"></center>
 
-3. Mate: KrayonCAD Assemblies have mate connectors placed in strategic places to allow for easy mating using the Fasten and Revolute mate types.
+3. Mate Edin: KrayonCAD Assembly'leri, Fasten ve Revolute mate türlerini kullanarak kolay mating için stratejik yerlere yerleştirilmiş mate connector'lere sahiptir.
 
     <center><img src="../images/krayonCAD/krayoncad-mate.gif"></center>
 
-## Credit
-[ChiefDelphi release post and contributors](https://www.chiefdelphi.com/t/announcing-krayoncad-a-robot-planning-library-for-onshape/444484 "KrayonCAD Release Page"){:target="_blank"}
+## Kredi
+[ChiefDelphi release postu ve katkıda bulunanlar](https://www.chiefdelphi.com/t/announcing-krayoncad-a-robot-planning-library-for-onshape/444484 "KrayonCAD Release Sayfası"){:target="_blank"}
 
 <br>

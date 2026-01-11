@@ -1,43 +1,44 @@
-# 2D: Cascade Elevator
+# 2D: Kaskat Asansör
 
 ## Assembly
-Because this subsystem has multiple moving parts, just like the dead axle pivot and slapdown intake, separate rigid subassemblies should be created for each stage.
+
+Bu alt sistem birden fazla hareketli parça içerdiğinden, dead axle pivot ve slapdown intake gibi, her aşama için rijit subassembly'ler oluşturulmalıdır.
 
 ### Base Stage Assembly
 
-Create an assembly for the static parts and follow the typical process for inserting them and creating a rigid body (origin cube, group, fasten to origin). Add the rest of the parts by duplicating existing parts, MKCAD, and standard content, using replicate and patterns when you can.
+Statik parçalar için bir assembly oluşturun ve bunları eklemek ve rijit bir gövde oluşturmak için tipik süreci izleyin (origin cube, grup, orijine sabitle). Mevcut parçaları çoğaltarak, MKCAD'den ve standart içerikten kalan parçaları ekleyin, mümkün olduğunda replicate ve patterns kullanın.
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/frameSubassembly.webp" style="width:85%">
-    <figcaption>Finished base stage assembly</figcaption>
+    <figcaption>Tamamlanmış taban aşaması assembly</figcaption>
 </figure>
 
 ### First Stage Assembly
 
-Do the same thing for the first stage subassembly.
+Birinci aşama subassembly için aynı şeyi yapın.
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/stage1Subassembly.webp" style="width:85%">
-    <figcaption>Finished first stage assembly</figcaption>
+    <figcaption>Tamamlanmış birinci aşama assembly</figcaption>
 </figure>
 
 ### Carriage Assembly
 
-And finally the carriage subassembly.
+Ve son olarak carriage subassembly.
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/carriageSubassembly.webp" style="width:75%">
-    <figcaption>Finished carriage assembly</figcaption>
+    <figcaption>Tamamlanmış carriage assembly</figcaption>
 </figure>
 
 ### Top Level Assembly
 
-Now create the top level assembly, insert the subassemblies (fasten the origin cube of the static assembly to the origin), and use the reference mates on the origin cubes from the separate subassemblies to create slider mates with limits to define the motion of the elevator. 
+Şimdi en üst seviye assembly'yi oluşturun, subassembly'leri ekleyin (statik assembly'nin origin cube'ünü orijine sabitleyin) ve ayrı subassembly'lerdeki origin cube'lardan gelen referans mates'leri kullanarak asansörün hareketini tanımlamak için limitlerle slider mates'ler oluşturun.
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/elevatorTopLevel.webp" style="width:75%">
 </figure>
 
-Because it's a cascade elevator, you can use the "Linear Relation" assembly tool between the two slider mates with a ratio of 1 to link the motion of the stages together in the same way it would be in real life.
+Bu bir kaskat asansör olduğu için, iki slider mate arasında 1:1 oranında "Linear Relation" assembly aracını kullanarak aşamaların hareketini gerçek hayatta olduğu gibi birbirine bağlayabilirsiniz.
 
 <br>

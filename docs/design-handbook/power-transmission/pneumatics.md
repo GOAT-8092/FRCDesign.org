@@ -1,7 +1,7 @@
-# Pneumatics
+# Pnömatik
 
-A guide on how and when to use pneumatics. 
+Pnömatiği nasıl ve ne zaman kullanılacağı rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

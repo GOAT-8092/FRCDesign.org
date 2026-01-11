@@ -2,22 +2,22 @@
 
 ## Summary
 
-You've completed Stage 2A, and your first full mechanism! To summarize what you've learned in this stage:
+Stage 2A'yı ve ilk tam mekanizmanızı tamamladınız! Bu aşamada öğrendiklerinizi özetlemek için:
 
-- One way to make 2 parallel plates rigid
-- All the factors that go into designing a flywheel shooter
-- Tips to reduce friction and inefficiences in power transmissions
-- Using a reference drivetrain to build a mechanism off of to reduce integration complexity
-- How to create a main layout sketch for a flywheel shooter for balls
-- Direction-changes in power transmissions
-- Customizing a 3D-printed pulley
-- Designing a custom limelight mount for a shooter
-- How to model a whole mechanism!
+- 2 paralel plakayı rijit yapmanın bir yolu
+- Bir flywheel shooter tasarlamak için gereken tüm faktörler
+- Güç aktarımlarındaki sürtünmeyi ve verimsizlikleri azaltmak için ipuçları
+- Entegrasyon karmaşıklığını azaltmak için bir mekanizma oluşturmak için bir referans drivetrain kullanma
+- Toplar için bir flywheel shooter için ana layout eskizi oluşturma
+- Güç aktarımlarında yön değişiklikleri
+- 3D-yazdırılmış bir kasnağı özelleştirme
+- Bir shooter için özel limelight montajı tasarlama
+- Tüm bir mekanizmayı nasıl modelleyeceksiniz!
 
-While you've now modeled your first full mechanism, it is fully static in the context of the robot, with no moving parts. 
+Artık ilk tam mekanizmanızı modellediniz, ancak robot bağlamında tamamen statiktir, hareketli parça yoktur.
 
-In the next stage, you'll learn the different concepts that go into designing a robust pivot and how to model one in Onshape, making sure to optimize load times.
+Bir sonraki aşamada, sağlam bir pivot tasarımı için gereken farklı kavramları ve Onshape'de nasıl modelleneceğini öğreneceksiniz, yükleme sürelerini optimize etmeyi sağlayacaksınız.
 
-Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 2A so we can collect data and get a better idea of how to improve the website!
+2A için basit [**geri bildirim formumuzu**](https://forms.gle/qykF1UoxiymAEGWc8) doldurduğunuzdan emin olun, böylece veri toplayabilir ve web sitesini nasıl geliştireceğimize dair daha iyi bir fikir edinebiliriz!
 
 <br>

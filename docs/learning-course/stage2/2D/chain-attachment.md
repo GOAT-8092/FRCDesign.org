@@ -1,16 +1,16 @@
-# 2D: Cascade Elevator
+# 2D: Kaskat Asansör
 
 ## Chain Attachment
 
-Most cascade elevators use chain to power their initial stage; while this chain can run either parallel or perpendicular to the face of the elevator, but the core concept is the same. The chain is bolted to the first stage of the elevator, and the rigging moves the other stages off it.
+Çoğu kaskat asansör, ilk aşamalarını güçlendirmek için zincir kullanır; bu zincir asansörün yüzeyine paralel veya dikey çalışabilir, ancak temel kavram aynıdır. Zincir asansörün ilk aşamasına cıvatalanır ve rigging diğer aşamaları ondan hareket ettirir.
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/chain-comb.webp" style="width:75%">
-    <figcaption>Chain Comb for Attaching Chain to Elevator Stage</figcaption>
+    <figcaption>Zinciri Asansör Aşamasına Bağlamak İçin Zincir Tarası</figcaption>
 </figure>
 
-### Reference Design
+### Referans Tasarım
 
-The reference design uses the TTB chain comb to bolt the chain to the first stage.
+Referans tasarım, zinciri birinci aşamaya cıvatalamak için TTB zincir tarasını kullanır.
 
 <br>

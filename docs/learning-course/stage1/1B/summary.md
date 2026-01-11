@@ -1,19 +1,19 @@
-## Summary
+## Özet
 
-Congratulations on completing Stage 1B! Keep up the good work! Remember that practice and review are key - the only way to get better is to model more.
+Aşama 1B'yi tamamladığınız için tebrikler! İyi çalışmalarınıza devam edin! Pratik ve gözden geçirmenin anahtar olduğunu unutmayın - iyileşmenin tek yolu daha fazla model yapmaktır.
 
-Here is a quick summary of what you have achieved in stage 1B:
+Aşama 1B'de ne başardığınızın hızlı bir özeti:
 
-* Learned about speed, torque, and mechanical advantage
-* Learned the basics of motors, bearings, shafts, gears, chain and sprockets, and belt and pulleys
-* Learned how to model basic power transmissions
-* Learned how to use the `Belt & Chain Gen`, `Robot Shaft`, and `Part Lighten` Featurescripts
-* Learned how to use the `Origin Cube` FRC functions Featurescript for chain and belt c-c's
+* Hız, tork ve mekanik avantaj hakkında öğrendiniz
+* Motorlar, rulmanlar, miller, dişliler, zincir ve dişliler ve kayış ve kasnakların temellerini öğrendiniz
+* Temel güç aktarım organlarını nasıl modelleyeceğinizi öğrendiniz
+* `Belt & Chain Gen`, `Robot Shaft` ve `Part Lighten` Featurescript'lerini nasıl kullanacağınızı öğrendiniz
+* Zincir ve kayış c-c'leri için `Origin Cube` FRC fonksiyonları Featurescript'ini nasıl kullanacağınızı öğrendiniz
 
-Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. Stage 2 will introduce how to *design* power transmissions - selecting motors and calculating optimal ratios. 
+Yine, Aşama 1B'nin güç aktarım organlarını modellemeye çok temel bir giriş olduğu ve bazı detayların atlandığı belirtilmelidir. Aşama 2, güç aktarım organlarını nasıl *tasarlayacağınızı* - motorları seçmeyi ve optimum oranları hesaplamayı - tanıtacaktır.
 
-In stage 1C, you will be practicing the skills you've learned so far by modeling a number of different mechanisms. These mechanisms will focus on introducing some COTS parts, refining CAD skills, and introducing more useful Onshape tools to use when modeling. 
+Aşama 1C'de, şimdiye kadar öğrendiğiniz becerileri bir dizi farklı mekanizmayı modelleyerek pratik yapacaksınız. Bu mekanizmalar, bazı COTS parçalarını tanıtmaya, CAD becerilerini rafine etmeye ve modelleme sırasında kullanılacak daha fazla yararlı Onshape aracını tanıtmaya odaklanacaktır.
 
-Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 1B so we can collect data and get a better idea of how to improve the website!
+Web sitesini nasıl iyileştireceğimize dair daha iyi bir fikir edinmek için veri toplamak üzere 1B için basit [**geri bildirim formumuzu**](https://forms.gle/qykF1UoxiymAEGWc8) doldurduğunuzdan emin olun!
 
 <br>

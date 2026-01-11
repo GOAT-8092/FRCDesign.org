@@ -1,25 +1,25 @@
-# 1C: Practice Mechanisms
-## Summary
+# 1C: Pratik Mekanizmalar
+## Özet
 
-Congratulations on completing Stage 1C! Keep up the good work!
+Stage 1C'yi tamamladığınız için tebrikler! İyi çalışın!
 
-Here is a quick summary of what you have learned and achieved in 1C:
+1C'de öğrendiğiniz ve başardığınız şeylerin hızlı bir özeti:
 
-* The use of layout sketches for various small-scale mechanisms
-* The use of the Origin Cube to maintain a consistent origin
-* Configurable components including the Configurable Rollers document and Configurable Spacer Stack
-* COTS parts such as tube plugs, nut strips, telescope bearing blocks, and REV MAXPlanetary gearboxes
-* The difference between live and dead axle rollers and how to use them
-* Various ways of powering mechanisms with motors
-* The use of 3D-printed pulleys, spacers, crush blocks, and crush plates
-* How to use section views, driven dimensions, interference detection, isolate, hide, and make transparent
+* Çeşitli küçük ölçekli mekanizmalar için layout sketch kullanımı
+* Tutarlı bir origin korumak için Origin Cube kullanımı
+* Configurable Rollers dokümanı ve Configurable Spacer Stack gibi configurable bileşenler
+* Tube plug'lar, nut strip'lar, telescope rulman blokları ve REV MAXPlanetary şanzımanları gibi COTS parçalar
+* Live ve dingil silisi silindirler arasındaki fark ve bunları nasıl kullanacağınız
+* Motorlarla mekanizmaları güçlendirmenin çeşitli yolları
+* 3D baskılı kasnaklar, spacer'lar, crush block'lar ve crush plate'lerin kullanımı
+* Section view, driven dimension, interference detection, isolate, hide ve make transparent kullanımı
 
-Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits.
+Klavye kısayolları kullanmak CAD iş akışınızı önemli ölçüde hızlandırabilir. Kötü alışkanlıklar geliştirmekten kaçınmak için en iyi pratiklere dikkat edin.
 
-Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. As mentioned in the introduction of 1C, if you feel you need more practice, try and model more small mechanisms of your choice, making sure to get feedback on them from more experienced members/mentors of your team or [the Discord Server](https://discord.gg/qdx7pdZKx4 "David's Design Server Invite"){:target="_blank"}.
+Hatırlayın, pratik esastır – oluşturduğunuz CAD modelleri ne kadar çok olursa, o kadar usta ve verimli olursunuz. 1C'nin girişinde belirtildiği gibi, daha fazla pratiğe ihtiyacınız hissederseniz, seçtiğiniz daha fazla küçük mekanizma modellemeyi deneyin, takımınızın daha deneyimli üyelerinden/mentorlarından veya [Discord Sunucusundan](https://discord.gg/qdx7pdZKx4 "David's Design Server Invite"){:target="_blank"} geri aldığınızdan emin olun.
 
-In stage 1D, you will begin to learn the workflow for top-down robot modeling and begin modeling a drivetrain for your last project in Stage 1.
+1D aşamasında, top-down robot modelleme iş akışını öğrenmeye başlayacak ve Stage 1'deki son projeniz için bir sürücü sistemi modellemeye başlayacaksınız.
 
-Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 1C so we can collect data and get a better idea of how to improve the website!
+Web sitesini nasıl iyileştireceğimize dair daha iyi bir fikir edinebilmemiz için veri toplamak için 1C için basit [**geri bildirim formumuzu**](https://forms.gle/qykF1UoxiymAEGWc8) doldurduğunuzdan emin olun!
 
 <br>

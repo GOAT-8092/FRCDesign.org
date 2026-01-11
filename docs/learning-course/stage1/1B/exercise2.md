@@ -1,16 +1,17 @@
 
 
-# 1B: Power Transmissions
 
-## Exercise 2: Two Stage Gearbox
+# 1B: Güç Aktarımları
 
-In this exercise, you will be modeling and assembling a two stage gearbox. The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the [`Part Lighten` Featurescript](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Part Lighten Featurescript Onshape Document"){:target="_blank"} used for lightening parts.
+## Egzersiz 2: İki Kademeli Şanzıman
 
-!!! Warning
-    Though this stage will have you lighten your plates when you finish your part studio, this is not best practice. When modeling a full mechanism or robot, you should **wait to lighten plates until after all the design review and changes have been made to the mechanism or full robot**. Otherwise you end up wasting time fixing your lightening every time the plate or mechanism changes.
+Bu egzersizde, iki kademeli bir şanzıman modelleyip monte edeceksiniz. Bu egzersizin amacı, daha gelişmiş şanzımanları modelleme pratiği yapmaktır. Ayrıca, parçaları hafifletmek için kullanılan [`Part Lighten` Featurescript`](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Part Lighten Featurescript Onshape Document"){:target="_blank"}'in nasıl kullanılacağını öğreneceksiniz.
 
-### Part Studio Instructions
-**Navigate to the "Exercise #2 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio. 
+!!! Uyarı
+    Bu aşama plakalarınızı part studioyu bitirdiğinizde hafifletmenizi istese de, bu en iyi pratik değildir. Tam bir mekanizma veya robot modellediğinizde, mekanizmaya veya tam robota tüm tasarım incelemeleri ve değişiklikler yapılana kadar **plakaları hafifletmek için beklemelisiniz**. Aksi takdirde, plaka veya mekanizma her değiştiğinde hafifletmeyi düzeltmek için zaman harcarsınız.
+
+### Part Studio Talimatları
+Kopyaladığınız belgede **"Exercise #2 Part Studio" sekmesine gidin** ve part studioyu tamamlamak için **slaytlardaki talimatları izleyin**.
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -25,77 +26,77 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise2/parts-1a.webp" style="width:100%">
-      <figcaption>1a. Create the layout sketch for the gearbox. Start by drawing the 2nd stage, which is a 20T gear to a 50T gear.</figcaption>
+      <figcaption>1a. Şanzıman için layout sketch oluşturun. 20T dişliden 50T dişliye olan 2. kademe ile başlayın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise2/parts-1b.webp" style="width:100%">
-      <figcaption>1b. Draw the first stage, which is a 12T motor pinion gear to a 50T gear.</figcaption>
+      <figcaption>1b. 50T dişliye 12T motor pinion dişlisi olan 1. kademeyi çizin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise2/parts-1c.webp" style="width:100%">
-      <figcaption>1c. Draw the outline of the motors as a 2.5" diameter circle. This is the finished layout sketch for the gearbox.</figcaption>
+      <figcaption>1c. Motorları 2.5" çapında bir daire olarak outline'ını çizin. Bu şanzıman için bitmiş layout sketch'tir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise2/parts-2.webp" style="width:100%">
-      <figcaption>2. Create a new sketch to draw the profile of the plate. While referencing the layout sketch, add the bearing holes, which are 1.125" diameter holes, as well as the motor boss holes, which are 1.25". Also add the motor mounting holes. You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
+      <figcaption>2. Plakanın profilini çizmek için yeni bir sketch oluşturun. Layout sketch'i referans alarak, 1.125" çapındaki rulman deliklerini ve 1.25" çapındaki motor boss deliklerini ekleyin. Ayrıca motor montaj deliklerini ekleyin. Geometriyi sol taraftan sağ tarafa ayna yapmak için <code>Mirror</code> sketch aracını kullanabilirsiniz. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise2/parts-3.webp" style="width:100%">
-      <figcaption>3. Extrude the plate to be 1/4" thick.</figcaption>
+      <figcaption>3. Plakayı 1/4" kalınlığında extrude edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise2/parts-4.webp" style="width:100%">
-      <figcaption>4. Use the <code>Robot Spacer</code> Featurescript to create the gearbox spacer. </figcaption>
+      <figcaption>4. Şanzıman spacer'ını oluşturmak için <code>Robot Spacer</code> Featurescript'ini kullanın. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/hgIBEwiXtEc?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>5. Use the <code>Robot Shaft</code> Featurescript to create the first stage shaft. </figcaption>
+      <figcaption>5. İinci kademe şaftını oluşturmak için <code>Robot Shaft</code> Featurescript'ini kullanın. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise2/parts-6.webp" style="width:100%">
-      <figcaption>6. Use the <code>Robot Shaft</code> Featurescript to create the output shaft.</figcaption>
+      <figcaption>6. Output şaftını oluşturmak için <code>Robot Shaft</code> Featurescript'ini kullanın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="../images/exercises/exercise2/parts-7.webp?rel=0" style="width:100%">
-      <figcaption>7. Create a sketch on the face of the plate and draw the lines for the pocketing ribs. </figcaption>
+      <img src="../images/exercises/exercise2/parts-7.webp" style="width:100%">
+      <figcaption>7. Plaka yüzünde bir sketch oluşturun ve pocketing kaburgaları için çizgiler çizin. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/P3Snm7U0M_g?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>8. Use the <code>Part Lighten</code> Featurescript to pocket the plate by selecting the ribs created by the previous sketch. </figcaption>
+      <figcaption>8. Önceki sketch tarafından oluşturulan kaburgaları seçerek plakayı pocket etmek için <code>Part Lighten</code> Featurescript'ini kullanın. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise2/parts-0.webp" style="width:100%">
-      <figcaption>9. Finished part studio. Name the sketches, features and parts. Set the name, material (6061 Aluminum), and appearance of the plates and spacer. </figcaption>
+      <figcaption>9. Tamamlanmış part studio. Sketch'leri, özellikleri ve parçaları adlandırın. Plakaların ve spacer'ın adını, malzemesini (6061 Aluminum) ve görünümlerini ayarlayın. </figcaption>
     </figure>
   </div>
   <!-- Next and previous buttons -->
@@ -107,9 +108,9 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
   </div>
 </div>
 
-### Assembly Instructions
+### Assembly Talimatları
 
-**Next, navigate to the "Exercise #2 Assembly" tab** in your copied document and **follow the instructions in the slides** to complete this exercise. 
+**Ardından, kopyaladığınız belgede "Exercise #2 Assembly" sekmesine gidin** ve bu egzersizi tamamlamak için **slaytlardaki talimatları izleyin**.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
@@ -123,49 +124,49 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/iz8vTGKxy7M?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>1. Insert the part studio into the assembly and fix only the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
+      <figcaption>1. Part studioyu montaja ekleyin ve sadece şanzıman plakasını sabitleyin. Spacer'ı plakaya mate edin. Ardından, <code>Replicate</code> aracını kullanarak spacer'ı ve ilişkili mate'ini diğer spacer konumlarına replike edin. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise2/assy-2.webp" style="width:100%">
-      <figcaption>2. Copy the gearbox plate and mate it into place. </figcaption>
+      <figcaption>2. Şanzıman plakasını kopyalayın ve yerine monte edin. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/q-Ca99yyEDY?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>3. Assemble the bearings and shafts using parts from FRCDesignLib. </figcaption>
+      <figcaption>3. FRCDesignLib parçalarını kullanarak rulmanları ve şaftları monte edin. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/pEOxmxGMHPk?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>4. Assemble the motor and motor pinion gear using parts from FRCDesignLib. </figcaption>
+      <figcaption>4. FRCDesignLib parçalarını kullanarak motoru ve motor pinion dişlisini monte edin. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/fMX8k8QicGQ?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>5. Assemble the shaft spacers and gears using parts from FRCDesignLib.</figcaption>
+      <figcaption>5. FRCDesignLib parçalarını kullanarak şaft spacer'larını ve dişlileri monte edin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/VJy8NSFISa0?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>6. Assemble the shaft retention bolts, motor bolts, gearbox bolts, and nuts using FRCDesignLib parts. </figcaption>
+      <figcaption>6. FRCDesignLib parçalarını kullanarak şaft tutma boltlarını, motor boltlarını, şanzıman boltlarını ve somunları monte edin. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise2/assy-0.webp" style="width:100%">
-      <figcaption>7. Finished assembly. Make sure to sort your parts into folders and name your replicate features. </figcaption>
+      <figcaption>7. Tamamlanmış montaj. Parçaları klasörlere sıraladığınızdan ve replicate özelliklerinizi adlandırdığınızdan emin olun. </figcaption>
     </figure>
   </div>
 
@@ -178,10 +179,10 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 27 instances.
+!!! Success "Doğrulama"
+    Sizin ve/veya takımınızın daha deneyimli bir üyesinin/mentorünün [**CAD'inizi incelemesini sağlayın!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Montajınızın 27 instance'ı olmalıdır.
 
-In this exercise, you practiced more complex gearbox modeling and mating together larger assemblies. 
+Bu egzersizte, daha karmaşık şanzıman modelleme ve daha büyük montajları bir araya getirme pratiği yaptınız.
 
 
 

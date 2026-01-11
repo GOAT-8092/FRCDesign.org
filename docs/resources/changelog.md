@@ -1,50 +1,50 @@
 ---
-title: Changelog Reference
-description: Templates and guidelines for maintaining the site changelog
+title: Changelog Referansı
+description: Site changelog'unu korumak için şablonlar ve yönergeler.
 icon: material/file-document-outline
 ---
 
-# Changelog Reference
+# Changelog Referansı
 
-This page provides templates and guidelines for maintaining the [site changelog](site-changelog.md).
+Bu sayfa [site changelog](site-changelog.md) için şablonlar ve yönergeler sağlar.
 
-!!! info "Actual Changelog"
-    The live changelog with all updates is on the [Site Changelog](site-changelog.md) page.
+!!! info "Gerçek Changelog"
+    Tüm güncellemelerle birlikte canlı changelog [Site Changelog](site-changelog.md) sayfasındadır.
 
-!!! info "Community Discussion"
-    For the most up-to-date information and community discussion about changes, see the [Chief Delphi thread](https://www.chiefdelphi.com/t/frcdesign-org-2025-2026-season-updates/504891/){:target="_blank"}.
+!!! info "Topluluk Tartışması"
+   Güncellemeler hakkında en güncel bilgiler ve topluluk tartışması için [Chief Delphi thread](https://www.chiefdelphi.com/t/frcdesign-org-2025-2026-season-updates/504891/){:target="_blank"} bakın.
 
 ---
 
-## Template for New Entries
+## Yeni Girişler İçin Şablon
 
-!!! example "How to Add New Changelog Entries"
-    When adding new entries, copy the template below and fill in the details. Only include the sections you fill out. 
+!!! example "Yeni Changelog Girişleri Nasıl Eklenir"
+    Yeni giriş eklerken, aşağıdaki şablonu kopyalayın ve detayları doldurun. Sadece doldurduğunuz bölümleri dahil edin.
 
     ```markdown
-    ## Description - MM-DD-YYYY
-    
-    ### :material-plus: Added
-    - New feature descriptions
-    
-    ### :material-pencil: Changed
-    - Modifications to existing features
-    
-    ### :material-bug-check: Fixed
-    - Bug fixes and corrections
-    
-    ### :material-minus: Removed
-    - Removed features or deprecated content
+    ## Açıklama - AA-GG-YYYY
+
+    ### :material-plus: Eklendi
+    - Yeni özellik açıklamaları
+
+    ### :material-pencil: Değiştirildi
+    - Mevcut özelliklere değişiklikler
+
+    ### :material-bug-check: Düzeltildi
+    - Hata düzeltmeleri ve düzeltmeleri
+
+    ### :material-minus: Kaldırıldı
+    - Kaldırılan özellikler veya kullanımdan kaldırılmış içerik
     ```
 
-!!! tip "Version Numbering"
-    Use date-based versions MM-DD-YYYY for releases.
+!!! tip "Sürüm Numaralandırma"
+    Sürümler için AA-GG-YYYY tarih tabanlı sürümleri kullanın.
 
-!!! a "Major Updates"
-    If an update is a major update, addition, or rework, indicate in the description section. 
+!!! a "Büyük Güncellemeler"
+    Bir güncelleme büyük bir güncelleme, ekleme veya yeniden çalışma ise, açıklama bölümünde belirtin.
 
-!!! note "Categories"
-    - **Added**: New features, content, or functionality
-    - **Changed**: Modifications to existing features
-    - **Fixed**: Bug fixes, corrections, or improvements
-    - **Removed**: Deprecated or deleted features/content
+!!! note "Kategoriler"
+    - **Eklendi**: Yeni özellikler, içerik veya işlevsellik
+    - **Değiştirildi**: Mevcut özelliklere değişiklikler
+    - **Düzeltildi**: Hata düzeltmeleri, düzeltmeleri veya iyileştirmeler
+    - **Kaldırıldı**: Kullanımdan kaldırılmış veya silinmiş özellikler/içerik

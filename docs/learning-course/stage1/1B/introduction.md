@@ -1,50 +1,50 @@
 
 
-# 1B: Power Transmissions
+# 1B: Güç Aktarımı
 
-## Introduction
+## Giriş
 
-So far the models you have created are all structural components, but this is only half of what makes up a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In Stage 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the motors, bearings, shafts, gears, belts, and chains that are used to transform rotational motion from a motor to do just about anything. 
+Şu ana kadar oluşturduğunuz modellerin tümü yapısal bileşenlerdir, ancak bu bir robotu oluşturan şeyin sadece yarısıdır. Robotlarımızı hareket ettirmek ve skor yapmak için, genellikle döner hareket üreten motorlar kullanılır. Aşama 1B'de, temel *güç aktarım organlarını* modellemeye tanışacaksınız. Güç aktarım organları, motorun döner hareketini herhangi bir şeyi yapmak için dönüştürmek için kullanılan motorlar, rulmanlar, miller, dişliler, kayışlar ve zincirleri içerir.
 
-In this stage, you'll focus on the fundamentals of power transmissions, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios will be explored later in Stage 2 of the guide with multiple different mechanisms.
+Bu aşamada, güc aktarım organlarının temellerine odaklanacaksınız, CAD'de nasıl modelleneceklerine vurgu yaparak. Motor seçme ve güç aktarım organı oranlarını hesaplama süreci, kılavuzun Aşama 2'sinde birden fazla farklı mekanizma ile daha sonra keşfedilecektir.
 
-### Examples
+### Örnekler
 
-Take a look below at some examples of different types of power transmissions found in robots.
+Aşağıda robotlarda bulunan farklı güç aktarım organı türlerinin bazı örneklerine bakın.
 
-!!! Example "Examples of Power Transmissions in Robots"
-    <center>**Power Transmission Examples**</center>
+!!! Example "Robotlarda Güç Aktarım Organı Örnekleri"
+    <center>**Güç Aktarım Organı Örnekleri**</center>
     <!-- Slideshow container -->
       <div class="slideshow-container">
       <!-- Full-width images with number and caption text -->
       <div id="slide1" class="mySlides fade">
           <figure>
               <img src="../images/examples/intake-rollers.webp" style="width:80%">
-              <figcaption> Belt and gear power transmission to spin intake rollers. (Photo Credit: FRC 3647) </figcaption>
+              <figcaption> Intake rulolarını döndürmek için kayış ve dişli güç aktarma organı. (Fotoğraf Kaynak: FRC 3647) </figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
               <img src="../images/examples/intake-pivot.webp" style="width:80%">
-              <figcaption> Gear and chain power transmission to pivot the intake. (Photo Credit: FRC 3647) </figcaption>
+              <figcaption> Intake'ı pivotlamak için dişli ve zincir güç aktarma organı. (Fotoğraf Kaynak: FRC 3647) </figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
               <img src="../images/examples/shooter.webp" style="width:80%">
-              <figcaption> Belt and gear power transmission to spin shooter wheels. (Photo Credit: FRC 3647)</figcaption>
+              <figcaption> Shooter tekerleklerini döndürmek için kayış ve dişli güç aktarma organı. (Fotoğraf Kaynak: FRC 3647)</figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
               <img src="../images/examples/amp-arm.webp" style="width:60%">
-              <figcaption> Gear and chain power transmission to rotate a small arm. (Photo Credit: FRC 3647)</figcaption>
+              <figcaption> Küçük bir kolu döndürmek için dişli ve zincir güç aktarma organı. (Fotoğraf Kaynak: FRC 3647)</figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
               <img src="../images/examples/arm-gearbox.webp" style="width:75%">
-              <figcaption> Gear and chain power transmission to rotate a large arm. (Photo Credit: FRC 3647)</figcaption>
+              <figcaption> Büyük bir kolu döndürmek için dişli ve zincir güç aktarma organı. (Fotoğraf Kaynak: FRC 3647)</figcaption>
           </figure>
       </div>
       <!-- Next and previous buttons -->
@@ -56,7 +56,7 @@ Take a look below at some examples of different types of power transmissions fou
       </div>
     </div>
 
-In this stage, there are exercises designed to practice modeling simple power transmissions in the form of stand alone gearboxes. In stage 2, you will begin to model power transmissions integrated within mechanisms.
+Bu aşamada, bağımsız şanzıman şeklinde basit güç aktarım organlarını modellemeyi pratik etmek için tasarlanmış alıştırmalar vardır. Aşama 2'de, mekanizmalarla entegre edilmiş güç aktarım organlarını modellemeye başlayacaksınız.
 
 <br>
 

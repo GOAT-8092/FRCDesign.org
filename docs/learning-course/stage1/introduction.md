@@ -1,19 +1,19 @@
-# Course Introduction
+# Kursa Giriş
 
-This course likely follows a different approach to learning and skill development than what you're used to. Your goal isn't just to finish the exercises, it's to become better at designing robots. Set the intention throughout the course to make the skills your own and to improve your thought process and workflow at every step. Enjoy the ride, and good luck.
+Bu kurs muhtemelen alışkın olduğunuzdan farklı bir öğrenme ve beceri geliştirme yaklaşımını takip eder. Amacınız sadece alıştırmaları bitirmek değil, robot tasarımında daha iyi olmaktır. Becerileri kendiniz yapın ve düşünme sürecinizi ve iş akışınızı her adımda iyileştirin. Yolculuğun tadını çıkarın ve iyi şanslar.
 
-### Learning Intentions
+### Öğrenme Amaçları
 
-Design and CAD are a set of interconnected skills. CAD is a space for you to work out ideas and develop them. You don't need to just learn the software; you need to learn the logic, organization, and workflows that make robot design faster and more intuitive.
+Tasarım ve CAD birbiriyle bağlantılı bir dizi beceridir. CAD, fikirleri üzerinde çalışmak ve onları geliştirmek için bir alandır. Sadece yazılımı öğrenmek zorunda değilsiniz; robot tasarımını daha hızlı ve sezgisel hale getiren mantığı, organizasyonu ve iş akışlarını öğrenmeniz gerekir.
 
-We expect you to **experiment** and **figure things out** on your own. Learning is about forming connections, and there's often no better way to form connections than struggling a little bit. If you have a mentor hand-hold you or follow the instructions blindly, you'll miss out on the experiences that actually improve your design ability. **Treat this as your own journey** - your progress depends on your willingness to explore, fail, and try again.
+Sizden **deney yapmanızı** ve **şeyleri kendi başınıza çözenizi** bekliyoruz. Öğrenme, bağlantılar kurmakla ilgilidir ve genellikle biraz zorlanmaktan daha iyi bağlantı kurmanın yolu yoktur. Bir mentorun elinizi tutmasına veya körü körüne talimatları takip etmeniz, aslında tasarım yeteneğinizi iyileştiren deneyimleri kaçırmanıza neden olur. **Bunu kendi yolculuğunuzu olarak ele alın** - ilerlemeniz keşfetme, başarısız olma ve tekrar deneme isteğinize bağlı.
 
-That being said, **the feedback cycle** is a crucial part of this journey. This can be both **self-driven** (use a process to review your own work to find inefficiencies or common issues) and **externally given** (with mentors or veteran student designers on your team or online giving feedback about your CAD process and final design). If you get stuck or frustrated, **don't hesitate to ask for a little advice** - that's part of the process. 
+Bununla birlikte, **geri bildirim döngüsü** bu yolculuğun çok önemli bir parçasıdır. Bu hem **kendi kendine yönetilebilir** (verimsizlikleri veya yaygın sorunları bulmak için kendi işinizi gözden geçirmek için bir süreç kullanın) hem de **dışarıdan verilir** (takımınızdaki veya çevrimiçi mentorlar veya deneyimli öğrenci tasarımcılardan CAD süreciniz ve son tasarımınız hakkında geri bildirim almak). Sıkışırsanız veya hayal kırıklığına uğrarsanız, **biraz tavsiye istemekten çekinmeyin** - bu sürecin bir parçasıdır.
 
-### Copying and Improving In-Season
+### Sezon İçinde Kopyalama ve İyileştirme
 
-During the season, copying and referencing past designs is encouraged; you'll learn a ton by studying how other solved problems and adapting those ideas to your own designs. However, your ability to effectively use those references depends on the skills you build *before* the season starts. 
+Sezon sırasında, geçmiş tasarımları kopyalamak ve referans almaktan yararlanılır; diğerlerinin sorunları nasıl çözdüğünü inceleyerek ve bu fikirleri kendi tasarımlarınıza uyarlayarak çok şey öğrenirsiniz. Ancak, bu referansları etkili bir şekilde kullanma yeteneğiniz, sezon başlamadan önce oluşturduğunuz becerilere bağlıdır.
 
-The next page goes over a review structure to focus on improvement when going through the learning course.
+Bir sonraki sayfa, öğrenme kursuna devam ederken iyileştirmeye odaklanmak için bir inceleme yapısını inceler.
 
 <br>

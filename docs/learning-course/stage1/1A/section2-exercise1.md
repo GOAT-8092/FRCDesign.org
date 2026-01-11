@@ -1,17 +1,17 @@
-# 1A: Onshape Fundamentals - Section 2
-## Introduction
+# 1A: Onshape Temelleri - Bölüm 2
+## Giriş
 
-At this point you should be an expert at making tubing frames of various shapes and sizes. These frames will not stay together without something to attach to. That's where plates come in. This section will be primarily focused around how to model plates for various purposes.
+Bu noktada, çeşitli şekil ve boyutlarda boru çerçeveleri oluşturma konusunda bir uzman olmalısınız. Bu çerçeveler takılacak bir şey olmadan bir arada kalmayacaktır. İşte burada plakalar devreye girer. Bu bölüm öncelikle çeşitli amaçlar için plakaların nasıl modelleneceğine odaklanacaktır.
 
-### What Are Plates?
+### Plakalar Nedir?
 
-In FRC, plates are used everywhere and are made out of a couple different materials.
+FRC'de plakalar her yerde kullanılır ve birkaç farklı malzemeden yapılır.
 
-Plates have two main functions in FRC: they allow you to **connect structural pieces together** and **mount transmission components like motors, axles, or mechanisms to the frame**. A plate used solely to connect two pieces together is also sometimes referred to as a gusset or bracket. 
+Plakaların FRC'de iki ana işlevi vardır: yapısal parçaları **birbirine bağlamanıza** olanak tanır ve motorlar, miller veya mekanizmalar gibi şanzıman bileşenlerini çerçeveye **montajlamanıza** olanak tanır. Sadece iki parçayı birbirine bağlamak için kullanılan bir plakaya bazen gusset veya bracket de denir.
 
-Below are two examples of plates being used in FRC.
+Aşağıda FRC'de kullanılan plakaların iki örneği bulunmaktadır.
 
-???+ Example "Plate Examples"
+???+ Example "Plaka Örnekleri"
 
     <div class="grid cards" markdown>
 
@@ -22,57 +22,57 @@ Below are two examples of plates being used in FRC.
     </div>
 
     <figure>
-      <figcaption>Gussets being used to mount mechanisms and hold frames together (Photo Credits: FRC 604, FRC 9442)</figcaption>
+      <figcaption>Mekanizmaları monte etmek ve çerçeveleri bir arada tutmak için kullanılan gusset'ler (Fotoğraf Çredits: FRC 604, FRC 9442)</figcaption>
     </figure>
 
 
 
-### Background
+### Arka Plan
 
-Since your tubes are always in 0.5-inch increments, your plates allow you to bridge the gap between uneven distances. This is possible because plates are CNC manufactured allowing for completely arbitrary hole spacings.
+Borularınız her zaman 0.5 inç artışlarla olduğu için, plakalarınız dengesiz mesafeler arasındaki boşluğu doldurmanıza olanak tanır. Bu, plakaların CNC ile üretilmesi ve tamamen keyfi delik aralıklarına izin vermesi nedeniyle mümkündür.
 
-It's this arbitrary hole spacing that is key to think about when designing plates. The purpose of a plate is to place mounting holes where you want them; the material that makes up the plate only exists to position mounting holes and create lines of support, like when using a triangle gusset.
+Plakaları tasarlarken düşünmek için ana şey bu keyfi delik aralığıdır. Bir plakanın amacı, montaj deliklerini istediğiniz yere yerleştirmektir; plakayı oluşturan malzeme sadece montaj deliklerini konumlandırmak ve destek çizgileri oluşturmak için vardır, örneğin üçgen gusset kullanırken.
 
-A plate sketch is composed of circles for the holes, arcs for larger corner fillets, and lines to complete the shape. When making the shape of a plate think about the shape that would be made by tying a string around all of the mounting holes on a given plate. Here is a video demonstrating this concept for a very basic plate. No need to follow along here, just watch.
+Bir plaka sketch'i delikler için dairelerden, büyük köşe filletleri için yaylardan ve şekli tamamlamak için çizgilerden oluşur. Bir plakanın şeklini yaparken, verilen bir plakadaki tüm montaj deliklerinin etrafına bir ip bağlandığında oluşacak şekli düşünün. İşte çok basit bir plaka için bu kavramı gösteren bir video. Burada takip etmenize gerek yok, sadece izleyin.
 
 <figure>
     <iframe width="768" height="432" src="https://www.youtube.com/embed/mXzX9wmipV8?controls=1&rel=0&showinfo=0&vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </figure>
 
-This video also shows off the `tangent` constraint! This is one of the most frequently used constraints when designing plates since each mounting hole will have an arc around it to form the perimeter of the plate. The tangent constraint allows us to create a tangent line for an arc or circle. This is important to “smooth” out our plate. We don’t want sharp edges!
+Bu video ayrıca `tangent` constraint'ini gösteriyor! Bu, plakalar tasarlarken en sık kullanılan constraint'lerden biridir, çünkü her montaj deliğinin etrafında plakanın çevresini oluşturmak için bir yay olacaktır. Tangent constraint, bir yay veya daire için teğet bir çizgi oluşturmamıza olanak tanır. Plakamızı "pürüzsüzleştirmek" için bu önemlidir. Keskin kenarlar istemiyoruz!
 
 ---
 
-## Exercise 1: Plate Workflow
+## Egzersiz 1: Plaka İş Akışı
 
-**Your task is to make a very simple plate with two bearing holes.** Bearings come up everywhere in FRC to help reduce friction on moving components. This is the same type of plate as shown in the prior video.
+**Göreviniz iki rulman deliği olan çok basit bir plaka yapmaktır.** Rulmanlar FRC'de hareket eden parçalardaki sürtünmeyi azaltmak için her yerde ortaya çıkar. Bu, önceki videoda gösterilen ile aynı tür plakadır.
 
-To get started, find the "Exercise 1: Plates" part studio in the "Section 2" folder in your copy of the template document and follow the plate workflow below to practice making a couple plate shapes.
+Başlamak için, şablon belgenizin kopyasındaki "Bölüm 2" klasöründeki "Egzersiz 1: Plakalar" part studio'yunu bulun ve birkaç plaka şekli oluşturmayı pratiğini yapmak için aşağıdaki plaka iş akışını takip edin.
 
-???+ Question "Plate Workflow"
+???+ Question "Plaka İş Akışı"
 
-    1. Draw an arc around each bearing hole, dimension one of the arcs to be 0.25" away from the hole 
-    2. Set the two arcs to be equal in radius by using the equal constraint.
-    3. Draw lines connecting the arcs
-    4. Set the lines tangent to the arcs to align everything.
+    1. Her rulman deliğinin etrafına bir yay çizin, yaylardan birini deliğin 0.25" uzağında olacak şekilde dimensionlayın
+    2. Equal constraint'ini kullanarak iki yayı yarıçap olarak eşit yapın
+    3. Yayları birbirine bağlayan çizgiler çizin
+    4. Her şeyi hizalamak için çizgileri yaylara teğet yapın
 
-!!! info "Tip"
+!!! info "İpucu"
 
-    Constraints can form accidentally when sketching. Part of an arc might accidentally get horizontally or vertically constrained.
-    
-    **You can delete constraints** by hovering over a sketch entity (line, arc, circle, etc.), clicking the icon of the constraint you want to delete (the involved entities will be highlighted), and clicking the `delete` key on your keyboard.
-    
-    **Holding shift when creating geometry also turns off auto constraining.** 
-    If you get stuck you can refer back to the video for guidance.
+    Sketch yaparken constraint'ler kazayla oluşabilir. Bir yayın bir kısmı kazayla yatay veya dikey olarak kısıtlanabilir.
+
+    **Constraint'leri silebilirsiniz**, bir sketch öğesinin (çizgi, yay, daire vb.) üzerine gelerek, silmek istediğiniz constraint'in simgesine tıklayarak (ilgili öğeler vurgulanacaktır) ve klavyenizdeki `delete` tuşuna basarak.
+
+    **Geometri oluştururken shift tuşunu basılı tutmak otomatik kısıtlamayı da kapatır.**
+    Sıkışırsanız rehberlik için videoya tekrar bakabilirsiniz.
 
 ---
 
-### Complete?
+### Tamamlandı mı?
 
-After finishing, delete your plate outline, and **repeat these steps 2-3 times or until the process feels natural** and you do not need to reference the steps. You can close the workflow dropdown if it helps you stop looking at it.
+Bitirdikten sonra, plaka taslağınızı silin ve **süreç doğal hissedene kadar bu adımları 2-3 kez tekrarlayın veya adımlara bakmamaya çalışın. Size bakmayı bırakmanıza yardımcı olmak için iş akışı açılır menüsünü kapatabilirsiniz.
 
-**Try adding a third bearing hole into the plate!** You will end up making dozens of plates over even just a single FRC season, so getting comfortable with these steps is a must.
+**Plakaya üçüncü bir rulman deliği eklemeyi deneyin!** Sadece tek bir FRC sezonunda bile düzinelerce plaka yapacağınızdan, bu adımlarla rahat olmak bir zorunluluktur.
 
-Once you've gotten comfortable with the workflow, feel free to move on to the next exercise.
+İş akışıyla rahat olduğunuzda, bir sonraki egzersize geçmekten çekinmeyin.
 
 <br>

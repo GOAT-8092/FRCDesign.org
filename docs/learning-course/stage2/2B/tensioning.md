@@ -1,27 +1,27 @@
-# 2B: Dead Axle Pivot
+# 2B: Dingil Silisi Pivot
 
 
 ## Tensioning
 
-To accommodate chain stretch over the course of a season and reduce backlash, an active tensioning system is required. If enough chain length is available, **inline tensioners** such as turnbuckles and Spartan tensioners are the simplest way to tension the chain. 
+Bir sezon boyunca zincir gerilmesini karşılamak ve backlash'ı azaltmak için aktif bir germe sistemi gereklidir. Yeterli zincir uzunluğu varsa, **inline tensioner**lar gibi turnbuckles ve Spartan tensioner'lar zinciri germek için en basit yoldur.
 
-If there isn't enough space for an inline tensioner (if the chain moves too much, the tensioner might run into either of the sprockets), other methods, such as moving the position of one of the sprockets with a sliding or rotating gearbox or stage, may be used. 
+Yeterli alan yoksa (zincir çok fazla hareket ederse, tensioner bir sprocket'e çarpabilir), sprocket'lerden birinin konumunu kaydıran veya dönen bir dişli kutusu veya aşama ile değiştirmek gibi diğer yöntemler kullanılabilir.
 
 <figure>
     <img src="\img\learning-course\stage2-pivot\chaintensioncut.gif" alt="chain with tensioner" width="60%">
-    <figcaption> A chain and sprocket moving with a turnbuckle tensioner. The turnbuckle is located on the bottom half the chain.</figcaption>
+    <figcaption> Turnbuckle tensioner ile hareket eden bir zincir ve sprocket. Turnbuckle zincirin alt yarısında yer alır.</figcaption>
 </figure>
 
 <center>
 <div id="wrapper">
     <img id="centeredImages" border="0" src="/img/learning-course/stage2-pivot/turnbuckle.webp" width="30%">
     <img id="centeredImages" border="0" src="/img/learning-course/stage2-pivot/spartan_tensioner.webp" width="30%">
-    <figcaption>Two types of inline tensioners: a turnbuckle (left) and a Spartan tensioner (right).</figcaption>
+    <figcaption>İki tip inline tensioner: bir turnbuckle (sol) ve bir Spartan tensioner (sağ).</figcaption>
 </div>
 </center>
 
 
-### Reference Design
-For this design, enough chain length was provided for a simple inline spartan tensioner to work well.
+### Referans Tasarım
+Bu tasarım için, basit bir inline spartan tensioner'ın iyi çalışması için yeterli zincir uzunluğu sağlandı.
 
 <br>

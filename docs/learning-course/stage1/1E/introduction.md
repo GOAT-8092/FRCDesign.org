@@ -1,19 +1,19 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Alt Sistem İş Akışı - Drivebase Detaylandırma
 
-## Introduction
+## Giriş
 
-In the previous sections, you've learned the fundamentals of modeling parts and power transmissions and learned the top-down design workflow. 
-In Stage 1E, you will practice those modeling techniques by **adding the rest of the necessary components to the drivebase you began modeling in Stage 1D**. 
-This will help you get comfortable with the typical workflow of a modeling an entire subsystem while keeping things simple.
+Önceki bölümlerde, parça modelleme ve güç aktarma organlarının temellerini öğrendiniz ve top-down tasarım iş akışını öğrendiniz.
+Stage 1E'de, **Stage 1D'de modellemeye başladığınız drivebase'inize gerekli olan diğer bileşenleri ekleyerek** bu modelleme tekniklerini pratik yapacaksınız.
+Bu, işleri basit tutarken tüm bir alt sistemi modellemenin tipik iş akışına alışmanıza yardımcı olacaktır.
 
-### Subsystem Workflow
-The typical workflow when modeling a subsystem involves the following:
+### Alt Sistem İş Akışı
+Bir alt sistemi modellerken tipik iş akışı aşağıdakileri içerir:
 
-1. Create the layout sketches in your layout sketch part studio
-2. Derive the layout sketch into the part studio
-3. Create the basic structure of your mechanism based on the layout sketch (plates, tubes, etc.)
-4. Insert the basic structure into the assembly, group, fasten to the origin, and finish creating the structure
-5. Insert the assembly into the top-level robot assembly
-6. Go back and add different components to finish detailing the subsystem.
+1. Layout sketch part studio'nuzda layout sketch'lerinizi oluşturun
+2. Layout sketch'i part studio'ya derive edin
+3. Layout sketch'e dayanarak mekanizmanızın temel yapısını oluşturun (plakalar, tüpler vb.)
+4. Temel yapıyı assembly'ye ekleyin, gruplayın, orijine sabitleyin ve yapıyı oluşturmayı tamamlayın
+5. Assembly'yi üst düzey robot assembly'sine ekleyin
+6. Geri dönün ve alt sistemi detaylandırmak için farklı bileşenler ekleyin
 
 <br>

@@ -1,74 +1,74 @@
-# 1A: Onshape Fundamentals - Section 1
+# 1A: Onshape Temelleri - Bölüm 1
 
-## Exercise 1: Making Your First Tube
+## Egzersiz 1: İlk Borunuzu Yapma
 
-In this exercise you'll be:
+Bu egzersizde şunları yapacaksınız:
 
-1. Following along with the video to learn how we can make box tubes in onshape
-2. Playing with the tools you learned to explore how the concepts work
-3. Understanding how these parts interact in 3D Space
+1. Onshape'de kutu boruları nasıl yapabileceğimizi öğrenmek için videoyu takip edin
+2. Kavramların nasıl çalıştığını keşfetmek için öğrendiğiniz araçlarla oynayın
+3. Bu parçaların 3D Uzayda nasıl etkileştiğini anlayın
 
 
-### Video Tutorial
+### Video Eğitimi
 
-Inside of the document you copied and navigated through previously, follow along with this video to create your box tubes and finish the exercise. The `extrude` tool will be introduced through this.
+Önceden kopyaladığınız ve gezindiğiniz belge içinde, kutu borularınızı oluşturmak ve egzersizi tamamlamak için bu videoyu takip edin. `Extrude` aracı bu yoluyla tanıtılacaktır.
 
 <center><iframe width="768" height="432" src="https://www.youtube.com/embed/FdD1BTQndEo?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe></center>
 
 
-!!! info "As you work through the exercise, notice how:"
+!!! info "Egzersiz yaparken şunları fark edin:"
 
-    - Changing the extruded length affects the box tube.
-    - The dimensions of the sketch translate directly into the dimensions of the tube.
+    - Extrude uzunluğunu değiştirmek kutu borusunu nasıl etkiler.
+    - Sketch boyutları doğrudan boru boyutlarına dönüşür.
 
 ---
 
-### Reference Images
+### Referans Görseller
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
   <figure style="flex: 1;">
     <img src="/img/learning-course/stage1a/extrude-setup.webp" style="width:100%">
-    <figcaption>Extrude your rectangles to create box tubes.</figcaption>
+    <figcaption>Dikdörtgenleri extrude yaparak kutu boruları oluşturun.</figcaption>
   </figure>
 
   <figure style="flex: 1;">
     <img src="/img/learning-course/stage1a/tube-result.webp" style="width:100%">
-    <figcaption>Completed box tube geometry.</figcaption>
+    <figcaption>Tamamlanmış kutu borusu geometrisi.</figcaption>
   </figure>
 </div>
 
-### Extrude Tool Info
+### Extrude Aracı Bilgisi
 
-!!! info "Boolean Options"
-    
-    Every extrude has options for `new`, `add`, `remove`, and `intersect` that define how your extrude interacts with other parts in the part studio. I**f you extrude a tube next to another tube**, you might notice that **they merge together**. Make sure to select the `new` option in your extrude menu, as **sometimes Onshape will default to `add`**.
+!!! info "Boolean Seçenekleri"
 
-!!! info "Endpoint Options"
- 
-    You can define the end of the extrude depending on an arbitrary length or by using other parts as reference. `Up to face` is pretty commonly used alongside `Blind`.
+    Her extrude'un, extrude'unuzun part studio'daki diğer parçalarla nasıl etkileşim kurduğunu tanımlayan `new`, `add`, `remove` ve `intersect` seçenekleri vardır.**Bir boruyu başka bir borunun yanına extrude ederseniz**, **birbirine birleştiklerini** fark edebilirsiniz. Extrude menünüzde `new` seçeneğini seçtiğinizden emin olun, çünkü **bazen Onshape varsayılan olarak `add`'ı kullanacaktır**.
 
-### Tube Converter Settings
+!!! info "Uç Nokta Seçenekleri"
 
-When using the Tube Converter (as shown in the video), make sure your settings match:
+    Extrude'un sonunu keyfi bir uzunluğa veya diğer parçaları referans alarak tanımlayabilirsiniz. `Up to face` genellikle `Blind` ile birlikte yaygın olarak kullanılır.
+
+### Tube Converter Ayarları
+
+Video'da gösterildiği gibi Tube Converter'ı kullanırken, ayarlarınızın eşleştiğinden emin olun:
 
 <figure>
   <img src="/img/learning-course/stage1a/tube-converter-settings.webp" style="width:90%">
-  <figcaption>Tube Converter settings example</figcaption>
+    <figcaption>Tube Converter ayarları örneği</figcaption>
 </figure>
 
-If the Tube Converter isn't behaving as expected:
+Eğer Tube Converter beklediğiniz gibi davranmazsa:
 
-- Only select the rectangles that are not touching, as shown in the video.
-- You can remove a selection by clicking the `x` next to the part in the Tube Converter menu.
+- Video'da gösterildiği gibi, sadece birbirine dokunmayan dikdörtgenleri seçin.
+    - Tube Converter menüsündeki parçanın yanındaki `x`'e tıklayarak bir seçimi kaldırabilirsiniz.
 
-If you forget the name of a tool, you can press `Alt+C` to search for it.
+Bir aracın adını unutursanız, `Alt+C` tuşlarına basarak arayabilirsiniz.
 
 ---
 
-## Done following along? 
+## Takip ettiniz mi?
 
-Mess around with the tubes a bit more, try extruding different lengths, using different extrude offsets and settings, and play to see how they relate to your final box tube.
+Borularla biraz daha oynayın, farklı uzunluklarda extrude yapmayı deneyin, farklı extrude ofsetleri ve ayarlar kullanın ve nihai kutu borunuzla nasıl ilişkili olduklarını görmek için oynayın.
 
-After 5 minutes or so, move on to the next exercise.
+5 dakika kadar sonra, bir sonraki egzersize geçin.
 
 <br>

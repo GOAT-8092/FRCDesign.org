@@ -1,32 +1,33 @@
 
 
-# 1B: Power Transmissions
+
+# 1B: Güç Aktarımları
 
 
-## Practice Exercises
-Time to practice! Start by **make a copy of the Stage 1B Exercises Document** through the button below, just like you did with the Stage 1A Exercises Document. Each exercise has a folder, a "reference" tab (a preview of what the final model should look like), and a tab or two for doing your exercise in. Solutions are also provided in the 1B Exercise Solutions Document to check your work afterwards.
+## Pratik Egzersizler
+Pratik yapma zamanı! Daha önce Stage 1A Egzersizler Dokümanı ile yaptığınız gibi, aşağıdaki düğme aracılığıyla **Stage 1B Egzersizler Dokümanı'nın bir kopyasını oluşturarak** başlayın. Her egzersizin bir klasörü, bir "referans" sekmesi (final modelin nasıl görünmesi gerektiğine dair bir önizleme) ve egzersizi yapmanız için bir veya iki sekmesi vardır. Çalışmanızı sonradan kontrol etmeniz için çözümler de 1B Egzersiz Çözümleri Dokümanı'nda sağlanmıştır.
 
 <center markdown>[1B Exercises Document (COPY THIS)](https://cad.onshape.com/documents/ce41613fac38db8c00e65020/w/a65651477167d5e36fe871c0/e/755940e52d82bddfdf7be61e "1B Exercises Onshape Document"){:target="_blank" .md-button .md-button--primary }
 [1B Exercise Solutions](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/47efe87a05a8318bffd60957 "1B Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary } </center>
 
-## Exercise 1: Simple Gearbox 
+## Egzersiz 1: Basit Şanzıman
 
-In this exercise, you will be modeling and assembling a simple single stage gearbox. The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the [`Robot Shaft` and `Robot Spacer` Featurescripts](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/v/0d2ae9a0b843b03bdb63724f/e/99672d1e329b38e647d90146 "Alex's Featurescripts Onshape Document"){:target="_blank"} and the `Replicate` tool. You will also use the [FRCDesignLib part library](../../course-setup/required-course-tools/part-library.md "Adding FRCDesignApp Tutorial Page"){:target="_blank"} for components other than fasteners, such as gears and motors.
+Bu egzersizde, basit bir tek kademeli şanzıman modelleyip monte edeceksiniz. Bu egzersizin amacı, çok basit bir dişli aktarımının nasıl modelleneceğini tanıtmaktır. Ayrıca, [`Robot Shaft` ve `Robot Spacer` Featurescripts`](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/v/0d2ae9a0b843b03bdb63724f/e/99672d1e329b38e647d90146 "Alex's Featurescripts Onshape Document"){:target="_blank"} ve `Replicate` aracının nasıl kullanılacağını öğreneceksiniz. Ayrıca, dişliler ve motorlar gibi fastener dışındaki bileşenler için [FRCDesignLib parça kütüphanesini](../../course-setup/required-course-tools/part-library.md "Adding FRCDesignApp Tutorial Page"){:target="_blank"} kullanacaksınız.
 
-!!! Note
-    Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/fasteners/ "Design Handbook Fasteners Page"){:target="_blank"} page.
+!!! Not
+    Egzersiz 1, CAD modellerine donanım (bolt ve cıvata) ekler. Donanım standartları hakkında daha fazla bilgi için [Design Handbook](/design-handbook/structure/fasteners/ "Design Handbook Fasteners Page"){:target="_blank"} sayfasını okuyabilirsiniz.
 
 ### Layout Sketches
 
-A layout sketch is a sketch that captures the geometry of a design without specifying the exact details. 
-They are like the framing of a house—it defines the overall structure and relationships between key components, but doesn't include the finishing details like walls or paint. 
-Keeping the key dimensions in a layout sketch makes it easy to adjust when needed. We will utilize layout sketches for almost all designs moving forward.
+Layout sketch, tasarımın geometrisini kesin detayları belirtmeden yakalayan bir taslaktır.
+Sanki evin çerçevesi gibidir - genel yapıyı ve ana bileşenler arasındaki ilişkileri tanımlar, ancak duvarlar veya boya gibi son detayları içermez.
+Ana boyutları layout sketch içinde tutmak, gerekli olduğunda kolayca ayarlamayı sağlar. Bundan sonra neredeyse tüm tasarımlarımızda layout sketch kullanacağız.
 
-!!! Tip "Motor"
-    The motor used in this exercise is a CIM-class motor called a Falcon 500. While discontinued for purchase, many teams still own some and they use the same 2" mounting hole pattern that most other FRC motors use, as discussed on the [Motors page](motors.md).
+!!! İpucu "Motor"
+    Bu egzersizte kullanılan motor, Falcon 500 adında bir CIM sınıfı motordur. Satın alma için durdurulmuş olsa da, birçok takım hala bazılarına sahiptir ve [Motors page](motors.md) sayfasında tartışıldığı gibi çoğu diğer FRC motorunun kullandığı aynı 2" montaj deliği desenini kullanırlar.
 
-### Part Studio Instructions
-**Navigate to the "Exercise #1 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio.
+### Part Studio Talimatları
+Kopyaladığınız belgede **"Exercise #1 Part Studio" sekmesine gidin** ve part studioyu tamamlamak için **slaytlardaki talimatları izleyin**.
 
 
 <!-- <center>**Exercise 1 Instruction Slides**</center> -->
@@ -37,91 +38,91 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-0.webp" style="width:100%">
-      <figcaption>0. Finished Part Studio.</figcaption>
+      <figcaption>0. Tamamlanmış Part Studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-1.webp" style="width:100%">
-      <figcaption> 1. Begin by creating the layout sketch for the gearbox. Draw the pitch circles for the 60T and 12T gears. Set the pitch circles tangent to constrain the center-to-center distance between the gears. Constrain the centers of the two gears to be vertical.</figcaption>
+      <figcaption> 1. Şanzıman için layout sketch ile başlayın. 60T ve 12T dişliler için pitch çemberlerini çizin. Dişliler arasındaki merkezden merkeze mesafeyi kısıtlamak için pitch çemberlerini teğet olarak ayarlayın. İki dişlinin merkezlerini dikey olarak kısıtlayın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-2.webp" style="width:100%">
-      <figcaption> 2. Add the outline of the motor, a 2.5" diameter circle, around the 12T gear that the motor is attached to. The layout sketch is now finished.  </figcaption>
+      <figcaption> 2. Motorun bağlı olduğu 12T dişlinin etrafına, motorun outline'ını temsil eden 2.5" çapında bir daire ekleyin. Layout sketch artık tamamlandı.  </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-3.webp" style="width:100%">
-      <figcaption> 3. Create a new sketch for the motor plate. Using the layout as the reference, draw a 1.125" hole for the bearing and a 1.25" hole for the motor boss (the nub that sticks out from the motor). Note that depending on your manufacturing processes and tolerances, you may need to draw your bearing holes slightly larger or smaller than nominal (1.125"). </figcaption>
+      <figcaption> 3. Motor plakası için yeni bir sketch oluşturun. Layout'u referans olarak kullanarak, rulman için 1.125" delik ve motor boss'u (motordan çıkan çıkıntı) için 1.25" delik çizin. Üretim süreçlerinize ve toleranslarınıza bağlı olarak, rulman deliklerini nominalden (1.125") biraz daha büyük veya daha küçük çizmeniz gerekebileceğini unutmayın. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-4.webp" style="width:100%">
-      <figcaption> 4. Add two mounting holes for the motor on a 2" bolt circle. When using only two mounting holes, an alternative to using a circular pattern is to draw and dimension a 2" <it>construction circle</it>, then draw the holes for the bolts on the circle. Make sure to constrain the angle of the holes as well; we used a horizontal constraint.</figcaption>
+      <figcaption> 4. Motor için 2" bolt daire üzerinde iki montaj deliği ekleyin. Sadece iki montaj deliği kullanırken, dairesel pattern kullanmaya bir alternatif olarak 2" <it>construction circle</it> çizip ve boyutlandırmak, sonra boltları daire üzerine çizmektir. Deliklerin açısını da kısıtladığınızdan emin olun; biz yatay kısıtlama kullandık.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-5.webp" style="width:100%">
-      <figcaption>  5. Add the four bolt holes for connecting the two plates. Use a center rectangle to create the construction geometry so that only two dimensions are required to constrain the holes.</figcaption>
+      <figcaption>  5. İki plakayı birleştirmek için dört bolt deliği ekleyin. Construction geometrisini oluşturmak için center rectangle kullanın, böylece delikleri kısıtlamak için sadece iki boyut gerekir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-6.webp" style="width:100%">
-      <figcaption> 6. Using centerpoint arcs, lines, and the sketch mirror tool, draw the outline for the plate around the holes and motor outline. The intelligent placement of the origin along the vertical line of symmetry allows you to use the right plane to mirror the plate outline. </figcaption>
+      <figcaption> 6. Centerpoint arcs, çizgiler ve sketch mirror aracını kullanarak, deliklerin ve motor outline'ın etrafında plaka outline'ını çizin. Origin'in simetri çizgisi boyunca akıllı yerleşimi, right plane'i kullanarak plaka outline'ını ayna yapmanızı sağlar. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-7.webp" style="width:100%">
-      <figcaption> 7. Extrude the motor plate to be 1/4" thick. </figcaption>
+      <figcaption> 7. Motor plakasını 1/4" kalınlığında extrude edin. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-8.webp" style="width:100%">
-      <figcaption> 8. Use the <code>Robot Spacer</code> Featurescript to add #10 free fit, 3/8" OD (automatic), 3/4" long spacer. </figcaption>
+      <figcaption> 8. #10 serbest geçme, 3/8" ÇD (otomatik), 3/4" uzunlukta spacer eklemek için <code>Robot Spacer</code> Featurescript'i kullanın. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-9.webp" style="width:100%">
-      <figcaption> 9. Create the outer plate sketch on the face of the spacer. Use the <code>Use</code> sketch tool to project the holes and edges of the motor plate, but add a round cutout at the top using one of the <code>arc</code> tools. Note that the sketch can be mostly defined by using constraints such as <code>tangent</code>, <code>equal</code>, and <code>vertical</code>.</figcaption>
+      <figcaption> 9. Spacer yüzünde outer plaka sketch'ini oluşturun. Motor plakasının deliklerini ve kenarlarını projeyecek şekilde <code>Use</code> sketch aracını kullanın, ancak <code>arc</code> araçlarından birini kullanarak üstte yuvarlak bir kesik ekleyin. Sketch'in büyük ölçüde <code>tangent</code>, <code>equal</code> ve <code>vertical</code> gibi kısıtlamalar kullanılarak tanımlanabileceğini unutmayın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-10.webp" style="width:100%">
-      <figcaption>10. Extrude the outer plate to be 1/4" thick.</figcaption>
+      <figcaption>10. Outer plakayı 1/4" kalınlığında extrude edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/RDXcECn8uSI?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>11. Use the <code>Robot Shaft</code> Featurescript to model the output shaft. Follow the settings used.</figcaption>
+      <figcaption>11. Output şaftı modellemek için <code>Robot Shaft</code> Featurescript'ini kullanın. Kullanılan ayarları izleyin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/parts-0.webp" style="width:100%">
-      <figcaption> 12. Finished part studio. Name the key sketches and features. Set the name, material (6061 Aluminum), and appearance of the plates and spacer by right clicking the parts in the part list. The shaft has its material automatically determined from the <code>Robot Shaft</code> Featurescript.</figcaption>
+      <figcaption> 12. Tamamlanmış part studio. Önemli sketch'leri ve özellikleri adlandırın. Plakaların ve spacer'ın adını, malzemesini (6061 Aluminum) ve görünümlerini parça listesinde parçalara sağ tıklayarak ayarlayın. Şaftın malzemesi otomatik olarak <code>Robot Shaft</code> Featurescript'inden belirlenir.</figcaption>
     </figure>
   </div>
   <!-- Next and previous buttons -->
@@ -133,19 +134,19 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
   </div>
 </div>
 
-### Assembly Instructions
+### Assembly Talimatları
 
-When putting together the assembly, **you may have some difficulty mating the motor pinion gear** to the motor shaft. 
+Montajı yaparken, **motor pinion dişlisini motora mate ederken bazı zorluklar yaşayabilirsiniz**.
 
-You can **lock the visible mate connectors on a face by holding the `Shift` key before going to press on a mate connector** that isn't physically on the face. Watch the video below for a tutorial.
+Bir yüzdeki görünür mate connectorları, bir mate connector'a basmadan önce `Shift` tuşuna basarak kilitleyebilirsiniz. Bir eğitim için aşağıdaki videoyu izleyin.
 
 <div class="slide-content">
   <iframe src="https://www.youtube.com/embed/zI8wBHeTfdc?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-  <figcaption>Using the Shift key to lock mate inferences while mating</figcaption>
+  <figcaption>Shift tuşunu kullanarak mate sırasında inference'ları kilitleme</figcaption>
 </div>
 
 
-**Now navigate to the "Exercise #1 Assembly" tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
+**Şimdi kopyaladığınız belgede "Exercise #1 Assembly" sekmesine gidin** ve **slaytlardaki talimatları izleyerek** egzersizi tamamlayın.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -161,49 +162,49 @@ You can **lock the visible mate connectors on a face by holding the `Shift` key 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/kChIFuuLahU?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption> 1. Insert the part studio into the assembly and fix the gearbox plate. Group mate the two plates together and then mate the spacer to the motor plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
+      <figcaption> 1. Part studioyu montaja ekleyin ve şanzıman plakasını sabitleyin. İki plakayı birlikte group mate edin, sonra spacer'ı motor plakasına mate edin. Ardından, <code>Replicate</code> aracını kullanarak spacer'ı ve ilişkili mate'ini diğer spacer konumlarına replike edin. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/gKP-n5eKmjE?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption> 2. Assemble the bearings and shaft using parts from FRCDesignLib.</figcaption>
+      <figcaption> 2. FRCDesignLib'den parçaları kullanarak rulmanları ve şaftı monte edin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/ZJCs0ms3I8A?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption> 3. Assemble the motor and motor pinion gear using parts from FRCDesignLib. You will need to use mate inference locking to fasten the motor to the motor pinion: See the above drop down to learn how. </figcaption>
+      <figcaption> 3. FRCDesignLib'den parçaları kullanarak motoru ve motor pinion dişlisini monte edin. Motoru motor pinion'a fasten etmek için mate inference kilitlemeyi kullanmanız gerekecek: Nasıl yapılacağını öğrenmek için yukarıdaki dropdown'a bakın. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/mMP-kkl6AuY?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption> 4. Assemble the shaft spacer and gear using parts from FRCDesignLib. Configurable parts will have a blue grid icon in the instance list. Notice how you were able to change the tooth count of the gear from 40T to 60T after mating it. Using configurable components like this makes your models more parametric since you can change the component without needing to re-insert and mate. </figcaption>
+      <figcaption> 4. FRCDesignLib'den parçaları kullanarak şaft spacer'ını ve dişliyi monte edin. Configurable parçaların instance listesinde mavi ızgara ikonu vardır. Dişlinin diş sayısının mate ettikten sonra 40T'den 60T'ye nasıl değiştirildiğine dikkat edin. Bu gibi configurable bileşenleri kullanmak, modellerinizi daha parametrik yapar çünkü bileşeni yeniden eklemeye ve mate etmeye gerek kalmadan değiştirebilirsiniz. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/SytVbO_-BrM?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption> 5. Insert the shaft retention bolts from FRCDesignLib. </figcaption>
+      <figcaption> 5. FRCDesignLib'den şaft tutma boltlarını ekleyin. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
        <iframe src="https://www.youtube.com/embed/D4OWWMYYwWM?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption> 6. Add the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts.</figcaption>
+      <figcaption> 6. Motor boltlarını, şanzıman boltlarını ve somunları FRCDesignLib parçalarını kullanarak ekleyin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise1/assy-0.webp" style="width:100%">
-      <figcaption>7. Finished assembly. Make sure to sort your parts into folders and name your replicate features. </figcaption>
+      <figcaption>7. Tamamlanmış montaj. Parçalarınızı klasörlere sıraladığınızdan ve replicate özelliklerinizi adlandırdığınızdan emin olun. </figcaption>
     </figure>
   </div>
   <!-- Next and previous buttons -->
@@ -215,14 +216,13 @@ You can **lock the visible mate connectors on a face by holding the `Shift` key 
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 19 Instances and weigh approximately 2.3 lbs.
+!!! Success "Doğrulama"
+    Sizin ve/veya takımınızın daha deneyimli bir üyesinin/mentorünün [**CAD'inizi incelemesini sağlayın!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Montajınızın 18 Instance'ı olmalı ve yaklaşık 2.3 lbs ağırlığında olmalıdır.
 
 
-### Configurable Parts
+### Configurable Parçalar
 
-In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from FRCDesignLib were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component. Try and use configurable parts when they are available to make your models more parametric.
+Bu egzersizte ilk şanzımanınızı yaptınız. Bunu yaparken, aynı parçanın varyasyonlarına izin veren güçlü bir araç olan parça konfigürasyonlarını da kullandınız. FRCDesignLib'den eklediğiniz dişliler configurable idi - diş sayısını yeni bir bileşen eklemeye gerek kalmadan kolayca değiştirebilmeniz sağlandı. Modellerinizi daha parametrik yapmak için müsait olduğunda configurable parçaları kullanmaya çalışın.
 
 <br>
-
 

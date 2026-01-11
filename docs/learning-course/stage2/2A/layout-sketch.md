@@ -2,48 +2,48 @@
 
 ## Layout Sketch
 
-The following outlines the steps you should take to design your ball shooter. The reference document is provided below:
+Top shooter'ınızı tasarlamak için izlemeniz gereken adımlar aşağıda özetlenmiştir. Referans doküman aşağıda sağlanmıştır:
 
 <center markdown>[Shooter Reference Document](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/ad76a30633d5b293d92d8217 "Shooter Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
 ### Initial Layout
 
-1. Use the Origin Cube Featurescript to insert the Origin Cube.
-2. Sketch any field elements you intend to interact with. There's no hard alignment, but you intend to shoot into the back goal of the "Power Port," so you must sketch that from a side view using the game manual and field layout drawings for reference. Place it 135 inches away from the origin, as that places the center of your robot 15 inches away from the white "initiation line"
+1. Origin Cube Featurescript'i kullanarak Origin Cube'ü ekleyin.
+2. Etkileşmeyi düşündüğünüz saha unsurlarını eskizleyin. Sabit bir hizalama yok, ancak "Power Port"un arkadaki golüne ateş etmeyi düşünüyorsunuz, bu yüzden oyun kılavuzunu ve saha düzeni çizimlerini referans alarak bir yan görünümden bunu eskizlemeniz gerekir. Robotunuzun merkezini beyaz "başlangıç çizgisinden" 15 inç uzakta tutacak şekilde onu orijinden 135 inç uzaklığa yerleştirin
 
 <figure>
-    <img src="/img/learning-course/stage2-shooter/Field Elements.webp" width="80%">    
-    <figcaption>Field Element Layout Sketch</figcaption>
+    <img src="/img/learning-course/stage2-shooter/Field Elements.webp" width="80%">
+    <figcaption>Saha Unsurları Düzeni Eskizi</figcaption>
 </figure>
 
-3. Sketch a side view of your drivetrain + bumpers.
-4. Sketch a rectangle with your frame perimeter and height limit. This becomes your bounding box on where to design.
+3. Drivetrain + bumpers'ınızın yan görünümlerini eskizleyin.
+4. Çerçeve çevreniz ve yükseklik sınırlamanızla bir dikdörtgen eskizleyin. Bu, tasarım yapacağınız yerde sınırlayıcı kutunuz olur.
 
-### Shooter Layout
+### Shooter Düzeni
 
-5. Sketch your flywheel location, with the flywheels being 4in diameter.
-6. Sketch another circle concentric with the flywheels, 0.5" smaller in radius. This is to compensate for the compression of the ball.
-7. Sketch another circle, concentric with the other two circles, and make the outside of that circle 7 inches away from the outside of the 3" compression circle. This large circle is to denote the path of the ball and eventually the bent polycarb the ball slides against.
-8. Sketch your hood wheels by adding two 2 inch circles tangent to the outside of the large circle. Dimension them from each other using a belt calculator.
-9. To constrain your shot angle to the field element placement, since the hood is not adjustable, create a line between the 3" compression circle and the last hood wheel, create an arc from the center of that line to the center of the back goal of the Power Port, and make it normal to the first line you made in this step. Adjust the radius of the arc until you are happy with the arc. The arc itself can be adjustable in real life depending on how far away from the goal you are by adjusting the speed of the flywheels.
+5. Flywheel konumunu, flywheel'lerin 4 inç çapında olacak şekilde eskizleyin.
+6. Flywheel'lerle eş merkezli başka bir daire çizin, yarıçapı 0.5" daha küçük. Bu, topun compression'ını telafi etmek içindir.
+7. Diğer iki daireyle eş merkezli başka bir daire çizin ve bu dairenin dışını 3" compression dairenin dışından 7 inç uzakta yapın. Bu büyük daire, topun yolunu belirtmek ve sonunda topun kayacağı eğilmiş polikarbonu belirtmek içindir.
+8. Hood tekerleklerini, büyük dairenin dışına teğet olan iki 2 inç daire ekleyerek eskizleyin. Bir kayış hesaplayıcı kullanarak birbirlerinden boyutlarını belirleyin.
+9. Atış açınızı saha unsuru yerleşimine sınırlamak için, hood ayarlanabilir olmadığından, 3" compression dairesi ve son hood tekerleği arasında bir çizgi oluşturun, Power Port'un arkadaki golünün merkezinden bu çizginin merkezine bir yay oluşturun ve bu adımda oluşturduğunuz ilk çizgiye normal yapın. Yayın yarıçapını, yaydan memnun kalana kadar ayarlayın. Yayın kendisi gerçek hayatta, golden ne kadar uzak olduğunuza bağlı olarak flywheel'lerin hızını ayarlayarak ayarlanabilir olabilir.
 
 <figure>
-    <img src="/img/learning-course/stage2-shooter/Constrained Shot Angle.webp" width="80%">    
-    <figcaption>Sketched Shooter Ball Trajectory</figcaption>
+    <img src="/img/learning-course/stage2-shooter/Constrained Shot Angle.webp" width="80%">
+    <figcaption>Eskizlenen Shooter Top Trajektörisi</figcaption>
 </figure>
 
-10. Decide where you want the motors for the flywheels to go and dimension them away from the flywheel center using a belt calculator.
+10. Flywheel'ler için motorların nereye gitmesini istediğinize karar verin ve bir kayış hesaplayıcı kullanarak flywheel merkezinden uzaklıklarını boyutlandırın.
 
-### Feeder 
+### Feeder
 
-11. Now decide how the shooter is being fed. This depends on the amount of space in the rest of the indexing system, but here we're using an S-shape feeder because the balls are being fed from the front and shot from the back. Sketch two concentric circles for the feeder wheels (green compliant wheels), 3" and 2" to account for the compression of the wheels, making the 2" circle concentric to the large ball path circle. Add a final large ball path circle concentric with your feeder wheels and make it tangent to the original 3" compression circle of the flywheels.
-12. Sketch 7" circles representing the power cells to further demonstrate the ball path.
+11. Şimdi shooter'ın nasıl beslendiğine karar verin. Bu, indexleme sisteminin geri kalanındaki alan miktarına bağlıdır, ancak burada topların önden beslendiği ve arkadan atıldığı bir S-shape feeder kullanıyoruz. Feeder tekerlekleri (yeşil compliant tekerlekler) için iki eş merkezli daire, tekerleklerin compression'ını hesaba katmak için 3" ve 2", 2" daireyi büyük top yolu daireyle eş merkezli yaparak oluşturun. Feeder tekerleklerinizle eş merkezli final büyük top yolu daresini ekleyin ve onu flywheel'lerin orijinal 3" compression dairesine teğet yapın.
+12. Power cell'leri temsil eden 7" daireleri, top yolunu daha fazla göstermek için eskizleyin.
 
-Now make sure all the geometry in the main layout sketch is fully constrained (black). Constrain any unconstrained geometry arbitrarily if you need to.
+Şimdi ana layout eskizindeki tüm geometrinin tam olarak kısıtlandığından (siyah) emin olun. Gerekirse rastgele kısıtlanmamış geometriyi kısıtlayın.
 
 <figure>
-    <img src="/img/learning-course/stage2-shooter/Finished Master Sketch.webp" width="70%">    
-    <figcaption>Finished Layout Sketch</figcaption>
+    <img src="/img/learning-course/stage2-shooter/Finished Master Sketch.webp" width="70%">
+    <figcaption>Tamamlanmış Layout Eskizi</figcaption>
 </figure>
 
 <br>

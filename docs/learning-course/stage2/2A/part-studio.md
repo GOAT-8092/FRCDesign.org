@@ -5,26 +5,26 @@
 ## Part Studio
 
 !!! Tip
-    You can use the rollback bar to view the reference shooter part studio at each step of the process.
+    Rollback barını kullanarak referans shooter part studio'yu sürecin her adımında görüntüleyebilirsiniz.
 
-### Structure
+### Yapı
 
-1. Model your reference drivetrain cross tubes that the shooter plates will mount onto and make them a closed composite part. These will be 8 inches apart to leave room for the ball to travel between the plates.
-2. Model your main plate on the inside of the cross rails, sketching mounting hardware holes first, including standoffs to hold the bent polycarb following the edge of the large ball path circle concentric to the feeder wheels, then power transmission (motors, belt center-to-center lines, gear pitch circles), then finally the plate outline. Similar to sketching a large gearbox, isn't it? Make sure to extrude it and mirror it for parametric reference for other parts.
-3. Model the additional 1x1 tube used to mount the front of the shooter to the drivetrain. This helps keep it rigid despite potential flywheel vibrations at high speeds.
+1. Shooter plakalarının monte edeceği referans drivetrain çapraz borularını modelleyin ve bunları kapalı bir kompozit parça yapın. Bunlar topun plakalar arasında seyahat etmesi için alan bırakacak şekilde 8 inç aralıkta olacaklar.
+2. Ana plakanızı çapraz raylerin içine modelleyin, önce montaj donanım deliklerini eskizleyin, feeder tekerleklerini büyük top yolu daire çevresini takip eden eğilmiş polikarbonu tutan standoffs'ları dahil ederek, sonra güç aktarımını (motorlar, kayış merkezden merkeze çizgileri, diş step circles), ve son olarak plaka ana hatlarını eskizleyin. Büyük bir dişli kutusu eskizlemeye benzer, değil mi? Diğer parçalar için parametrik referans için extrude edin ve ayna olduğundan emin olun.
+3. Shooter'ın önünü drivetrain'e monte etmek için kullanılan ek 1x1 boruyu modelleyin. Bu, yüksek hızlarda olası flywheel titreşimlerine rağmen rijit kalmasına yardımcı olur.
 
-### Power Transmission
+### Güç Aktarımı
 
-4. Model the power transmission components using the `Belt & Chain Gen` and `Shaft Generator` featurescripts. 
-5. Most pulleys will be inserted in the assembly using MKCAD's configurable HTD pulley part (they can all be 3D-printed), but the Kraken x60 pinion pulley for the feeder wheels will use a SplineXS 3D-printed part adapter. Use MKCAD to derive the base pulley into the part studio, and derive the SplineXS 3dp adapter from [this document](https://cad.onshape.com/documents/1b85e3f2d6e09d4be8bb81ba/v/531d064ba727d665df487f4a/e/e64fbaae49bd0a01559aa66c?renderMode=0&uiState=668f43004852b8565ff6390e "SplineXS 3D Print Adapter"){:target="_blank"}. Perform a boolean subtract operation on the pulley with the adapter to create the cutout, checking keep tools to keep the adapter part. Make sure they're transformed into the correct place on the main plate.
+4. `Belt & Chain Gen` ve `Shaft Generator` featurescript'lerini kullanarak güç aktarım bileşenlerini modelleyin.
+5. Çoğu kasnak MKCAD'nin yapılandırılabilir HTD kasnak parçası kullanılarak assembly'e eklenecektir (hepsi 3D yazdırılabilir), ancak feeder tekerlekleri için Kraken x60 pinion kasnağı bir SplineXS 3D-yazdırılmış parça adaptörü kullanacaktır. MKCAD'yi kullanarak taban kasnağı part studio'ya derive edin ve [bu dokümandan](https://cad.onshape.com/documents/1b85e3f2d6e09d4be8bb81ba/v/531d064ba727d665df487f4a/e/e64fbaae49bd0a01559aa66c?renderMode=0&uiState=668f43004852b8565ff6390e "SplineXS 3D Print Adapter"){:target="_blank"} SplineXS 3dp adaptörünü derive edin. Kasnakta adaptör ile bir boolean subtract işlemi gerçekleştirin, kesimi oluşturmak için, adaptör parçasını tutmak için keep tools kontrol edin. Ana plakada doğru yerlere dönüştürüldüklerinden emin olun.
 
-### Finishing Steps
-6. Model the polycarb backing with holes in it to attach it to the standoffs with zip ties.
-7. Model the 3D-printed camera mount and camera mount spacers for the Limelight 3
+### Bitirme Adımları
+6. Delgelerle bağlamak için delikleri olan polikarbon desteğini modelleyin.
+7. Limelight 3 için 3D-yazdırılmış kamera montajını ve kamera montaj spacer'lerini modelleyin
 
 <figure>
     <img src="/img/learning-course/stage2-shooter/Shooter Part Studio.webp" width="50%">
-    <figcaption>Finished Part Studio</figcaption>
+    <figcaption>Tamamlanmış Part Studio</figcaption>
 </figure>
 
 <br>

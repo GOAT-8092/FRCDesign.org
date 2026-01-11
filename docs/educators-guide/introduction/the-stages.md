@@ -1,78 +1,78 @@
-# The Stages
-The course progressively builds complexity while reinforcing core concepts of CAD organization, mechanism design, and engineering best practices. It starts with basic CAD skills and culminates in complete complex mechanism designs. 
+# Aşamalar
+Kurs, CAD organizasyonu, mekanizma tasarımı ve mühendislik en iyi uygulamaları temel kavramlarını pekiştirirken karmaşıklığı kademeli olarak artırır. Temel CAD becerileriyle başlar ve tam karmaşık mekanizma tasarımlarıyla sonuçlanır.
 
-## Stage Section Overview
+## Aşama Bölümüne Genel Bakış
 
-Stage 0: Introduction to CAD
+Aşama 0: CAD'e Giriş
 
-- Introduces CAD and its importance in FRC
-- Teaches how to set up Onshape accounts and install essential Featurescripts and FRCDesignLib
-- Covers basic CAD theory and concepts like sketches and features
-- Explains Onshape interface navigation and Documents Page
+- CAD'i ve FRC'deki önemini tanıtır
+- Onshape hesaplarını nasıl kuracağınızı ve gerekli Featurescripts ve FRCDesignLib'i nasıl kuracağınızı öğretir
+- Sketch ve özellikler gibi temel CAD teorisi ve kavramlarını kapsar
+- Onshape arayüz gezintisi ve Belgeler Sayfasını açıklar
 
-Stage 1A: Onshape Fundamentals
+Aşama 1A: Onshape Temelleri
 
-- Teaches basic sketching and part modeling through FRC-relevant exercises
-- Introduces mechanisms like tubes, gussets, and basic structural components
-- Introduces the idea of multi-part modeling
-- Covers assembly basics and mate types
-- Focuses on proper organization and naming conventions
+- FRC ile ilgili alıştırmalar yoluyla temel sketch ve parça modellemeyi öğretir
+- Borular, gussetler ve temel yapısal bileşenler gibi mekanizmaları tanıtır
+- Çok parçalı modelleme fikrini tanıtır
+- Assembly temelleri ve mate türlerini kapsar
+- Düzenli organizasyon ve adlandırma kurallarına odaklanır
 
-Stage 1B: Power Transmissions  
+Aşama 1B: Güç Transmisyonları
 
-- Introduces the origin cube
-- Introduces motors, shafts, bearings and power transmission components
-- Covers gear ratios, belt/chain drives, and mechanical advantage concepts
-- Provides exercises modeling simple gearboxes and power transmission assemblies, using origin cube functions 
+- Origin küpünü tanıtır
+- Motorlar, miller, rulmanlar ve güç transmisyon bileşenlerini tanıtır
+- Dişli oranlarını, kayış/zincir sürücülerini ve mekanik avantaj kavramlarını kapsar
+- Origin küp işlevlerini kullanarak basit dişli kutuları ve güç transmisyon assembly'leri modelleme alıştırmaları sağlar
 
-Stage 1C: Practice Mechanisms
+Aşama 1C: Pratik Mekanizmalar
 
-- Provides increasingly complex mechanism exercises with decreasing guidance
-- Includes mechanisms like shooters, intakes, and indexers
-- Introduces more COTS components and assembly techniques
-- Focuses on practical application of previously learned concepts
+- Kılavuzlukta azalma ile artan karmaşıklıkta mekanizma alıştırmaları sağlar
+- Shooter'lar, intakeler ve indekserler gibi mekanizmaları içerir
+- Daha fazla COTS bileşen ve assembly tekniği tanıtır
+- Önceden öğrenilen kavramların pratik uygulamasına odaklanır
 
-Stage 1D: Design Methodology - Simple Swerve Drivebase
+Aşama 1D: Tasarım Metodolojisi - Basit Swerve Drivebase
 
-- Formally introduces top-down design methodology using layout sketches
-- Teaches proper origin placement and use of the Origin Cube
-- Walks through designing a basic swerve drive chassis
-- Covers organization of top-level robot assemblies
+- Layout sketch kullanarak üstten aşağı tasarım metodolojisini resmen tanıtır
+- Düzgün origin yerleşimini ve Origin Cube kullanımını öğretir
+- Basit bir swerve drive şasisi tasarımında yürür
+- Üst düzey robot assembly'lerinin organizasyonunu kapsar
 
-Stage 1E: Subsystem Workflow - Detailing the Drivebase
+Aşama 1E: Alt Sistem İş Akışı - Drivebase'yi Detaylandırma
 
-- Covers the process of fully detailing a drivebase subsystem
-- Includes battery mounting, electronics placement, and bumper design
-- Teaches proper cable routing and component organization
-- Focuses on making assemblies manufacturable and maintainable
+- Bir drivebase alt sistemini tamamen detaylandırma sürecini kapsar
+- Batarya montajı, elektronik yerleşimi ve bumper tasarımını içerir
+- Düzgün kablo yönlendirme ve bileşen organizasyonu öğretir
+- Assembly'leri üretilebilir ve bakım yapılabilir hale getirmeye odaklanır
 
-Stage 2A: Basic Shooter
+Aşama 2A: Temel Shooter
 
-- Covers design of a flywheel shooter mechanism
-- Teaches concepts of compression, wrap, and exit velocity
-- Includes friction reduction and efficiency optimization
-- Provides practical shooter design workflow
+- Bir flywheel shooter mekanizmasının tasarımını kapsar
+- Sıkıştırma, sarım ve çıkış hızı kavramlarını öğretir
+- Sürtünme azaltma ve verimlilik optimizasyonunu içerir
+- Pratik shooter tasarım iş akışı sağlar
 
-Stage 2B: Dead Axle Pivot
+Aşama 2B: Dead Aks Pivot
 
-- Teaches design of robust pivot mechanisms
-- Covers concepts of friction, strength, and backlash
-- Includes proper bearing/bushing selection
-- Shows organization of moving assemblies
+- Sağlam pivot mekanizmalarının tasarımını öğretir
+- Sürtünme, güç ve backlash kavramlarını kapsar
+- Düzgün rulman/bus seçimini içerir
+- Hareketli assembly'lerin organizasyonunu gösterir
 
-Stage 2C: Slapdown Intake
+Aşama 2C: Slapdown Intake
 
-- Covers design of an over-the-bumper intake mechanism
-- Teaches intake design best practices and "golden rules"
-- Introduces concepts like zombie axles
-- Shows organization of complex moving assemblies
+- Over-the-bumper intake mekanizmasının tasarımını kapsar
+- Intake tasarımı en iyi uygulamalarını ve "altın kurallarını" öğretir
+- Zombie aksler gibi kavramları tanıtır
+- Karmaşık hareketli assembly'lerin organizasyonunu gösterir
 
-Stage 2D: Cascade Elevator
+Aşama 2D: Cascade Asansör
 
-- Teaches design of cascade vs continuous elevators
-- Covers proper rigging, cable management, and tensioning
-- Includes elevator block selection and implementation
-- Shows organization of multi-stage linear motion assemblies
+- Cascade ve sürekli asansörleri tasarlamayı öğretir
+- Düzgün rigging, kablo yönetimi ve gerginliği kapsar
+- Asansör bloğu seçimini ve uygulamasını içerir
+- Çok aşamalı lineer hareket assembly'lerinin organizasyonunu gösterir
 
 
 

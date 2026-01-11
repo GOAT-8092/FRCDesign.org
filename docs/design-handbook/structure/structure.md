@@ -1,33 +1,33 @@
-# Structure
+# Yapı
 
-A guide on creating robust and versatile robot structures. Covers different materials, techniques, and COTS components.
+Sağlam ve çok yönlü robot yapıları oluşturma rehberi. Farklı malzemeleri, teknikleri ve COTS bileşenleri kapsar.
 
 <!-- Add round tube, rectangular tube, thin vs thick wall tube -->
 
-## Box Tube
+## Kutu Profil
 
-**Coming Soon**
+**Çok Yakında**
 
-### Tube Plugs
+### Profil Plugs
 
-Tube plugs are metal inserts that go into the ends of box tube that allow you to fasten tubes together without the use of gussets. Combining tube plugs with crush blocks provides a simple and strong connection between tubes. Tube plugs find a major use in modern elevator designs due to how much they simplify the design process. By not having to worry about bearing blocks interfering with gussets, you massively cut down on design complexity while also cutting part count and robot cost. When bolting tube plugs to the tube you typically dont need to use all 8 available bolts, with 2-4 being acceptable for most use cases.
+Profil plakaları, kutu profilin uçlarına giren metal Inserts'lerdir ve gusset kullanımı olmadan profilleri birbirine bağlamanıza izin verir. Profil plakalarını ezici bloklarla birleştirmek, profiller arasında basit ve güçlü bir bağlantı sağlar. Profil plakaları, tasarım sürecini ne kadar basitleştirdikleri nedeniyle modern asansör tasarımlarında büyük kullanım alanı bulur. Rulman bloklarının gussetlerle karışmasını konusunda endişelenmenize gerek kalmaması, tasarım karmaşıklığını büyük ölçüde azaltırken aynı zamanda parça sayısını ve robot maliyetini de azaltır. Profil plakalarını profile cıvatalarken genellikle mevcut olan 8 cıvatanın hepsini kullanmanıza gerek yoktur, çoğu kullanım durumu için 2-4 yeterlidir.
 
-!!! Note
-Tube plugs are made to fit into tubes of 1/8" wall thickness. For tube with thinner walls you can use a plastic sleeve (possibly 3D-printed) on the outside of the tube plug to fill the gap with no strength loss.
+!!! Not
+Profil plakaları 1/8" duvar kalınlığına sahip profillere sığacak şekilde yapılmıştır. Daha ince duvarlı profiller için, profil plakasının dışında (muhtemelen 3D yazdırılmış) bir plastik manşet kullanarak boşluğu güce kaybetmeden doldurabilirsiniz.
 
-!!! Info "Important"
-When using tube plugs, well-toleranced holes relative to the end of the tube are required to make a strong connection between the tubes.
+!!! Info "Önemli"
+Profil plakaları kullanırken, profiller arasında güçlü bir bağlantı yapmak için profil ucuna göre iyi toleranslı delikler gereklidir.
 
 <center markdown>![tube plug](/img/best-practices/tube-plug.webp){width=50%}</center>
 
-### Crush Blocks
+### Ezici Bloklar
 
-Crush blocks are common in modern FRC due to how frequently used thin-walled box tubing is. The main purpose of crush blocks is to prevent forces from buckling the thin wall of the tube. This is very easy to do by simply overtightening a bolt on the tube. Thus, crush blocks enable you to tighten the bolts more than you would without having a crush block. This stiffens the connection and the tube as a whole.
+Ezici bloklar, modern FRC'de ince duvarlı kutu profilinin sık kullanılması nedeniyle yaygındır. Ezici blokların ana amacı, kuvvetlerin profilin ince duvarını burkulmasını önlemektir. Bu, profil üzerinde bir cıvatalayı aşırı sıkmakla çok kolay yapılır. Böylece, ezici bloklar ezici blok olmadan olduğundan daha sıkı cıvataları sıkmanızı sağlar. Bu bağlantıyı ve profili bir bütün olarak sertleştirir.
 
-!!! Note
-Crush blocks can be made of any material, but 3D printing them is by far the simplest method of manufacturing for crush blocks. Just make sure to account for printer tolerances. Crush blocks shouldn't be too loose, but you also don't want to have to hammer them in.
+!!! Not
+Ezici bloklar herhangi bir malzemeden yapılabilir, ancak ezici bloklar için 3D yazıcı ile yazdırmak bugüne kadar en basit üretim yöntemidir. Yazıcı toleranslarını hesaba kattığınızdan emin olun. Ezici bloklar çok gevşek olmamalıdır, ancak içine sokmak için zorlamak da istemezsiniz.
 
 <center markdown>![simplest_crush](/img/best-practices/simplest-crush.webp){width=25%}</center>
-Above is the simplest form of a crush block: a piece of plastic that fills the empty space within the tube with some holes for bolts to go through. For a crush block at the end of a tube, you can include a flange to aide in alignment with the holes in the tube. Crush blocks may not be ideal for use in the middle of long tubes, since they would be hard to install and service; in these places, you can add an extra 1/16" plate on the outside of the tube to help spread the load of tightened bolts, functionally serving as a large washer. For additional strength, consider increasing the number of walls to 4-6 when 3D-printing.
+Yukarıda ezici bloğun en basit formu: profilin içindeki boşluğu dolduran ve cıvataların geçmesi için bazı delikleri olan bir plastik parçası. Bir profilin ucundaki ezici blok için, profildeki deliklerle hizalamaya yardımcı olmak için bir flanş ekleyebilirsiniz. Ezici bloklar, monte edilmesi ve servis edilmesi zor olacağı için uzun profillerin ortasında kullanmak için ideal olmayabilir; bu yerlerde, cıvataların sıkılmasından kaynaklanan yükü yaymaya yardımcı olmak için profilin dışına ekstra 1/16" bir plaka ekleyebilirsiniz, işlevsel olarak büyük bir pul olarak hizmet eder. Ekstra güç için, 3D yazdırırken duvar sayısını 4-6'ya artırmayı düşünün.
 
 <br>

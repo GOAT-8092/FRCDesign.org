@@ -1,12 +1,12 @@
-# 1C: Practice Mechanisms
+# 1C: Pratik Mekanizmalar
 
-## Exercise 8: Indexer Centering
+## Egzersiz 8: İndeksleyici Centering
 
-In this exercise, you will be modeling a centering indexer for 9.5" diameter balls, similar to [1678's 2022 indexer](https://www.youtube.com/watch?v=RiUaItTKomUhttps://www.youtube.com/watch?v=RiUaItTKomU "1678 2022 Robot Reveal Video"){:target="\_blank"}. This mechanism features belts, chain, gear, and tube crush blocks. Be sure to pay attention to the plate sketches when modeling.
+Bu egzersizde, 9.5" çapındaki toplar için bir centering indexer modelleyeceksiniz, [1678'in 2022 indexer'ına](https://www.youtube.com/watch?v=RiUaItTKomUhttps://www.youtube.com/watch?v=RiUaItTKomU "1678 2022 Robot Reveal Video"){:target="\_blank"} benzer. Bu mekanizma belt'ler, zincir, gear ve tüp crush blokları içerir. Modelleme yaparken plaka sketch'lerine dikkat etmeniz önerilir.
 
-### Part Studio Instructions
+### Part Studio Talimatları
 
-**Navigate to the "Exercise #8 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instruction slides** only provide a general outline and some key details.
+Kopyalanmış belgenizdeki **"Exercise #8 Part Studio" sekmesine gidin** ve bu egzersiz için part studio'yu tamamlamak için **solution belgesine başvurun**. **Aşağıdaki talimat slaytları** sadece genel bir outline ve bazı önemli detaylar sağlar.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -22,8 +22,8 @@ In this exercise, you will be modeling a centering indexer for 9.5" diameter bal
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/parts-1.webp" style="width:100%">
-      <figcaption>1. Begin by creating the layout sketch on the top plane.
-                  Just like with the previous exercise, we define the distance between the rollers by mirroring the indexer wheel.
+      <figcaption>1. Top plane üzerinde layout sketch oluşturarak başlayın.
+                  Önceki egzersizde olduğu gibi, roller arasındaki mesafeyi tanımlamak için indexer wheel'ı yansıtıyoruz.
       </figcaption>
     </figure>
   </div>
@@ -31,51 +31,51 @@ In this exercise, you will be modeling a centering indexer for 9.5" diameter bal
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/parts-2.webp" style="width:100%">
-      <figcaption>2. Model the thin-wall 2x1 tubes with Extrude Individual and Tube Converter.</figcaption>
+      <figcaption>2. Extrude Individual ve Tube Converter kullanarak ince cidarlı 2x1 tüpleri modelleyin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/parts-3.webp" style="width:100%">
-      <figcaption>3. Model the top plates and bottom plates. 
-                  The top plates can be modeled in the same sketch since they are on the same plane.</figcaption>
+      <figcaption>3. Üst plakaları ve alt plakaları modelleyin.
+                  Üst plakalar aynı düzlemde olduğu için aynı sketch'de modellenebilir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/parts-4.webp" style="width:100%">
-      <figcaption>4. Model a basic crush block that extends into the tube far enough for the first row of holes. Make sure to add the side holes for the bolts to pass through. Chamfer the edges to make it easier to install during IRL assembly.</figcaption>
+      <figcaption>4. İlk delik sırasına kadar kadar tüpün içine uzanan temel bir crush bloğu modelleyin. Bolt'ların geçmesi için yan delikleri eklediğinizden emin olun. IRL assembly sırasında kurulumu kolaylaştırmak için kenarları chamfer edin.</figcaption>
     </figure>
   </div>
-  
+
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/parts-5.webp" style="width:100%">
-      <figcaption>5. Model the belts using the <code>Belt & Chain Gen</code> Featurescript.</figcaption>
+      <figcaption>5. <code>Belt & Chain Gen</code> Featurescript'ini kullanarak belt'leri modelleyin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/parts-6.webp" style="width:100%">
-      <figcaption>6. Model the shafts <code>Robot Shaft</code> Featurescript. The exact length of the longer shafts is somewhat arbitrary for this exercise, just make them semi long as shown.</figcaption>
+      <figcaption>6. Shaft'ları <code>Robot Shaft</code> Featurescript ile modelleyin. Daha uzun shaft'ların kesin uzunluğu bu egzersiz için biraz keyfidir, sadece gösterildiği gibi yarı uzun yapın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/parts-7.webp" style="width:100%">
-      <figcaption>7. Pocket the plates using the <code>Part Lighten</code> featurescript. 
-                  Recall that you can select an entire sketch to automatically select all the ribs.</figcaption>
+      <figcaption>7. <code>Part Lighten</code> featurescript kullanarak plakaları pocket edin.
+                  Tüm rib'leri otomatik olarak seçmek için tüm bir sketch seçebileceğinizi hatırlayın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/parts-0.webp" style="width:100%">
-      <figcaption>8. Finish the part studio by naming your features and organizing them into folders. Assign the part materials accordingly.</figcaption>
+      <figcaption>8. Özellikleri adlandırarak ve klasörlere organize ederek part studio'yu tamamlayın. Parça malzemelerini buna göre atayın.</figcaption>
     </figure>
   </div>
 
@@ -90,9 +90,9 @@ In this exercise, you will be modeling a centering indexer for 9.5" diameter bal
   </div>
 </div>
 
-### Assembly Instructions
+### Assembly Talimatları
 
-**Next, navigate to the "Exercise #8 Assembly" tab** in your copied document and **refer to the solution document** to complete the assembly for this exercise. The **following instruction slides** only provide a general outline and some key details.
+**Sonra, kopyalanmış belgenizdeki **"Exercise #8 Assembly" sekmesine gidin** ve bu egzersiz için assembly'yi tamamlamak için **solution belgesine başvurun**. **Aşağıdaki talimat slaytları** sadece genel bir outline ve bazı önemli detaylar sağlar.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
@@ -106,66 +106,66 @@ In this exercise, you will be modeling a centering indexer for 9.5" diameter bal
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/assy-1.webp" style="width:100%">
-      <figcaption>1. Add the part studio parts to the assembly. Like before, group mate the rigid components with the Origin Cube and mate the Origin Cube to the assembly origin. </figcaption>
+      <figcaption>1. Part studio parçalarını assembly'ye ekleyin. Önceki gibi, rigid bileşenleri Origin Cube ile grup mate edin ve Origin Cube'u assembly origin'ine mate edin. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/assy-2.webp" style="width:100%">
-      <figcaption>2. Insert, fasten, and replicate the 2" long, 3/8" OD plate spacers. 
-                Insert, fasten, and replicate the 1.25" long, 3/8" OD motor spacers.
-                Copy and fasten the bottom gear plate to the 2" spacer.
-                Insert, fasten, and replicate the 1/2" rounded hex shaft bearings.</figcaption>
+      <figcaption>2. 2" uzunluğunda, 3/8" OD plaka spacer'larını insert edin, fasten edin ve replicate edin.
+                1.25" uzunluğunda, 3/8" OD motor spacer'larını insert edin, fasten edin ve replicate edin.
+                Alt gear plakasını 2" spacer'a kopyalayın ve fasten edin.
+                1/2" yuvarlatılmış hex shaft bearing'lerini insert edin, fasten edin ve replicate edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/assy-3.webp" style="width:100%">
-      <figcaption>3. Copy, fasten, and replicate the 3D printed crush block to the other tube ends.</figcaption>
+      <figcaption>3. 3D baskı crush bloğunu diğer tüp uçlarına kopyalayın, fasten edin ve replicate edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/assy-4.webp" style="width:100%">
-      <figcaption>4. Insert and fasten the motor, motor pulley, 48T 3D printed HTD pulley with 1/2" hex insert, 30T gears, and configurable spacer stacks from FRCDesignLib. Fasten the belt to the pulley. Also fasten the shafts.</figcaption>
+      <figcaption>4. Motoru, motor pulley'ini, 1/2" hex insert'li 48T 3D baskı HTD pulley'ini, 30T gear'ları ve FRCDesignLib'den yapılandırılabilir spacer yığınlarını insert edin ve fasten edin. Belt'i pulley'e fasten edin. Ayrıca shaft'ları fasten edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/assy-5.webp" style="width:100%">
-      <figcaption>5. Insert and fasten the bottom belt pulleys.</figcaption>
+      <figcaption>5. Alt belt pulley'lerini insert edin ve fasten edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/assy-6.webp" style="width:100%">
-      <figcaption>6. Insert and fasten the 6" REV Omni-wheels and 1/2" Hex MAXHubs from FRCDesignLib. Fasten the hubs to the wheels and fasten the wheel assemblies to the long shaft ends.</figcaption>
+      <figcaption>6. FRCDesignLib'den 6" REV Omni-wheel'lerini ve 1/2" Hex MAXHub'ları insert edin ve fasten edin. Hub'ları wheel'lere fasten edin ve wheel assembly'lerini uzun shaft uçlarına fasten edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/assy-7.webp" style="width:100%">
-      <figcaption>7. Insert, configure, and fasten 1/2" Hex spacers to fill the gap between the wheel's and plates. These can either be stacked COTS spacers, or a single custom spacer depending on preference.</figcaption>
+      <figcaption>7. Wheel'ların ve plakalar arasındaki boşluğu doldurmak için 1/2" Hex spacer'ları insert edin, configure edin ve fasten edin. Bunlar istiflenmiş COTS spacer'lar veya tercihe bağlı olarak tek bir özel spacer olabilir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/assy-8.webp" style="width:100%">
-      <figcaption>8. Insert, fasten, and replicate all of the required fasteners.</figcaption>
+      <figcaption>8. Gerekli tüm fastener'ları insert edin, fasten edin ve replicate edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/assy-0.webp" style="width:100%">
-      <figcaption>9. To finish the assembly, organize your components into folders and name your replicates.</figcaption>
+      <figcaption>9. Assembly'yi tamamlamak için, bileşenlerinizi klasörlere düzenleyin ve replicalarınızı adlandırın.</figcaption>
     </figure>
   </div>
 
@@ -180,7 +180,7 @@ In this exercise, you will be modeling a centering indexer for 9.5" diameter bal
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="\_blank"} If everything is present, modeled, and assembled correctly, you should have about 80 instances in your assembly.
+!!! Success "Doğrulama"
+    Siz ve/veya ekibinizden daha deneyimli bir üye/mentor [**CAD'inizi gözden geçirsin!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="\_blank"} Her şey mevcutsa, doğru modellenmişse ve doğru assembly edildiyse, assembly'nizde yaklaşık 80 instance olmalıdır.
 
 <br>

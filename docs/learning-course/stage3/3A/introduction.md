@@ -1,6 +1,6 @@
-# Stage 3
+# Aşama 3
 
-In this stage you will practice full robot main layout sketches, replicate simple robots, and practice top-down workflow and integration
+Bu aşamada tam robot ana yerleşik taslaklarını pratik yapacak, basit robotları kopyalayacak ve top-down iş akışı ve entegrasyon pratiği yapacaksınız.
 
 
-**Under Construction**
+**Yapım Aşamasında**

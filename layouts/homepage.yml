@@ -53,7 +53,7 @@ layers:
     origin: start bottom
     offset: { x: 90, y: 67 }
     typography:
-      content: A guide and technical reference for FRC design using Onshape.
+      content: 8092 - Greatest of All Times | FRC tasarımı için Onshape rehberi
       align: start center
       color: white
       line:

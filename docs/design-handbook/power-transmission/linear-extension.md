@@ -1,7 +1,7 @@
-# Linear Extension
+# Doğrusal Uzantı
 
-A guide on linear extension systems such as worm gears and rack and pinion.
+Solucan dişlileri ve dişli çubuk gibi doğrusal uzantı sistemleri rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

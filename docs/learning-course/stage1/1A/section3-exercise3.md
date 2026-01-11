@@ -1,25 +1,25 @@
-# 1A: Onshape Fundamentals - Section 3
-## Exercise 3: Gusset Setup
+# 1A: Onshape Temelleri - Bölüm 3
+## Egzersiz 3: Gusset Kurulumu
 
 !!! Info
-    This is a quick setup for the next activity.
+    Bu bir sonraki aktivite için hızlı bir kurulumdur.
 
-Find the "S3 Exercise 3" part studio in the "Section 3" folder in your copy of the template document. **Create a gusset** to connect the middle box tube to the outer frame.
+Şablon belgenizin kopyasındaki "Bölüm 3" klasöründeki "S3 Egzersiz 3" part studio'yunu bulun. Orta kutu borusunu dış çerçeveye bağlamak için **bir gusset oluşturun**.
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
   <figure style="flex: 1;">
     <img src="/img/learning-course/stage1a/s3e3-example.webp" style="width:120%">
-    <figcaption>The chassis you'll be working with</figcaption>
+    <figcaption>Çalışacağınız şasi</figcaption>
   </figure>
 
   <figure style="flex: 1;">
     <img src="/img/learning-course/stage1a/gusset.webp" style="width:80%">
-    <figcaption>Example of the gusset</figcaption>
+    <figcaption>Gusset örneği</figcaption>
   </figure>
 </div>
 
 ---
 
-When you are done with the gusset, move on to the next exercise.
+Gusset'i bitirdiğinizde, bir sonraki egzersize geçin.
 
 <br>

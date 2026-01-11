@@ -1,19 +1,19 @@
 # 2C: Slapdown Intake
 
-## Over-the-Bumper Intakes
-A common style of intake for gamepieces in FRC (depending on extension rules) is an "over-the-bumper" intake (OTB for short). These bring the gamepiece from the floor against and then over the bumper into another subsystem. They were used commonly in 2019, 2020, 2022, 2023, and 2024, and other past games. 
+## Over-the-Bumper Intake'lar
+FRC'de oyun parçaları için (uzatma kurallarına bağlı olarak) yaygın bir intake tarzı "over-the-bumper" intake'dır (OTB kısaca). Bunlar oyun parçasını zemin против ve ardından bumper'ın üzerinden başka bir alt sisteme getirirler. 2019, 2020, 2022, 2023 ve 2024 ve diğer geçmiş oyunlarda yaygın olarak kullanılmışlardır.
 
 ### Slapdown Intake
 
-The two types of OTB intakes are "slapdown" which consists of a single set of arms with rollers which slap down and back up again, and four-bar linkages, which allow the intake to stow more horizontally instead of vertically. The intake designed in this stage will be a slapdown intake for 2022 (inspired by 4414 HighTide’s slapdown intake from 2023).
+İki tip OTB intake vardır: tek bir roller seti ile aşağı ve yukarı tekrar vuran "slapdown" ve four-bar linkages, intake'ın daha yatay olarak depolanmasına izin verir. Bu aşamada tasarlanan intake, 2022 için bir slapdown intake olacaktır (4414 HighTide'un 2023 slapdown intake'ından esinlenilmiştir).
 
 <br>
 <figure><img align="left"  src="\img\learning-course\stage2-slapdown\1323intake.gif" width="44%" style="border:5px solid #ADADAD"><img align="right" src="\img\learning-course\stage2-slapdown\1678intake.gif" width="50%" style="border:5px solid #ADADAD"></figure>
-<center><figcaption>1323's 2022 Slapdown Intake and 1678's 2022 Four-bar Intake in action</figcaption></center>
+<center><figcaption>1323'un 2022 Slapdown Intake'ı ve 1678'in 2022 Four-bar Intake'ı aksiyonda</figcaption></center>
 <br>
 
-[Match footage of Team 1323's 2022 intake](https://www.youtube.com/watch?v=pSQX5c7G8yg "Team 1323 Match Footage"){:target="_blank"} is an example of a well executed slapdown intake.
+[Takım 1323'ün 2022 intake'ının Match footage'u](https://www.youtube.com/watch?v=pSQX5c7G8yg "Team 1323 Match Footage"){:target="_blank"} iyi bir şekilde yürütülen bir slapdown intake örneğidir.
 
-Other mechanism examples and deep dives for OTB intakes can be found on the [slapdown intakes page](../../../mechanism-examples/intake/slapdown/index.md "Slapdown Intake Mechanism Examples Page"){:target="_blank"} and [4-bar intakes page](../../../mechanism-examples/intake/linkage/index.md "4-bar Intake Mechanism Examples Page"){:target="_blank"}. The mechanism fundamentals page is yet to be made but will also be a helpful resource.
+OTB intakelar için diğer mekanizma örnekleri ve derinlemesine bilgiler [slapdown intakes page](../../../mechanism-examples/intake/slapdown/index.md "Slapdown Intake Mechanism Examples Page"){:target="_blank"} ve [4-bar intakes page](../../../mechanism-examples/intake/linkage/index.md "4-bar Intake Mechanism Examples Page"){:target="_blank"} sayfalarında bulunabilir. Mekanizma temelleri sayfası henüz yapılmadı ama da yardımcı bir kaynak olacaktır.
 
 <br>

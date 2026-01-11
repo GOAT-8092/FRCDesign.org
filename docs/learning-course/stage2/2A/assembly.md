@@ -4,13 +4,13 @@
 
 ## Assembly
 
-In your own document, create an assembly, insert the parts and origin cube from the part studio (excluding the reference tubes) with the green checkmark, and group them together. Fasten the origin cube to the origin.
+Kendi dokümanınızda bir Assembly oluşturun, Part Studio'dan parçaları ve origin cube'ü (referans boruları hariç) yeşil işaret ile ekleyin ve bunları bir grup haline getirin. Origin cube'ü orijine sabitleyin.
 
-Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. You can try using [simplified motors](https://cad.onshape.com/documents/6df614f3562416a3f9d98607/w/4e6feba12e09e298d8220fdc/e/7c565c28856cdb62e8b20117 "Simplified Motors Onshape Document"){:target="\_blank"}.
+Part Studio'dan kalan parçaları, MKCAD'den ve standart içerikten ekleyin, mümkün olduğunda replicate ve patterns kullanın. [Basitleştirilmiş motorları](https://cad.onshape.com/documents/6df614f3562416a3f9d98607/w/4e6feba12e09e298d8220fdc/e/7c565c28856cdb62e8b20117 "Simplified Motors Onshape Document"){:target="\_blank"} kullanmayı deneyebilirsiniz.
 
 <figure>
     <img src="\img\learning-course\stage2-shooter\Shooter Assembly.webp" style="width:60%">
-    <figcaption>Finished Assembly</figcaption>
+    <figcaption>Tamamlanmış Assembly</figcaption>
 </figure>
 
 <br>

@@ -1,43 +1,43 @@
-# 2B: Dead Axle Pivot
+# 2B: Dingil Silisi Pivot
 
-## Rotary Mechanisms
-Rotary mechanisms enable the pivoting of mechanisms through rotational movement. These mechanisms come in many shapes and sizes but there are a couple good practices that should be followed when designing powered pivots.
+## Rotary Mekanizmalar
+Rotary mekanizmalar, döner hareket ile mekanizmaların pivotlanmasını sağlar. Bu mekanizmalar birçok şekil ve boyutta gelir, ancak güçlendirilmiş pivotlar tasarlanırken izlenmesi gereken birkaç iyi uygulama vardır.
 
 <figure><img align="left"  src="/img/learning-course/stage2-pivot/6036pivot.gif" width="46%" style="border:5px solid #ADADAD"><img align="right"  src="\img\learning-course\stage2-pivot\2910video.gif" width="48%" style="border:5px solid #ADADAD"></figure>
-<center><figcaption>6036's 2023 Arm and 2910's 2023 Arm</figcaption></center>
+<center><figcaption>6036'un 2023 Kolu ve 2910'un 2023 Kolu</figcaption></center>
 
-Take a look at [Team 2910's 2023 robot reveal video](https://youtu.be/R5r28-MQqzg?si=wgrmD0YIbUkkHDyv&t=65 "2910 2023 Reveal Video"){:target="_blank"} to see their pivoting arm in action. 
-
-
-### Pivot Drive Systems
-
-Two types of pivot drive systems exist: Dead Axles and Live Axles. The following table compares the pros and cons of the two types.
+[Takım 2910'un 2023 robot reveal videosunu](https://youtu.be/R5r28-MQqzg?si=wgrmD0YIbUkkHDyv&t=65 "2910 2023 Reveal Video"){:target="_blank"} izleyerek pivotlayan kolunu aksiyon halinde görün.
 
 
-| **Axle Type** | **Description**  | **Pros**   | **Cons**  | **Picture** | 
+### Pivot Sürücü Sistemler
+
+İki tip pivot sürücü sistemi vardır: Dingil Silileri ve Live Axles. Aşağıdaki tablo iki tipin artılarını ve eksilerini karşılaştırır.
+
+
+| **Mil Tipi** | **Açıklama**  | **Artıları**   | **Eksileri**  | **Resim** |
 |---------------|------------------------------------------------------------|--------------------------|-----------------------------------|------|
-| **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May run into packaging issues  | ![dead axle](\img\learning-course\stage2-pivot\dead-axle-side.webp){width=70%}
-| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs.| Simple setup. Direct power transfer.  | Risk of twisting the axle. Commonly done with 1/2 hex which may be too weak for the application| ![live axle](\img\learning-course\stage2-pivot\liveAxlePivot.webp){width=70%}
+| **Dingil Silisi** | Mil sabit kalır ve mekanizma onun etrafında pivotlanır.   | Daha güçlü, daha büyük mil, milin bükülme riski yok.| Güç transferi için ayrı bir yöntem gerektirir. Paketleme sorunlarına yol açabilir  | ![dead axle](\img\learning-course\stage2-pivot\dead-axle-side.webp){width=70%}
+| **Live Axle** | Mil mekanizma ile birlikte döner. Genellikle hex miller ve hub'lar ile kullanılır.| Basit kurulum. Doğrudan güç transferi.  | Milin bükülme riski. Genellikle 1/2 hex ile yapılır, bu uygulama için çok zayıf olabilir| ![live axle](\img\learning-course\stage2-pivot\liveAxlePivot.webp){width=70%}
 
-Out of these, dead axles (and coaxial designs as a result) are the best choice for pivots, especially ones that need to handle a significant amount of load.
+Bunlar arasında, dead axles (ve sonuç olarak koaksiyal tasarımlar) pivotlar için en iyi seçimdir, özellikle önemli miktarda yükü kaldırmaları gerekenler için.
 
-Some key points when designing pivoting mechanisms are: 
+Pivotlayan mekanizmaları tasarlarken bazı önemli noktalar şunlardır:
 
-1. Keep the center of mass of the pivoting "arm" as close to the pivot as possible.
-2. Ensure the axle is fully supported, using either box tube or nested plates.
-3. Maintain a rigid support structure.
-4. If the structure is wide, power both sides for additional rigidity.
+1. Pivotlayan "kol"un ağırlık merkezini pivot'a mümkün olduğunca yakın tutun.
+2. Milin tamamen desteklendiğinden emin olun, kutu boru veya iç içe plakalar kullanarak.
+3. Rijit bir destek yapısını koruyun.
+4. Yapı genişse, ek rijitlik için her iki tarafı da güçlendirin.
 
-### Applications & Examples
+### Uygulamalar & Örnekler
 
-| **Mechanism Type**       | **Description**                                                                 | **Axle Type**                                                        | **Friction Management**                                             | **Images**                                                                                                     |
+| **Mekanizma Tipi**       | **Açıklama**                                                                 | **Mil Tipi**                                                        | **Sürtünme Yönetimi**                                             | **Resimler**                                                                                                     |
 |--------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| **Wrist**                | Short, light rotary mechanisms. These are commonly seen to allow for ground pickup or pitch adjustments. | You'll find coaxial, live, and dead axles for wrists.                 | Both bearings and bushings are common.                           | <center><img src="\img\learning-course\stage2-pivot\973-wrist.webp" width="50%"></center>                           |
-| **Large Pivots**         | Include pink arms, pivoting elevators, and large arms.                           | Dead axle is preferred; consider using 35 chain for heavy loads.     | Bushings are more common, though thin x contact bearings are used occasionally. | <center><img src="\img\learning-course\stage2-pivot\2910-pivot.webp" width="50%"></center>                           |
-| **High Load Short Pivot**| Pivots full mechanisms such as a shooter to adjust shot angle.                   | Same as for large pivots.                                            | Both bearings and bushings are used.                             | <center><img src="\img\learning-course\stage2-pivot\citrus-pivot.webp" width="50%"></center>                           |
+| **Bilek**                | Kısa, hafif rotary mekanizmalar. Bunlar genellikle yerden toplama veya eğim ayarları için izin vermek için görülür. | Bilekler için koaksiyal, live ve dead axles bulacaksınız.                 | Hem rulmanlar hem de bushings yaygındır.                           | <center><img src="\img\learning-course\stage2-pivot\973-wrist.webp" width="50%"></center>                           |
+| **Büyük Pivotlar**         | Pink arms, pivotlayan asansörler ve büyük kollar dahildir.                           | Dingil silisi tercih edilir; ağır yükler için 35 zincir kullanmayı düşünün.     | Bushings daha yaygındır, ancak ince x contact rulmanları bazen kullanılır. | <center><img src="\img\learning-course\stage2-pivot\2910-pivot.webp" width="50%"></center>                           |
+| **Yüksek Yük Kısa Pivot**| Atış açısını ayarlamak için shooter gibi tam mekanizmaları pivotlar.                   | Büyük pivotlar ile aynıdır.                                            | Hem rulmanlar hem de bushings kullanılır.                             | <center><img src="\img\learning-course\stage2-pivot\citrus-pivot.webp" width="50%"></center>                           |
 
 
-Other mechanism examples and deep dives for pivots can be found on the [pivots page](/mechanism-examples/pivots/ "Pivot Mechanism Examples Page"){:target="_blank"}. The mechanism fundamentals page is yet to be made but will also be a helpful resource.
+Pivotlar için diğer mekanizma örnekleri ve derinlemesine bilgiler [pivots page](/mechanism-examples/pivots/ "Pivot Mechanism Examples Page"){:target="_blank"} sayfasında bulunabilir. Mekanizma temelleri sayfası henüz yapılmadı ama da yardımcı bir kaynak olacaktır.
 
 
 <br>

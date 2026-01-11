@@ -1,7 +1,7 @@
-# Bumpers
+# Tamponlar
 
-A guide on how to design and build robust bumpers.
+Sağlam tamponlar tasarlamak ve oluşturmak rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

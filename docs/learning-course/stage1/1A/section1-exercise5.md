@@ -1,89 +1,89 @@
-# 1A: Onshape Fundamentals - Section 1
-## Exercise 5: Building a Box Superstructure
-### Introduction
+# 1A: Onshape Temelleri - Bölüm 1
+## Egzersiz 5: Bir Kutu Süperyapısı Oluşturma
+### Giriş
 
-Frames made out of box tube can added to the top of a drivetrain for extra mounting for more parts of subsystems, like a shooter or an arm.
+Bir sürücü sisteminin üstüne ekstra montaj için daha fazla alt bölüm parçası, örneğin bir shooter veya bir kol, kutu borusundan yapılmış çerçeveler eklenebilir.
 
 <figure style="margin-bottom: 2rem;">
   <img src="/img/learning-course/stage1a/exercise-5-973-example.webp" style="width:60%; border:5px solid #ADADAD">
-  <figcaption>973’s 2022 Superstructure</figcaption>
+  <figcaption>973'ün 2022 Süperyapısı</figcaption>
 </figure>
 
 
-In this exercise we'll be adding a simple box tube frame to the drivetrain you made previously.
+Bu egzersizde, daha önce oluşturduğunuz sürücü sistemine basit bir kutu borusu çerçevesi ekleyeceğiz.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise5-frame.webp" style="width:80%">
-  <figcaption>Final Box Tube Frame</figcaption>
+  <figcaption>Final Kutu Boru Çerçevesi</figcaption>
 </figure>
 
 ---
 
-### Layout Sketch and Drivetrain
+### Layout Sketch ve Sürücü Sistemi
 
-1. To properly plan this out, we must create a side layout sketch (the used previously in Exercise 5). 
-2. Start by inserting the **origin cube feature script** that you added in [required course tools](../../course-setup/required-course-tools/featurescripts.md){:target="_blank"}. Remember you can look things up using `Alt + C`! 
-3. Make a new sketch, select the `right plane`, and start copying this sketch. Figure out the constraints you need yourself to replicate it perfectly.
+1. Bunu düzgün bir şekilde planlamak için, bir yan layout sketch oluşturmalıyız (önceden Egzersiz 5'te kullanılan).
+2. [Gerekli kurs araçlarında](../../course-setup/required-course-tools/featurescripts.md){:target="_blank"} eklediğiniz **origin cube feature script'ini** ekleyerek başlayın. `Alt + C` kullanarak şeyleri arayabileceğinizi unutmayın!
+3. Yeni bir sketch oluşturun, `right plane`'i seçin ve bu sketch'i kopyalamaya başlayın. Onu mükemmel bir şekilde kopyalamak için ihtiyacınız olan constraint'leri kendiniz çözin.
 
 
     <figure>
       <img src="/img/learning-course/stage1a/exercise5-frame-sketch.webp" style="width:100%">
-      <figcaption>Box superstructure sketch</figcaption>
+      <figcaption>Kutu süperyapı sketch'i</figcaption>
     </figure>
 
-    !!! Info "Origin Placement"
-        The wheels are the 1.75-inch blocks on the corners of the tube. If that's the case, where is the origin placed in the side layout sketch? Why do you think it's placed there? Imagine if you looked at the robot in real life to the side.
+    !!! Info "Origin Yerleşimi"
+        Tekerlekler borunun köşelerindeki 1.75 inçlik bloklardır. Bu durumda, yan layout sketch'de origin nereye yerleştirilmiştir? Sizce oraya neden yerleştirilmiştir? Gerçek hayatta robotu yandan hayal edin.
 
-4. After the side layout sketch is done, create the swerve drivetrain frame in your part studio according to what you remember from the last exercise. (Remember to select the mate connector!) 
+4. Yan layout sketch bittikten sonra, son egzersizden hatırladıklarınıza göre part studio'nuzda swerve sürücü sistemi çerçevesini oluşturun. (Mate connector'ı seçmeyi unutmayın!)
 
     !!! Tip
-        If you struggle, refer to the previous video after trying
+        Zorlanırsanız, denedikten sonra önceki videoya bakın
 
-    !!! Info "Design Intent"
-        Let’s make this drivetrain a square. How would you approach your top sketch to avoid using any unnecessary dimensions? You should only need to define your swerve gap, the distance between your cross tubes (8 inches), and your tube offset.
+    !!! Info "Tasarım Niyeti"
+        Bu sürücü sistemini bir kare yapalım. Gereksiz dimension kullanmaktan kaçınmak için üst sketch'inize nasıl yaklaşacağınız? Sadece swerve boşluğunuzu, çapraz borularınız arasındaki mesafeyi (8 inç) ve boru ofsetinizi tanımlamanız gerekir.
 
     ??? Hint
-        What length is already defined/constrained? Can you use the equal constraint? 
+        Hangi uzunluk zaten tanımlanmış/kısıtlanmış? Equal constraint'ı kullanabilir misiniz?
 
 
 
-### Modeling the Frame
-So far, sketches have been created on default planes and mate connectors. In order to model the box tube for the frame on top of the cross tubes, the sketch to create the tubes should be created on the face of the cross tube, because that's where you want that tube to be, even if the cross tube changes position. 
+### Çerçeveyi Modelleme
+Şimdiye kadar, sketch'ler varsayılan düzlemlerde ve mate connector'larda oluşturuldu. Çapraz boruların üstündeki çerçeve için kutu borusunu modellemek için, boruları oluşturacak sketch'in çapraz borunun yüzünde oluşturulmalıdır, çünkü borunun orada olmasını istiyorsunuz, çapraz boru pozisyonunu değiştirse bile.
 
-!!! Tip "Design Intent"
-    This is called modeling with "design intent." There are many different ways to model something, but you can choose specific ways based on what your intent for a part or the overall design is. This can also help you avoid creative blocks and keep your CAD from creating errors when the design changes.
+!!! Tip "Tasarım Niyeti"
+    Buna "tasarım niyeti" ile modelleme denir. Bir şeyi modellemenin birçok farklı yolu vardır, ancak bir parçanın veya genel tasarımın niyetine göre belirli yolları seçebilirsiniz. Bu ayrıca yaratıcı bloklardan kaçınmanıza ve tasarım değiştiğinde CAD'inizin hata oluşturmasını engellemeye yardımcı olabilir.
 
 <figure>
   <img src="/img/learning-course/stage1a/side profile.webp" style="width:80%">
-  <figcaption>Box superstructure sketch</figcaption>
+  <figcaption>Kutu süperyapı sketch'i</figcaption>
 </figure>
 
-Watch a demonstration of this sketching technique below.
+Bu sketch tekniğinin bir demosunu aşağıda izleyin.
 <figure>
   <iframe width="768" height="432" src="https://www.youtube.com/embed/_b2Gf8IiEEA?controls=1&rel=0&showinfo=0&vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </figure>
 
-Now that you’ve seen a demonstration, **try to complete the box tube structure** by creating a sketch on the face of the cross tube and projecting lines from the layout sketch into the new sketch with the `use` tool.
+Şimdi bir demosunu gördüğünüze göre, çapraz borunun yüzünde bir sketch oluşturarak ve layout sketch'ten `use` aracını kullanarak yeni sketch'e çizgileri yansıtarak **kutu borusu yapısını tamamlamayı deneyin**.
 
-### Requirements
-- The box frame should be made using 0 new dimensions total, both in the sketch and the extrude
-- Edit tube converter to use 1/16" thick walls and change “centered on tube” to “auto offset” 
+### Gereksinimler
+- Kutu çerçevesi, sketch'te ve extrude'da toplam 0 yeni dimension kullanılarak yapılmalıdır
+- Tube converter'ı 1/16" kalınlığında duvarlar kullanacak şekilde düzenleyin ve "centered on tube" seçeneğini "auto offset" olarak değiştirin
 
-!!! Warning "Tube Offsets"
-    The distance between the edge of your tube and your hole differs for drivetrains and typical use. If you use "centered on tube" for your regular box tubes your hole spacing wont be correct. Only use “Centered on tube” for your drivetrain rails!
+!!! Warning "Boru Ofsetleri"
+    Sürücü sistemleri ve tipik kullanım için borunun kenarı ile delik arasındaki mesafe farklıdır. Düzenli kutu borularınız için "centered on tube" kullanırsanız delik yerleşiminiz doğru olmayacaktır. Sadece sürücü sistemi raylarınız için "Centered on tube" kullanın!
 
 ---
 
-### Finishing Up
+### Bitirme
 
-Once you finish, **take a 5-minute break**. 
+Bitirdiğinizde, **5 dakikalık bir mola verin**.
 
-After you come back, **try to improve or correct any mistakes you find**. Once you finish, compare your workflow with the solution. **What thought process led you to do something different?**
+Geri döndüğünüzde, **bulduğunuz hataları iyileştirmeyi veya düzeltmeyi deneyin**. Bitirdiğinizde, iş akışınızı çözümle karşılaştırın. **Farklı bir şey yapmanıza ne gibi bir düşünce süreci neden oldu?**
 
 
-<center markdown>[Solution Document](https://cad.onshape.com/documents/5f1057b0e7579ff9dd5811fe/w/4c6a1a1d9747b8ea76b238a3/e/b89eed09a1d075135ee83667){.md-button .md-button--primary target="_blank"}</center>
+<center markdown>[Çözüm Belgesi](https://cad.onshape.com/documents/5f1057b0e7579ff9dd5811fe/w/4c6a1a1d9747b8ea76b238a3/e/b89eed09a1d075135ee83667){.md-button .md-button--primary target="_blank"}</center>
 
-Follow the short video below to learn how to rename your features, then rename the sketches and features in your part studio. Moving forward, we want to **always name our sketches and features**.
+Özelliklerinizi nasıl yeniden adlandıracağınızı öğrenmek için aşağıdaki kısa videoyu takip edin, ardından part studio'nuzdaki sketch'leri ve özellikleri yeniden adlandırın. İleriye doğru, **her zaman sketch'lerimizi ve özelliklerimizi adlandırmak istiyoruz**.
 
 <figure>
   <iframe width="768" height="432" src="https://www.youtube.com/embed/ELdwPyFnm4Y?controls=1&rel=0&showinfo=0&vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -91,6 +91,6 @@ Follow the short video below to learn how to rename your features, then rename t
 
 <br>
 
-After you're done renaming your features, move on to the next exercise.
+Özelliklerinizi yeniden adlandırmayı bitirdikten sonra, bir sonraki egzersize geçin.
 
 <br>

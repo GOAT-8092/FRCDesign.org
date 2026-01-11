@@ -1,3 +1,3 @@
-# End Effectors
+# Uç Organlar
 
-**Coming Soon**
+**Yakında**

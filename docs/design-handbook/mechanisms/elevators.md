@@ -1,7 +1,7 @@
-# Elevators
+# Asansörler
 
-A guide on elevators design, including different types of rigging, COTS parts, gearboxes, and use cases.
+Asansör tasarımı rehberi, farklı halat türlerini, COTS parçalarını, şanzımanları ve kullanım durumlarını içerir.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

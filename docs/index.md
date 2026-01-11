@@ -7,81 +7,83 @@ hide:
   - toc
 ---
 
-# Welcome to FRCDesign.org
+# FRCDesign.org'a Hoş Geldiniz
 
-FRCDesign.org is a comprehensive learning guide and technical reference for FRC design using Onshape.
+**8092 - Greatest of All Times** tarafından sunulmaktadır.
+
+FRCDesign.org, Onshape kullanarak FRC tasarımı için kapsamlı bir öğrenme rehberi ve teknik referansdır.
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-flask-vial:{ .lg .middle } **Website Feature Guide**
-  
-    ---
-    
-    Explains the main features of the website. Recommended to go through before the learning course.
-    
-    [:octicons-arrow-right-24: Website Feature Guide](website-feature-guide.md)
-
-- :material-book-open-variant:{ .lg .middle .card} **Learning Course**
+-   :fontawesome-solid-flask-vial:{ .lg .middle } **Web Sitesi Özellik Kılavuzu**
 
     ---
 
-    A guided curriculum through learning Onshape applied to robot design fundamentals. Looking to learn FRC robot design and CAD skills? Start here.
+    Web sitesinin ana özelliklerini açıklar. Öğrenme kursundan önce gözden geçirmeniz önerilir.
 
-    [:octicons-arrow-right-24: Learning Course](learning-course/index.md)
+    [:octicons-arrow-right-24: Web Sitesi Özellik Kılavuzu](website-feature-guide.md)
 
-- :material-bookshelf:{ .lg .middle .card} **Design Handbook**
-
-    ---
-
-    Dives into the concepts necessary in order to design a competitive robot. Unlike the learning course, this is primarily a reference wiki.
-
-    [:octicons-arrow-right-24: Design Handbook](design-handbook/index.md)
-
-- :material-robot:{ .lg .middle .card} **Mechanism Examples**
+- :material-book-open-variant:{ .lg .middle .card} **Öğrenme Kursu**
 
     ---
 
-    Unlike other mechanism example collections, these are hand picked for specific concepts with detailed breakdowns behind each design.
+    Onshape'i öğrenmek ve robot tasarımı temellerine uygulamak için yönlendirilmiş bir müfredat. FRC robot tasarımı ve CAD becerilerini öğrenmek mi istiyorsunuz? Buradan başlayın.
 
-    [:octicons-arrow-right-24: Mechanism Examples](mechanism-examples/index.md)
+    [:octicons-arrow-right-24: Öğrenme Kursu](learning-course/index.md)
 
-- :material-file-cad-box:{ .lg .middle .card} **CAD Best Practices**
-
-    ---
-
-    A reference for best practices to follow when you're modeling a robot in Onshape.
-
-    [:octicons-arrow-right-24: CAD Best Practices](best-practices/index.md)
-
-- :material-book:{ .lg .middle .card} **Other Resources**
+- :material-bookshelf:{ .lg .middle .card} **Tasarım El Kitabı**
 
     ---
 
-    Besides the other content on the website, we have a nice collection of resources (e.g. featurescripts and models).
+    Rekabetçi bir robot tasarlamak için gerekli kavramlara derinlemesine iner. Öğrenme kursunun aksine, bu öncelikle bir referans wiki'sidir.
 
-    [:octicons-arrow-right-24: Other Resources](resources/index.md)
+    [:octicons-arrow-right-24: Tasarım El Kitabı](design-handbook/index.md)
+
+- :material-robot:{ .lg .middle .card} **Mekanizma Örnekleri**
+
+    ---
+
+    Diğer mekanizma örnek koleksiyonlarının aksine, bunlar belirli kavramlar için özenle seçilmiş ve her tasarımın arkasındaki detaylı analizlerle sunulmuştur.
+
+    [:octicons-arrow-right-24: Mekanizma Örnekleri](mechanism-examples/index.md)
+
+- :material-file-cad-box:{ .lg .middle .card} **CAD En İyi Uygulamaları**
+
+    ---
+
+    Onshape'de robot modellediğinizde izlemeniz gereken en iyi uygulamalar için bir referans.
+
+    [:octicons-arrow-right-24: CAD En İyi Uygulamaları](best-practices/index.md)
+
+- :material-book:{ .lg .middle .card} **Diğer Kaynaklar**
+
+    ---
+
+    Web sitesindeki diğer içeriklerin yanı sıra, güzel bir kaynak koleksiyonumuz var (örneğin, FeatureScript'ler ve modeller).
+
+    [:octicons-arrow-right-24: Diğer Kaynaklar](resources/index.md)
 
 </div>
 
-## What is FRCDesign.org?
+## FRCDesign.org Nedir?
 
-1. FRCDesign.org is not just a resource collection. Though it includes many resources, almost all of the website's content has been written specifically for the website to align with our goals.
-2. Everything is taught from a competitive focus. Designing competitive robots helps inspire students and teach both engineering skills and life skills. It's also generally more fun when the robot performs well instead of breaking.
-3. We don't try to teach everything. The learning course is built around teaching a single CAD software (Onshape), and we encourage a specific design style which is optimized for the majority of mid-resource teams.
-4. We try to include the small details that most guides forget. The concept of an "arm" is almost ubiquitous, but the concepts behind designing a pivot that works every match and never breaks? That's not so much common knowledge and much more important.
-5. Design practices are important! We try to document and teach [the best practices possible](best-practices/index.md "Best Practices Page") so you can design faster during the season.
+1. FRCDesign.org sadece bir kaynak koleksiyonu değildir. Birçok kaynak içerse de, web sitesinin neredeyse tüm içeriği amaçlarımızla uyumlu olması için özel olarak yazılmıştır.
+2. Her şey rekabet odaklı öğretilir. Rekabetçi robotlar tasarlamak, öğrencileri motive eder ve hem mühendislik hem de yaşam becerilerini öğretmeye yardımcı olur. Robotun iyi performans göstermesi de genellikle bozulmasından daha eğlencelidir.
+3. Her şeyi öğretmeye çalışmıyoruz. Öğrenme kursu tek bir CAD yazılımını (Onshape) öğretmek üzerine kuruludur ve çoğu orta kaynaklı takım için optimize edilmiş belirli bir tasarım tarzını teşvik ederiz.
+4. Çoğu kılavuzun unuttuğu küçük detayları eklemeye çalışıyoruz. "Kol" kavramı neredeyse her yerde var, ancak her maçta çalışan ve asla bozulmayan bir mafsalı tasarlamak arkasındaki kavramlar? Bu pek yaygın bir bilgi değil ve çok daha önemli.
+5. Tasarım uygulamaları önemlidir! Sezon boyunca daha hızlı tasarlayabilmeniz için [mümkün olan en iyi uygulamaları](best-practices/index.md "En İyi Uygulamalar Sayfası") belgelemeye ve öğretmeye çalışıyoruz.
 
-## Who is FRCDesign.org?
+## FRCDesign.org Kimdir?
 
-FRCDesign.org is the culmination of hundreds of hours of work between a group of FIRST students, alumni, and mentors from teams all over the world.
+FRCDesign.org, dünyadaki takımlardan FIRST öğrencileri, mezunları ve mentorlarından oluşan bir grup arasında yüzlerce saatlik çalışmanın ürünüdür.
 
 <center markdown>
-[Contributors List](contribution/contributors.md "Contributor List"){.md-button .md-button--primary}
+[Katkıda Bulunanlar Listesi](contribution/contributors.md "Katkıda Bulunanlar Listesi"){.md-button .md-button--primary}
 </center>
 
 ## Discord
 
-The most effective tool for learning design is getting feedback and learning from others. Join the Discord for design reviews, design challenges, and events.
+Tasarımı öğrenmek için en etkili araç, geri bildirim almak ve başkalarından öğrenmektir. Tasarım incelemeleri, tasarım yarışmaları ve etkinlikler için Discord'a katılın.
 
 <center markdown>
 [![](/img/discord-link.webp){width=20%}](https://discord.gg/qdx7pdZKx4)

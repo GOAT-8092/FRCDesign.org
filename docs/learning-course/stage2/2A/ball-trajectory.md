@@ -2,22 +2,22 @@
 
 ## Ball Trajectory
 
-In a ball shooter, the trajectory is primarily determined by the exit angle and exit velocity of the game piece, which translates to how hard you launch and where you point the shooter.
+Bir top shooter'da, trajektori öncelikle oyun parçasının çıkış açısı ve çıkış hızı tarafından belirlenir, bu da topu ne kadar sert fırlattığınız ve shooter'ı nereye yönlendirdiğiniz anlamına gelir.
 
 <!-- Rigidity is crucial for maintaining trajectory consistency. Any wobbling or flexing in the shooter structure can negatively impact accuracy, as even slight movements can alter the exit angle or velocity, leading to unpredictable shot behavior. -->
 
 <figure>
     <img src="/img/learning-course/stage2-shooter/shot-trajectory.gif" style="width:70%; border:5px solid #ADADAD; border-radius: 2%">
-    <figcaption>Team 1678's 2022 shooter ball trajectory.</figcaption>
+    <figcaption>Takım 1678'nin 2022 shooter top trajektörisi.</figcaption>
 </figure>
 
-### Reference Design
+### Referans Tasarım
 
-For 2020, the initiation line on the field can serve as a reference point to estimate your shooting position and angle. The goal's scoring area is forgiving enough to accommodate slight variations in position, making precise alignment less critical. By using a shot distance calculator, you can estimate the optimal shooting parameters.
+2020 için, sahadaki başlangıç çizgisi atış pozisyonunuzu ve açınızı tahmin etmek için bir referans noktası olarak hizmet edebilir. Golün skoring alanı, pozisyondaki küçük varyasyonları karşılayacak kadar affedici olduğu için hassas hizalamayı daha az kritik hale getirir. Bir atış mesafesi hesaplayıcı kullanarak, optimal atış parametrelerini tahmin edebilirsiniz.
 
-### Trajectory Calculator
+### Trajektori Hesaplayıcı
 
-Explore [this 2020 trajectory calculator](https://www.desmos.com/calculator/euvciqv3tr "Desmos 2020 Trajcetory Calculator"){:target="_blank"} to see how adjustments to angle and speed affect your shot. Can you identify a combination of angle and speed that allows for consistent scoring even with some positional variation?
+Açı ve hızdaki ayarların atışınızı nasıl etkilediğini görmek için [bu 2020 trajektori hesaplayıcısını](https://www.desmos.com/calculator/euvciqv3tr "Desmos 2020 Trajcetory Calculator"){:target="_blank"} keşfedin. Bazı pozisyonel varyasyonlarla tutarlı skora izin veren bir açı ve hız kombinasyonunu belirleyebilir misiniz?
 !!! Calculator
     <center><iframe src="https://www.desmos.com/calculator/5fil8alfmd?embed" width="500" height="500" style="border: 1px solid #ccc; border-radius: 2%" frameborder=0></iframe></center>
 

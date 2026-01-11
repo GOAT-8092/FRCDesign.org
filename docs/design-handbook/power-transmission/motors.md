@@ -1,7 +1,7 @@
-# Motors
+# Motorlar
 
-A guide on motors.
+Motorlar rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

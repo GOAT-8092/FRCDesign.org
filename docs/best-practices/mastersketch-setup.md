@@ -1,56 +1,56 @@
 ---
-title: Layout Sketch Best Practices
-description: The best practices to follow when creating main layout sketches.
+title: Layout Sketch En İyi Uygulamaları
+description: Ana layout sketch'ler oluştururken takip edilmesi gereken en iyi uygulamalar.
 ---
 
-# Layout Sketch Best Practices
+# Layout Sketch En İyi Uygulamaları
 
-A main layout sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the main layout sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. This enables much easier integration with a top-down design approach.
+Ana layout sketch, her mekanizmanın ana boyutlarını, alan öğesi etkileşimlerini ve robot boyut kısıtlamalarını yakalayan sketchler serisidir. Daha sonra, ana layout sketch'ler her mekanizmanın part studio'suna eklenir ve bireysel bileşenler ithal layout sketch etrafında modellenir. Bu, üstten aşağı tasarım yaklaşımıyla çok daha kolay entegrasyon sağlar.
 
-| **Always Include**                                                          | **Sometimes Include**                               | **Never Include**                                           |
+| **Her Zaman Dahil Edin**                                                          | **Bazen Dahil Edin**                               | **Asla Dahil Etmeyin**                                           |
 |:----------------------------------------------------------------------------|:----------------------------------------------------|:------------------------------------------------------------|
-| Drivebase dimensions                                                        | Gears                                               | Specific details like the shape of plates                   |
-| End-effector wheel locations based off of prototyping                       | Belts                                               | Gussets                                                     |
-| Field elements and extension limits                                         | Chain                                               | Mounting holes                                              |
-| Mechanism motion paths                                                      | Motor locations                                     | &nbsp;                                                      |
-| Gamepiece path                                                              | &nbsp;                                              | &nbsp;                                                      |
+| Drivebase boyutları                                                        | Dişliler                                               | Plakaların şekli gibi belirli detayler                   |
+| Prototipe dayalı end-effector tekerlek konumları                       | Kayışlar                                               | Gussetler                                                     |
+| Alan öğeleri ve uzatma sınırları                                         | Zincir                                               | Montaj delikleri                                              |
+| Mekanizma hareket yolları                                                      | Motor konumları                                     | &nbsp;                                                      |
+| Gamepiece yolu                                                              | &nbsp;                                              | &nbsp;                                                      |
 
-This isn't an extensive list, and things can vary from team to team and from architecture to architecture. Detail can easily be added or removed later if necessary.
+Bu kapsamlı bir liste değildir ve şeyler takımdan takıma ve mimariden mimariye değişebilir. Gerekirse detay kolayca eklenip çıkarılabilir.
 
-All important measurements that drive the geometry of the robot exist in the layout sketches part studio. They can all be easily viewed and changed together, as opposed to if you had to go through each subsystem to make changes to the geometry to try to make things fit in the top-level robot assembly.
+Robotun geometrisini yönlendiren tüm önemli ölçümler layout sketch'ler part studio'sunda vardır. Hepsi kolayca görülebilir ve birlikte değiştirilebilir, üst düzey robot assembly'sinde şeyleri sığdırmaya çalışmak için her alt sistemi geçmek zorunda kalmak yerine.
 
 <figure>
 <img src="/img/best-practices/1778-2024-MS-Part-Studio.webp" style="border:5px solid #ADADAD"></center>
-<figcaption>1778 Chill Out's 2024 Robot Main Layout Sketches</figcaption>
+<figcaption>1778 Chill Out'un 2024 Robotu Ana Layout Sketch'leri</figcaption>
 </figure>
 
-Main layout sketches always start with your drivetrain, bumpers, initial configuration, and extension limits. Field elements are sketched next. You can use hard alignment against bumpers to ensure your geometry can score pieces without much software or mechanical complexity. 
+Ana layout sketch'ler her zaman drivetrain'iniz, bumper'ler, initial konfigürasyon ve uzatma sınırları ile başlar. Alan öğeleri daha sonra sketch edilir. Robotun çok fazla yazılım veya mekanik karmaşıklık olmadan parçaları puanlayabileceğinden emin olmak için bumper'lara karşı sert hizalama kullanabilirsiniz.
 
-!!! Tip
-    Directly after kickoff, you can create a part studio with layout sketches of the drivetrain, extension limits, and field elements. This can be copied and used to test out the geometries of several different robot architectures to then decide between.
+!!! İpucu
+    Kickoff'tan hemen sonra, drivetrain, uzatma sınırları ve alan öğelerinin layout sketch'leri ile bir part studio oluşturabilirsiniz. Bu, kopyalanabilir ve birkaç farklı robot mimarisinin geometrilerini test etmek için kullanılabilir, sonra arasında karar vermek için.
 
-Your robot should be designed specifically to interact with the field elements and gamepieces. For the main layout sketches, this means making every dimension of every subsystem intentional, whether it's based off of field elements, extension limits, or each other.
-    
-!!! Example 
-    The length of an elevator would be driven by the start and end positions of the manipulator being moved, since those positions are based on how it interacts with the field elements.
+Robotunuzun alan öğeleri ve gamepieces ile etkileşimi için özel olarak tasarlanmalıdır. Ana layout sketch'ler için, bu, her alt sistemin her boyutunu kasıtlı hale getirmek anlamına gelir, ister alan öğelerine, ister uzatma sınırlarına veya birbirlerine dayalı olsun.
 
-!!! Tip
-    You can make construction circles representing the range of motion of a pivoting subsystem, and dimension a subsystem a distance away from that circle to make sure there's clearance between them.
+!!! Örnek
+    Bir asansörün uzunluğu, taşınan manipülatörün başlangıç ve bitiş pozisyonları tarafından yönlendirilir, çünkü bu pozisyonlar alan öğeleriyle nasıl etkileştiğine dayanır.
 
-Effective layout sketching requires you to stay organized. This means:
+!!! İpucu
+    Dönen bir alt sistemin hareket aralığını temsil eden inşaat daireleri oluşturabilir ve aralarında boşluk olduğundan emin olmak için bir alt sistemi daireden belirli bir mesafeye boyutlandırabilirsiniz.
 
-- Multiple sketches, usually one per subsystem, within the main layout sketch part studio. Keep everything separate!
-- Name your sketches accordingly
-- You can also give your sketches [different colors](https://www.youtube.com/watch?v=ZG_gVeGdI5c "Adding Color to Sketches in Onshape Video Tutorial"){:target="_blank"} to differentiate between them
-- Sketch all the possible states of each moving subsystem 
+Etkili layout sketch yapmak, organize kalmanızı gerektirir. Bu şunları ifade eder:
+
+- Ana layout sketch part studio içinde genellikle alt sistem başına birden fazla sketch. Her şeyi ayrı tutun!
+- Sketch'leri buna göre adlandırın
+- Ayrıca sketch'lerinizi [farklı renklere](https://www.youtube.com/watch?v=ZG_gVeGdI5c "Onshape'de Sketch'lere Renk Ekleme Video Öğreticisi"){:target="_blank"} getirebilirsiniz, böylece aralarında fark edebilirsiniz
+- Her hareketli alt sistemin tüm olası durumlarını sketch edin
 
 <figure>
 <img src="/img/learning-course/stage1d/exampleMasterSketch.webp" width="70%" style="border:5px solid #ADADAD"></center>
-<figcaption>3647's 2024 Robot Main Layout Sketches</figcaption>
+<figcaption>3647'nin 2024 Robotu Ana Layout Sketch'leri</figcaption>
 </figure>
 
-Layout sketching is an art that can require some practice to get the hang of. While Stage 3 will help you learn and practice doing full layout sketches, [this tutorial](https://www.youtube.com/watch?v=Bd_XzBw5V_U "2023 David Bot Main Layout Sketch Livestream"){:target="_blank"} can help you get started if you are unsure.
+Layout sketch yapmak, alışkanlık gelmesi için biraz pratik gerektirebilen bir sanattır. Aşama 3 tam layout sketch'leri öğrenmekte ve pratik yapmada size yardımcı olacaktır, ancak emin değilseniz [bu öğretici](https://www.youtube.com/watch?v=Bd_XzBw5V_U "2023 David Bot Ana Layout Sketch Canlı Yayını"){:target="_blank"} başlamanıza yardımcı olabilir.
 
-A presentation of an example: [8177 Vector 2023 Robot](https://docs.google.com/presentation/d/1IwjXvcAZFVcEUFSZZDHlTYlLA_5PbI3wPJzbfAOTz8Y/edit?usp=sharing "8177 2023 Robot Main Layout Sketch Presentation"){:target="_blank"}
+Bir örneğin sunumu: [8177 Vector 2023 Robotu](https://docs.google.com/presentation/d/1IwjXvcAZFVcEUFSZZDHlTYlLA_5PbI3wPJzbfAOTz8Y/edit?usp=sharing "8177 2023 Robotu Ana Layout Sketch Sunumu"){:target="_blank"}
 
 <br>

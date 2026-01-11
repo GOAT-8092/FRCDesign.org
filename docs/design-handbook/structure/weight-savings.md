@@ -1,20 +1,20 @@
-# Weight Savings
+# Ağırlık Tasarrufu
 
-A guide on methods to make your parts lighter both with and without pocketing.
+Parçalarınızı pocketing ile ve olmadan daha hafif yapmak için yöntemler rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 
 <!-- ## Pocketing and internal features
 
-Pocketing is used to reduce weight from high-thickness, high density materials such as 3/16 or 1/4 aluminum. While thinner aluminum and plastics can also be pocketed, this is less common, and higher risk.
+Pocketing, 3/16 veya 1/4 alüminyum gibi yüksek kalınlık, yüksek yoğunluklu malzemelerden ağırlık azaltmak için kullanılır. Daha ince alüminyum ve plastikler de pocketing yapılabilir, ancak bu daha az yaygındır ve daha yüksek risklidir.
 
 !!! Tip
-    Pocketing always happens last. **Get design approval before pocketing**! Use [offset driven design](https://www.youtube.com/watch?v=TT_QmZoUwG8) so your plates look decent **before** pocketing.
+    Pocketing her zaman son olur. **Pocketing öncesi tasarım onayı alın!** Plakalarınızın pocketing öncesi **düzgün** görünmesi için [offset driven design](https://www.youtube.com/watch?v=TT_QmZoUwG8) kullanın.
 
-When pocketing, use the [part lighten featurescript](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d).
+Pocketing yaparken, [part lighten featurescript](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d) kullanın.
 
-- Tool radius must be ≥0.125 the radius of the cutting tool you use on your CNC, typically 0.125
-- Strut thickness is usually 0.2 for 1/4 inch aluminum, and cut thru-all - but this depends on load and other factors -->
+- Tool yarıçapı CNC'nizde kullandığınız kesici aletin yarıçapı ≥0.125 olmalıdır, tipik olarak 0.125
+- Strut kalınlığı genellikle 1/4 inç alüminyum için 0.2'dir ve cut thru-all - ancak bu yüke ve diğer faktörlere bağlıdır -->
 
 <br>

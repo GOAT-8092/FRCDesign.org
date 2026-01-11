@@ -1,27 +1,27 @@
-# Review & Summary
+# İnceleme ve Özet
 
-## Review
+## İnceleme
 
-Make sure to review all the CAD you've done using [the review instruction page](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"}. If you copied the reference through the instruction slides, you can check against the solution document; otherwise, just exclude that step from the review.
+Yaptığınız tüm CAD'leri [inceleme talimat sayfasını](../1A/focusing-on-improvement.md "İyileştirmeye Odaklanma Sayfası"){:target="_blank"} kullanarak incelediğinizden emin olun. Eğer referansı talimat slaytları üzerinden kopyaladıysanız, çözüm belgesiyle kontrol edebilirsiniz; aksi takdirde, incelemeden bu adımı çıkarın.
 
-## Summary
+## Özet
 
-Congratulations on completing Stage 1E! With the Stage 1E tasks completed, your drivebase is now fully functional and could even be used as a blueprint to manufacture and assemble one.
+Stage 1E'yi tamamladığınız için tebrikler! Stage 1E görevleri tamamlandığında, drivebase'iniz artık tamamen işlevseldir ve hatta üretmek ve monte etmek için bir mavi çizgi olarak kullanılabilir.
 
-Here is a quick summary of what you have achieved in 1E:
+1E'de elde ettiklerinizin hızlı bir özeti aşağıdadır:
 
-* Practiced adding parts within the context of a robot, making sure to use an intelligent origin
-* Learned the typical workflow for detailing a complex subsystem
-* Learned about battery mounting and the importance of a secure battery holder
-* Learned about core FRC electronics and how and where to mount them
-* Learned how to use the `Electronic Mounting` Featurescript
-* Optionally learned how to pocket a bellypan
-* Learned about bumpers, how to model them, and the importance of having a secure mounting system
+* Robot bağlamında parça eklemeyi pratik yaptınız, akıllı bir orijin kullandığınızdan emin oldunuz
+* Karmaşık bir alt sistemi detaylandırma için tipik iş akışını öğrendiniz
+* Batarya montajını ve güvenli bir batarya tutucusunun önemini öğrendiniz
+* Temel FRC elektroniklerini ve bunların nasıl ve nereye monte edileceğini öğrendiniz
+* `Elektronik Montaj` Featurescript'ini nasıl kullanacağınızı öğrendiniz
+* İsteğe bağlı olarak bir bellypan'ı nasıl pocketleyeceğinizi öğrendiniz
+* Tamponları, bunları nasıl modelleyeceğinizi ve güvenli bir montaj sisteminin önemini öğrendiniz
 
-In Stage 2, you will begin to model robot mechanisms using all the skills you have learned and practiced in Stage 0 and Stage 1. This will teach mechanism design, the purpose and correct usage of some COTS parts, and many important engineering concepts.
+Stage 2'de, Stage 0 ve Stage 1'de öğrendiğiniz ve pratik yaptığınız tüm becerileri kullanarak robot mekanizmalarını modellemeye başlayacaksınız. Bu, mekanizma tasarımını, bazı COTS parçalarının amacını ve doğru kullanımını ve birçok önemli mühendislik kavramını öğretecektir.
 
-Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 1E so we can collect data and get a better idea of how to improve the website!
+Veri toplamak ve web sitesini nasıl iyileştireceğimize dair daha iyi bir fikir edinmek için lütfen 1E için basit [**geri bildirim formumuzu**](https://forms.gle/qykF1UoxiymAEGWc8) doldurun!
 
-Fill out [**this feedback form**](https://forms.gle/2qrg6EBsge6V1WYf8) as well to give feedback **for all of Stage 1**!
+**Tüm Stage 1 için geri bildirim** vermek için [**bu geri bildirim formunu**](https://forms.gle/2qrg6EBsge6V1WYf8) de doldurun!
 
 <br>

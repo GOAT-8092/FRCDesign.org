@@ -1,3 +1,3 @@
-# Indexers
+# İndeksleyiciler
 
-**Coming Soon**
+**Yakında**

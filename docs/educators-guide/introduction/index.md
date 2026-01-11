@@ -1,29 +1,31 @@
-# Educator's Guide Overview
+# Eğitmenler Kılavuzu Genel Bakış
 
-The FRCDesign.org Learning Course is a self-paced, comprehensive program that teaches FRC robot design and CAD skills. This guide is intended to help educators effectively implement the course while supporting their students throughout the learning process. Designed for accessibility, the course requires minimal prior knowledge of physics or math, making it suitable for students from various backgrounds. The emphasis is on building knowledge through consistent practice and review.
+**8092 - Greatest of All Times** tarafından sunulmaktadır.
 
-## Course Usage
+FRCDesign.org Öğrenme Kursu, FRC robotu tasarımı ve CAD becerilerini öğreten kendi hızında ilerleyen kapsamlı bir programdır. Bu kılavuz, eğitmenlerin kursu etkili bir şekilde uygulamalarına ve öğrenme süreci boyunca öğrencilerini desteklemelerine yardımcı olmak için tasarlanmıştır. Erişilebilirlik göz önünde bulundurularak tasarlanan kurs, fizik veya matematik hakkında minimum ön bilgi gerektirir, bu da onu çeşitli geçmişlere sahip öğrenciler için uygun hale getirir. Vurgu, tutarlı pratik ve gözden geçirme yoluyla bilgi oluşturmaktır.
 
-The course is built for self-paced learning, where students can progress at their own speed. It can either be used by motivated students to self-teach or in a more classroom-esque setting where it's led by student design leads or mentors. 
+## Kurs Kullanımı
 
-???+ Note "Why Self-Paced?"
-    Different people will have different starting points and different things they don't understand or struggle with. Going at a set pace may cause some students to be bored and others to struggle and fall behind.
+Kurs, öğrencilerin kendi hızlarında ilerleyebilecekleri kendi kendine öğrenme için oluşturulmuştur. Motivasyonu yüksek öğrenciler tarafından kendi kendilerini öğretmek için veya öğrenci tasarım liderleri veya mentörler tarafından yönetilen daha sınıf benzeri bir ortamda kullanılabilir.
 
-The ideal setup is for educators to offload most of the curriculum (concepts, exercises, projects) to the website, freeing them up to give more individualized help and review to each student. This is what may be called a "self-paced blended learning" approach, where preferably meeting time or class time is given for students to do the work at their own pace and for educators to review and catch mistakes as students are working through exercises and projects. 
+???+ Not "Neden Kendi Hızında?"
+    Farklı insanların farklı başlangıç noktaları ve anlamadıkları veya zorlandıkları farklı şeyler olacaktır. Belirli bir hızda gitmek bazı öğrencilerin sıkılmasına ve diğerlerinin zorlanıp geride kalmasına neden olabilir.
 
-This approach helps increase motivation and engagement, reduces gaps in knowledge, builds confidence, and helps make sure every student gets the support they need to learn. 
+İdeal kurulum, eğitmenlerin müfredatın çoğunu (kavramlar, alıştırmalar, projeler) web sitesine devretmesi, böylece her öğrenciye daha bireyselleştirilmiş yardım ve gözden geçirme sunabileceklerdir. Bu, tercih olarak toplantı zamanı veya sınıf zamanının öğrencilerin işleri kendi hızlarında yapmaları ve eğitmenlerin öğrencilerin alıştırmalar ve projeler üzerinde çalışırken hataları yakalaması için verilmesi "kendi hızında harmanlanmış öğrenme" yaklaşımı olarak adlandırılabilir.
 
-## Course Content
+Bu yaklaşım, motivasyonu ve katılımı artırmaya, bilgisizlik boşluklarını azaltmaya, güven inşa etmeye ve her öğrencinin öğrenmek için ihtiyaç duyduğu desteği aldığından emin olmaya yardımcı olur.
 
-The content itself is focused on teaching CAD through FRC-relevant exercises, where new skills and concepts are introduced in each exercise or project. Each section has a bit of explanation on the concepts or skills being introduced in the exercises, with the exercises gradually decreasing in guidance to help students get more confident with using the software.
+## Kurs İçeriği
 
-The progression of the course moves from learning how to use the software (while using and teaching FRC-relevant skills and engineering such as COTS parts and power transmissions) to designing whole individual mechanisms, teaching mechanism design along the way. Students will then learn how to integrate these mechanisms into full robot designs. More detailed information on each topic will be given in the Design Handbook for students or educators to use for extra information, but that's out of the scope of the course.
+İçerik本身, yeni beceriler ve kavramların her alıştırma veya projede tanıtıldığı FRC ile ilgili alıştırmalar yoluyla CAD öğretmeye odaklanır. Her bölümün, alıştırmalarda tanıtılan kavramların veya becerilerin hakkında biraz açıklaması vardır, öğrencilerin yazılımı kullanmada daha güvenli hale gelmelerine yardımcı olmak için alıştırmalar kılavuzlukta azalma gösterir.
 
-Students will be able to focus on what they need to improve on through a mix of self-review and external review (from educators and/or other students).
+Kursun ilerlemesi, yazılımı kullanmayı öğrenmekten (FRC ile ilgili becerileri ve mühendisliği kullanarak ve öğretirken, örneğin COTS parçalar ve güç transmisyonları) tüm bireysel mekanizmaları tasarlamaya, mekanizma tasarımını yollarında öğretirken geçer. Öğrenciler daha sonra bu mekanizmaları tam robot tasarımlarına nasıl entegre edeceklerini öğreneceklerdir. Her konu hakkında daha detaylı bilgiler Design Handbook'ta verilecektir, ancak bu kursun kapsamı dışındadır.
 
-???+ Tip "Extra Practice"
-    Students may choose to do their own custom mechanisms or projects to practice specific skills or learn how to design a specific mechanism; this should be encouraged and supported. External review and resources are more important for these because they don't have a specific reference for knowledge inside of the course.
+Öğrenciler, kendi kendine gözden geçirme ve harici gözden geçirme (eğitmenler ve/veya diğer öğrencilerden) karışımı yoluyla iyileştirmeleri gerekenlere odaklanabileceklerdir.
 
-The purpose of robot design (and the specific design style the course uses) is to allow the team to effectively manufacture, build, program and drive the robot. The design style focuses on utilizing 2-D plates and patterned box tube. This is, as far as we know, the lowest resource design style with the highest ceiling, as you can get plates cut using a service such as Fabworks and cut the tubes and shafts using just a hacksaw. It makes it as easy as possible to have a tight schedule and prioritize making the robot work well and drive well. There are also countless example robots and resources using this design style to take inspiration from.
+???+ İpucu "Ekstra Pratik"
+    Öğrenciler belirli becerileri pratik yapmak veya belirli bir mekanizmayı nasıl tasarlayacaklarını öğrenmek için kendi özel mekanizmalarını veya projelerini yapmayı seçebilirler; bu teşvik edilmeli ve desteklenmelidir. Bu tür işler için harici gözden geçirme ve kaynaklar daha önemlidir, çünkü kurs içinde bilgi için belirli bir referansları yoktur.
+
+Robot tasarımının amacı (ve kursun kullandığı belirli tasarım tarzı), takımın robotu etkili bir şekilde üretmesini, inşa etmesini, programlamasını ve sürmesini sağlamaktır. Tasarım tarzı, 2-B plakalar ve desenli kutu boru kullanmaya odaklanır. Bildiğimiz kadarıyla, bu en düşük kaynak tasarım tarzı ve en yüksek tavanlıdır, çünkü plakaları Fabworks gibi bir hizmet kullanarak kestirebilir ve boruları ve milleri sadece bir testere ile kesebilirsiniz. Sıkı bir takvimi olabildiğince kolaylaştırır ve robotun iyi çalışmasını ve iyi sürmesini önceliklendirir. Ayrıca, bu tasarım tarzını kullanan sayısız örnek robot ve kaynaklar vardır, ilham almak için.
 
 <br>

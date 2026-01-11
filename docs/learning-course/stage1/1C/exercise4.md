@@ -1,18 +1,18 @@
-# 1C: Practice Mechanisms
+# 1C: Pratik Mekanizmalar
 
-## Exercise 4: Telescoping Hook
+## Egzersiz 4: Teleskopik Hook
 
-In this exercise, you will be modeling a telescoping climber. This mechanism features [WCP GreyT telescoping bearing blocks](https://wcproducts.com/products/greyt-telescope "GreyT Telescope Product Page"){:target="_blank"} and [REV MAXPlanetary](https://www.revrobotics.com/frc/maxplanetary-system/ "Rev MAXPlanetary System Product Page"){:target="_blank"} mounting gearbox plates. Be sure to pay close attention to hook and gearbox sketches when modeling. 
+Bu egzersizde, bir teleskopik tırmanıcı modelleyeceksiniz. Bu mekanizma [WCP GreyT teleskopik bearing blokları](https://wcproducts.com/products/greyt-telescope "GreyT Telescope Product Page"){:target="_blank"} ve [REV MAXPlanetary](https://www.revrobotics.com/frc/maxplanetary-system/ "Rev MAXPlanetary System Product Page"){:target="_blank"} montaj şanzıman plakaları içerir. Modelleme yaparken hook ve şanzıman sketch'lerine dikkat etmeniz önerilir.
 
 !!! warning
-    From this point on the specific lengths of shafts and offsets of belts may not be provided, you should consider what components are going on the shafts when setting distances. It is always ok to go back and change these lengths later if needed. When you get to making your own mechanisms there wont be a step by step guide for it! These exercises try and gradually pull back the guard rails as your progress to get you ready for build season. If you get stuck feel free to refer to the ![solution doc](https://cad.onshape.com/documents/99b4fd36c41bdb5b3e6d5ceb/w/f8e04439667e38aedb8f8196/e/8843ec3a6b3828f461343955), or ask a mentor for help!
+    Bu noktadan itibaren shaft'ların belirli uzunlukları ve belt'lerin offset'leri sağlanmayabilir, mesafeleri ayarlarken shaft'lara gidecek bileşenleri düşünmelisiniz. Gerekirse daha sonra bu uzunlukları değiştirmek tamamdır. Kendi mekanizmalarınızı yaptığınızda bunun için adım adım bir rehber olmayacak! Bu egzersizler, build season'a hazırlanmak için ilerledikçe size guard rails'i gradually geri çekmeye çalışır. Takılırsanız solution doc'a bakmaktan veya mentordan yardım istemekten çekinmeyin!
 
-### Leveraging COTS Components
-Using COTS components is crucial in a time-constrained build season. 
-Even if you have the capability to fabricate every part, relying on COTS parts allows you to spend your time on more important tasks—like refining designs or testing. 
-This helps ensure your time is spent where it makes the most impact, rather than on re-inventing parts that are already readily available.
+### COTS Bileşenlerinden Yararlanmak
+Zaman kısıtlı bir build season'da COTS bileşenleri kullanmak çok önemlidir.
+Her parçayı üretebilecek yeteneğe sahip olsanız bile, COTS parçalarına güvenmek, zamanınızı daha önemli görevlere harcamanızı sağlar - tasarımları rafine etmek veya test etmek gibi.
+Bu, zamanınızı en çok etkilediği yerde harcamanızı sağlar, zaten hazır bulunan parçaları yeniden icat etmek yerine.
 
-???+ Example "Exercise 4 COTS Components"
+???+ Örnek "Egzersiz 4 COTS Bileşenleri"
     <div class="grid cards" markdown>
 
     -   <center><img src="../images/telescope/greyt.webp" width="100%"></center>
@@ -22,27 +22,27 @@ This helps ensure your time is spent where it makes the most impact, rather than
     </div>
 
     <figure>
-      <figcaption>The telescoping bearing blocks have complex geometry that would be difficult and time consuming to manufacture for most teams.
-                  The REV MAXPlanetary is an easy way to get a large gearbox reduction without the need for a custom gearbox. (Photo Credits: WCP, REV)</figcaption>
+      <figcaption>Teleskopik bearing blokları, çoğu takım için üretimi zor ve zaman alacak karmaşık geometriye sahiptir.
+                  REV MAXPlanetary, özel bir şanzımana ihtiyaç duymadan büyük bir şanzıman redüksiyonu elde etmenin kolay bir yoludur. (Fotoğraf Kaynakları: WCP, REV)</figcaption>
     </figure>
 
-### Crush Blocks
+### Crush Blokları
 
-3D-printed crush blocks can be used to reinforce thin-walled tubing in assemblies where bolts pass through without a plate.
-Since the strength of bolts comes from their clamping force, without anything to support the thin walls, the tube can collapse before achieving proper clamping force.
-Crush blocks distribute the load, allowing for full clamping force while maintaining the tube’s structural integrity.
+3D-baskı crush blokları, bolt'ların plaka olmadan geçtiği assembly'lerde ince cidarlı tüpleri güçlendirmek için kullanılabilir.
+Cıvataların gücü sıkma kuvvetlerinden gelir, ince duvarları destekleyecek hiçbir şey yoksa, tüp proper sıkma kuvvetini elde etmeden önce çökebilir.
+Crush blokları yükü dağıtır, tam sıkma kuvvetine izin verirken tüpün yapısal bütünlüğünü korur.
 
-Alternatively, a "crush plate" can also be utilized to distribute the fastener force to achieve a similar effect as a crush block.
+Alternatif olarak, bir "crush plaka" da fastener kuvvetini dağıtmak ve crush blokla benzer bir etki elde etmek için kullanılabilir.
 
-???+ example "Crush Blocks and Crush Plates"
+???+ örnek "Crush Blokları ve Crush Plakalar"
     <figure>
     <img src="../images/telescope/crush-block-plate.webp" width="65%">
-    <figcaption>A 3D printed crush block (left) and crush plate (right). Crush plates tend to work well for the middle of the tubes where it may be difficult to insert a crush block.</figcaption>
+    <figcaption>Bir 3D baskı crush bloğu (sol) ve crush plakası (sağ). Crush plakaları, crush bloğu takmanın zor olabileceği tüplerin ortası için iyi çalışır.</figcaption>
     </figure>
 
-### Part Studio Instructions
+### Part Studio Talimatları
 
-**Navigate to the "Exercise #4 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
+Kopyalanmış belgenizdeki **"Exercise #4 Part Studio" sekmesine gidin** ve bu egzersiz için part studio'yu tamamlamak için **slaytlardaki talimatları izleyin**.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -58,36 +58,36 @@ Alternatively, a "crush plate" can also be utilized to distribute the fastener f
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-1.webp" style="width:100%">
-      <figcaption>1. Begin by creating a side profile sketch of the telescope tubes on the right plane.</figcaption>
+      <figcaption>1. Right plane üzerinde telescope tüplerinin yan profil sketch'ini oluşturarak başlayın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-2.webp" style="width:100%">
-      <figcaption>2. Use two extrudes to create the solid bodies for the tubes. Then, use the Tube Converter Featurescript (or shell feature) to convert the solid bodies into two thin-wall tubes with no hole pattern.</figcaption>
+      <figcaption>2. Tüpler için solid bodies oluşturmak için iki extrude kullanın. Sonra, Tube Converter Featurescript'i (veya shell özelliğini) kullanarak solid bodies'i delik patternsiz iki ince cidarlı tüpe dönüştürün.</figcaption>
     </figure>
   </div>
-  
+
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-3.webp" style="width:100%">
-      <figcaption>3. Add the holes for the WCP bearing blocks to the inner and outer tubes. The dimensions are from <a href="https://docs.wcproducts.com/greyt-telescope/overview-and-features/tubing-hole-pattern">WCP's documentation</a>.</figcaption>
+      <figcaption>3. WCP bearing blokları için iç ve dış tüplere delikleri ekleyin. Boyutlar <a href="https://docs.wcproducts.com/greyt-telescope/overview-and-features/tubing-hole-pattern">WCP'nin belgelerinden</a> alınmıştır.</figcaption>
     </figure>
   </div>
-  
+
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-4.webp" style="width:100%">
-      <figcaption>4. Model the crush block at the top of the inner tube. Make sure to account for 3D-printing tolerances by giving a little bit of clearance for the crush block inside of the tube. You will add the holes that go through the crush block after you model the hook.</figcaption>
+      <figcaption>4. İç tüpün üstündeki crush bloğu modelleyin. Tüpün içindeki crush blok için 3D-baskı toleranslarını hesaba katmak için biraz clearance bıraktığınızdan emin olun. Hook'u modelledikten sonra crush bloktan geçen delikleri ekleyeceksiniz.</figcaption>
     </figure>
   </div>
-  
-  
+
+
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-5.webp" style="width:100%">
-      <figcaption>5. Sketch the hook. Pay attention to the sketch relations in the solution document.</figcaption>
+      <figcaption>5. Hook'u sketchleyin. Solution belgesindeki sketch ilişkilerine dikkat edin.</figcaption>
     </figure>
   </div>
 
@@ -95,63 +95,63 @@ Alternatively, a "crush plate" can also be utilized to distribute the fastener f
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-6.webp" style="width:100%">
-      <figcaption>6. Extrude the hook, then extrude the mounting holes to cut through the tube and the crush block. Also add the hook spacer.</figcaption>
+      <figcaption>6. Hook'u extrude edin, ardından montaj deliklerini tüp ve crush bloğu içinden geçecek şekilde extrude edin. Ayrıca hook spacer'ını ekleyin.</figcaption>
     </figure>
   </div>
-  
+
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/Kt2l8vujAUE?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>7. Model the hook 3d printed spacer. With sketch imprinting enabled, we only need to draw the line for where the 3d printed block starts. There is no need to use the <code>Use</code> feature to copy the hook profile into the sketch.</figcaption>
+      <figcaption>7. Hook 3d baskı spacer'ını modelleyin. Sketch imprinting etkinleştirildiğinde, 3d baskı bloğun başladığı yer için çizgiyi çizmemiz yeterlidir. Hook profilini sketch'e kopyalamak için <code>Use</code> özelliğini kullanmanıza gerek yoktur.</figcaption>
     </div>
   </div>
-  
+
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-8.webp" style="width:100%">
-      <figcaption>8. Sketch the gearbox mounting plate on the outside of the tube. There should be a small 0.01" gap between the 3/8" clamping spacers and the tube to make sure that the gearbox can be assembled properly. The 13.75 mm construction circle represents the rounded hex spool. A hole will be placed on the point on the left side of the plate.</figcaption>
+      <figcaption>8. Tüpün dışında şanzıman montaj plakasını sketchleyin. Şanzımanın düzgün bir şekilde assembly edilebilmesi için 3/8" clamping spacer'ları ve tüp arasında küçük bir 0.01" boşluk olmalıdır. 13.75 mm construction daire yuvarlatılmış hex spool'u temsil eder. Plakanın sol tarafındaki noktaya bir delik yerleştirilecektir.</figcaption>
     </figure>
   </div>
-  
+
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-9.webp" style="width:100%">
-      <figcaption>9. Sketch the pull down string by creating a line tangent to the rounded hex spool. Note that we will use this line to create a sweep of the rope, therefore this line cannot be construction geometry.</figcaption>
+      <figcaption>9. Yuvarlatılmış hex spool'a teğet bir çizgi oluşturarak pull down string'i sketchleyin. Bu çizgiyi ipin sweep'ini oluşturmak için kullanacağımızı, bu nedenle bu çizginin construction geometri olmaması gerektiğini unutmayın.</figcaption>
     </figure>
   </div>
-  
+
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-10.webp" style="width:100%">
-      <figcaption>10. Extrude the plate. This plate will not be pocketed so that the surface clamped to the tube is spreads out the force. Optionally, you could partially pocket it and leave 1/16" of material on the side of the plate clamped against the tube.</figcaption>
+      <figcaption>10. Plakayı extrude edin. Tüpe sıkılan yüzey kuvveti yayması için bu plaka pocket edilmeyecektir. İsteğe bağlı olarak, kısmen pocket edebilir ve tüpe sıkılan plakanın tarafında 1/16" malzeme bırakabilirsiniz.</figcaption>
     </figure>
   </div>
-  
+
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-11.webp" style="width:100%">
-      <figcaption>11. Add a 10-32 hole for the bolt that is threaded into the gearbox plate, then mirror the plate to the other side.</figcaption>
+      <figcaption>11. Şanzıman plakasına threaded olan bolt için bir 10-32 delik ekleyin, ardından plakayı diğer tarafa yansıtın.</figcaption>
     </figure>
   </div>
-  
+
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-12.webp" style="width:100%">
-      <figcaption>12. Model the gearbox spacer and the shaft.</figcaption>
+      <figcaption>12. Şanzıman spacer'ını ve shaft'ı modelleyin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-13.webp" style="width:100%">
-      <figcaption>13. Use the mate connector at the end of the sketched rope line to create a sketch of a 3mm circle lined up with the center of the shaft.</figcaption>
+      <figcaption>13. Sketch edilmiş ip çizgisinin ucundaki mate connector'ü kullanarak shaft'ın merkeziyle hizalanmış 3mm bir daire sketch'i oluşturun.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-14.webp" style="width:100%">
-      <figcaption>14. Sweep the circle along the vertical line from the gearbox to create a model of the rope.</figcaption>
+      <figcaption>14. Şanzımandan gelen dikey çizgi boyunca daireyi sweep ederek ipin modelini oluşturun.</figcaption>
     </figure>
   </div>
 
@@ -159,10 +159,10 @@ Alternatively, a "crush plate" can also be utilized to distribute the fastener f
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/parts-0.webp" style="width:100%">
-      <figcaption>15. Finish the part studio by naming your features and putting them into folders. Also assign materials according to the reference design. </figcaption>
+      <figcaption>15. Özellikleri adlandırarak ve klasörlere koyarak part studio'yu tamamlayın. Ayrıca reference design'a göre malzemeleri atayın. </figcaption>
     </figure>
   </div>
-  
+
 
   <!-- Next and previous buttons -->
   <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
@@ -173,9 +173,9 @@ Alternatively, a "crush plate" can also be utilized to distribute the fastener f
   </div>
 </div>
 
-### Assembly Instructions
+### Assembly Talimatları
 
-**Next, navigate to the "Exercise #4 Assembly" tab** in your copied document and **follow the instructions in the slides** to complete this exercise. 
+**Sonra, kopyalanmış belgenizdeki **"Exercise #4 Assembly" sekmesine gidin** ve bu egzersizi tamamlamak için **slaytlardaki talimatları izleyin**.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
@@ -189,63 +189,63 @@ Alternatively, a "crush plate" can also be utilized to distribute the fastener f
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/ch1kZ_IOCjs?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>1. Insert the climber components and group only the base stage components together to the Origin Cube. This is because the inner stage moves relative to the base stage, so we cannot group them together.</figcaption>
+      <figcaption>1. Climber bileşenlerini insert edin ve sadece base stage bileşenlerini Origin Cube ile bir araya gruplandırın. Bunun nedeni, inner stage'in base stage'e göre hareket etmesidir, bu yüzden onları bir araya gruplayamayız.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/assy-2.webp" style="width:100%">
-      <figcaption>2. Fasten the inner stage components together. </figcaption>
+      <figcaption>2. Inner stage bileşenlerini bir araya fasten edin. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/Vt1ld7z8ovI?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>3. Insert and fasten the WCP GreyT telescope bearing blocks from the <a href="https://cad.onshape.com/documents/3f21b4b70302525a1e1f2c29/v/4ec8cc58f734f29f41a0fdb8/e/4646e6fc60ff8c4fe2a9d4dd" target="_blank">WCP GreyT telescope document</a>.</figcaption>
+      <figcaption>3. <a href="https://cad.onshape.com/documents/3f21b4b70302525a1e1f2c29/v/4ec8cc58f734f29f41a0fdb8/e/4646e6fc60ff8c4fe2a9d4dd" target="_blank">WCP GreyT telescope belgesinden</a> WCP GreyT telescope bearing bloklarını insert edin ve fasten edin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/i4Kcsdnsk8A?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>4. Use two <code>Slider</code> mates to constrain the inner stage. By using two slider mates, one for the bottom and one for the top, the inner stage motion constraint is parametric to length changes in the base stage. We do not need to explicitly specify a travel length. </figcaption>
+      <figcaption>4. Inner stage'i constrain etmek için iki <code>Slider</code> mate kullanın. İki slider mate kullanarak (biri alt için, biri üst için), inner stage motion constraint base stage'teki uzunluk değişikliklerine parametrikdir. Açıkça bir seyahat uzunluğu belirtmek zorunda değiliz. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/assy-5.webp" style="width:100%">
-      <figcaption>5. Fasten the spacer and replicate it. Insert and fasten the shaft bearing to the plate and shaft. Note that we only require one bearing on the plate since the MAXPlanetary gearbox has another bearing at its output as we do not want to overconstrain the shaft.</figcaption>
+      <figcaption>5. Spacer'ı fasten edin ve replicate edin. Shaft bearing'i plakaya ve shaft'a insert edin ve fasten edin. MAXPlanetary şanzımanının çıkışında başka bir bearing olduğu için plakada sadece bir bearing gerektirdiğimizi unutmayın, shaft'ı overconstrain etmek istemiyoruz.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/assy-6.webp" style="width:100%">
-      <figcaption>6. Insert and fasten the MAXPlanetary gearbox and NEO Vortex from FRCDesignLib. We will use the 90 degree output with a 25:1 gear ratio.</figcaption>
+      <figcaption>6. FRCDesignLib'den MAXPlanetary şanzımanını ve NEO Vortex'i insert edin ve fasten edin. 25:1 dişli oranı ile 90 derece çıkış kullanacağız.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/assy-7.webp" style="width:100%">
-      <figcaption>7. Insert, fasten, and replicate all of the required fasteners.</figcaption>
+      <figcaption>7. Gerekli tüm fastener'ları insert edin, fasten edin ve replicate edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/assy-8.webp" style="width:100%">
-      <figcaption>8. Close up of the bolt used to pin the gearbox in place. This bolt keeps the gearbox from sliding up and down.</figcaption>
+      <figcaption>8. Şanzımanı yerine sabitlemek için kullanılan bolt'un yakın görünümü. Bu bolt şanzımanın yukarı aşağı kaymasını önler.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/telescope/assy-0.webp" style="width:100%">
-      <figcaption>9. Finish your assembly by organizing the parts into folders and naming your replicates.</figcaption>
+      <figcaption>9. Parçaları klasörlere düzenleyerek ve replicalarınızı adlandırarak assembly'nizi tamamlayın.</figcaption>
     </figure>
   </div>
 
@@ -258,17 +258,17 @@ Alternatively, a "crush plate" can also be utilized to distribute the fastener f
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 27 instances.
+!!! Success "Doğrulama"
+    Siz ve/veya ekibinizden daha deneyimli bir üye/mentor [**CAD'inizi gözden geçirsin!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Assembly'nizin 27 instance'ı olmalıdır.
 
-### Section Views
+### Kesit Görünümleri
 
-Section views are a helpful tool that allow you to reveal the internal features of a part or assembly by slicing through it along a specified plane. You can select a plane, planar face, cylinder, cone, or mate connector to use as the sectioning plane. You can also choose to include or exclude specific parts from the section view.
+Kesit görünümleri, belirli bir düzlem boyunca keserek bir parçanın veya assembly'nin iç özelliklerini ortaya çıkarmanıza yardımcı olan kullanışlı bir araçtır. Kesit düzlemi olarak bir düzlem, düzlemsel yüz, silindir, koni veya mate connector seçebilirsiniz. Ayrıca kesit görünümüne belirli parçaları dahil etmeyi veya hariç tutmayı seçebilirsiniz.
 
-!!! Tip "Creating a Section View"
+!!! Tip "Kesit Görünümü Oluşturma"
     <figure>
       <iframe src="https://www.youtube.com/embed/6oiVBMGkCOs?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>Creating a section view to get a better view of the pinning bolt.</figcaption>
+      <figcaption>Pinning bolt'un daha iyi bir görünümünü almak için kesit görünümü oluşturma.</figcaption>
     </figure>
 
 <br>

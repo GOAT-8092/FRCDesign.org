@@ -1,12 +1,12 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Tasarım Metodolojisi - Basit Swerve Şasisi
 
-## Deriving Layout Sketches and Part Modeling
+## Düzen Çizimlerini Türetme ve Parça Modelleme
 
-Now that you have created the layout sketch, you can begin modeling the individual parts. The critical dimensions of the parts, such as the length of the tubes, will be driven by the layout sketch. This way, the tubes will automatically update with any changes in the size of the drivebase in the layout sketch.
+Artık düzen çizimini oluşturduğunuza göre, bireysel parçaları modellemeye başlayabilirsiniz. Tüp uzunluğu gibi parçaların kritik boyutları, düzen çizimi tarafından yönlendirilecektir. Bu şekilde, tüpler düzen çizimindeki şasi boyutundaki değişikliklerle otomatik olarak güncellenecektir.
 
-### Instructions
+### Talimatlar
 
-Start by **creating a new folder tab in your Document called `Drivetrain`**. Then, **create a new part studio called `Drivetrain`** within the `Drivetrain` folder. **Follow the instructions in the slides** to complete the part studio. Remember that the Origin Cube should be the first feature in your part studio.
+Başlamak için **Belgenizde `Drivetrain` adında yeni bir klasör sekmesi oluşturun**. Ardından, **`Drivetrain` klasöründe `Drivetrain` adında yeni bir part studio oluşturun**. Part studio'yu tamamlamak için **slaytlardaki talimatları izleyin**. Origin Cube'un part studio'nuzdaki ilk özellik olması gerektiğini unutmayın.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -15,70 +15,70 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/parts-0.webp" style="width:100%">
-      <figcaption>0. The part studio.</figcaption>
+      <figcaption>0. Part studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/parts-1.webp" style="width:100%">
-      <figcaption>1. Start by inserting the origin cube. Then, use the <code>Derived</code> tool to insert the layout sketches you previously drew from the Main Layout Sketch part studio. This feature will automatically update if changes are made to the layout sketch.</figcaption>
+      <figcaption>1. Origin cube'u ekleyerek başlayın. Ardından, daha önce çizdiğiniz düzen çizimlerini Main Layout Sketch part studio'undan eklemek için <code>Derived</code> aracını kullanın. Düzen çiziminde değişiklikler yapılırsa bu özellik otomatik olarak güncellenecektir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/parts-2.webp" style="width:100%">
-      <figcaption>2. Use the <code>Extrude Individual</code> and <code>Tube Converter</code> Featurescripts to model the tubes. The 2"x1" tubes should be 1/8" wall for strength, while the 2"x2" tube can be 1/16" wall.</figcaption>
+      <figcaption>2. Tüpleri modellemek için <code>Extrude Individual</code> ve <code>Tube Converter</code> Featurescripts'lerini kullanın. 2"x1" tüpler güç için 1/8" duvar olmalıdır, ancak 2"x2" tüp 1/16" duvar olabilir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/parts-3.webp" style="width:100%">
-      <figcaption>3. Start with one corner of the bellypan. The corner is cut out to create room for the swerve module. </figcaption>
+      <figcaption>3. Bellypan'ın bir köşesiyle başlayın. Köşe, swerve modülü için yer açmak için kesilir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/gk03kkl98NU?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>4. Use the <code>Fillet</code> sketch tool to add a 1" radius sketch fillet on the two internal corners of the cutout. </figcaption>
+      <figcaption>4. Kesitin iki iç köşesine 1" yarıçaplı sketch filtresi eklemek için <code>Fillet</code> sketch aracını kullanın.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/ivUXyr0Lacs?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>5. Next, use the <code>Circular Pattern </code> sketch tool to pattern the other three corners. Extrude the bellypan to be 1/8" thick.</figcaption>
+      <figcaption>5. Ardından, diğer üç köşeyi pattern yapmak için <code>Circular Pattern </code> sketch aracını kullanın. Bellypan'ı 1/8" kalınlığında extrude edin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/parts-6.webp" style="width:100%">
-      <figcaption>6. Use the <code> Fillet All Edges</code> Featurescript to add a 0.25" radius fillet to the remaining edges on the bellypan by selecting the bottom face of the bellypan.</figcaption>
+      <figcaption>6. Bellypan'ın alt yüzünü seçerek 0.25" yarıçaplı filtre eklemek için <code> Fillet All Edges</code> Featurescript'ini kullanın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/parts-7.webp" style="width:100%">
-      <figcaption>7. Add the mounting holes for the bellypan. Use a mix of <code>Linear Pattern</code> and <code>Circular Pattern</code> to pattern the 0.196" rivet and bolt holes. As was learned in 1C Exercise 1, bolts can be used to stop rivets from loosening over time.</figcaption>
+      <figcaption>7. Bellypan için montaj deliklerini ekleyin. 0.196" perçint ve cıvata deliklerini pattern yapmak için <code>Linear Pattern</code> ve <code>Circular Pattern</code> karışımını kullanın. 1C Egzersiz 1'de öğrenildiği gibi, cıvatalar perçintlerin zamanla gevşemesini önlemek için kullanılabilir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/mUVoTxoniCY?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>8. Extrude the holes into the bellypan. If the sketch is correctly drawn, you should not need to select each individual hole.</figcaption>
+      <figcaption>8. Delikleri bellypan'a extrude edin. Sketch doğru şekilde çizilirse, her bir deliği seçmenize gerek kalmamalıdır.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/parts-0.webp" style="width:100%">
-      <figcaption>9. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
+      <figcaption>9. Son olarak, sketch'lerinizi adlandırın ve özellik ağacındaki bir klasöre düzenleyin. Ayrıca, bellypan'ın malzemesini Aluminum 6061 olarak ayarlayın ve parçalarınızı adlandırın.</figcaption>
     </figure>
   </div>
 
@@ -91,13 +91,13 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   </div>
 </div>
 
-### Derived Feature
+### Türetme Özelliği
 
-In this section, you were introduced to the `Derived` feature. This feature is extremely powerful and can be used to import parts from one part studio into another to enable references for modeling. However, you must be careful to not overuse this function as it can significantly slow down your part studios.
+Bu bölümde, `Derived` özelliğiyle tanıştırıldınız. Bu özellik son derece güçlüdür ve modelleme için referansları etkinleştirmek için bir part studio'dan diğerine parçaları içe aktarmak için kullanılabilir. Ancak, bu işlevi aşırı kullanmamaya dikkat etmelisiniz çünkü part studio'larınızı önemli ölçüde yavaşlatabilir.
 
-### Feature Tree Organization
+### Özellik Ağacı Organizasyonu
 
-At this point, you should be feeling more and more comfortable with Onshape modeling and using Featurescripts. Always make sure to clean up your feature tree while working to keep it organized and easy to use. You can more learn about feature tree organization on the [Feature Tree Best Practices](/best-practices/feature-tree-setup/ "Feature Tree Best Practices Page"){:target="_blank"} page.
+Bu noktada, Onshape modellemesi ve Featurescripts kullanımıyla giderek daha rahat hissetmelisiniz. Her zaman düzenli ve kullanımı kolay tutmak için çalışırken özellik ağacınızı temizlediğinizden emin olun. Özellik ağacı organizasyonu hakkında daha fazla bilgiyi [Feature Tree Best Practices](/best-practices/feature-tree-setup/ "Feature Tree Best Practices Page"){:target="_blank"} sayfasından öğrenebilirsiniz.
 
 <br>
 

@@ -2,20 +2,20 @@
 image: docs/img/mechanism-examples/elevator/cascade/3_stage_elevator.webp
 ---
 
-# 3 Stage Cascade Elevator
+# 3 Kademeli Kaskad Asansör
 
 <figure markdown="span">
 [![3 Stage Cascade Elevator](../../../img/mechanism-examples/elevator/cascade/3_stage_elevator.webp){height=35% width=35%}](https://cad.onshape.com/documents/b21eea4e68dca3055c81016f/w/28943b84028061b6bfc5cc51/e/87fb54e646175dee9e71b213){target = "_blank"}
-<figcaption>Chain driven 3 stage elevator featuring a plate based carriage. Uses TTB COTS Rigging and WCP Elevator Blocks.</figcaption>
+<figcaption>Plaka tabanlı bir carriage özellikli zincir sürümlü 3 kademeli asansör. TTB COTS Rigging ve WCP Asansör Bloklarını kullanır.</figcaption>
 </figure>
 
-**NOTE:** This model not been built or tested in real life. It will phased out as new mechanism examples are added.
+**NOT:** Bu model gerçek hayatta yapılmamış veya test edilmemiştir. Yeni mekanizma örnekleri eklendikçe aşamalı olarak kaldırılacaktır.
 
-### Links
+### Bağlantılar
 
-[CAD Document](https://cad.onshape.com/documents/b21eea4e68dca3055c81016f/w/28943b84028061b6bfc5cc51/e/87fb54e646175dee9e71b213 "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
+[CAD Belgesi](https://cad.onshape.com/documents/b21eea4e68dca3055c81016f/w/28943b84028061b6bfc5cc51/e/87fb54e646175dee9e71b213 "CAD Belge Bağlantısı"){:target="_blank" .md-button .md-button--primary}
 
-## Behind the design
-**Coming Soon**
+## Tasarım Arkasında
+**Yakında**
 
 <br>

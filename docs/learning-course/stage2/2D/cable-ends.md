@@ -1,25 +1,25 @@
-# 2D: Cascade Elevator
+# 2D: Kaskat Asansör
 
 ## Cable Ends
 
-The ends of the cable are arguably the most important part of elevator rigging to do right. If they are handled improperly it can cause issues with rigging falling apart during impacts; this usually takes the elevator (and anything requiring it to move) completely out of commission for the match. Cascade rigging consists of at least one loop of cable per stage, which drives the motion for the next stage.
+Kablo uçları, asansör rigging'ini doğru yapmak için en önemli parçadır. Yanlış ele alınırlarsa, çarpışmalar sırasında rigging'in dağılmasına neden olabilir; bu genellikle maçı için asansörü (ve hareket etmesini gerektiren her şeyi) tamamen işlevsiz hale getirir. Kaskat rigging, her aşama için en az bir kablo döngüsünden oluşur, bu da bir sonraki aşama için hareketi sağlar.
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/carriage.webp" style="width:50%">
-    <figcaption>Elevator carriage with ratchet plate</figcaption>
+    <figcaption>Ratchet plakalı asansör carriage</figcaption>
 
 </figure>
 
 ### Cable Tension
 
-To ensure smooth motion, these cables need tensioned. One of the best ways to tension these cables is through a ratcheting cable spool. The COTS solution is to use the [WCP Ratchet Plate](https://wcproducts.com/products/wcp-0585 "WCP Ratchet Plate Product page"){:target="_blank"} (though an easy homemade solution can be done by cutting the end off of a ratcheting wrench and fastening it to your mechanism), with a hex shaft acting as the spool. The hex shaft gets a hole drilled in it so the cable is forced to wrap around it. 
+Pürüzsüz hareket sağlamak için, bu kabloların gergin olması gerekir. Bu kabloları germek için en iyi yollardan biri bir ratcheting cable spool kullanmaktır. COTS çözümü [WCP Ratchet Plate](https://wcproducts.com/products/wcp-0585 "WCP Ratchet Plate Product page"){:target="_blank"} kullanmaktır (ancak kolay bir ev yapımı çözümü, bir ratcheting anahtarının ucunu kesip mekanizmanıza sabitleyerek yapılabilir), milin spool olarak görev yaptığı hex mill ile. Hex mil, kabloyu onun etrafına sarmaya zorlayan bir delik alır.
 
-It is important to tie a self-tightening knot in the cable to prevent this from coming undone under high load. This ratcheting spool only needs to be done on one side, with a simple fixed loop on the other side. To tension properly, you will need to loosen the clamping plate before adding tension. This is for two reasons: in order to maintain sync between the stages and so that the tension gets added to each side instead of just the side with the ratchet.
+Yüksek yük altında çözülmesini önlemek için kabloya kendiliğinden sıkılan bir düğüm atmak önemlidir. Bu ratcheting spool sadece bir tarafta yapılmalıdır, diğer tarafta basit bir sabit döngü ile. Düzgün germek için, gerilim eklemek önce sıkma plakını gevşetmeniz gerekir. Bunun iki sebebi vardır: aşamalar arasındaki senkronu korumak için ve böylece gerilim sadece ratchet tarafına değil her tarafa eklenir.
+
 <br>
-
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/ratchet-plate.webp" style="width:50%">
-    <figcaption>Close up of ratchet plate</figcaption>
+    <figcaption>Ratchet plakasının yakını</figcaption>
 </figure>
 
 <br>

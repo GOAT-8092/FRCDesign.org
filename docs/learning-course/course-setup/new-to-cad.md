@@ -1,36 +1,36 @@
-# Introduction to CAD
-## What is CAD?
+# CAD'e Giriş
+## CAD Nedir?
 
-CAD is an acronym for "computer-aided design." It's a software tool used by engineers, manufacturers, architects, and many more designers in industry to bring their ideas to life. 
+CAD, "bilgisayar destekli tasarım" (computer-aided design) kısaltmasıdır. Mühendisler, üreticiler, mimarlar ve sektördeki birçok tasarımcı tarafından fikirlerini hayata geçirmek için kullanılan bir yazılım aracıdır.
 
-CAD is used to create a 3D model from various kinds of steps and tools to help prototype, manufacture, and market a product. Files can be sent to a machine to either print or cut material. Drawings can also be made and printed out to assist with manual machining and assembly. We use the CAD software Onshape for this guide and website. 
+CAD, bir ürünü prototipleştirmek, üretmek ve pazarlamak için yardımcı olan çeşitli adımları ve araçları kullanarak 3D bir model oluşturmak için kullanılır. Dosyalar materyali yazdırmak veya kesmek için bir makineye gönderilebilir. Manuel işleme ve montaja yardımcı olmak için Drawing'ler de oluşturulup yazdırılabilir. Bu rehber ve web sitesi için Onshape CAD yazılımını kullanıyoruz.
 
-??? Note "Software Choice"
-    This learning course uses Onshape because of its community-made resources, collaboration capabilities, and workflow. However, much of the design process, mechanism fundamentals, and design handbook will apply no matter what software you use. If you choose to use a different software while going through the guide, be aware that the CAD workflow may be different and that you will have significantly less support. 
+??? Note "Yazılım Seçimi"
+    Bu öğrenme kursu Onshape'i topluluk tarafından yapılan kaynaklar, işbirliği yetenekleri ve iş akışı nedeniyle kullanır. Ancak, tasarım sürecinin çoğu, mekanizma temelleri ve tasarım el kitabı hangi yazılımı kullanırsanız kullanın geçerli olacaktır. Rehberi takip ederken farklı bir yazılım kullanmayı seçerseniz, CAD iş akışının farklı olabileceğini ve önemli ölçüde daha az destek alacağınızdan haberdar olun.
 
 <figure>
     <center><img src="/img/learning-course/course-setup/introcad/formula.webp" style="width:100%; border:5px solid #ADADAD; border-radius: 2%"></center>
-    <figcaption>Formula 1 race cars are an example of something that is modeled in CAD.</figcaption>
+    <figcaption>Formula 1 yarış arabaları, CAD'de modellenen şeylere bir örnektir.</figcaption>
 </figure>
 
-## Why Use CAD for FRC?
+## FRC için CAD Neden Kullanılır?
 
-CAD is the intermediary between an idea and a built product. There are multiple factors that lead this to be game-changing:
+CAD, bir fikir ile üretilmiş bir ürün arasındaki aracıdır. Bunu oyun değiştirici hale getiren birden fazla faktör vardır:
 
-1. **Design Iteration**: Teams can quickly test and modify designs before manufacturing
-2. **Team Collaboration**: Multiple team members can view and understand designs clearly
-3. **Communication**: Everyone can see the end result and agree on a design and direction
-4. **Manufacturing Planning**: CAD serves as a digital blueprint and bill of materials and helps with manufacturing
-5. **Teaching Tool**: Helps new members understand robot mechanisms and assembly
-6. **Weight Management**: Allows teams to track robot weight throughout the design process
-7. **Efficiency**: A good robot can be designed and manufactured faster, leaving room for software testing and drive practice
+1. **Tasarım Yinelemesi**: Takımlar üretimden önce tasarımları hızlıca test edebilir ve değiştirebilir
+2. **Takım İşbirliği**: Birden fazla takım üyesi tasarımları net bir şekilde görebilir ve anlayabilir
+3. **İletişim**: Herkes sonucu görebilir ve bir tasarım ve yön üzerinde anlaşabilir
+4. **Üretim Planlaması**: CAD, dijital bir plan ve malzeme listesi olarak hizmet eder ve üretime yardımcı olur
+5. **Öğretim Aracı**: Yeni üyelerin robot mekanizmalarını ve montajı anlamasına yardımcı olur
+6. **Ağırlık Yönetimi**: Takımların tasarım süreci boyunca robot ağırlığını takip etmesine olanak tanır
+7. **Verimlilik**: İyi bir robot daha hızlı tasarlanabilir ve üretilebilir, böylece yazılım testi ve sürüş pratiği için yer kalır
 
 <center><img src="/img/learning-course/course-setup/introcad/bread.webp" style="width:80%"></center>
 
-**CAD skills are used in the real world all the time**, when designing and testing anything from simple product design to large feats of engineering like planes or cars. Learning CAD with any CAD software can equip you with useful skills you can put on your resume, and it will allow you to learn other CAD software a little easier.
+**CAD becerileri gerçek dünyada her zaman kullanılır**, basit ürün tasarımlarından uçaklar veya arabalar gibi büyük mühendislik harikalarına kadar her şeyi tasarlamak ve test ederken. Herhangi bir CAD yazılımı ile CAD öğrenmek, özgeçmişinize koyabileceğiniz yararlı becerilerle donatabilir ve diğer CAD yazılımlarını öğrenmenizi biraz daha kolaylaştırır.
 
 
 !!! Note
-    A quick intro to CAD and Onshape is provided in the [Introduction to Parametric Feature-Based CAD](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad "Introduction to CAD Onshape Course"){:target="_blank"} official learning course, but it doesn't provide much relevant information for FRC.
+    CAD ve Onshape'e hızlı bir giriş, [Parametrik Özellik Tabanlı CAD'e Giriş](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad "Introduction to CAD Onshape Course"){:target="_blank"} resmi öğrenme kursunda sağlanır, ancak FRC için çok fazla ilgili bilgi sağlamaz.
 
 <br>

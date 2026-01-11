@@ -1,7 +1,7 @@
-# Linkages
+# Bağlantılar
 
-A guide on linkage design.
+Bağlantı tasarımı rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

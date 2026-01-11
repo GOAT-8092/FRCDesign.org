@@ -1,16 +1,16 @@
-# 2D: Cascade Elevator
+# 2D: Kaskat Asansör
 
 ## Drive System
 
-Elevators need motors to power them. Once you have the rigging planned out you can figure out where you can fit the motors to drive the base elevator stage.
+Asansörlerin güçlendirilmeleri için motorlara ihtiyacı vardır. Rigging'i planladıktan sonra, taban asansör aşamasını sürmek için motorları nereye sığdırabileceğinizi figured edebilirsiniz.
 
 <br>
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/gearbox.webp" style="width:60%">
-    <figcaption>Elevator drive system close up</figcaption>
+    <figcaption>Asansör sürücü sistemi yakını</figcaption>
 </figure>
 
-### Reference Design
-The reference design utilizes a vertical chain with the TTB chain comb and NEO motors with MAX planetary gearboxes.
+### Referans Tasarım
+Referans tasarım, TTB zincir tarası ile dikey zincir ve MAX planetary dişli kutuları ile NEO motorları kullanır.
 
 <br>

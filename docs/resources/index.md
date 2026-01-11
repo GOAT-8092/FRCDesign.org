@@ -1,20 +1,20 @@
-# Resources
-This section includes resources that you may find useful to help improve your knowledge of mechanisms, help you understand the rest of the site better, and assist your CAD workflow.
+# Kaynaklar
+Bu bölüm, mekanizmalar hakkındaki bilginizi iyileştirmenize, web sitesinin geri kalanını daha iyi anlamanıza ve CAD iş akışınıza yardımcı olacak faydalı kaynaklar içerir.
 
-## Sections
+## Bölümler
 
-### [Glossary](glossary.md "Glossary Page")
-The glossary is a compiled list of words (including acronyms and abbreviations) and definitions to help people understand the lingo used in various parts of the website and on the discord server. When you find one of these words across the site, it will be underlined, and you can hover over it to see the definition.
+### [Sözlük](glossary.md "Sözlük Sayfası")
+Sözlük, web sitesinin çeşitli yerlerinde ve Discord sunucusunda kullanılan jargonu anlamalarına yardımcı olmak için kelimelerin (kısaltmalar ve kısaltmalar dahil) ve tanımların derlenmiş bir listesidir. Bu kelimelerden birini web sitesinde bulduğunuzda, altı çizilecek ve üzerine gelerek tanımı görebilirsiniz.
 
-### CAD Resources
-A collection of resources to support your workflow in Onshape, relevant to FRC.
+### CAD Kaynakları
+FRC ile ilgili Onshape'daki iş akışınızı desteklemek için kaynak koleksiyonu.
 
-[**FRCDesignLib**](frcdesignlib.md "FRCDesignLib Page"): A list of FRC-relevant featurescripts.
+[**FRCDesignLib**](frcdesignlib.md "FRCDesignLib Sayfası"): FRC ile ilgili featurescripts'lerin listesi.
 
-[**KrayonCAD**](krayonCAD.md "KrayonCAD Page"): A resource now integrated with MKCAD that allows people to quickly model out robot architectures.
+[**KrayonCAD**](krayonCAD.md "KrayonCAD Sayfası"): Artık MKCAD ile entegre edilen ve insanların robot mimarilerini hızla modellemesine izin veren bir kaynak.
 
-[**Featurescript List**](featurescripts.md "Featurescript List Page"): A list of FRC-relevant featurescripts.
+[**Featurescript Listesi**](featurescripts.md "Featurescript Listesi Sayfası"): FRC ile ilgili featurescripts'lerin listesi.
 
-[**Featurescript Help**](featurescript-help.md "Featurescript Help Page"): Some tutorials on how to add and update featurescripts.
+[**Featurescript Yardımı**](featurescript-help.md "Featurescript Yardım Sayfası"): Featurescripts'leri nasıl ekleyeceğinize ve güncelleyeceğinize dair bazı öğreticiler.
 
 <br>

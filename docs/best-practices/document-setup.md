@@ -1,38 +1,38 @@
 ---
-title: Document Setup
-description: The best practices for document setup for an FRC robot.
+title: Belge Kurulumu
+description: FRC robotu için belge kurulumu için en iyi uygulamalar.
 ---
 
-# Document Setup
+# Belge Kurulumu
 
-In general, an FRC robot is too complicated and has too many parts to be created entirely within a single document. Doing so is possible, but will result in bad loading times and, likely, poor organization. 
+Genel olarak, bir FRC robotu tek bir belge içinde tamamen oluşturulmak için çok karmaşıktır ve çok fazla parçaya sahiptir. Bunu yapmak mümkündür, ancak kötü yükleme sürelerine ve muhtemelen zayıf organizasyona neden olacaktır.
 
-To alleviate these challenges, we generally split FRC robots into several documents, each with an individual version number:
+Bu zorlukları hafifletmek için, genellikle FRC robotlarını birkaç belgeye ayırırız, her biri bireysel bir sürüm numarasıyla:
 
-- A "Concept" document, which contains the main layout sketch. This, alongside the Crayon CAD (a simplistic model of your robot archetype), determines the overall architecture and geometry for the robot.
-- Several "Subsystem" documents, which contain the part studios, subassemblies and top-level assembly for each subsystem, such as an Intake.
-- A "Main Robot" document, which contains the top-level full robot assembly. This assembly is comprised of the top-level assembly from each of the subsystem documents.
+- Ana layout sketch'i içeren bir "Kavram" belgesi. Bu, Crayon CAD (robotunuz archetype'inin basit bir modeli) ile birlikte, robot için genel mimariyi ve geometriyi belirler.
+- Her alt sistem için part studio'ları, alt assembly'leri ve üst düzey assembly'yi içeren birkaç "Alt Sistem" belgesi, örneğin bir Intake.
+- Üst düzey tam robot assembly'sini içeren bir "Ana Robot" belgesi. Bu assembly, her alt sistem belgesinin üst düzey assembly'sinden oluşur.
 
-To connect these documents to each other, we make use of a few key Onshape features:
+Bu belgeleri birbirine bağlamak için birkaç temel Onshape özelliğini kullanırız:
 
-- **Derive** feature: brings your main layout sketch from the concept document into the subsystem document, so you can design your parts on top of it.
-- **Import**: Subassemblies are imported from each subsystem document so they can be assembled in the main robot document.
+- **Derive** özelliği: Ana layout sketch'i kavram belgesinden alt sistem belgesine getirir, böylece onun üzerinde parçalarınızı tasarlayabilirsiniz.
+- **Import**: Alt assembly'ler her alt sistem belgesinden içe aktarılır, böylece ana robot belgesinde assembly edilebilirler.
 
-Here is a diagram showing the full file structure:
+Tam dosya yapısını gösteren bir diyagram aşağıdadır:
 
 <center><img src="/img/best-practices/docsetup2.webp"></center>
 
-<center> *Blue: Derive, Red: Import* </center>
+<center> *Mavi: Derive, Kırmızı: Import* </center>
 
-!!! Note
-    Sometimes the "main robot" document is combined with the "concept" document. In this case nothing really changes, the file structure just becomes a sort of loop, and there is one less document.
+!!! Not
+    Bazen "ana robot" belgesi "kavram" belgesi ile birleştirilir. Bu durumda hiçbir şey gerçekten değişmez, dosya yapısı sadece bir tür döngü haline gelir ve bir belge daha az vardır.
 
-You can see an example of this document structure here. Note the combination of the framework and main documents.
+Bu belge yapısının bir örneğini burada görebilirsiniz. Çerçeve ve ana belgelerin birleşimini unutmayın.
 
 <center><img src="/img/best-practices/docsetup3.webp" style="border:5px solid #ADADAD"></center>
 
 <center><img src="/img/best-practices/docsetup4.webp" style="border:5px solid #ADADAD"></center>
 
-The document structure isn't set in stone; as long as it helps your team fulfill the goal of top-down design and uses separate documents to split up the versions of mechanisms, you can place your main layout sketches wherever you want (main document, concept document, or the drivetrain document).
+Belge yapısı taşa oyulmuş değildir; takımınızın üstten aşağı tasarım hedefini yerine getirmesine yardımcı olduğu ve mekanizmaların sürümlerini ayırmak için ayrı belgeler kullandığı sürece, ana layout sketch'lerinizi istediğiniz yere koyabilirsiniz (ana belge, kavram belgesi veya drivetrain belgesi).
 
 <br>

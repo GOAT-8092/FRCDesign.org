@@ -1,7 +1,7 @@
-# Arms
+# Kollar
 
-A guide on arm design.
+Kol tasarımı rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

@@ -1,19 +1,19 @@
-# 2D: Cascade Elevator
+# 2D: Kaskat Asansör
 
 ## Cable Clamp
 
-Cascade elevators function by moving a fixed length of cable from one side of a clamp to the other side of the clamp, to force the elevator up. This cable clamp is usually bolted to some form of crossmember. 
+Kaskat asansörler, bir sabit uzunlukta kabloyu bir kelepçenin bir tarafından diğer tarafına hareket ettirerek çalışır, bu da asansörü yukarı zorlar. Bu kablo kelepçesi genellikle bir çapraz üyeye cıvatalanır.
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/cable-clamp.webp" style="width:75%">
     <figcaption>TTB Cable Clamp</figcaption>
 </figure>
 
-### Reference Design
+### Referans Tasarım
 
-The reference design uses the TTB cable clamp to maintain consistency in rigging components (they come in [a kit](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit?_pos=6&_sid=1876486ab&_ss=r"TTB Pulley Kit Product Page"){:target="_blank"}). The clamp consists of two plates; the first one is fastened to the tube and the second one is ONLY fastened to the first plate. You can choose to make access holes for the bolts or bolt all the way through the cross member with a crushblock.
+Referans tasarım, rigging bileşenlerinde tutarlılığı korumak için TTB kablo kelepçesini kullanır (bunlar [bir kitte gelir](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit?_pos=6&_sid=1876486ab&_ss=r "TTB Pulley Kit Product Page"){:target="_blank"}). Kelepçe iki plakadan oluşur; ilki boruya sabitlenir ve ikincisi sadece ilk plakaya sabitlenir. Cıvatalar için erişim delikleri oluşturmayı veya bir crushblock ile çapraz üyeye tamamen cıvatalamayı seçebilirsiniz.
 
-!!! Note 
-    The WCP cable clamp uses a similar design but the fasteners go through both plates into the crossmember tube, sharing the clamping force with the crossmember.
+!!! Note
+    WCP kablo kelepçesi benzer bir tasarım kullanır, ancak cıvatalar her iki plakadan çapraz üye borusuna geçer, sıkma kuvvetini çapraz üye ile paylaşır.
 
 <br>

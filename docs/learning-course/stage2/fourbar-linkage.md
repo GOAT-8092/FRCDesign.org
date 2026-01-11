@@ -7,56 +7,56 @@ search:
 
 Work In Progress
 
-## Design Theory
+## Tasarım Teorisi
 
-### What are linkages / why would you use them
+### Linkage'lar nedir / neden kullanırsınız
 
-Four bar linkages are an alterative to the slapdown deployment method introduced in 2E {#TODO link}. Carefully designed linkages allow more design flexibility for space constrained designs or designs with difficult required positions for the intake rollers. By adjusting the layout sketch the end positions of the main intake plate can be translated and rotated as desired. A slapdown intake only rotates the intake, so will always end up with the intake being stowed vertically above its pivot point. A four bar intake could package the intake more tightly by translating a large intake closer to the bottom of the robot when stowed.
+Four bar linkages, 2E'de tanıtılan slapdown dağıtım yöntemine bir alternatiftir {#TODO link}. Dikkatli bir şekilde tasarlanmış linkage'lar, alan kısıtlı tasarımlar veya intake roller'ları için zorunlu pozisyonları olan tasarımlar için daha fazla tasarım esnekliği sağlar. Layout eskizi ayarlayarak, ana intake plakanın son pozisyonları istendiği gibi çevrilebilir ve döndürülebilir. Slapdown intake sadece intake'ı döndürür, bu yüzden intake her zaman pivot noktasının üzerinde dikey olarak depolanır. Four-bar intake, intake'ı daha sıkı paketleyebilir, çünkü büyük bir intake'ı depolandığında robotun altına daha yakın çevirebilir.
 
-### Pneumatic vs Motor Actuation
+### Pnömatik vs Motor Aktüasyon
 
-Motors are the most approachable actuation method for any mechanism. Four bar intakes are one of the most common places to use pneumatic cylinders however, and can present some situational benifits. Pneumatic cylinders can move complexity from the mechanical design of the mechanism being designed to the electronics area of the robot. Before deciding on using pneumatics in a design, keep in mind that it imposes the weight and volume of the pneumatic system components onto another area of your robot.
+Motorlar, her mekanizma için en yaklaşılabilir aktüasyon yöntemidir. Four bar intakelar, pnömatik silindirlerin kullanıldığı en yaygın yerlerden biridir ve bazı durumsal faydalar sunabilir. Pnömatik silindirler, karmaşıklığı tasarladığınız mekanizmanın mekanik tasarımından robotun elektronik alanına taşıyabilir. Bir tasarımda pnömatik kullanmaya karar vermeden önce, pnömatik sistem bileşenlerinin ağırlığını ve hacmini robotunuzun başka bir alanına yüklediğini aklınızda tutun.
 
-### Linkage mechanical advantage
+### Linkage mekanik avantajı
 
-TODO: graphics for mechanical advantage (avoiding over center)
+TODO: mekanik avantaj için grafikler (merkezden kaçınma)
 
-### Creating a Four Bar Linkage
-This step by step guide walks through creating a four bar linkage to intake a 9" foam ball. It is actuated by a pneumatic cylinder.
+### Four Bar Linkage Oluşturma
+Bu adım adım kılavuz, 9" foam topu intake etmek için bir four bar linkage oluşturmayı gösterir. Bir pnömatik silindir ile aktüe edilir.
 
 
 <details>
-  <summary>Alterate Video Tutorial By Nick Aarestad</summary>
+  <summary>Nick Aarestad'dan Alternatif Video Eğitimi</summary>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QsAC_seQHJY?si=apjY7oN6o2JKj5xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
 
 
 
-<p>Four Bar Guide:</p>
-<p>Step 1.<br>
-    First you need to understand the desired flow of the game piece through the intake (green arrow). Draw the bumper geometry, starting position of the game piece (touching the front bumper), and ending position of the game piece. Also draw several intermediate positions of the game piece along its path.
+<p>Four Bar Kılavuzu:</p>
+<p>Adım 1.<br>
+    Önce oyun parçasının intake'ten geçmesini istediğiniz akışı anlamalısınız (yeşil ok). Bumper geometrisini, oyun parçasının başlangıç pozisyonunu (ön bumper'a değiyor) ve oyun parçasının bitiş pozisyonunu çizin. Ayrıca oyun parçasının yolu boyunca birkaç ara pozisyonunu çizin.
     <center><img src="\img\learning-course\stage2-fourbar\step 1 reqs.webp" width="60%"></center>
 
-Step 2a (left).<br>
-Next define the extended position and retracted position of your intake rollers (left picture). The rollers should maintain contact and the desired compression of the game piece. In this case the rollers are dimensioned to be 7" away from the bumpers and the leading roller is 7" off of the ground. The retracted state of the intake must be within the frame perimeter of the robot, and should take up as little space as possible.<br>
+Adım 2a (sol).<br>
+Sonra intake roller'larınızın genişletilmiş ve geri çekilmiş pozisyonunu tanımlayın (sol resim). Roller'lar oyun parçasıyla teması ve istenen compression'ı korumalıdır. Bu durumda roller'lar bumper'lerden 7" uzaklıkta ve öndeki roller 7" yerden yüksek olacak şekilde boyutlandırılmıştır. Intake'ın geri çekilmiş durumu robotun çerçeve çevresi içinde olmalı ve mümkün olduğunca az yer kaplamalıdır.<br>
 
-The main intake plate holds the intake rollers, as well as the mounting points where the four bar linkage links will attach to the intake plate. In the picture on the left the linkage attachment points are defined using triangles. These attachment points must be at a consistent location relative to the rollers. Equals constraints are used on each one of those construction lines between the extended and retracted states to make sure they are the same.<br>
+Ana intake plakası intake roller'larını tutar ve ayrıca four bar linkage linklerinin intake plakasına bağlanacağı montaj noktalarını tutar. Soldaki resimde linkage montaj noktaları üçgenlerle tanımlanır. Bu montaj noktaları, genişletilmiş ve geri çekilmiş durumlar arasında her bir yapı çizgisi üzerinde eşit kısıtlamalar kullanılarak aynı olduklarından emin olmak için kullanılır.<br>
 
-Step 2b (right).<br>
+Adım 2b (sağ).<br>
 
-The positions of the intake rollers are typically full defined, but other points will need to be moved around as required to design a functional linkage. The linkage attachment points in the intake plate, and the linkage attachment points to the chassis should be moved around by hand until a reasonable geometry is accomplished. Then, as in the right picture, use dimensions to fully define the linkage. The attachment points to the chassis should be dimensioned, and some points will end up fully defined as a result of the geometric constraints.
+Intake roller'larının pozisyonları genellikle tam olarak tanımlanır, ancak diğer noktalar işlevsel bir linkage tasarlamak için gerektiği gibi hareket ettirilmelidir. Intake plakasındaki linkage montaj noktalarını ve şasiye linkage montaj noktalarını makul bir geometri elde edilene kadar elle hareket ettirin. Ardından, sağ resimde olduğu gibi, linkage'yi tam olarak tanımlamak için boyutları kullanın. Şasiye montaj noktaları boyutlandırılmalı ve bazı noktalar geometrik kısıtlamalar sonucunda tam olarak tanımlanacaktır.
 <center><img src="\img\learning-course\stage2-fourbar\step 2a partial sketch.webp" width="45%">  <img src="\img\learning-course\stage2-fourbar\step 2b full sketch.webp" width="45%"></center>
-Fully Defined Layout Sketch:<br>
+Tam Olarak Tanımlanmış Layout Eskizi:<br>
 <center><img src="\img\learning-course\stage2-fourbar\step 3 layout sketch.webp" width="60%"></center>
-Step 4. (only if pneumatic)<br>
-In this example a pneumatic cylinder will be used to actuate the linkage in and out. The longer solid line is the extended length of the cylinder and the shorter construction line is the retracted length of the cylinder. There are many other ways to arrange this linkage, including ones that act on the top arm instead of the bottom arm, or that result in the cylinder being retracted when the intake is extended. Define the point onto the link where the cylinder will attach (5.5" dimension) at both the extended and retracted states of the linkage. The rear mounting point of the linkage will then be fully defined, and the linkage layout is complete.
+Adım 4. (sadece pnömatik ise)<br>
+Bu örnekte, intake'ı içeri ve dışarı aktüe etmek için bir pnömatik silindir kullanılacaktır. Daha uzun düz çizgi silindirin genişletilmiş uzunluğudur ve daha kısa yapı çizgisi silindirin geri çekilmiş uzunluğudur. Bu linkage'yi düzenlemenin birçok başka yolu vardır, bunlar arasında üst kol yerine alt kol üzerine hareket edenler veya intake genişletildiğinde silindirin geri çekilmesine neden olanlar. Silindirin bağlanacağı link üzerindeki noktayı (5.5" boyutu) linkage'nin hem genişletilmiş hem de geri çekilmiş durumlarında tanımlayın. Linkage'nin arka montaj noktası tam olarak tanımlanacak ve linkage düzeni tamamlanmış olacaktır.
 <center><img src="\img\learning-course\stage2-fourbar\step 3 pneumatic sketch.webp" width="60%"></center>
-Step 5. <br>
-Using proper parametric cad practice, you are now ready to sketch and extrude the plates for the intake and linkage. These should be where they will actually be in the assembly not on the center line of the part studio. Advanced sketching techniques can be used to ensure zero collisions or perfect fit between the links. Do not attempt this for your first design. Instead, make simple shapes, then check for interferences in the assembly and adjust the plates as needed until there are no collisions at both ends of travel. These plates will take serious intakes with other robots and the field, 1/4" polycarbonate with significant margins around each hole (>0.5") is recommended.
+Adım 5. <br>
+Şimdi uygun parametrik CAD uygulamasını kullanarak, intake ve linkage için plakaları eskizleyin ve extrude etmeye hazırsınız. Bunlar assembly'de gerçek olacakları yerde olmalıdır, part studio'nun merkez çizgisinde değil. Link'ler arasında sıfır çarpışma veya mükemmel uyum sağlamak için gelişkin eskizleme teknikleri kullanılabilir. İlk tasarımınız için bunu denemeyin. Bunun yerine, basit şekiller oluşturun, ardından assembly'de çarpışmaları kontrol edin ve her iki seyahat ucunda da çarpışma olmayana kadar plakaları gerektiği gibi ayarlayın. Bu plakalar diğer robotlarla ve saha ile ciddi çarpışmalar yapacaktır, her deliğin etrafında önemli marjlar (>0.5") ile 1/4" polikarbonat önerilir.
 <center><img src="\img\learning-course\stage2-fourbar\step 5 extrude plates.webp" width="60%"></center>
-Step 6. <br>
-Four bar linkages can be quite complicated to assemble, and will not be as clean as a simpler assembly with fewer moving subassemblies. That said, be sure to use proper origin cube assembly practices when assembling your intake. This picture shows the fully assembled intake plates, as well as the pneumatic cylinder. It includes some other hardware for clarity such as the intake rollers but should not be taken as an example of a good design. Insert the four bar layout sketches into the assembly and make sure that the intake moves exactly as you expect it to. The image shows the retracted state of the intake where the pneumatic cylinder is fully retracted, and the plates match the layout sketch perfectly. If this is not the case you must track down the problem and fix it.
+Adım 6. <br>
+Four bar linkages monte etmek oldukça karmaşık olabilir ve daha az hareketli subassembly'li daha basit bir assembly kadar temiz olmayacaktır. Bu söylenmişken, intake'ınızı monte ederken düzgün origin cube assembly pratiklerini kullandığınızdan emin olun. Bu resim tam monte edilmiş intake plakalarını ve ayrıca pnömatik silindiri gösterir. Açıklık için intake roller'ları gibi bazı diğer donanımları içerir, ancak iyi bir tasarım örneği olarak alınmamalıdır. Four bar layout eskizlerini assembly'ye ekleyin ve intake'ın beklediğiniz gibi tam olarak hareket ettiğinden emin olun. Resim, pnömatik silindirin tamamen geri çekildiği intake'ın geri çekilmiş durumunu gösterir ve plakalar layout eskiz ile mükemmel eşleşir. Bu durum böyle değilse, sorunu takip etmeli ve düzeltmelisiniz.
 <center><img src="\img\learning-course\stage2-fourbar\step 6 assembly.webp" width="60%"></center>
 [onshape link](https://cad.onshape.com/documents/9aeba443b3990c61c52d9613/w/fe0631a64edb24356a3dbe20/e/673191a338fd6c4480e9d624?renderMode=0&uiState=663e8f226d078f47b184758e)
 
@@ -75,7 +75,7 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = null;
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
-    } 
+    }
   });
 }
 </script>

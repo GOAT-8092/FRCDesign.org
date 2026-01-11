@@ -1,11 +1,11 @@
-# 1A: Onshape Fundamentals - Section 1
+# 1A: Onshape Temelleri - Bölüm 1
 
-## Drivetrains
+## Sürücü Sistemleri
 
-Drivetrains are pretty important — they let the robot move. 
-They're usually built out of box tube and have to be strong enough to survive to not explode when running into things. 
+Sürücü sistemleri oldukça önemlidir — robotun hareket etmesini sağlarlar.
+Genellikle kutu borusundan yapılmıştır ve şeylere çarptığında patlamaması için yeterince güçlü olmalıdır.
 
-Check out the video below to see a drivetrain in action. Spot where box tube is used.
+Aşağıdaki videoya bakarak çalışırken bir sürücü sistemini görün. Kutu borusunun nerede kullanıldığını bulun.
 
 <figure>
   <iframe width="768" height="432" src="https://www.youtube.com/embed/iDWhp80-axc?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
@@ -13,50 +13,50 @@ Check out the video below to see a drivetrain in action. Spot where box tube is 
 
 ---
 
-## Exercise 2: Adding Cross Rails
+## Egzersiz 2: Çapraz Raylar Ekleme
 
-In the document you copied previously, navigate to the part studio for Exercise 2.
+Önceden kopyaladığınız belgede, Egzersiz 2 için part studio'ya gidin.
 
-You will be adding extra cross rails to the drivetrain in the part studio. This will create extra structure for subsystems to attach to.
+Part studio'daki sürücü sistemine ekstra çapraz raylar ekleyeceksiniz. Bu, alt sistemlerin takılması için ekstra yapı oluşturacaktır.
 
-**Use the `extrude` tool and `tube converter` to create cross rails for the drivetrain**. Use what you learned in the previous exercise to try to figure it out. Good luck!
+**Sürücü sistemi için çapraz raylar oluşturmak için `extrude` aracını ve `tube converter`ı kullanın**. Önceki egzersizde öğrendiklerinizi kullanarak nasıl çözeceğinizi öğrenmeye çalışın. İyi şanslar!
 
 <div style="display: flex; gap: 5px; align-items: flex-start;">
   <figure style="flex: 1;">
     <img src="/img/learning-course/stage1a/dt-top.webp" style="width:90%">
-    <figcaption>Missing Cross Rails</figcaption>
+    <figcaption>Eksik Çapraz Raylar</figcaption>
   </figure>
 
   <figure style="flex: 1;">
     <img src="/img/learning-course/stage1a/drivetrain-example.webp" style="width:90%">
-    <figcaption>Complete Drivetrain</figcaption>
+    <figcaption>Tam Sürücü Sistemi</figcaption>
   </figure>
 </div>
 
 
-!!! Tip "Think About This While You Work"
-    Which extrude setting makes sure the cross rails end up in the right spot?
+!!! Tip "Çalışırken Bunu Düşünün"
+    Çapraz rayların doğru yerde olmasını sağlayan hangi extrude ayarı?
 
-After the extrude is complete, turn the blocks into tubes using `Tube Converter`.
+Extrude tamamlandıktan sonra, blokları `Tube Converter` kullanarak borulara dönüştürün.
 
 !!! Tip
-    Use the same settings for `Tube Converter` as you did for the previous exercise.
+    `Tube Converter` için önceki egzersizde kullandığınız aynı ayarları kullanın.
 
-### Quick Part Studio Check
+### Hızlı Part Studio Kontrolü
 
-Your Part Studio should match what you'd build in real life. If it overlaps like this, how do you fix it? 
+Part Studio'nuz gerçekte yapacağınız şeyle eşleşmelidir. Böyle bir örtüşme varsa, nasıl düzeltirsiniz?
 
 <figure>
   <img src="/img/learning-course/stage1a/noclipping.webp" style="width:70%">
-  <figcaption>Make sure your parts don't overlap!</figcaption>
+    <figcaption>Parçalarınızın örtüşmediğinden emin olun!</figcaption>
 </figure>
 
-Always check that your CAD makes sense physically.
+Her zaman CAD'inizin fiziksel olarak mantıklı olup olmadığını kontrol edin.
 
 ---
 
-### Make It Look Nicer
-Once the two tubes are created, the appearance of the drivetrain tubes can be changed so it looks nicer. Watch the video, then change all of the tubes to a color of your choosing. 
+### Daha İyi Görünmesini Sağlayın
+İki boru oluşturulduktan sonra, sürücü sistemi borularının görünümü daha iyi görünmesi için değiştirilebilir. Videoyu izleyin, ardından tüm boruları seçtiğiniz bir renge değiştirin.
 
 <figure>
   <iframe width="768" height="432" src="https://www.youtube.com/embed/Wr5-n--PbuI?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
@@ -64,6 +64,6 @@ Once the two tubes are created, the appearance of the drivetrain tubes can be ch
 
 <br>
 
-When you're done changing the appearance of the tubes, move on to the next exercise.
+Boruların görünümünü değiştirmeyi bitirdiğinizde, bir sonraki egzersize geçin.
 
 <br>

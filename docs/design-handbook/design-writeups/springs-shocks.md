@@ -1,7 +1,7 @@
-# Springs and Gas Shocks
+# Yaylar ve Gaz Amortisörleri
 
-A guide on springs and gas shocks.
+Yaylar ve gaz amortisörleri rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

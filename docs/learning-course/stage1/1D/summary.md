@@ -1,18 +1,18 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Tasarım Metodolojisi - Basit Swerve Şasisi
 
-## Summary
+## Özet
 
-Congratulations on completing Stage 1D! Keep up the good work!
+1D Aşamasını tamamladığınız için tebrikler! İyi çalışın!
 
-Here is a quick summary of what you have achieved in 1D:
+1D'de başardıklarınızın hızlı bir özeti:
 
-* Learned about top-down robot design methodology and layout sketches
-* Learned how to use the derive feature to drive part studios using layout sketches
-* Learned how to use the origin cube to mate together top level assemblies
-* Learned how to model a simple swerve drivetrain
+* Üsten aşağı robot tasarım metodolojisi ve düzen çizimleri hakkında öğrendiniz
+* Düzen çizimlerini kullanarak part studio'ları yönlendirmek için türetme özelliğini kullanmayı öğrendiniz
+* Üst düzey montajları bir araya getirmek için origin cube'u kullanmayı öğrendiniz
+* Basit bir swerve şasisi modellemeyi öğrendiniz
 
-In Stage 1E, you will continue to detail the swerve drivebase you just created and practice the workflow for adding components to a subsystem.
+1E Aşamasında, just oluşturduğunuz swerve şasisini detaylandırmaya devam edecek ve bir alt sisteme bileşen ekleme iş akışını pratik yapacaksınız.
 
-Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 1D so we can collect data and get a better idea of how to improve the website!
+Web sitesini nasıl geliştireceğimize dair daha iyi bir fikir edinmek için veri toplayabilmemiz için 1D için basit [**geri bildirim formumuzu**](https://forms.gle/qykF1UoxiymAEGWc8) doldurduğunuzdan emin olun!
 
 <br>

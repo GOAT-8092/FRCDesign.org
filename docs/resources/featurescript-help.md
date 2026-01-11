@@ -3,34 +3,34 @@ hide:
   - toc
 ---
 
-# Featurescript Help
+# Featurescript Yardımı
 
-## How To Install Featurescripts
+## Featurescripts'leri Nasıl Kurarsınız
 
-1. Open any Onshape document and go inside of a part studio
-2. Click the rightmost button on the toolbar <img align="center" src="../images/featurescripts/addCustomFeatures.webp">
-    - **Note:** If you have previously added any Featurescripts one of those may show up as the right most icon. In that case click the dropdown to show the add button.
-3. Paste the link of the document with the featurescript(s) in it into the search bar
-    - **Note:** Some of the below featurescripts exist in the same document, so you can add multiple from the same link.
+1. Herhangi bir Onshape belgesini açın ve bir part studio'nun içine gidin
+2. Araç çubuğunun en sağındaki butona tıklayın <img align="center" src="../images/featurescripts/addCustomFeatures.webp">
+    - **Not:** Daha önce herhangi bir Featurescripts eklediyseniz, bunlardan biri en sağ ikon olarak gösterilebilir. Bu durumda, ekleme butonunu göstermek için açılır menüyü tıklayın.
+3. Featurescript'leri içeren belgenin bağlantısını arama çubuğuna yapıştırın
+    - **Not:** Aşağıdaki featurescripts'lerden bazıları aynı belgede bulunur, böylece aynı bağlantıdan birden fazla ekleyebilirsiniz.
 
-4. Select the featurescript(s) you want to add to your profile, then exit the box. They will be accessible in all documents from then on in the same drop-down in the toolbar where you added the feature.
+4. Profilinize eklemek istediğiniz featurescript'leri seçin, ardından kutudan çıkın. Bundan sonra araç çubuğunda özelliği eklediğiniz aynı açılır menüdeki tüm belgelerden erişilebilirlerler.
 
-??? Video "Video Tutorial"
+??? Video "Video Öğretici"
     <video controls="true" allowfullscreen="true" poster="../images/featurescripts/addingFeaturescriptsTutorial.webp">
       <source src="../images/featurescripts/addingFeaturescriptsTutorial.webm" type="video/webm">
     </video>
 
-!!! Note "Adding Featurescripts while in a Featurescript Document"
-    When viewing a tab in a document that uses custom features, you can click a button near the top left that says 'custom features'. From here you can add custom features used in the document to your profile.
+!!! Not "Featurescript Belgesindeyken Featurescripts'leri Eklemek"
+    Özel özellikler kullanan bir belgedeki bir sekmeyi görüntülerken, sol üstte 'özel özellikler' diyen bir butona tıklayabilirsiniz. Buradan belgede kullanılan özel özellikleri profilinize ekleyebilirsiniz.
 
-## Troubleshooting and Updating Featurescripts 
+## Featurescripts'leri Sorun Giderme ve Güncelleme
 
-If a featurescript is not working as expected, the current version might be broken. You might have to update the featurescript. If it needs updating, the feature will show a blue icon to the right of it that, when hovered over, will say "change version of linked document."
+Bir featurescript beklendiği gibi çalışmıyorsa, mevcut sürüm bozuk olabilir. Featurescript'i güncellemeniz gerekebilir. Güncellemeye ihtiyaç duyuyorsa, özellik sağ tarafında mavi bir ikon gösterecektir, üzerine gelindiğinde "bağlantılı belgenin sürümünü değiştir" diyecektir.
 
-1. The first way to update it is by individually by right clicking the feature you want updated in the feature list and clicking "Update linked document..."
-2. The second, and slightly more permanent way (until the maintainer of the custom feature creates a new version), is by right clicking any of the featurescript icons in your toolbar or in the custom features dropdown and clicking "Update..." or "Update all..." From there, you can see the current versions of the custom features you have added to your profile and update selected ones to use the current latest version when you use a featurescript.
+1. İlk güncelleme yolu, özellik listesinde güncellemek istediğiniz özelliğe sağ tıklayıp "bağlantılı belgeyi güncelle..." seçeneğini seçmektir
+2. İkinci ve biraz daha kalıcı yol (özel özelliğin bakıcısı yeni bir sürüm oluşturana kadar), araç çubuğunuzdaki veya özel özellikler açılır menüsündeki herhangi bir featurescript ikonuna sağ tıklayıp "Güncelle..." veya "Tümünü Güncelle..." seçeneğini seçmektir. Buradan, profilinize eklediğiniz özel özelliklerin mevcut sürümlerini görebilir ve seçilenleri bir featurescript kullandığınızda mevcut en son sürümü kullanacak şekilde güncelleyebilirsiniz.
 
-??? Video "Video Tutorial"
+??? Video "Video Öğretici"
     <video controls="true" allowfullscreen="true" poster="../images/featurescripts/updatingFeaturescriptDocuments.webp">
       <source src="../images/featurescripts/updatingFeaturescriptDocuments.webm" type="video/webm">
     </video>

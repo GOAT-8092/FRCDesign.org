@@ -1,31 +1,31 @@
-# 1C: Practice Mechanisms
-## Introduction
+# 1C: Pratik Mekanizmalar
+## Giriş
 
-Welcome to stage 1C! In this stage, you will be modeling a number of different mechanisms to practice your CAD skills and execution of small details. You will be introduced to new COTS parts and Onshape tips and tricks along the way to help your workflow.
+Stage 1C'ye hoş geldiniz! Bu aşamada, CAD becerilerinizi pratik yapmak ve küçük detayları uygulama sayısız farklı mekanizma modelleyeceksiniz. Yol boyunca iş akışınıza yardımcı olmak için yeni COTS parçaları ve Onshape ipuçları ve püf noktaları tanıtılacaktır.
 
-Because these mechanisms are designed specifically to help practice skills and introduce concepts, they are modeled out-of-context of a full robot. 
-While these mechanisms do include some good design techniques, they are not necessarily complete systems. The models are strictly for CAD practice and not recommended for use on real robots.
+Bu mekanizmalar özellikle beceri pratiği yapmak ve kavramları tanıtmak için tasarlandığından, tam bir robot bağlamı dışında modellenmişlerdir.
+Bu mekanizmalar bazı iyi tasarım tekniklerini içerse de, mutlaka tam sistemler değildir. Modeller kesinlikle CAD pratiği içindir ve gerçek robotlarda kullanılması önerilmez.
 
 ### Layout Sketches
 
-Make sure to use a layout sketch for each mechanism, like the ones introduced in the Stage 1B exercises. Layout sketches are helpful at any scale, letting you define key dimensions in a single sketch, which makes it easy to adjust when needed.
+Her mekanizma için Stage 1B egzersizlerinde tanıtılanlara benzer bir layout sketch kullanmaktan emin olun. Layout sketch'ler her ölçekte yardımcıdır, ana boyutları tek bir sketch'te tanımlamanızı sağlar, bu da gerekli olduğunda kolayca ayarlamayı sağlar.
 
-!!! Tip
-    Add the components that drive the design to the layout sketch (i.e. power transmission, game piece path, rollers, etc.) while keeping specific part details in their own sketches and features (i.e. a separate sketch for the bearing holes and plate outline, to be extruded).
+!!! İpucu
+    Tasarımı yönlendiren bileşenleri layout sketch'e ekleyin (örn. güç aktarımı, oyun parçası yolu, silindirler vb.), belirli parça detaylarını kendi sketch'lerinde ve özelliklerinde tutarken (örn. rulman delikleri ve plaka outline'ı için ayrı bir sketch, extrude edilecek).
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
       <figure>
           <img src="../images/exercise1-layout.webp" style="width:80%">
-      <figcaptions>Exercise 1 layout sketch. Notice that only key geometry details are included in the layout sketch.</figcaption>
+      <figcaptions>Egzersiz 1 layout sketch. Layout sketch'te sadece önemli geometri detaylarının olduğuna dikkat edin.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="../images/exercise1-layout-final.webp" style="width:80%">
-          <figcaptions>Exercise 1 side view. Notice how the layout sketch drives the geometry of the mechanism.</figcaption>
+          <figcaptions>Egzersiz 1 yan görünüm. Layout sketch'in mekanizmanın geometrisini nasıl yönlendirdiğine dikkat edin.</figcaption>
       </figure>
   </div>
 
@@ -38,12 +38,12 @@ Make sure to use a layout sketch for each mechanism, like the ones introduced in
   </div>
 </div>
 
-!!! Note
-    The concept of layout sketches will be expanded upon later when you start to use them in the context of a robot.
+!!! Not
+    Layout sketch kavramı daha sonra robot bağlamında kullanmaya başladığınızda genişletilecektir.
 
-### Maintaining Consistent Origins
+### Tutarlı Originleri Koruma
 
-As mentioned in previous sections of Stage 1, you should maintain a consistent origin between your part studio and assembly. You will use the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} to achieve this. **Make sure that the origin cube is always the first feature in any part studio.** The below slides provide a demonstration of how to use the origin cube.
+Stage 1'in önceki bölümlerinde belirtildiği gibi, part studio ve montaj arasında tutarlı bir origin korumalısınız. Bunu başarmak için [`Origin Cube` Featurescript`](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"}'i kullanacaksınız. **Origin cube'un her part studio'da ilk özellik olduğundan emin olun.** Aşağıdaki slaytlar origin cube'un nasıl kullanılacağına dair bir demosyon sağlar.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -52,21 +52,21 @@ As mentioned in previous sections of Stage 1, you should maintain a consistent o
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="../images/origin-cube-tutorial/origin-cube-tutorial-1.webp" style="width:90%">
-      <figcaption>Place the Origin Cube featurescript as the first feature in the part studio.</figcaption>
+      <figcaption>Origin Cube Featurescript'i part studio'daki ilk özellik olarak yerleştirin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/origin-cube-tutorial/origin-cube-tutorial-2.webp" style="width:90%">
-      <figcaption>Model your mechanism.</figcaption>
+      <figcaption>Mekanizmanızı modelleyin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/H6y1S_cHLKk?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>Insert the part studio into the assembly with the green checkmark. Group all static parts together with the Origin Cube part, then fasten the mate connector on the Origin Cube to the origin of the assembly.</figcaption>
+      <figcaption>Part studioyu yeşil tik işareti ile montaja ekleyin. Tüm statik parçaları Origin Cube parçası ile birlikte gruplandırın, ardından Origin Cube üzerindeki mate connector'ı montajın origin'ine fasten edin.</figcaption>
     </div>
   </div>
 
@@ -79,15 +79,15 @@ As mentioned in previous sections of Stage 1, you should maintain a consistent o
   </div>
 </div>
 
-Following these steps will allow the origin of the assembly to be tied to a part that will never change or disappear. The position of the other parts relative to the origin cube will consistent with the part studio, even when things are changed in the part studio. This will be particularly useful for flexible assemblies, such as an arm or elevator, in stage 2 and beyond.
+Bu adımları izlemek, montajın origin'ini asla değişmeyecek veya kaybolmayacak bir parçaya bağlamanızı sağlar. Origin cube'a göre diğer parçaların konumu, part studio ile tutarlı olacaktır, part studio'da şeyler değiştirilse bile. Bu, 2. aşama ve ötesinde kol veya asansör gibi esnek montajlar için özellikle yararlı olacaktır.
 
 <br>
 
 <!-- The following is just notes that can be used in the final content of the page.
 
-Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits.
+Hatırlayın, pratik esastır – oluşturduğunuz CAD modelleri ne kadar çok olursa, o kadar usta ve verimli olursunuz. Klavye kısayolları kullanmak CAD iş akışınızı önemli ölçüde hızlandırabilir. Kötü alışkanlıklar geliştirmekten kaçınmak için en iyi pratiklere dikkat edin.
 
 
-Change this feedback form out and add one at the end of each section? Or do that but keep this one and edit the questions a bit and add one at the end of stage 2, since there's useful content here like the time it takes to complete it that we maybe wouldn't get from the smaller feedback forms? Idk I'll figure this out
+Bu geri bildirim formunu değiştirin ve her bölümün sonuna bir tane ekleyin? Veya bunu yapın ve bunu tutun ve soruları biraz düzenleyin ve burada kullanışlı içerik olduğu için bunu tutun ve 2. aşamanın sonuna bir tane ekleyin, çünkü burada tamamlanması gereken sürenin aldığı zaman gibi faydalı bilgiler var ve bunu daha küçük geri bildirim formlarından alamayabiliriz. Bilmiyorum, bunu çözeceğim
 
-Optionally, please fill out [this feedback form](https://forms.gle/J1QNvRkvpi7xyfuU8 "Learning Course Feedback Form"){:target="_blank"} about stages 0 and 1. -->
+İsteğe bağlı olarak, aşama 0 ve 1 hakkında [bu geri bildirim formunu](https://forms.gle/J1QNvRkvpi7xyfuU8 "Learning Course Feedback Form"){:target="_blank"} doldurun. -->

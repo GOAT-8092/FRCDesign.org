@@ -1,306 +1,305 @@
-# Design for 3D Printing
-This guide serves to provide techniques and examples of 3D printing for use in FRC.
+# 3D Yazıcı için Tasarım
+Bu rehber, FRC'de kullanılmak üzere 3D yazıcı için teknikler ve örnekler sağlar.
 
-## Introduction
+## Giriş
 
-Designing parts for 3D printing means understanding how to optimize your part for the way 3D printers work. Having an understanding of these ideas will help you reduce wasted material, make stronger parts, and reduce printing time.
+3D yazıcı için parça taslamak, 3D yazıcıların çalışma şekline göre parçanızı nasıl optimize edeceğinizi anlamak anlamına gelir. Bu fikirleri anlamanız, harcanan malzemeyi azaltmanıza, daha güçlü parçalar yapmanıza ve yazdırma süresini azaltmanıza yardımcı olacaktır.
 
-!!! Note
-    If you’re new to 3D printing check out the [Intro to 3D Printing](../intro-to-3d-printing "Intro to 3D Printing"){:target="_blank"} page.
+!!! Not
+    3D yazıcıya yeniyseniz [3D Yazıcıya Giriş](../intro-to-3d-printing.md "3D Yazıcıya Giriş"){:target="_blank"} sayfasına bakın.
 
-## Versatility of 3D Printed Parts in FRC
+## FRC'de 3D Yazdırılmış Parçaların Çok yönlülüğü
 
-3D printed parts can be used all over an FRC robot. From pulleys and sensor mounts to brackets and structural parts, 3D printing can be a powerful solution for creating almost anything.
+3D yazdırılmış parçalar bir FRC robotunun her yerinde kullanılabilir. Kasnaklardan ve sensör montajlarına kadar braketlere ve yapısal parçalara kadar, 3D yazıcı neredeyse her şeyi oluşturmak için güçlü bir çözüm olabilir.
 
 <figure>
   <img src="/img/design-handbook/design-for-3d-printing/3dp-604-robot.png" style="width:80%">
-  <figcaption>604 Quixilver 2024 - Extensive use of 3D printed parts <figcaption>
+  <figcaption>604 Quixilver 2024 - 3D yazdırılmış parçaların geniş kullanımı <figcaption>
 </figure>
 
 
-## When to Choose 3D Printing over Machining
+## 3D Yazıcıyı İşlemenin Üzerine Ne Zaman Seçmelisiniz
 
-The first step to using 3D printing in FRC is understanding when is best to use it, in general it’s best when:
+FRC'de 3D yazıcı kullanmanın ilk adımı, en iyi ne zaman kullanılacağını anlamaktır, genel olarak en iyisi şu durumlardadır:
 
-1. There is no COTS part available for your needs.  
-2. You can print a functionally equivalent solution faster or for less money than CNC milling/other processes that are available to you.  
-3. The geometry needed would be impossible to machine on equipment you have.  
-4. You need to prototype or test concepts quickly, especially when tuning dimensions like camera angles, game piece compression etc.
-5. You don't need the part to be as strong as an equivalent metal part would be.
+1. İhtiyaçlarınız için mevcut bir COTS parçası yoktur.
+2. CNC frezeleme/size mevcut diğer süreçlerden daha hızlı veya daha ucuza işlevsel olarak eşdeğer bir çözüm yazdırabilirsiniz.
+3. İhtiyaç duyulan geometri, sahip olduğunuz ekipmanlarda işlenmek için imkansızdır.
+4. Kavramaları hızla prototiplemek veya test etmeniz gerekir, özellikle kamera açıları, oyun parçası sıkıştırması gibi boyutları ayarlarken.
+5. Parçanın eşdeğer bir metal parça kadar güçlü olmasına gerekmez.
 
-## Part Types Covered in This Guide
+## Bu Rehberde Kapsanan Parça Türleri
 
-1. **Spacers**: Shaft spacers or offset block spacers to space out plates or parts.  
-2. **Crush Blocks:** Prevent the force of tightening bolts from crushing tubes.  
-3. **Power Transmission:** Print custom pulleys, gears, or sprockets.  
-4. **Custom Brackets:** Create structural components or motor brackets.  
-5. **Sensor Mounts:** Create mounts to attach sensors, cameras, or other components precisely to your robot chassis.  
-6. **Enclosures for Electronics:** Design custom housings to protect sensitive electronics (e.g., Orange Pi, Arduino) from dust, debris, and impact.  
-7. **Tools and Jigs:** Create custom tools, jigs, and fixtures to help with robot assembly, calibration, or maintenance.
+1. **Aralıklar**: Hex milleri için mill aralıkları veya plakaları veya parçaları ayırmak için ofset blok aralıkları.
+2. **Ezici Bloklar:** Cıvataları sıkma kuvvetinden profilleri ezmesini önlemek.
+3. **Güç Aktarımı:** Özel kasnaklar, dişliler veya zincir dişlileri yazdırın.
+4. **Özel Braketler:** Yapısal bileşenler veya motor braketleri oluşturun.
+5. **Sensör Montajları:** Sensörleri, kameraları veya diğer bileşenleri robot şasisine hassas bir şekilde monte etmek için montajlar oluşturun.
+6. **Elektronik için Kaplar:** Hassas elektronikleri (örneğin Orange Pi, Arduino) toz, enkaz ve darbeden korumak için özel muhafazalar tasarlayın.
+7. **Aletler ve Kalıplar:** Robot montajına, kalibrasyonuna veya bakımına yardımcı olmak için özel aletler, kalıplar ve fikstürler oluşturun.
 
-One of the most straightforward use cases for 3D printing in FRC is to make custom spacers for hex shafts. Using MKCAD you can quickly make a different types of spacers and customize the length. These are very easy to print at very low cost. You may notice in the dialogue box an option for additional tolerance (Tolerance Adder). 3D printers generally can produce very precise parts, but factors like thermal expansion, filament inconsistencies, poor calibration, and other error sources can lead to part dimensions that are either larger or smaller than intended. To address this we can add tolerance (gap between two parts) so that parts will fit together well. You likely will need to find the best tolerance your specific printer can achieve, but a reasonable starting tolerance will typically be about 0.004"-0.020" (0.1mm-0.5mm) depending on the type of fit desired (interference, close, clearance). Many online 3D print sites offer test prints to find the minimum tolerance of a given printer/filament combination.
+FRC'de 3D yazıcı için en basit kullanım durumlarından biri, hex milleri için özel aralıklar yapmaktır. MKCAD kullanarak farklı türde aralıklar hızla yapabilir ve uzunluğu özelleştirebilirsiniz. Bunlar çok düşük maliyetle çok kolay yazdırılır. İletişim kutusunda ek tolerans (Tolerance Adder) seçeneği görebilirsiniz. 3D yazıcılar genellikle çok hassas parçalar üretebilir, ancak termal genleşme, filament tutarsızlıkları, zayıf kalibrasyon ve diğer hata kaynakları gibi faktörler parçanın boyutlarının amaçlandan daha büyük veya daha küçük olmasına neden olabilir. Bunu ele almak için, parçaların iyi bir şekilde oturması için tolerans (iki parça arasındaki boşluk) ekleyebiliriz. Muhtemelen belirli yazıcınızın elde edebildiği en iyi toleransı bulmanız gerekecektir, ancak makul bir başlangıç toleransı genellikle yaklaşık 0.004"-0.020" (0.1mm-0.5mm) olacaktır, istenen oturum türüne (müdahale, yakın, boşluk) bağlı olarak. Birçok çevrimiçi 3D baskı sitesi, belirli bir yazıcı/filament kombinasyonu için minimum toleransı bulmak için test baskıları sunar.
 
 <figure>
   <img src="/img/design-handbook/design-for-3d-printing/3dp-spacer-example.png" style="width:60%">
-  <figcaption>MKCAD Configurable Spacer<figcaption>
+  <figcaption>MKCAD Yapılandırılabilir Aralık<figcaption>
 </figure>
 
 
-## Crush Blocks
+## Ezici Bloklar
 
-When adding bolts through box tubes, especially 1/16” tube, the force of the bolt can crush the tube. Crush blocks help to spread out the force from tightening the bolt and prevent the tube from crushing. MKCAD has a configurable tube plug generator to quickly make crush blocks with settings for a variety of tube types and thicknesses.
+Kutu profillerine cıvatalar eklerken, özellikle 1/16" profil, cıvatanın kuvveti profili ezebilir. Ezici bloklar, cıvataları sıkmaktan kaynaklanan kuvveti yaymaya ve profilin ezilmesini önlemeye yardımcı olur. MKCAD, çeşitli profil türleri ve kalınlıkları için ayarlarla ezici blokları hızla yapmak için yapılandırılabilir bir profil plakası jeneratörüne sahiptir.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-tube-crush.png" style="width:97%">
-    <figcaption>Tube without tube plug</figcaption>
+    <figcaption>Profil plakası olmadan profil</figcaption>
   </figure>
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-tube-crush-block.png" style="width:100%">
-    <figcaption>Tube with tube plug</figcaption>
+    <figcaption>Profil plakası ile profil</figcaption>
   </figure>
 </div>
 
 
-### Tricks for Printing Crush Blocks
-Due to the way 3D printers work through printing layer by layer, holes can end up becoming distorted when printed with their axis parallel to the build plate. This is because gravity will pull down on the hot filament as it's printed, creating a “squished” circle hole. One solution is printing with supports, but these supports can often be difficult to get out especially in longer holes. An easy solution to this problem is to use teardrop geometry to allow for printing without supports. This works by eliminating the "overhang" or areas on a 3D print that are not at least partially supported by the layer below them. To do this successfully you will need to plan for what face of the print will be touching the build plate when printed.
+### Ezici Blokları Yazdırma İpuçları
+3D yazıcıların katman katman yazdırarak çalışma şekli nedeniyle, delikler yapım plakasına paralel olarak yazdırıldığında bozulabilir. Bunun nedeni, yerçekiminin yazdırılırken sıcak filament aşağı çekecek şekilde "ezilmiş" bir daire delik oluşturmasıdır. Bir çözüm desteklerle yazdırmaktır, ancak bu destekler özellikle daha uzun deliklerde çıkarılması genellikle zordur. Bu soruna basit bir çözüm, destek olmadan yazdırmaya izin vermek için gözyaşı geometrisi kullanmaktır. Bu, bir 3D baskıdaki "taşma" veya aşağıdaki katmanları tarafından en azından kısmen desteklenmeyen alanları ortadan kaldırarak çalışır. Bunu başarmak için, yazdırıldığında yazdırmanın hangi yüzünün yapım plakasına dokunacağını planlamanız gerekir.
 <figure>
   <img src="/img/design-handbook/design-for-3d-printing/3dp-crush-block.png" style="width:60%">
-  <figcaption> Example crush block with teardrop geometry (100 degrees at top of circle)
+  <figcaption> Gözyaşı geometrisi ile örnek ezici blok (dairenin üstünde 100 derece)
 <figcaption>
 </figure>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-regular-holes.png" style="width:100%">
-    <figcaption>Round holes require supports</figcaption>
+    <figcaption>Yuvarlak delikler destek gerektirir</figcaption>
   </figure>
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-teardrop-holes.png" style="width:95%">
-    <figcaption>Teardrop holes can be printed without supports</figcaption>
+    <figcaption>Gözyaşı delikleri destek olmadan yazdırılabilir</figcaption>
   </figure>
 </div>
 
 
 
-## Power Transmission
-### Pulleys
-Pulleys can be a great option for 3D printing. 3D printing allows you to make any number of teeth and customize how the pulley will mount to other geometry.
+## Güç Aktarımı
+### Kasnaklar
+Kasnaklar 3D yazdırma için harika bir seçenek olabilir. 3D yazıcı, herhangi bir sayıda diş yapmanıza ve kasnağın diğer geometrilere nasıl monte edeceğini özelleştirmenize izin verir.
 
 <figure>
   <img src="/img/design-handbook/design-for-3d-printing/3dp-custom-pulley.png" style="width:60%">
-  <figcaption> MKCAD Configurable HTD Pulley
-</figcaption> 
+  <figcaption> MKCAD Yapılandırılabilir HTD Kasnak
+</figcaption>
 </figure>
 
-### Tips for Printing Pulleys
-**Infill:** Power transmission parts may need to be printed with more walls and higher infill percentage (density of the inside of the part). Depending on the use case it might even be necessary to print at 100% infill. Using lower infill will decrease print time and decrease weight, but might increase risk of the part breaking. 
+### Kasnakları Yazdırma İpuçları
+**Infill:** Güç aktarım parçaları daha fazla duvar ve daha yüksek infill yüzdesi (parçanın içindeki yoğunluk) ile yazdırılması gerekebilir. Kullanım durumuna bağlı olarak %100 infill ile yazdırmak bile gerekebilir. Daha düşük infill kullanmak baskı süresini azaltır ve ağırlığı azaltır, ancak parçanın kırılma riskini artırabilir.
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-fill-percentage.png" style="width:94%">
-    <figcaption>Pulley with 13% infill and 2 walls</figcaption>
+    <figcaption>%13 infill ve 2 duvar ile kasnak</figcaption>
   </figure>
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-pulley.png" style="width:97%">
-    <figcaption>Stronger pulley with 100% infill and 6 walls</figcaption>
+    <figcaption>%100 infill ve 6 duvar ile daha güçlü kasnak</figcaption>
   </figure>
 </div>
 
-**Hex Shaft Inserts:** Compared to metal, plastic is relatively soft and can be worn down over time. High amounts of torque from a hex shaft (especially Thunderhex, which has rounded edges) can turn the hexagonal hole of a 3D printed pulley into a round hole, eventually eliminating power transmission between the shaft and pulley. One way to fix this is by using metal inserts that help to distribute the forces of the hex shaft into the printed part away from the hex bore.
+**Hex Milleri İçin Inserts:** Metal ile karşılaştırıldığında, plastik nispeten yumuşaktır ve zamanla aşınabilir. Hex millerinden (özellikle Thunderhex, yuvarlatılmış kenarları vardır) gelen yüksek miktarda tork, 3D yazdırılmış bir kasnağın altı deliklerini yuvarlak bir deliğe dönüştürebilir ve sonunda mil ve kasnak arasındaki güç aktarımını ortadan kaldırabilir. Bunu düzeltmenin bir yolu, hex millerin kuvvetlerini yazdırılmış parçaya, hex delikten uzaklaştırmaya yardımcı olan metal inserts kullanmaktır.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-pulley-insert.png" style="width:50%">
-    <figcaption>Thritybot metal insert inside of a 3D printed pulley</figcaption>
+    <figcaption>3D yazdırılmış kasnağın içinde Thritybot metal insert'i</figcaption>
   </figure>
 
-### Gears
+### Dişliler
 
-Gears can be 3D printed depending on their use case. In general applications with high torque requirements are not well suited for 3D printed gears. However things like claws or secondary mechanisms can benefit from the weight savings and flexibility of 3D printing. In the example below, 3005 Robochargers made great use of 3D printed gears in 2023 on their end effector. 
+Dişliler kullanım durumlarına bağlı olarak 3D yazdırılabilir. Yüksek tork gereksinimleri olan genel uygulamalar için 3D yazdırılmış dişliler uygun değildir. Ancak pençeler veya ikincil mekanizmalar gibi şeyler 3D yazıcının ağırlık tasarrufu ve esnekliğinden faydalanabilir. Aşağıdaki örnekte, 3005 Robochargers, 2023'te uç etkileşimlerinde 3D yazdırılmış dişlileri harika kullandılar.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-3005.png" style="width:60%">
-    <figcaption>3005 Robochargers 2023 - Claw with 3D printed structure and gears</figcaption>
+    <figcaption>3005 Robochargers 2023 - 3D yazdırılmış yapı ve dişliler ile pençe</figcaption>
   </figure>
 
-### Tips for Gears
+### Dişliler için İpuçları
 
-**Face Width:** Face width refers to how much surface area is in contact between two gears. This can also be thought of as how “thick” the gear is. Having a larger face width reduces the stress on the gear and makes it less likely to break.
+**Yüz Genişliği:** Yüz genişliği, iki dişli arasında temas halinde olan yüzey miktarını ifade eder. Ayrıca dişlin ne "kalın" olduğu düşünülebilir. Daha büyük bir yüz genişliğine sahip olmak, dişli üzerindeki stresi azaltır ve kırılması daha az olası hale getirir.
 
-**Tooth Strength:** Using a lower diametral pitch (fewer teeth per pitch circle length) will make the teeth thicker, in turn making the gear stronger. 
-Both of the above principles were used by 2910 in this example of their 2022 shooter hood.
+**Diş Gücü:** Daha düşük bir diametral pitch (pitch çemberi uzunluğu başına daha az diş) kullanmak dişleri daha kalın yapar, bu da dişliyi daha güçlü hale getirir.
+Yukarıdaki ilkelerin her ikisi de 2910 tarafından bu 2022 shooter hood örneğinde kullanıldı.
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-2910-rack.png" style="width:60%">
-    <figcaption>2910 shooter in 2022 using a 10 DP 3D printed rack and pinion with a large face width</figcaption>
+    <figcaption>2910 shooter 2022'de büyük bir yüz genişliğine sahip 10 DP 3D yazdırılmış rack and pinion kullanıyor</figcaption>
   </figure>
 
-3D printed gears must be used with caution in high torque applications like motor pinions or drive gears, using 3D prints in these applications can lead to the gears becoming worn out quickly.
+3D yazdırılmış dişliler motor pinyonları veya sürü dişlileri gibi yüksek tork uygulamalarında dikkatle kullanılmalıdır, bu uygulamalarda 3D baskı kullanmak dişlilerin hızla aşınmasına neden olabilir.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-pinion.png" style="width:60%">
-    <figcaption>604 showing a 3D printed pinion gear with worn teeth </figcaption>
+    <figcaption>604, aşınmış dişleri olan 3D yazdırılmış bir pinyon dişlisini gösteriyor </figcaption>
   </figure>
 
 
-### Sprockets
+### Zincir Dişlileri
 
-Many of the same principles from above also apply to sprockets. Care must be exercised to ensure the loading of the sprocket doesn’t exceed the strength of the printed material. Because there isn't any torque transmission, 3D printed sprockets can sometimes be useful as idler sprockets for chain tensioners, again depending on the load requirements and strength of filament.
+Yukarıdaki birçok ilke zincir dişlileri için de geçerlidir. Zincir dişlisinin yükü yazdırılmış malzemenin gücünü aşmadığından emin olmak için dikkat exercise edilmelidir. Herhangi bir tork aktarımı olmadığı için, 3D yazdırılmış zincir dişlileri bazen zincir gerdiriciler için idler zincir dişlileri olarak yararlı olabilir, yine yük gereksinimlerine ve filament gücüne bağlı olarak.
 
-## Custom Brackets and Structure
+## Özel Braketler ve Yapı
 
-3D printing is an exceptionally good solution when oddly shaped geometry is required. For example, 5460's arm in 2023 was built with geometry that would be very challenging or expensive to make with conventional machining methods.
+Garip şekilli geometri gerektiğinde 3D yazıcı istisnai iyi bir çözümdür. Örneğin, 5460'ın 2023'teki kolu, geleneksel işleme yöntemleriyle yapmak zor veya pahalı olacak geometri ile inşa edildi.
 
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-5460-arm.png" style="width:60%">
-    <figcaption>5460 Strike Zone 2023 - Extensive use of 3d printing for complex arm parts </figcaption>
+    <figcaption>5460 Strike Zone 2023 - Karmaşık kol parçaları için 3d yazıcının geniş kullanımı </figcaption>
   </figure>
 
-Caution needs to be exercised for most structural parts, however. Parts that are prone to shock loads will be at risk of breaking or shattering.
+Ancak, çoğu yapısal parça için dikkat exercise edilmelidir. Şok yüklerine yatkın parçalar kırma veya parçalanma riskinde olacaktır.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-block-failure.png" style="width:60%">
-    <figcaption>604 example of 3D printed part failure </figcaption>
+    <figcaption>604 3D yazdırılmış parça başarısızlığı örneği </figcaption>
   </figure>
 
 
-### Tips for Custom Brackets
-When designing custom brackets, it's critical to think about how the part will be assembled on the robot. Making parts easily serviceable will make your robot more reliable during competition.
+### Özel Braketler için İpuçları
+Özel braketler tasarlerken, parçanın robot üzerinde nasıl monte edileceğini düşünmek kritiktir. Parçaları kolayca servis edilebilir yapmak robotunuzu yarışma sırasında daha güvenilir hale getirir.
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-2337-arm-rest.png" style="width:60%">
-    <figcaption>2337 Enginerds 2023 - Arm rest bracket </figcaption>
+    <figcaption>2337 Enginerds 2023 - Kol dinlenme braketi </figcaption>
   </figure>
 
-This example above is a perfect use case for 3D printing because it allows for a very precise arm resting angle to be set. This is beneficial for programming to ensure the arm starts in the same position every match. The split design of the part is very beneficial as it can more securely clamp the tubes, with the added benefit of being easier to replace. By splitting the part, each piece will have a flat surface that can be oriented down when printing reducing the amount of supports required.
+Yukarıdaki örnek, çok hassas bir kol dinlenme açısının ayarlanmasına izin verdiği için 3D yazıcı için mükemmel bir kullanım durumudur. Bu, programlamanın kolun her maçta aynı konumda başlamasını sağlamak için yararlıdır. Parçanın bölünmüş tasarımı, profilleri daha güvenli bir şekilde sıkabilmesi için çok faydalıdır, değiştirmesi daha kolay olmanın ek faydası ile. Parçayı bölerek, her parçanın yazdırılırken aşağı yönlendirilebilecek düz bir yüzeyi olacak, bu da gereken destek miktarını azaltır.
 
 
-Sometimes 3D prints might not be strong enough on their own to withstand high force applications. One option is to surround a print with metal plates for bolts to clamp on to. This distributes the load of the bolts and keeps the print compressed together, reducing the chance of it breaking.
+Bazen 3D baskılar tek başlarına yüksek kuvvet uygulamalarına dayanacak kadar güçlü olmayabilir. Bir seçenek, bir baskıyı cıvataların sıkabileceği metal plakalarla çevrelemektir. Bu, cıvataların yükünü dağıtır ve baskıyı birlikte sıkı tutar, kırılma şansını azaltır.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-226-arm-clamp-bracket.png" style="width:60%">
-    <figcaption>226 Hammerheads 2025 - Arm axis joint </figcaption>
+    <figcaption>226 Hammerheads 2025 - Kol eklem mafsalı </figcaption>
   </figure>
 
-**Unique Fastening Methods:** Sometimes parts can retain fasteners to make the part easier to mount. This is especially useful if you want a surface free from bolts/nuts such as a game piece centering feature.
+**Benzersiz Bağlama Yöntemleri:** Bazen parçalar, parçayı monte etmeyi kolaylaştırmak için bağlantı elemanlarını tutabilir. Bu, bir oyun parçası merkezleme özelliği gibi cıvatalar/somunlar içermeyen bir yüzey istiyorsanız özellikle yararlıdır.
 
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-6328-centering.png" style="width:50%">
-    <figcaption>6328 Mechanical Advantage 2024 - Game piece centering </figcaption>
+    <figcaption>6328 Mechanical Advantage 2024 - Oyun parçası merkezleme </figcaption>
   </figure>
 
-The above 3D print was designed for centering a game piece. It's mounted with square nuts placed into rectangular channels, and bolts are run from the outside to hold it to the mounting plate. This is advantageous because there are no bolts or nuts on the centering surface that the game piece could get caught on.
+Yukarıdaki 3D baskısı, bir oyun parçasını merkezlemek için tasarlandı. Dikdörtgen kanallara yerleştirilen kare somunlar ile monte edilir ve cıvatalar dışarıdan çalıştırılır ve onu montaj plakasına tutar. Bu, oyun parçasının takılabileceği merkezleme yüzeyinde herhangi bir cıvata veya somun olmadığı için avantajlıdır.
 
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-citrus-hood.png" style="width:60%">
-    <figcaption>1678 Citrus Circuits 2021 - Adjustable hood </figcaption>
+    <figcaption>1678 Citrus Circuits 2021 - Ayarlanabilir hood </figcaption>
   </figure>
-This arc feature from 1678 helps guide the game piece through their adjustable shooter. 3D printing is a perfect solution for this level of geometric complexity.
+1678'den bu özellik, oyun parçasını ayarlanabilir shooter'larından geçirmeye yardımcı olur. 3D yazıcı bu seviye geometrik karmaşıklık için mükemmel bir çözümdür.
 
-**Part Orientation:** Part orientation on the build plate greatly affects strength, support needs, and print time. Prints are typically strongest in the x-y plane of the printer as in the z direction the layers can delaminate (pull apart). The reduced strength in the z direction occurs at the layer interface because the previously deposited filament has cooled before the next layer is extruded. Since polymers at different temperatures do not fuse as effectively as those at their melting point, the resulting adhesion between layers is weaker.
+**Parça Yönelimi:** Yapım plakasındaki parça yönelimi gücü, destek ihtiyaçlarını ve baskı süresini önemli ölçüde etkiler. Baskılar genellikle yazıcının x-y düzleminde en güçlüdür, çünkü z yönünde katmanlar delamine olabilir (ayrılabilir). z yönündeki azaltılmış güç, katman arayüzünde gerçekleşir, çünkü bir önceki biriktirilmiş filament bir sonraki katman ekstrüde edilmeden önce soğur. Farklı sıcaklıklardaki polimerler, erime noktalarındakiler kadar etkili bir şekilde birleşmez, bu nedenle sonuçta katmanlar arasındaki yapışma daha zayıftır.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-isotropic.png" style="width:60%">
     <figcaption>
-      SLA print (resin cured with projected light) on the left vs an FDM printed part (printed with a nozzle tracing a path)
+      Sol tarafta SLA baskısı (projeksiyonla ışığıyla tedavi edilmiş reçine) vs bir FDM yazdırılmış parça (bir yol izleyen bir meme ile yazdırılmış)
       <a href="https://formlabs.com" target="_blank">https://formlabs.com</a>
     </figcaption>
   </figure>
-This picture shows a solid part on the left vs an FDM printed part. The left part is “isotropic” meaning it has consistent material strength throughout, while the part on the right is "anisotropic" meaning it has different characteristics depending on the direction. The layer to layer bonding is the weakest area of the print and failed in this test.
+Bu resim, solda katı bir parçayı vs bir FDM yazdırılmış parçayı gösteriyor. Sol parça "izotropik" yani tüm malzeme gücü tutarlı, sağdaki parça ise "anizotropik" yani yöne göre farklı özelliklere sahip. Katmandan katmana bağlantı baskının en zayıf alanıydı ve bu testte başarısız oldu.
 
-**Material Choice:** Material choice can lead to a massive difference in the performance and reliability of your part. For example within the lineup of filaments from Bambu Lab (a 3D printer company), PETG offers significant improvement in impact strength and tensile strength over the more common 3D printing filament PLA. Polycarbonate has nearly **double** the tensile strength and bending strength of PLA (when properly annealed to filament specs) and it has nearly **50% higher** impact strength (although it is much more difficult to print). Carbon fiber infused filaments offer similar performance improvements, and high end CF filaments can achieve specs closer to aluminum than PLA. Additionally For some applications that are prone to shock loads or impacts, TPU can be very viable. High stiffness TPU isn’t particularly strong in tension, but has nearly **6x** the impact strength of PLA.
+**Malzeme Seçimi:** Malzeme seçimi, parçanızın performansında ve güvenilirliğinde büyük bir fark yaratabilir. Örneğin Bambu Lab'ın (bir 3D yazıcı şirketi) ürün yelpazesindeki filamentler arasında, PETG, daha yaygın 3D yazıcı filamenti PLA üzerinde darbe gücünde ve çekme gücünde önemli bir iyileştirme sunar. Polikarbonat, PLA'nın neredeyse **iki katı** çekme gücüne ve bükülme gücüne sahiptir (filament spesifikasyonlarına uygun olarak düzgün bir şekilde tavlandığında) ve neredeyse **%50 daha yüksek** darbe gücüne sahiptir (ancak yazdırmak çok daha zordur). Karbon fiber infüze filamentler benzer performans iyileştirmeleri sunar ve yüksek seviye CF filamentleri alüminyuma PLA'dan daha yakın spesifikasyonlara ulaşabilir. Ek olarak, bazı şok yüklerine veya darbelere yatkın uygulamalar için TPU çok uygulanabilir olabilir. Yüksek sertlik TPU çekme özellikle güçlü değildir, ancak PLA'nın neredeyse **6x** darbe gücüne sahiptir.
 
-## Sensor Mounts
-3D printing is a great solution for mounting sensors or cameras as these devices often need to be located very precisely at specific angles. 3D printing makes it very easy to iterate and optimize things like camera angles to see particular April Tags or game elements. In the example below of 6328’s camera mount they were able to create a part that would have been pretty complex to make with any other manufacturing method.
+## Sensör Montajları
+Sensörleri veya kameraları monte etmek için 3D yazıcı harika bir çözümdür, çünkü bu cihazlar genellikle belirli açılarda çok hassas bir şekilde konumlandırılması gerekir. 3D yazıcı, kamera açılarını belirli April Etiketlerini veya oyun öğelerini görmek için yinelemeyi ve optimize etmeyi çok kolaylaştırır. Aşağıdaki 6328'nin kamera montajı örneğinde, başka bir üretim yöntemiyle yapmak oldukça karmaşık olacak bir parça oluşturabildiler.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-camera-mount.png" style="width:50%">
-    <figcaption>6328 Mechanical Advantage 2024 Camera mount  </figcaption>
+    <figcaption>6328 Mechanical Advantage 2024 Kamera montajı  </figcaption>
   </figure>
 
-One of the other areas that 3D printing excels at is for adding strain relief to electronics. In the example below there are channels at the top of the part that a zip tie can be fed into to tie down wires entering the VRM. This helps prevent wires from being pulled out of their terminals. This same concept can be applied to any part where wires need to be secured.
+3D yazıcının mükemmel olduğu diğer alanlardan biri elektroniklere strain relief eklemektir. Aşağıdaki örnekte, parçanın üstünde bir zip tie'nin girebileceği kanallar vardır ve VRM'ye giren telleri bağlamak için kullanılır. Bu, tellerin terminallerinden çekilmesini önlemeye yardımcı olur. Aynı kavram, tellerin güvenceye alınması gereken herhangi bir parçaya uygulanabilir.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-vrm-mount.png" style="width:95%">
-    <figcaption>2056 OP Robotics 2024 Wire strain relief</figcaption>
+    <figcaption>2056 OP Robotics 2024 Tel strain relief</figcaption>
   </figure>
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-2056-VRM-mount.png" style="width:90%">
-    <figcaption>Print in usage</figcaption>
+    <figcaption>Kullanımda baskı</figcaption>
   </figure>
 </div>
 
 
-### Tips for Sensors and Strain Relief
+### Sensörler ve Strain Relief için İpuçları
 
 
-For sensor mounts that may get hit by game pieces or other robots, consider more durable materials, specifically materials that have high impact strength. Impact strength is a measure of how well a material can resist breaking or shattering when subjected to a sudden force or shock such as a hit, drop, or collision. In FRC you may see significant usage of polycarbonate for both the construction of the field and high impact robot parts. This is due to polycarbonate's ability to withstand high impact force and return to its original shape. PC is possible to print on some 3D printers, but generally can be difficult to work with. TPU (Thermoplastic Polyurethane) is a rubber-like material that can be a great choice for a very high impact resistance material. An example of this is in usage is 6328 Mechanical Advantage printing their 2024 camera mounts out of TPU to make them more impact resistant. The slight flexibility of the material means the camera mounts are able to withstand impacts and spring back to their original position, ultimately preventing catastrophic part failures that could occur with weaker materials.
+Oyun parçaları veya diğer robotlar tarafından vurulabilecek sensör montajları için, daha dayanıklı malzemeler, özellikle yüksek darbe gücüne sahip malzemeler düşünün. Darbe gücü, bir malzemenin ani bir kuvvete veya şoka maruz kaldığında kırılma veya parçalanma direncini ne kadar iyi ölçüsüdür. FRC'de, hem sahanın yapımında hem de yüksek darbeli robot parçalarında polikarbonatın önemli kullanımını görebilirsiniz. Bu, polikarbonatın yüksek darbe kuvvetine dayanma ve orijinal şekline dönme yeteneğinden dolayıdır. PC bazı 3D yazıcılarda yazdırılabilir, ancak genellikle çalışmak zordur. TPU (Termoplastik Polüretan) çok yüksek darbe direnci olan bir malzeme için harika bir seçim olabilen kauçuk benzeri bir malzemedir. Buna bir örnek, 6328 Mechanical Advantage'in 2024 kamera montajlarını TPU'dan yazdırarak onları daha darbe dirençli hale getirmesidir. Malzemenin hafif esnekliği, kamera montajlarının darbelere dayanmasına ve orijinal konumlarına geri dönmelerine izin verir ve sonunda daha zayıf malzemelerle oluşabilecek katastrofik parça başarısızlıklarını önler.
 
-## Enclosures for Electronics
-Electronic enclosures are a great use case for 3D printing as they often rely on complex part designs and customizations for things like fans, power boards, mounting holes etc.
+## Elektronik için Kaplar
+Elektronik kapları, genellikle fanlar, güç panelleri, montaj delikleri vb. gibi şeyler için karmaşık parça tasarımlarına ve özelleştirmelere güvendikleri için 3D yazıcı için harika bir kullanım durumudur.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-electronics-case.png" style="width:55%">
-    <figcaption>Orange Pi 5 Case <a href="https://www.printables.com/model/1008300-orangepi-5-zinc-v-case" target="_blank">Printables.com</a>
+    <figcaption>Orange Pi 5 Kasa <a href="https://www.printables.com/model/1008300-orangepi-5-zinc-v-case" target="_blank">Printables.com</a>
     </figcaption>
   </figure>
 
 
-### Tips for Electronics Enclosures
+### Elektronik Kaplar için İpuçları
 
-Ensure there are sufficient openings for wire routing, ventilation, and access to ports or LEDs. Secure components with secure mounting features, and plan for easy removal or maintenance during pit repairs. 
+Tel yönlendirme, havalandırma ve portlara veya LED'lere erişim için yeterli açıklık olduğundan emin olun. Bileşenleri güvenli montaj özellikleriyle güvenceye alın ve pit onarımları sırasında kolay kaldırma veya bakım için plan yapın.
 
-**Threading Into Parts:** It may be desirable to have an enclosure or other parts that can be bolted together with threads in the part. However, after a few cycles of threading and removing a bolt the soft plastic threads will likely wear out. One alternative is to use a heat stake insert. These inserts are placed in a hole in the print and melted into the plastic using a soldering iron or specialized heater. Once the plastic cools it retains the insert and prevents it from rotating when tightening a bolt.
+**Parçalara Diş Takma:** Dişleri olan bir muhafaza veya diğer parçaların cıvatalarla birbirine bağlanabilmesi istenebilir. Ancak, bir cıvatan dişine takılması ve çıkarılmasının birkaç döngüsünden sonra yumuşak plastik dişler muhtemelen aşınır. Bir alternatif, heat stake insert kullanmaktır. Bu inserts, baskıdaki bir deliğe yerleştirilir ve lehimleme ütüsü veya özel bir ısıtıcı kullanılarak plastiğe eritilir. Plastik soğuduktan sonra insert'i tutar ve bir cıvatalarken dönmesini önler.
 
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-heat-stake.png" style="width:60%">
-    <figcaption>Heat stake insert installation <a href="www.isonmoulding.com" target="_blank">isonmoulding.com </a> </figcaption>
+    <figcaption>Heat stake insert montajı <a href="www.isonmoulding.com" target="_blank">isonmoulding.com </a> </figcaption>
   </figure>
 
 
-## Tools and Jigs
+## Aletler ve Kalıplar
 
-3D printing can also be used to make precise jigs and fixtures for common operations. In this example below the jig is used to make holes for a tube plug that need to be exactly 0.5” from the end of a tube.
+3D yazıcı, yaygın işlemler için hassas kalıplar ve fikstürler yapmak için de kullanılabilir. Aşağıdaki örnekte, kalıp, bir profil plakası için delikleri tam olarak profilin ucundan 0.5" olacak şekilde yapmak için kullanılır.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-tube-jig.png" style="width:55%">
-    <figcaption>Tube plug jig </figcaption>
+    <figcaption>Profil plakası kalıbı </figcaption>
   </figure>
 
-### Tips for Tools and Jigs
+### Aletler ve Kalıplar için İpuçları
 
-In the part above metal drill guides are used to prolong the life of the jig. If the jig was only plastic then it would quickly get damaged from repeatedly drilling into the holes.
+Yukarıdaki parçada metal delik kılavuzları kalıbın ömrünü uzatmak için kullanılır. Kalıp sadece plastik olsaydı, tekrar tekrar deliklere delik açmaktan hızla hasar görürdü.
 
-Other jigs that can be useful are jigs for drilling in the center of a tube, aligning a tap so it's perfectly straight, or marking a precise distance for cutting tubes and shafts.
+Yararlı olabilecek diğer kalıplar, bir profilin ortasına delik açmak, bir musluğu tam olarak düz olması için hizalamak veya profilleri ve milleri kesmek için hassas bir mesareyi işaretlemek için kalıplardır.
 
 
-## Final Notes
+## Son Notlar
 
-**Holes and Tolerances:** Holes designed to exact CAD dimensions often print smaller due to material expansion/cooling. You can make test prints with varying hole tolerances to find optimal tolerances for your specific printer and material. (ex. for a nominal hole size of .2” you could print a test part with holes of .18”, .19”, .20”, .21” , .22” etc). Finding the closest hole size to your target will tell you what you should use in CAD for the hole size.
+**Delikler ve Toleranslar:** Tam CAD boyutlarına tasarlanmış delikler genellikle malzeme genleşmesi/soğuması nedeniyle daha küçük yazdırılır. Farklı delik toleransları ile test baskıları yaparak belirli yazıcınız ve malzeme için optimal toleransları bulabilirsiniz. (örneğin. nominal bir delik boyutu için .2" .18", .19", .20", .21", .22" vb. deliklere sahip bir test parçası yazdırabilirsiniz). Hedefinize en yakın delik boyutunu bulmak, CAD'de delik boyutu olarak ne kullanmanız gerektiğini size söyleyecektir.
 
-**Optimize for Overhangs and Supports:** An overhang is anywhere on a part that isn't supported from below. Some printers can handle angles as low as 30 degrees from the print bed plane without support material (extra material used to hold up the part during printing). Reducing overhangs will reduce filament wasted on support, improve the surface quality and accuracy of the part, and can reduce print time.
+**Taşmalar ve Destekler için Optimize Edin:** Taşma, bir parçada aşağıdan desteklenmeyen herhangi bir yerdir. Bazı yazıcılar destek malzemesi (baskı sırasında parçayı tutmak için kullanılan ekstra malzeme) olmadan yazıcı plakası düzleminden 30 derece gibi düşük açıları idare edebilir. Taşmaları azaltmak, destek üzerinde harcanan filament atığını azaltır, parçanın yüzey kalitesini ve doğruluğunu iyileştirir ve baskı süresini azaltabilir.
 
    <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-supports.png" style="width:60%">
-    <figcaption>Example of designing to account for overhangs </figcaption>
+    <figcaption> Taşmaları hesaba katarak tasarlama örneği </figcaption>
   </figure>
 
-   The part on the left with an overhang held up by support material (green) uses **23% more** filament to print than the part with extra geometry added on the right. Additionally the part on the right will be stronger because the overhanging feature is better supported.
+   Destek malzemesi (yeşil) ile tutulan bir taşması olan soldaki parça, sağda ekstra geometri eklenen parçaya göre **%23 daha fazla** filament kullanır. Ek olarak, sağdaki parça daha güçlü olacaktır, çünkü taşan özellik daha iyi desteklenmektedir.
 
 
-**Fillets vs Chamfers**
-Fillets are a great way to make your parts smooth and, in some instances, more precise. A typical FDM 3D printer involves a toolhead moving at high speed, and rapid changes in direction (for example a 90 degree corner) will not be perfectly sharp leading to slight deviations in the size of the corners. This can be problematic for parts that need to fit together, but can be easily solved by adding a fillet to smooth out the sharp edge.
-However, fillets on the part surface touching the print bed can lead to part warping due to the same overhang issue discussed above. Replacing the fillet with a chamfer at an angle your printer can print without supports can fix this problem.
+**Filletler vs Chamferler**
+Filletler parçalarınızı pürüzsüz yapmak ve bazı durumlarda daha hassas yapmak için harika bir yoldur. Tipik bir FDM 3D yazıcısı, yüksek hızda hareket eden bir araç başlığı içerir ve hızlı yön değişiklikleri (örneğin 90 derecelik bir köşe) tam olarak keskin olmayacak, bu da köşelerin boyutunda hafif sapmalara neden olacaktır. Birbirine oturan parçalar için sorunlu olabilir, ancak fillet ekleyerek keskin kenarı yumuşatmak kolayca çözülebilir.
+Ancak, yazıcı plakasına dokunan parça yüzeyindeki filletler, yukarıda tartışılan aynı taşma sorunu nedeniyle parçanın burkulmasına neden olabilir. Yazıcının destek olmadan yazdırabileceği bir açıda filleti bir chamfer ile değiştirmek bu sorunu çözebilir.
 
-## Additional Resources
+## Ek Kaynaklar
 
 1. [604 Robotics Scrappy Not Crappy Presentation](https://resources.604robotics.com/presentations/2024-fmc-scrappy-not-crappy)
 3. [https://blog.rahix.de/design-for-3d-printing/](https://blog.rahix.de/design-for-3d-printing/)
-
 
 
 

@@ -1,45 +1,45 @@
-# 2D: Cascade Elevator
+# 2D: Kaskat Asansör
 
 ## Part Studio
-1. Add the `Origin Cube` feature and derive the main layout sketches if you made them in a separate part studio.
-2. Use extrude individual to create the tubes (without creating only duplicates; this means only the bottoms of stages on one side).
-3. Convert the extrusions into tubes.
+1. `Origin Cube` özelliğini ekleyin ve bunları ayrı bir part studio'da yaptıysanız ana layout eskizlerini türetin.
+2. Boruları oluşturmak için extrude individual kullanın (sadece kopyalar oluşturmayın; bu, bir taraftaki sadece aşamaların altlarını anlamına gelir).
+3. Ekstrüzyonları borulara dönüştürün.
 
-    ??? Tip "Converting Extrusions into Tubes"
-        Tube converter is the easiest way to do this, as demonstrated before, but the hole pattern can break things and be misaligned pretty easily if the dimensions of the elevator end up changing. The most parametric way is to shell the tubes manually, then use a mix of sketches and linear patterns to create the hole pattern. This way you can build design intent into the hole pattern so it won't be misaligned with anything when dimensions change.
+    ??? Tip "Ekstrüzyonları Borulara Dönüştürme"
+        Boru dönüştürücü bunu yapmanın en kolay yoludur, daha önce gösterildiği gibi, ancak delik deseni şeyleri bozabilir ve asansörün boyutları değişirse oldukça kolay hizalanamaz. En parametrik yol boruları manuel olarak shelling, ardından delik deseni oluşturmak için karışık bir eskiz ve lineer desenler kullanmaktır. Bu şekilde, delik desenine tasarım amacı ekleyebilirsiniz, böylece boyutlar değiştiğinde hizalanmaz.
 
-        To create parametric hole patterns, you can start by using the [**Measure Value**](https://cad.onshape.com/documents/77baa8153589a7fc5f289829/w/cffd0f2a7077380d5378a885/e/d3174bf5315e6aafcb889367?renderMode=0&uiState=652ee7d25129162fc0afad5f "Measure Value Featurescript Onshape Document"){:target="_blank"} featurescript from CADSHARP to measure the length of the tube. You create your first hole at the top of the tube, then create a feature pattern or sketch pattern down the length of the tube with the distance of 0.5" and the instance count set to `((#frame_side_tube/inch)*2)-1`. This method keeps the hole count parametric to the length of the tube.
+        Parametrik delik desenleri oluşturmak için, borunun uzunluğunu ölçmek için CADSHARP'dan [**Measure Value**](https://cad.onshape.com/documents/77baa8153589a7fc5f289829/w/cffd0f2a7077380d5378a885/e/d3174bf5315e6aafcb889367?renderMode=0&uiState=652ee7d25129162fc0afad5f "Measure Value Featurescript Onshape Document"){:target="_blank"} featurescript'ini kullanmaya başlayabilirsiniz. İlk deliğinizin borunun üstünde oluşturun, ardından borunun uzunluğu boyunca 0.5" mesafede ve instance count'u `((#frame_side_tube/inch)*2)-1` olarak ayarlanmış bir özellik deseni veya eskiz deseni oluşturun. Bu yöntem delik sayısını borunun uzunluğuna parametrik tutar.
 
-4. Transform and copy the tubes to complete the structure.
+4. Yapıyı tamamlamak için boruları dönüştürün ve kopyalayın.
 
     !!! Tip
-        At this point, as design lead, you could create mate connectors, subassemblies, and top level assembly, and hand off the elevator to other people to parallelize the process if that's how your team works.
+        Bu noktada, tasarım lideri olarak, mate connectors, subassembly'ler ve en üst seviye assembly oluşturabilir ve asansörü diğer insanlara verebilir ve iş akışını paralel hale getirebilirsiniz.
 
-5. Model any unique crushblocks
+5. Benzersiz crushblock'ları modelleyin
 
-    !!! Info 
-        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design handbook page about structure](../../../design-handbook/structure/structure.md "Structure Handbook Page"){:target="_blank"}.
+    !!! Info
+        Crushblock'lar ve boru tıpası günümüzde çoğu superstructure ve asansör için yaygın olarak kullanılır. Bunların ne olduğunu ve neden yararlı olduklarını [yapı hakkında tasarım el kitabı sayfasında](../../../design-handbook/structure/structure.md "Structure Handbook Page"){:target="_blank"} bulun.
 
     <figure markdown="span">
         <img src="/img/learning-course/stage2-elevator/tubesAndCrushblocks.webp" style="width:75%">
-        <figcaption> Finished elevator tubes </figcaption>
+        <figcaption> Tamamlanmış asansör boruları </figcaption>
     </figure>
 
-1. Decide where you want your rigging (rope) and model it with a path, profile, and sweep.
-2. Derive the [TTB chain comb](https://www.thethriftybot.com/products/elevator-25h-chain-drive-kit "TTB Chain Comb Product Page"){:target="_blank"} into place on a first stage tube. This is for knowing how much to space the chain off from the tubes.
-3. Sketch the chain transmission and crossmember, including the bearing holes for the sprockets.
-4. Create the plates and tube for the crossmember. The clamp for the rigging will be mounted to the crossmember, but it's also for the rigidity of the base stage.
-5.  Derive the [TTB cable clamp](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit "TTB Cable Clamp Product Page"){:target="_blank"} into place on the crossmember and create mounting holes for it, and a crushblock if bolting all the way through the tube.
-6.  Add holes for the tube plugs on the crossmember.
-7.  Create the chain transmission, including the chain, any custom spacers, and axles
-8.  Derive some maxplanetary parts to build the gearbox around. Create spacers and mounting for both maxplanetaries. Make sure to leave them easily accessible and replaceable
-9.  Add plates at the bottom of the elevator to support the MAXplanetary shafts.
-10. Optionally, derive nut strips and a ratchet plate for the carriage and create the shaft for the rigging to be tied to.
-11. Create a reference mate in the middle of the base tube, owned by the origin cube, to later mate the subassemblies together with.
+1. Rigging (halat) nerede istediğinize karar verin ve onu bir yol, profil ve sweep ile modelleyin.
+2. Birinci aşama borusunda yerinde olmak için [TTB zincir tarasını](https://www.thethriftybot.com/products/elevator-25h-chain-drive-kit "TTB Chain Comb Product Page"){:target="_blank"} türetin. Bu, zinciri borulardan ne kadar uzaklaştıracağınızı bilmak içindir.
+3. Zincir transmisyonunu ve çapraz üyeyi, sprocket'ler için rulman delikleri dahil olmak üzere eskizleyin.
+4. Çapraz üye için plakaları ve boruyu oluşturun. Rigging için kelepçe çapraz üyeye monte edilecek, ancak aynı zamanda taban aşamasının rijitliği için de vardır.
+5. Çapraz üyede yerinde olmak için [TTB kablo kelepçesini](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit "TTB Cable Clamp Product Page"){:target="_blank"} türetin ve onun için montaj deliklerini oluşturun, ve boruya tamamen cıvatalıyorsanız bir crushblock oluşturun.
+6. Çapraz üyedeki boru tapaları için delikler ekleyin.
+7. Zinciri, herhangi bir özel spacer ve mili dahil olmak üzere zincir transmisyonunu oluşturun
+8. Dişli kutusunu oluşturmak için bazı maxplanetary parçalarını türetin. Her iki maxplanetary için spacer'lar ve montaj oluşturun. Kolayca erişilebilir ve değiştirilebilir olduklarından emin olun
+9. MAXplanetary millerini desteklemek için asansörün altına plakalar ekleyin.
+10. İsteğe bağlı olarak, carriage için cıvata şeritlerini ve bir ratchet plakasını türetin ve rigging'in bağlanacağı mili oluşturun.
+11. Taban borusunun ortasında, origin cube tarafından sahip olunan bir referans mate oluşturun, daha sonra subassembly'leri birbirine mate etmek için kullanılacak.
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/elevatorPartStudio.webp" style="width:75%">
-    <figcaption> Finished elevator part studio </figcaption>
+    <figcaption> Tamamlanmış asansör part studio </figcaption>
 </figure>
 
 <br>

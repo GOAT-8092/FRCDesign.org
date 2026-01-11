@@ -1,13 +1,13 @@
 ---
-title: Pivot Examples
+title: Pivot Örnekleri
 image: docs/img/mechanism-examples/pivots/2910/2910_2023_pivot.webp
 ---
 
-# Pivots
+# Pivotlar
 
-Pivots come in all sorts of shapes and sizes, and their designs are highly dependent on mechanism requirements. These examples provide some insight into different solutions for the many challenges of designing pivots.
+Pivotlar çeşitli şekil ve boyutlarda gelir ve tasarımları mekanizma gereksinimlerinden büyük ölçüde etkilenir. Bu örnekler, pivot tasarımlarının birçok zorluğu için farklı çözümler hakkında bazı bilgiler sunar.
 
-## Featured
+## Öne Çıkanlar
 
 <div class="grid cards" markdown>
 
@@ -15,15 +15,15 @@ Pivots come in all sorts of shapes and sizes, and their designs are highly depen
 
     ---
 
-    Double jointed arm, high pivot, A-frame structure, stub axles
+    Çift eklemli kol, yüksek pivot, A-çerçeve yapısı, stub axles
 
-    [:octicons-arrow-right-24: 6328 A-Frame Pivot](6328_2023_pivot.md)
+    [:octicons-arrow-right-24: 6328 A-Çerçeve Pivot](6328_2023_pivot.md)
 
 - <center>[![](../../img/mechanism-examples/pivots/2910/2910_2023_pivot.webp){width=100%}](2910_2023_pivot.md)</center>
 
     ---
 
-    Chain-driven custom dead axle pivot, electronics and camera mounts, rotating final stage tensioning
+    Zincir sürümlü özel dead axle pivot, elektronik ve kamera montajları, dönen son kademe germesi
 
     [:octicons-arrow-right-24: 2910 Dead Axle Pivot](2910_2023_pivot.md)
 
@@ -31,17 +31,17 @@ Pivots come in all sorts of shapes and sizes, and their designs are highly depen
 
     ---
 
-    A unique sector lantern gear driven pivot for low backlash
-    
-    [:octicons-arrow-right-24: 1690 Lantern Gear Pivot](1690_2024_pivot.md)
+    Düşük backlash için benzersiz sektör fener dişli sürümlü pivot
+
+    [:octicons-arrow-right-24: 1690 Fener Dişli Pivot](1690_2024_pivot.md)
 
 -   <center>[![](../../img/mechanism-examples/pivots/5460_2023_pivot.webp){width=100%}](5460_2023_pivot.md)</center>
 
     ---
 
-    A high torque belt driven pivot for a double jointed arm
-    
-    [:octicons-arrow-right-24: 5460 Charged Up Belt Pivot](5460_2023_pivot.md)
+    Çift eklemli kol için yüksek torklu kayış sürümlü pivot
+
+    [:octicons-arrow-right-24: 5460 Charged Up Kayış Pivot](5460_2023_pivot.md)
 </div>
-  
+
 <br>

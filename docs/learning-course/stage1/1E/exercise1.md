@@ -1,63 +1,63 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Alt Sistem İş Akışı - Drivebase Detaylandırma
 
-## Exercise: Battery Holder
+## Egzersiz: Batarya Tutucusu
 
-In the reference design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 
+Referans tasarımda, batarya yatay olarak bellypan üzerine yerleştirilmiştir. Bataryayı güvence altına almak için bataryanın ve bellypan'ın etrafına dolanan 2" genişliğinde bir kayış ile sabitlenmiştir.
 
-### Instructions
+### Talimatlar
 
-**Add a battery holder to your drivetrain.** You can take inspiration from the following instructions slides. 
+**Drivetrain'inize bir batarya tutucusu ekleyin.** Aşağıdaki talimat slaytlarından ilham alabilirsiniz.
 
-<!-- <center>**Sample Battery Holder Modeling Slides**</center> -->
+<!-- <center>**Örnek Batarya Tutucusu Modelleme Slaytları**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
       <figure>
           <img src="../images/battery/batt-0.webp" style="width:100%">
-          <figcaption>0. Finished battery holder w/ mounting holes, strap cutout in bellypan, and strap.</figcaption>
+          <figcaption>0. Tamamlanmış batarya tutucusu (montaj delikleri, bellypan üzerinde kayış kesimi ve kayış ile).</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="../images/battery/batt-1.webp" style="width:100%">
-          <figcaption>1. Layout of battery and battery mount plate. To fit the battery with 1/16” radius fillets on the inner corners, the cutout should be around 6.705” x 7.225”.</figcaption>
+          <figcaption>1. Batarya ve batarya montaj plakası yerleşimi. Bataryayı iç köşelerde 1/16" yarıçaplı filletlerle sığdırmak için, kesimi yaklaşık 6.705" x 7.225" olmalıdır.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="../images/battery/batt-2.webp" style="width:100%">
-          <figcaption>2. 1/8" thick aluminum is a good option for this plate. Also add a 3/8" diameter spacers to connect to the bellypan.</figcaption>
+          <figcaption>2. Bu plaka için 1/8" kalınlığında alüminyum iyi bir seçenektir. Ayrıca bellypan'a bağlamak için 3/8" çapında mesafeler ekleyin.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="../images/battery/batt-3.webp" style="width:100%">
-          <figcaption>3. Add the mounting holes and cut out for the battery strap on the bellypan. </figcaption>
+          <figcaption>3. Bellypan üzerinde batarya kayışı için montaj deliklerini ve kesimi ekleyin. </figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="../images/battery/batt-4.webp" style="width:100%">
-          <figcaption>4. Optionally model the battery strap.</figcaption>
+          <figcaption>4. İsteğe bağlı olarak batarya kayışını modelleyin.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="../images/battery/batt-5.webp" style="width:100%">
-          <figcaption>5. Optionally pocket the battery holder. 0.2" wide ribs are recommended. </figcaption>
+          <figcaption>5. İsteğe bağlı olarak batarya tutucusunu pocketleyin. 0.2" genişliğinde kaburgalar önerilir. </figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="../images/battery/batt-0.webp" style="width:100%">
-          <figcaption>6. Insert the battery holder, spacers, and battery into the assembly. Don't forget to organize your feature tree, name your parts, assign part materials, and organize your assembly file tree.</figcaption>
+          <figcaption>6. Batarya tutucusunu, mesafeleri ve bataryayı assembly'ye ekleyin. Özellik ağacınızı düzenlemeyi, parçalarınıza isim vermeyi, parça malzemelerini atamayı ve assembly dosya ağacınızı düzenlemeyi unutmayın.</figcaption>
       </figure>
   </div>
 

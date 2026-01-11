@@ -1,46 +1,45 @@
 ---
-title: Feature Tree Best Practices
-description: The best practices for part studio feature trees in each mechanism document.
+title: Feature Tree En İyi Uygulamaları
+description: Her mekanizma belgesindeki part studio feature ağaçları için en iyi uygulamalar.
 ---
 
-# Part Studio Best Practices
+# Part Studio En İyi Uygulamaları
 
 
-### What to Include in the Part Studio
+### Part Studio'ya Ne Dahil Edilmeli
 
-The part studio should contain **all parts that need to be manufactured by your team**. This could include fully custom plates, shafts cut to length, modified COTS parts, etc. Unmodified COTs parts should be imported directly into the corresponding assembly - no modification inside the part studio is required. 
+Part studio, **takımınızın üretmesi gereken tüm parçaları içermelidir**. Bu, tamamen özel plakaları, boyuna kesilmiş milleri, değiştirilmiş COTS parçalarını vb. içerebilir. Değiştirilmemiş COTS parçaları doğrudan ilgili assembly'ye içe aktarılmalıdır - part studio içinde hiçbir değişiklik gereklidir.
 
-Also **avoid duplicating identical parts and over-using intensive featurescripts**, such as tube converter. These practices can make your part studio loading times high and navigation and changes very laggy. Creating only one of each part in the part studio means you can simply duplicate it when assembling while your part studio performance will be greatly improved.
+Ayrıca **aynı parçaları çoğaltmaktan ve tube converter gibi yoğun featurescripts'leri aşırı kullanmaktan kaçının**. Bu uygulamalar part studio yükleme sürelerinizi yüksek yapabilir ve navigasyonu ve değişiklikleri çok gecikmeli hale getirebilir. Part studio'da her parçadan sadece birini oluşturmak, assembly yaparken sadece çoğaltabileceğiniz anlamına gelirken, part studio performansınız büyük ölçüde iyileştirilecektir.
 
-!!! Tip 
-    Instead of deriving COTS parts for reference, usually you can add simple measurements in your sketches (like a pitch circle instead of a derived gear); this is faster both in the moment and overall as it decreases load times. You can derive parts from your other subsystems (such as the frame and simplified modules from your drivetrain part studio into your intake part studio) and make them closed composites for easy reference, but keep it to a minimum.
+!!! İpucu
+    Referans için COTS parçalarını türetmek yerine, genellikle sketchlerinize basit ölçümler ekleyebilirsiniz (türetilmiş bir dişli yerine bir pitch circle gibi); bu hem şimdi hem de genel olarak daha hızlıdır, çünkü yükleme sürelerini azaltır. Diğer alt sistemlerinizden parçaları türetebilirsiniz (örneğin çerçeveyi ve drivetrain part studio'nuzdaki basitleştirilmiş modülleri intake part studio'nuzda) ve kolay referans için onları closed composite yapabilirsiniz, ancak bunu minimumda tutun.
 
+### Feature Tree Organizasyonu
 
-### Feature Tree Organization
+Her part studio feature ağacı, ilgili ana layout sketch'lerden çekilen bir derive komutuyla başlamalıdır. Bu üzerine inşa edeceğiniz şeydir.
 
-Every part studio feature tree should start with a derive command, pulling from the relevant main layout sketches. This is what you will build on. 
+**Özellikleri, parçaları ve sekmeleri sıralayın ve adlandırın ve klasörleri kullanın** CAD'inizi robot üzerinde çalışan diğer insanlar için daha anlaşılır hale getirmek için. Onshape'in en büyük faydalarından biri işbirliği yapma yeteneğidir, ancak adsız ve sıralanmamış belgeler bu noktayı tamamen ortadan kaldırır. Gerçek zamanlı sıralama ve adlandırma ayrıca geri dönüp şeyleri değiştirmeyi (yapmanız gerekecektir) kolaylaştırabilir. Bazı takımlar organizasyonu ve assembly için yardımcı olmak için bir parça adlandırma sistemi bile kullanır.
 
-**Sort and name the features, parts, and tabs and use folders** to make your CAD more understandable for other people working on the robot. One of the biggest benefits of Onshape is its collaborative capability, but unnamed and unsorted documents eliminate that point entirely. Sorting and naming in real time can also make it easier to go back and change things (which you will inevitably need to do). Some teams even use a part naming system to assist with organizing manufacturing and assembly.
+<!-- !!! İpucu
+    Parçaları manuel olarak yeniden adlandırabilir veya bunu otomatik olarak yapmak için çeşitli [featurescripts](https://www.frcdesign.org/resources/featurescripts/?h=feat#onshape) kullanabilirsiniz.  -->
 
-<!-- !!! Tip
-    You can rename parts manually or use one of many various [featurescripts](https://www.frcdesign.org/resources/featurescripts/?h=feat#onshape) to do so automatically.  -->
-
-See an example of a well-organized part studio here:
+İyi organize edilmiş bir part studio'nun bir örneğini burada görün:
 
 <center><img src="/img/best-practices/organized-part-studio.webp" style="border:5px solid #ADADAD"></center>
 
-### The Importance of Intelligent Origins
-As with many other good practices in CAD, smart origins can make future you's life easier. Intelligent origins allow designers to leverage default geometry (Front/Right/Top Planes, Origin Point) for robust axes of symmetry and references in their models. 
+### Akıllı Originlerin Önemi
+CAD'deki diğer birçok iyi uygulama gibi, akıllı origin'ler gelecekteki senin hayatını kolaylaştırabilir. Akıllı origin'ler, tasarımcıların modellerinde sağlam simetri eksenleri ve referanslar için varsayılan geometriyi (Front/Right/Top Düzlemleri, Origin Noktası) kullanmalarına izin verir.
 
-For FRC CAD, the purpose of using the same origin as the main layout sketch across all studios and assemblies is twofold:
+FRC CAD için, tüm studio'larda ve assembly'lerde ana layout sketch ile aynı origin'i kullanmanın amacı iki katlıdır:
 
-1. The origin will always be a consistent central point you can reference. This helps keep things parametric too.
-2. To unify the robot CAD and robot software origin point. By having the same origin in CAD and code, the robot can be seamlessly exported to [AdvantageScope](https://github.com/Mechanical-Advantage/AdvantageScope "AdvantageScope Repository"){:target="_blank"} and camera transformations more easily measured. 
+1. Origin her zaman başvurabileceğiniz tutarlı bir merkezi nokta olacaktır. Bu ayrıca şeylerin parametrik kalmasına yardımcı olur.
+2. Robot CAD ve robot yazılım origin noktasını birleştirmek için. CAD'de ve kodda aynı origin'e sahip olarak, robot sorunsuz bir şekilde [AdvantageScope](https://github.com/Mechanical-Advantage/AdvantageScope "AdvantageScope Deposu"){:target="_blank"} aktarılabilir ve kamera dönüşümleri daha kolay ölçülebilir.
 
-!!! Note
-    Although definitions may vary from team to team, the origin of an FRC robot is typically defined as ***the center of the drivebase, on floor level***.
+!!! Not
+    Tanımlar takımdan takıma değişebilir, ancak bir FRC robotunun origin'i genellikle ***drivebase'nin merkezi, zemin seviyesinde*** olarak tanımlanır.
 
-One way to help achieve this is to use the [Origin Cube Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Document"){:target="_blank"}, which is further explained in the [assembly best practices page](assembly-setup.md "Assembly Best Practices Page"). If using the origin cube, make the origin cube the first feature in all part studios.
+Buna yardımcı olmanın bir yolu [Origin Cube Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Belgesi"){:target="_blank"} kullanmaktır, bu daha fazla [assembly en iyi uygulamaları sayfasında](assembly-setup.md "Assembly En İyi Uygulamaları Sayfası") açıklanmıştır. Origin cube kullanıyorsanız, origin cube'u tüm part studio'larda ilk özellik yapın.
 
 
 <br>

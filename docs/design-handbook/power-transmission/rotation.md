@@ -1,8 +1,8 @@
-# Transfer of Rotational Motion
+# Döner Hareket Aktarımı
 
-A guide on rotational power transmission components. Includes gears, belts, and chain.
+Döner güç aktarım bileşenleri rehberi. Dişliler, kayışlar ve zincir içerir.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>
 
@@ -23,100 +23,100 @@ table tr:hover{
 
 </style>
 
-<p style="font-size:1rem;">Belts</p>
+<p style="font-size:1rem;">Kayışlar</p>
 
-- Belts are lightweight and drive high speed mechanisms extremely well.
-- In FRC, most common belt type is HTD5, and GT2 are the second most common.
+- Kayışlar hafiftir ve yüksek hızlı mekanizmaları çok iyi sürer.
+- FRC'de, en yaygın kayış tipi HTD5'tir ve GT2 ikinci en yaygın olanıdır.
 
 <figure markdown="span">
-![Belt](../../img/design-handbook/belt.png){height=50% width=50%}
+![Kayış](../../img/design-handbook/belt.png){height=50% width=50%}
 </figure>
-<figcaption> Difference between GT2 and HTD5 is the tooth profile, as GT2 tooth profile has teeth that are spaced 3mm apart from each other, whereas HTD5 teeth are spaced 5mm apart. 
+<figcaption> GT2 ve HTD5 arasındaki fark diş profildir, çünkü GT2 diş profili dişlerin birbirinden 3mm aralıklı olduğu, HTD5 dişleri ise birbirinden 5mm aralıklıdır.
 </figcaption>
-When designing belts, you need to use a calculator such as ReCalc's [belt-calculator](https://www.reca.lc/belts) to figure out the correct belt center to center, otherwise your belts may be over tensioned, or have too much slack. 
+Kayış tasarlerken, ReCalc'in [belt-calculator](https://www.reca.lc/belts) gibi bir hesap makinesi kullanarak doğru kayış merkezden merkeze mesafesini bulmanız gerekir, aksi takdirde kayışlarınız çok gergin olabilir veya çok fazla gevşek olabilir.
 
 
-<p style="font-size:1rem;">Chain</p>
-- Chains are heavy duty and handle high torque, but need to be tensioned unlike belts.
-- 3 Main Types:
+<p style="font-size:1rem;">Zincir</p>
+- Zincirler ağır hizmette kullanılır ve yüksek torku idare eder, ancak kayışların aksine gerilmeleri gerekir.
+- 3 Ana Tip:
     - 25:
-        - While 25 chain is relatively light, it is a lot less durable than 35 or 25h Chain, which is a concern when thinking about shock loads on a pivot.
+        - 25 zinciri nispeten hafif olsa da, 35 veya 25h zincirinden çok daha az dayanıklıdır, bu da bir pivot üzerindeki şok yükleri düşünürken bir endişe kaynağıdır.
     - 25H:
-        - 25H Chain stands for Hardened #25, which means that the plates on the chain are thicker.This means that its a bit stronger than the 25 chain, while staying compatible with all 25 chain hardware.
+        - 25H Zinciri, sertleştirilmiş #25 anlamına gelir, bu da zincir üzerindeki plakaların daha kalın olduğu anlamına gelir. Bu, tüm 25 zincir donanımı ile uyumlu kalmadan 25 zincirinden biraz daha güçlü olduğu anlamına gelir.
     - 35:
-        - 35 Chain is the strongest chain there is, and breaking this is a bit challenging. Best use case is heavy pivots. 
+        - 35 Zincir en güçlü zincirdir ve bunu kırmak biraz zordur. En iyi kullanım durumu ağır pivotlardır.
 <figure markdown="span">
-![chain](../../img/design-handbook/chain.png){height=50% width=50%}
+![zincir](../../img/design-handbook/chain.png){height=50% width=50%}
 </figure>
 
-<p style="font-size:1rem;">What is Backlash:</p>
-- Backlash is when there is a gap between the teeth of gears or threads, which allows them to move slightly before actually engaging fully. This results in a delay in the motion when moving, and its extremely problematic as it introduces errors in positioning, affects the repeatability of your systems, and the systems response time is a bit slower. 
+<p style="font-size:1rem;">Backlash Nedir:</p>
+- Backlash, dişlilerin veya dişlerin dişleri arasında bir boşluk olduğunda, bu da onların tamamen tam olarak gerçekleşmeden önce hafifçe hareket etmelerine izin verir. Bu, hareket sırasında bir gecikme ile sonuçlanır ve konumlandırma hataları tanıtır, sistemlerinizin tekrarlanabilirliğini etkiler ve sistemin yanıt süresi biraz daha yavaş olduğu için son derece sorunludur.
 
-- How to eliminate backlash:
-    - To minimize backlash in your system, you need to ensure that your chains are properly tensioned, or use a belt setup as your final reduction. When you assemble gearboxes apply [shim tape](https://www.mcmaster.com/products/shims/shim-tape-6/). In FRC, the hex shafts are not all the exact same size, and this causes slop between the gear and shaft, and in gearboxes this slop accumulates. The way that 4414 shims all their position controlled subsystems is by cutting strips around 1.5x the width of the actual gear, and then apply the tape onto 1-2 faces depending on the tolerance of the shaft.
-<p style="font-size:1rem;">How To Tension Chain:</p>
+- Backlash'i nasıl ortadan kaldırırsınız:
+    - Sisteminizdeki backlash'i en aza indirmek için, zincirlerinizin düzgün şekilde gerildiğinden emin olmanız veya son redüksiyon olarak bir kayış kurulumu kullanmanız gerekir. Şanzımanları monte ettiğinizde [shim tape](https://www.mcmaster.com/products/shims/shim-tape-6/) uygulayın. FRC'de, hex millerinin hepsi tam olarak aynı boyutta değildir ve bu dişli ve mil arasinda gevşekliğe neden olur ve şanzımanlarda bu gevşeklik birikir. 4414'ün tüm konum kontrolü alt sistemlerini şimlemesinin yolu, gerçek dişlinin genişliğinin yaklaşık 1.5 katı şeritler kesmek ve ardından milin toleransına bağlı olarak bandı 1-2 yüzeysel uygulamaktır.
+<p style="font-size:1rem;">Zincir Nasıl Gerilir:</p>
 
   - Turnbuckle:
-      - A turnbuckle is a device that is used to attach to two links, and tighten the chain together to keep the chain tensioned. 
+      - Turnbuckle, iki bağlantıya bağlamak için kullanılan bir cihazdır ve zinciri bir arada germek için zinciri germek için kullanılır.
 <figure markdown="span">
 ![turnbuckle](../../img/design-handbook/turnbuckle.png){height=50% width=50%}
 </figure>
 
-  - Idler System:
-      - Idlers are a method to ensure that there is proper chain tensioning, and it essentially either pushes the chain in or outwards to decrease the amount of slack. 
+  - Idler Sistemi:
+      - İdlerler, proper zincir germe olduğunu sağlamak için bir yöntemdir ve temel olarak zinciri içeri veya dışarı iterek gevşeklik miktarını azaltır.
 
 <figure markdown="span">
 ![idler](../../img/design-handbook/idler.png){height=50% width=50%}
 </figure>
 
 
-<p style="font-size:1rem;">Gears:</p>
-- Toothed wheels that are able to transmit motion and power. Commonly used to reverse directions, build gearboxes, and many more applications. 
+<p style="font-size:1rem;">Dişliler:</p>
+- Hareket ve güç aktarabilen dişli tekerlekler. Yönleri tersine çevirmek, şanzımanlar oluşturmak ve çok daha fazla uygulama için yaygın olarak kullanılır.
 
-- Types of Gears:
+- Dişli Türleri:
     - Spur Gears:
-        - 3 main types are 10 DP, 20 DP, 32 DP.  
+        - 3 ana tip 10 DP, 20 DP, 32 DP'dir.
         - 10 DP:
-        - Used to drive rack and pinions and turrets 
+        - Dişli çubuk ve taretleri sürmek için kullanılır
       - 20 DP:
-        - Used a lot in gearboxes due to the wide variety of gear teeth. 
+        - Geniş dişli çeşitliliği nedeniyle şanzımanlarda çok kullanılır.
       - 32 DP:
-        - Used in smaller areas due its smaller size.
+        - Daha küçük boyutu nedeniyle daha küçük alanlarda kullanılır.
 <figure markdown="span">
 ![32DP](../../img/design-handbook/32DP.png){height=50% width=50%}
 </figure>
   - Herringbone
-    - Also known as a double helical gear, the teeth form a V shape and are used to provide smooth and quiet operation while transmitting high torque. You can put a pretty high load on this as long as you increase the surface area and the contact between the teeth. These gears are commonly 3d printed.
+    - Ayrıca çift helisel dişli olarak bilinir, dişler bir V şekli oluşturur ve yüksek tork aktarırken pürüzsüz ve sessiz çalışma sağlamak için kullanılır. Yüzey alanını ve dişler arasındaki teması artırarak buna oldukça yüksek bir yük koyabilirsiniz. Bu dişliler genellikle 3 boyutlu yazdırılır.
 
-|||
-|:-:|:-:|
+||||
+|:-:|:-:|:-:|
 |<figure>![125 Herringbone Pivot](../../img/design-handbook/125pivot.webp){height=100% width=100%}</figure>|<figure markdown="span">![Herringbone](../../img/design-handbook/herringbone.png){height=50% width=50%}</figure>|
 
 
   - Bevel Gears
-    - Bevel gears are popularized with the COTS Max90 Gearbox, and are great for transmitting motion between shafts that are not parallel. They cannot handle a high load, and are used mainly for packaging.
+    - Bevel dişlileri COTS Max90 Şanzıman ile popüler hale getirilmiştir ve paralel olmayan miller arasında hareket aktarmak için harikadır. Yüksek bir yükü idare edemezler ve esas olarak paketleme için kullanılırlar.
 <figure markdown="span">
 ![Bevel](../../img/design-handbook/bevel.png){height=50% width=50%}
 </figure>
 <p style="font-size:1rem;">Rack and Pinion:</p>
-- A rack and pinion is a system where a larger gear is driven by a smaller gear, and it is used a lot for hooded shooters like 1678 in 2022. You get a higher degree of control, but this system cannot handles a large amount of load. 
+- Rack and pinion, daha büyük bir dişlinin daha küçük bir dişli tarafından sürüldüğü bir sistemdir ve 2022'de 1678 gibi kaputlu shooter'lar için çok kullanılır. Daha yüksek bir kontrol derecesi elde edersiniz, ancak bu sistem büyük bir yükü idare edemez.
 
 <figure markdown="span">
-  ![GIF Example](../../img/design-handbook/rackPinion.gif)
+  ![GIF Örneği](../../img/design-handbook/rackPinion.gif)
 </figure>
 
 
 
-<p style="font-size:1rem;">Winch:</p>
-  - A  winch is a mechanical device that is used to wind up or wind out ropes or cable, and typically consists of a drum or spool around which the rope is swound and a handle or a motor that is used to rotate the drum, and it is used traditionally in telescoping arms and other climbers.
+<p style="font-size:1rem;">Vinç:</p>
+  - Vinç, halat veya kabloları sarmak veya germek için kullanılan mekanik bir cihazdır ve tipik olarak halatın sarıldığı bir davul veya makara ve davulu döndürmek için kullanılan bir kol veya motor içerir ve geleneksel olarak teleskopik kollarda ve diğer tırmanıcılarda kullanılır.
 <figure markdown="span">
-![winch](../../img/design-handbook/winch.png){height=75% width=75%}
+![vinç](../../img/design-handbook/winch.png){height=75% width=75%}
 </figure>
 
-<p style="font-size:1rem;">Linear Actuator:</p>
-  - Linear actuators are good for precise linear motion. They work by converting rotational motion into linear motion using a lead screw, and you get a very high degree of control and precision. 
+<p style="font-size:1rem;">Lineer Aktüatör:</p>
+  - Lineer aktüatörler hassas doğrusal hareket için iyidir. Bir vida mil kullanarak döner hareketi doğrusal harekete dönüştürerek çalışırlar ve çok yüksek bir kontrol ve hassasiyet derecesi elde edersiniz.
 <figure markdown="span">
-![winch](../../img/design-handbook/linearAct.png){height=75% width=75%}
+![vinç](../../img/design-handbook/linearAct.png){height=75% width=75%}
 </figure>
 
 <br> -->

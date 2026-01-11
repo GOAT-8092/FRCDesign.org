@@ -5,37 +5,37 @@
 
 ### Spin
 
-When using a single flywheel shooter, spherical game pieces can acquire spin due to the static nature of one side of the shooter. In 2022, excessive spin was problematic as it caused the game piece to bounce out of the goal. To address this, backrollers were introduced to counteract the spin by rotating in the opposite direction. While some spin can enhance shot stability—beneficial in games like 2017, where a steep arc trajectory was advantageous—it needed to be carefully managed in 2022 to avoid negatively impacting shot accuracy.
+Tek bir flywheel shooter kullanırken, küresel oyun parçaları shooter'ın bir tarafının statik doğası nedeniyle spin kazanabilir. 2022'de, aşırı spin sorunluydu çünkü oyun parçasının golden sekip çıkmasına neden oldu. Bunu ele almak için, zıt yönde dönen backrollers tanıtıldı. Bazı spinler atış stabilitesini artırabilir - örneğin 2017 gibi oyunlarda, dik bir yay trajektörü avantajlıydı - ancak 2022'de atış doğruluğunu olumsuz etkilememek için dikkatli bir şekilde yönetilmesi gerekiyordu.
 
 <center>
 <video width="600" controls>
 <source src="\img\learning-course\stage2-shooter\bounceout.webm" type="video/webm">
-Your browser does not support the video tag.
+Tarayıcınız video etiketini desteklemiyor.
 </video>
-<center> *Bounceout caused by too much spin. Credit: FRC Team 7492* </center>
+<center> *Çok fazla spinden kaynaklanan sektirme. Kaynak: FRC Takımı 7492* </center>
 </center>
 
 ### Back Rollers
 
-Reducing friction helps transfer more energy into the shot by minimizing the energy lost to spinning the ball. This can be achieved by using low-friction materials on the hood or incorporating back rollers, which further decrease friction and improve shot efficiency.
+Sürtünmeyi azaltmak, topu döndürmek için kaybedilen enerjiyi en aza indirerek atışa daha fazla enerji transfer etmeye yardımcı olur. Bu, hood üzerinde düşük sürtünmeli malzemeler kullanarak veya back rollers dahil ederek başarılabilir, bu da sürtünmeyi daha da azaltır ve atış verimliliğini artırır.
 
 <figure><center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/1b8spBWIAT4?si=daEZUNFTRv_rsYMn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <figcaption> This high speed shooter video uses PTFE tape to lower the friction on the hood backing to reduce some of the spin. This led to a higher exit velocity by 2 miles per hour. </figcaption>
+    <figcaption> Bu yüksek hızlı shooter videosu, hood desteği üzerindeki sürtünmeyi azaltmak için PTFE bant kullanır ve bu da bazı spinleri azaltır. Bu, çıkış hızını saatte 2 mil artırdı. </figcaption>
 </center></figure>
 
 
-Back rollers increase energy transfer to the ball in three key ways:
+Back rollers topa enerji transferini üç ana yolla artırır:
 
-1. They reduce the amount of spin imparted to the game piece, converting more energy into forward motion and increasing shooting speed.
-2. They decrease drag by ensuring both sides are powered, allowing for greater compression and more effective energy transfer.
-3. They increase the number of contact points, improving overall energy transfer to the game piece.
+1. Oyun parçasına verilen spin miktarını azaltır, daha fazla enerjiyi ileri harekete dönüştürür ve atış hızını artırır.
+2. Her iki tarafın da güçlendirilmesini sağlayarak sürüklemeyi azaltır, daha fazla compression ve daha etkili enerji transferi sağlar.
+3. Temas noktalarını artırarak, oyun parçasına genel enerji transferini iyileştirir.
 
-Back rollers should rotate in the opposite direction to the shooter. This can be achieved by adding additional motor(s) to the back rollers or by using gears and belts to link the main flywheel to the back rollers. Linking the two sides mechanically can simplify software control. By changing the speed of the back rollers, you can control the amount of spin imparted onto the game piece.
+Back rollers shooter'a zıt yönde dönmelidir. Bu, back roller'lara ek motor(lar) ekleyerek veya dişliler ve kayışlar kullanarak ana flywheel'i back roller'lara bağlayarak başarılabilir. İki tarafı mekanik olarak birleştirmek yazılım kontrolünü basitleştirebilir. Back roller'ların hızını değiştirerek, oyun parçasına verilen spin miktarını kontrol edebilirsiniz.
 
 <figure>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QZKDnRvLhrA?si=9ZoKnbHI4jayoux0&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <figcaption>Observe how the ball spins as it travels along the shooter path. Despite the presence of back rollers, some spin is still evident. </figcaption>
+    <figcaption>Topun shooter yolu boyunca seyahat ederken nasıl döndüğünü gözlemleyin. Back rollers varlığına rağmen, bazı spin hala belirgindir. </figcaption>
 </figure>
 
 <br>

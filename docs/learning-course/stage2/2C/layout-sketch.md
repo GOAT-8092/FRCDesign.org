@@ -2,15 +2,15 @@
 
 ## Layout Sketch
 
-1. Use the origin cube featurescript to insert the origin cube
-1. Sketch the side of your drivetrain and bumper profile
-2. Sketch the path of the ball over the bumper
-3. Sketch roller or wheel positions needed to get the game piece to move that way. Use the belt transmission tools you learned in 1B to dimension the location of the rollers. Decreasing the c-c distance by 0.02" can help with ease of assembly and roller efficiency.
-4. Use a sketch circular pattern to represent the stowed position of your intake rollers and define where you want the pivot to be
+1. Origin cube featurescript'ini kullanarak origin cube'ü ekleyin
+1. Drivetrain ve bumper profilinizin yanını eskizleyin
+2. Topun bumper üzerinden geçen yolunu eskizleyin
+3. Oyun parçasını bu şekilde hareket ettirmek için gereken roller veya tekerlek konumlarını eskizleyin. Roller konumlarını boyutlandırmak için 1B'de öğrendiğiniz kayış transmisyon araçlarını kullanın. C-c mesafesini 0.02" azaltmak montaj kolaylığı ve roller verimliliğine yardımcı olabilir.
+4. Bir eskiz dairesel desen kullanarak intake roller'larınızın depolanmış konumunu temsil edin ve pivot'u nereye istediğinizi tanımlayın
 
 <figure>
     <img src="/img/learning-course/stage2-slapdown/masterSketch.webp" width="70%" style="border:5px solid #ADADAD">
-    <figcaption>Finished Layout Sketch</figcaption>
+    <figcaption>Tamamlanmış Layout Eskizi</figcaption>
 </figure>
 
 <br>

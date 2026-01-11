@@ -1,32 +1,32 @@
-# 1B: Power Transmissions
+# 1B: Güç Aktarımı
 
-## Torque and Speed
+## Tork ve Hız
 
-When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. In FRC, the unit used for speed is typically Rotations Per Minute (RPM). The units used for torque is typically Newton-Meters (Nm).
+Güç aktarım organları tasarlarken, değiştirmeye çalıştığımız birbirine bağlı iki nicelik vardır: tork ve hız. Tork bir nesneye uygulanan döner kuvvete başvururken, hız o nesnenin ne kadar hızlı döndüğünü belirtir. FRC'de hız için kullanılan birim genellikle Dakikadaki Dönüş Sayısıdır (RPM). Tork için kullanılan birim genellikle Newton-Metre'dir (Nm).
 
-!!! Note "Torque and Speed"
-    Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x. This is because of the principle of conservation of energy: the output energy is the same as the input energy (ignoring losses like friction), so if speed is reduced through mechanical means, torque must increase.
+!!! Note "Tork ve Hız"
+    Hız ve tork mekanik sistemlerde ters ilişkilidir. Bu, birinin artarken diğerinin azaldığı ve tam tersi anlamına gelir. Örneğin, hız 4x azaltılırsa, tork 4x artırılır. Bunun nedeni enerjinin korunumu ilkesidir: çıktı enerjisi giriş enerjisiyle aynıdır (sürtünme gibi kayıpları yoksayarsak), bu nedenle hız mekanik yollarla azaltılırsa, tork artmalıdır.
 
-### Mechanical Advantage
+### Mekanik Avantaj
 
-Many mechanical systems use the principle of the conservation of energy to convert energy from one form to another to produce either larger forces or faster speeds. ***Mechanical advantage*** is the ratio of output force to input force in a system, whether it's a lever, screw, gears, or pulley, mechanical advantage is used to quantify how the force changes.
+Birçok mekanik sistem, daha büyük kuvvetler veya daha hızlı hızlar üretmek için enerjiyi bir biçimden diğerine dönüştürmek için enerjinin korunumu ilkesini kullanır. ***Mekanik avantaj*** bir sistemde çıkış kuvvetinin giriş kuvvetine oranıdır, ister bir kaldıraç, vida, dişli veya kasnak olsun, mekanik avantaj kuvvetin nasıl değiştiğini ölçmek için kullanılır.
 
-The ratio between the number of teeth of the input and output gear/sprocket/pulley system represents the mechanical advantage of that system. This is also called the ***gear ratio***, and is the key to understanding how to achieve a needed torque or speed from the specified torque and speed of a given motor.
+Giriş ve çıkış dişlisinin/kasnağının diş sayısı arasındaki oran, o sistemin mekanik avantajını temsil eder. Buna aynı zamanda ***dişli oranı*** da denir ve belirli bir motorun belirtilen torku ve hızından gerekli bir tork veya hızı nasıl elde edeceğinizi anlamanın anahtarıdır.
 
-Gear ratio is typically written in the form `n1:n2`. Since torque and speed are interlinked quantities, the ratio can be understood from the perspective of torque or speed. From the perspective of torque, `n1` is the output torque for `n2` input torque. From the perspective of speed, `n1` is the speed of the input for `n2` speed of the output. 
+Dişli oranı genellikle `n1:n2` formunda yazılır. Tork ve hız birbirine bağlı nicelikler olduğundan, oran tork veya hız perspektifinden anlaşılabilir. Tork perspektifinden, `n1` `n2` giriş torku için çıkış torkudur. Hız perspektifinden, `n1` `n2` çıkış hızı için giriş hızıdır.
 
 !!! Example
-    A system has a gear ratio of 4:1. This means the output torque is 4x the input torque and that the output speed is 1/4 the input speed.
+    Bir sistemin dişli oranı 4:1'dir. Bu, çıkış torkunun giriş torkunun 4x'i olduğu ve çıkış hızının giriş hızının 1/4'ü olduğu anlamına gelir.
 
-For a single stage transmission (only two transmission components), `n1` is the size of the driven component for `n2` size of the driving component.
+Tek aşamalı bir aktarma organı için (sadece iki aktarma bileşeni), `n1`, sürülen bileşenin boyutudur, `n2` ise süren bileşenin boyutudur.
 
-### Ratio Applications
+### Oran Uygulamaları
 
-An arm mechanism needs very low RPM but a lot of torque to control efficiently, so a large *reduction* of speed might be used to increase torque. This depends on the weight and length of the arm, but can be 30:1 up to even 200:1. 
+Bir kol mekanizması verimli bir şekilde kontrol etmek için çok düşük RPM'ye ama çok torka ihtiyaç duyar, bu nedenle torku artırmak için hızın büyük bir *indirgenmesi* kullanılabilir. Bu kolun ağırlığına ve uzunluğuna bağlıdır, ancak 30:1'den 200:1'e kadar olabilir.
 
-Shooter wheels or intake rollers often have little to no reduction, and in some cases may even need to go faster than the motor's free speed. In this case, an *upduction* can be be used to increase the speed, but the output torque gets lower as a consequence. Upductions typically don't get much higher than 1:2 due to the available motors already having a high speed, low torque output. A 1:2 upduction would double the speed and halve the torque of the input.
+Shooter tekerlekleri veya intake ruloları genellikle hiç veya çok az indirgeme yapar ve bazı durumlarda motorun serbest hızından daha hızlı gitmeleri gerekebilir. Bu durumda hızı artırmak için *yükseltme* kullanılabilir, ancak sonuç olarak çıkış torku daha düşük olur. Mevcut motorların zaten yüksek hızda, düşük torklu çıkışa sahip olması nedeniyle, yükseltmeler genellikle 1:2'den fazla çıkmaz. 1:2 yükseltme hızı iki katına çıkarır ve girişin torkunu yarıya indirir.
 
 !!! Tip
-    For situations that require higher speed and higher torque than what a single motor can provide, add more motors.
+    Tek bir motorun sağlayabileceğinden daha yüksek hız ve daha yüksek tork gerektiren durumlar için daha fazla motor ekleyin.
 
 <br>

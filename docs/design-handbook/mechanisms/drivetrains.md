@@ -1,8 +1,8 @@
-# Drivebase Fundamentals
+# Sürücü Sistemi Temelleri
 
-A guide on drivebase design.
+Sürücü sistemi tasarımı rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <!-- <style>
 
@@ -21,118 +21,118 @@ table tr:hover{
 
 </style>
 
-# Drivebase Fundamentals
+# Sürücü Sistemi Temelleri
 
 
-## Types of Drivetrains
+## Sürücü Sistemi Türleri
 
-- Swerve - A drivetrain with 4 wheels in which all drive wheels are independently driven and steered. Drivetrain can move in any direction
+- Swerve - Tüm sürücü tekerleklerinin bağımsız olarak sürüldüğü ve yönlendirildiği 4 tekerlekli bir sürücü sistemi. Sürücü sistemi herhangi bir yönde hareket edebilir
 <figure markdown="span">
 ![swerve](../../img/design-handbook/swerve.png){height=50% width=50%}
 </figure>
-- Kit of Part drivebase - 6 wheel drop center(the middle wheels is lower than the outer wheels) drive base made from bent-sheet metal and comes with the kit of parts. 
+- Kit of Part sürücü sistemi - Kit of parts ile gelen ve bükülmüş sac metalden yapılmış 6 tekerlek drop center (orta tekerlekler dış tekerleklerden daha alçak) sürücü tabanı.
 <figure markdown="span">
 ![KOP](../../img/design-handbook/KOP.png){height=50% width=50%}
 </figure>
-- West Coast Drive (WCD) - A six wheel drive base with a drop-center wheel that is directly driven from the gearbox. Traditionally, the power transmission is driven with chain, a gearbox, and box tubing for rigidity. A key characteristic for west coast drives is that the wheels are cantilevered. 
+- West Coast Drive (WCD) - Drop-center tekerlekli bir altı tekerlek sürücü tabanı, şanzımandan doğrudan sürülür. Geleneksel olarak, güç aktarımı zincir, bir şanzıman ve rijitlik için kutu profili ile sürülür. West coast sürücüleri için temel bir özellik, tekerleklerin kantilever olmasıdır.
 <figure markdown="span">
 ![WCD](../../img/design-handbook/nickwcd.webp){height=50% width=50%}
 </figure>
 
-## Key Drivebase Choices
+## Ana Sürücü Sistemi Seçimleri
 
-<p style="font-size:1rem;">Rigidity</p>
+<p style="font-size:1rem;">Rijitlik</p>
 
-In a single FRC game, robots encounter huge forces from collisions, and a rigid frame helps to reduce the risk of any structural damage. In your drivebase, you want to add something to increase the rigidity, such as a cross rail. When building a superstructure, you need to think from the bottom up, and it starts with your drivetrain being as rigid as possible.
+Tek bir FRC oyununda, robotlar çarpışmalardan büyük kuvvetlerle karşılaşır ve rijit bir çerçeve herhangi bir yapısal hasar riskini azaltmaya yardımcı olur. Sürücü sisteminizde, bir çapraz ray gibi rijitliği artıracak bir şey eklemek istersiniz. Bir süper yapı inşa ederken, aşağıdan yukarıya düşünmeniz gerekir ve bu, sürücü sisteminizin mümkün olduğunca rijit olmasıyla başlar.
 
-<p style="font-size:1rem;">What do cross members do for your structure?</p>
-- Contrary to popular belief, metal isn’t as strong as stable as people think, and it likes to “parallelogram” when compressive loads begin to come on your bracing.
+<p style="font-size:1rem;">Çapraz üyeler yapınız için ne yapar?</p>
+- Popüler inancın aksine, metal insanların düşündüğü kadar güçlü ve stabil değildir ve bracing üzerindeki sıkıştırıcı yükler gelmeye başladığında "paralelogram" yapmayı sever.
 
 <figure markdown="span">
-![parallel](../../img/design-handbook/parallel.png){height=150% width=150%}<figcaption> In this picture you can see the square frame turns into a parallelogram as a load comes onto the left side. In a single FRC match, your chassis undergoes a ton of forces, which can affect the shape of your drivebase. </figcaption>
+![parallel](../../img/design-handbook/parallel.png){height=150% width=150%}<figcaption> Bu resimde, kare çerçevenin sol tarafa bir yük geldiğinde paralelgrama dönüştüğünü görebilirsiniz. Tek bir FRC maçında, şasiniz çok sayıda kuvvete maruz kalır ve bu sürücü sisteminizin şeklini etkileyebilir. </figcaption>
 </figure>
 
-<p style="font-size:1rem;">Where to place cross rails?</p>
+<p style="font-size:1rem;">Çapraz rayları nereye yerleştirmelisiniz?</p>
 
-- There are two main type of cross members that teams do:
-    - The first type is two vertical cross members, as close to the swerve modules as possible.
+- Takımların yaptığı iki ana çapraz üye türü vardır:
+    - İlk tür, swerve modüllerine mümkün olduğunca yakın iki dikey çapraz üyedir.
     <figure markdown="span">
     ![twoCross](../../img/design-handbook/twoCross.png){height=50% width=50%}
     </figure>
-    - Pros:
-        - Easier to mount things
-        - Stiff structure, less change of compressive loads affecting your drivebase.
-    - Cons:
-        - You severely limit your electrical boards accessibility, and it affects the placement of your electronics.
+    - Artıları:
+        - Şeyleri monte etmek daha kolay
+        - Sert yapı, sürücü sisteminizi etkileyen sıkıştırıcı yüklerin daha az değişme şansı.
+    - Eksileri:
+        - Elektronik panellerinizin erişilebilirliğini ciddi şekilde sınırlar ve elektroniklerinizin yerleşimini etkiler.
 
-    - The second type is a single 2x2 Horizontal Cross beam.
+    - İkinci tür, tek bir 2x2 Yatay Çapraz kiriştir.
     <figure markdown="span">
     ![citrusCirc](../../img/design-handbook/citrusCirc.png){height=50% width=50%}
     </figure>
-    - Pros:
-        - Opens up a ton of electrical board space
-        - Stronger than having a single 2x1 there because of your cross sectional area, and it can withstand higher loads before yielding or failing. 
-        - Moment of inertia is double, due to the width being double meaning there's a much larger increase in strength.
-        - 2x2 box tubing spreads the [shear-load](https://www.youtube.com/watch?v=C-FEVzI8oe8&t=109s&ab_channel=TheEfficientEngineer) across a larger area
-        - Stiffness of 2x2 is nicer.
-    - Cons: 
-        - Harder to mount your superstructure from there, you might have to introduce additional tubes.
-            - This could mean that you have to potentially introduce complex bent-metal parts
-        - Severely locks you into a mounting style.
-<p style="font-size:1rem;">Which tube thickness should you use?</p>
-- In a majority of drivebases, people use 2x1 Box tubing that is 1/8th thickness. 
-    - Generally, the thinner the wall thickness, the more susceptible it is to tearing, as well as crushing. In matches with heavy impacts, your drivebase tubes are the last thing you want bending: 
-         - 1/8" wall thickness is best in scenarios where you know that you will have impacts, or in areas where you know that stress concentration will have to be high according to how it is fixtured or assembled.
+    - Artıları:
+        - Çok fazla elektronik panel alanı açar
+        - Oraya tek bir 2x1 koymaktan daha güçlüdür, çünkü kesitsel alanınız nedeniyle ve yield veya başarısız olmadan önce daha yüksek yükleri idare edebilir.
+        - Eylemsizlik momenti iki katındadır, çünkü genişlik iki katıdır, yani gücünde çok daha büyük bir artış vardır.
+        - 2x2 kutu profili [shear-load](https://www.youtube.com/watch?v=C-FEVzI8oe8&t=109s&ab_channel=TheEfficientEngineer) daha büyük bir alana yayılır
+        - 2x2'nin sertliği daha iyidir.
+    - Eksileri:
+        - Süper yapınızı oradan monte etmek daha zordur, ekstrude etmeniz gerekebilir.
+            - Bu, karmaşık bükülmüş metal parçalarını tanıtmanız gerektiği anlamına gelebilir
+        - Sizi bir montaj tarzına kilitleyerek ciddi şekilde kilitler.
+<p style="font-size:1rem;">Hangi profil kalınlığını kullanmalısınız?</p>
+- Çoğu sürücü sisteminde, insanlar 1/8 kalınlığında 2x1 Kutu profili kullanır.
+    - Genel olarak, duvar kalınlığı ne kadar ince olursa, yırtılmaya ve ezilmeye o kadar yatkın olur. Ağır darbelerin olduğu maçlarda, sürücü sistemi profillerinizin bükülmesini istemezsiniz:
+         - 1/8" duvar kalınlığı, darbeler olacağını bildiğiniz senaryolarda veya, nasıl fikstur edildiğine veya monte edildiğine göre stres konsantrasyonunun yüksek olması gerektiği alanlarda en iyisidir.
 
-<p style="font-size:1rem;">Bellypans and their impact on rigidity</p>
-- A belly pan is a plate for mounting electronics on the underside of your drivebase, however it also tremendously impacts the rigidity of your drivebase as it acts like a giant gusset bringing everything together 
-- By spanning the underside of the drivebase and connecting to the key structural elements like the frame rails/cross-members, the belly pan is able to distribute loads evenly across the entire structure and the integration helps to prevent any flexing or deformation of the frame. 
+<p style="font-size:1rem;">Bellypanler ve rijitlik üzerindeki etkileri</p>
+- Belly pan, sürücü sisteminizin alt tarafında elektronikleri monte etmek için bir plakadır, ancak aynı zamanda sürücü sisteminizin rijitliğini de etkiler, çünkü her şeyi bir araya getiren dev bir gusset gibi davranır
+- Sürücü sisteminin altını span ederek ve çerçeve rayları/çapraz üyeler gibi ana yapısal öğelere bağlanarak, belly pan yükünü tüm yapıya eşit olarak dağıtabilir ve entegrasyon çerçevesin herhangi bir bükülmesini veya deformasyonunu önlemeye yardımcı olur.
 
-<p style="font-size:1rem;">What material should my bellypan be?</p>
- - By increasing the thickness of your belly pan, and changing the material, you can drastically change the center of gravity of your robot. 
-- Popular Material Types:
-    - Steel:
-        - Pros:
-            - Low center of gravity
-            - High strength
-        - Cons:
-            - Heavy weight means you may need to lighten other parts of your robot to be under the weight limit. (See team 254's robot in 2022 when they used a 1/4" Steel Bellypan and compensated by lightening all their other parts)
-            - Hard to machine
-    - Aluminum:
-        - Pros:
-            - Easy to machine
-            - Relatively high strength
-            - Lighter weight than steel
-        - Cons:
-            - Aluminum is expensive.
-    - Polycarbonate:
-        - Pros: 
-            - Lightweight, meaning that you are able to allocate more weight to other parts of the robot. 
-            - Relatively cost-effective
-            - Very simple to machine.
-        - Cons:
-            - Lower rigidity and can flex
-            - Lower weight means that your center of gravity could be higher than you want it to be.
-- What a lot of teams do to maintain rigidity while lightening the weight is called a pocketed bellypan , and what this accomplishes is it takes away the material in unnecessary places, while allowing for electronics to  be mounted by keeping the holes in the correct locations.
+<p style="font-size:1rem;">Bellypan'im hangi malzemeden olmalı?</p>
+ - Bellypan kalınlığını artırarak ve malzemeyi değiştirerek, robotunuzun ağırlık merkezini ciddi şekilde değiştirebilirsiniz.
+- Popüler Malzeme Türleri:
+    - Çelik:
+        - Artıları:
+            - Düşük ağırlık merkezi
+            - Yüksek güç
+        - Eksileri:
+            - Ağır ağırlık, ağırlık limitinin altında kalmak için robotunuzun diğer parçalarını hafifletmeniz gerekebilir anlamına gelir. (254 takımının 2022'deki robotuna bakın, 1/4" Çelik Bellypan kullandılar ve diğer tüm parçalarını hafifleterek telafi ettiler)
+            - İşlenmesi zor
+    - Alüminyum:
+        - Artıları:
+            - İşlenmesi kolay
+            - Nispeten yüksek güç
+            - Çelikten daha hafif
+        - Eksileri:
+            - Alüminyum pahalıdır.
+    - Polikarbonat:
+        - Artıları:
+            - Hafif, yani robotunuzun diğer parçalarına daha fazla ağırlık ayırabilirsiniz.
+            - Nispeten uygun maliyetli
+            - Çok basit işlenir.
+        - Eksileri:
+            - Daha düşük rijitlik ve bükülebilir
+            - Daha düşük ağırlık, ağırlık merkezinizin istediğinizden daha yüksek olabileceği anlamına gelir.
+- Birçok takımın rijitliği korurken ağırlığı hafifletmek için yaptığı şey pocketed bir bellypan'dır ve bu, gereksiz yerlerde malzemeyi çıkarırken, elektroniklerin doğru konumlarda tutulması için delikleri koruyarak monte edilmelerine izin verir.
 <figure markdown="span">
 ![bPan](../../img/design-handbook/bPan.png){height=50% width=50%}
 </figure>
 
-## Frame Perimeter
+## Çerçeve Çevresi
 
-- In accordance with the game manual, your drivebase frame perimeter must be a maximum of 120". 
-    - Frame Extension: 
-        - In accordance to the game manual, at the beginning of your match, no part of your robot can stick out of the frame. To gain more clearance teams use [Swerve-Corners](https://cad.onshape.com/documents/3969471095df924bad241f81/w/42f02d1579e8bcd9c0435d48/e/b1b02258ec73e6686b1e62fd) and 1/4” plates to extend their frame perimeter by a 1/2” on all sides, and this allows to mount plates to the edges of your tubing.
+- Oyun kılavuzuna uygun olarak, sürücü sistemi çerçeve çevreniz maksimum 120" olmalıdır.
+    - Çerçeve Uzantısı:
+        - Oyun kılavuzuna uygun olarak, maçınızın başında, robotunuzun hiçbir parçası çerçeveden çıkamaz. Daha fazla temizlik elde etmek için takımlar [Swerve-Corners](https://cad.onshape.com/documents/3969471095df924bad241f81/w/42f02d1579e8bcd9c0435d48/e/b1b02258ec73e6686b1e62fd) ve 1/4" plakalar kullanır ve çerçeve çevresini her tarafta 1/2" uzatır ve bu, plakaları profilinizin kenarlarına monte etmenizi sağlar.
 
 <figure markdown="span">
-![swerveCorner](../../img/design-handbook/swerveCorner.png){height=50% width=50%}<figcaption>You can see in the highlighted section that it sticks out further than your box tubing extension.</figcaption>
+![swerveCorner](../../img/design-handbook/swerveCorner.png){height=50% width=50%}<figcaption>Vurgulanan bölümde, kutu profil uzantınızdan daha fazla sticks out görebilirsiniz.</figcaption>
 </figure>
 
-## Wheelbase Location
-- You want your wheels as far apart as possible in order to give you more stability, especially while turning. 
+## Tekerlek Tabanı Konumu
+- Daha fazla stabilite sağlamak için, özellikle dönerken tekerleklerinizi olabildiğince uzakta istersiniz.
 
-## Electrical Mounting
-- When designing a bellypan, you need to ensure that your electronics are as accessible as possible. What some teams do is they drill massive access holes in their cross tubing. One thing to keep in mind for this is you may want to 3D Print protection guards/rubber grommets on the holes to ensure the wires don’t strip on the hole’s sharp edges.
+## Elektronik Montajı
+- Bir bellypan tasarlerken, elektroniklerinizin mümkün olduğunca erişilebilir olduğundan emin olmanız gerekir. Bazı takımlar çapraz profillerinde devasa erişim delikleri delerler. Bunun için aklınızda tutmanız gereken bir şey, tellerin deliğin keskin kenarlarında strip olmasını önlemek için deliklerde 3D Yazdırılmış koruma guards/kauçuk grommets yazdırmanız gerekebilir.
 
 <figure markdown="span">
 ![accessHoles](../../img/design-handbook/accessHoles.png){height=50% width=50%}

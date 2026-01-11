@@ -1,36 +1,36 @@
-# 1B: Power Transmissions
+# 1B: Güç Aktarımı
 
-## Shafts and Bearings
-### Shafts
-Shafts transmit rotational power along an axis, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, known as "rounded hex" or "Thunderhex."
+## Miller ve Rulmanlar
+### Miller
+Miller bir eksen boyunca döner güç ileterek, FRC'de en yaygın olan altı köşeli millerdir. Genellikle 1/2" ve 3/8" çaplarında (düzden düze ölçülür) olan bu altıgen miller bazen "yuvarlatılmış altıgen" veya "Thunderhex" olarak bilinen yuvarlatılmış köşelere sahip olabilir.
 
-### Bearings
-Bearings allow shafts to spin independently of plates and/or things to spin independently of shafts. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier assembly.
+### Rulmanlar
+Rulmanlar millerin plakalardan bağımsız dönmesine ve/veya şeylerin millerden bağımsız dönmesine izin verir. Standart altıgen miller 1/2" altıgen rulmanlar kullanır, yuvarlatılmış altıgen miller ise daha kolay montaj için yuvarlak rulmanlar kullanabilir.
 
 <figure>
     <img src="../images/examples/bearing-and-shaft.webp" style="width:75%">
-    <figcaption>A 1/2" rounded hex bearing (Left) and 1/2" rounded hex shaft (Right) (Image Source: WCP)</figcaption>
+    <figcaption>1/2" yuvarlatılmış altıgen rulman (Sol) ve 1/2" yuvarlatılmış altıgen mil (Sağ) (Görsel Kaynak: WCP)</figcaption>
 </figure>
-### Example
+### Örnek
 
-!!! Example "Example of a Shaft Spinning in a Bearing"
+!!! Example "Rulmanda Dönen Bir Mil Örneği"
     <figure>
         <img src="../images/examples/shaft-spinning.gif" style="width:100%">
-        <figcaption>A spinning shaft in bearings</figcaption>
+        <figcaption>Rulmanlarda dönen bir mil</figcaption>
     </figure>
 
-### Bushings
-Bushings are a cheap and low friction alternative to bearings and are used with metal shafts such as shoulder bolts, hex shafts, and round tube, mainly to save space. They are made out of a self-lubricating material such as bronze or acetal/delrin and typically used in applications with relatively low RPM, such as for pivots and linkage joints. 
+### Burçlar
+Burçlar, rulmanların ucuz ve düşük sürtünmeli bir alternatifidir ve esas olarak yer tasarrufu sağlamak için omzu cıvatalar, altıgen miller ve yuvarlak boru gibi metal millerle kullanılır. Bronz veya asetal/delrin gibi kendinden yağlanan bir malzemeden yapılırlar ve genellikle pivotlar ve bağlantı mafsalları gibi nispeten düşük RPM'li uygulamalarda kullanılırlar.
 
 <figure>
     <img src="../images/examples/bushing.webp" style="width:50%">
-    <figcaption>A Bronze Bushing (Image Source: WCP)</figcaption>
+    <figcaption>Bir Bronz Burç (Görsel Kaynak: WCP)</figcaption>
 </figure>
 
 
-### Modeling
-The easiest and most parametric way to model shafts is to use the [`Robot Shaft` Featurescript](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933 "Robot Shaft Featurescript Onshape Document"){:target="_blank"}, which you learn how to use in the following exercises. 
+### Modelleme
+Milleri modellemenin en kolay ve en parametrik yolu, aşağıdaki alıştırmalarda nasıl kullanacağınızı öğreneceğiniz [`Robot Shaft` Featurescript](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933 "Robot Shaft Featurescript Onshape Document"){:target="_blank"} özelliğini kullanmaktır.
 
-For bearings, insert your desired bearing from FRCDesignLib. 
+Rulmanlar için, istediğiniz rulmanı FRCDesignLib'den ekleyin.
 
 <br>

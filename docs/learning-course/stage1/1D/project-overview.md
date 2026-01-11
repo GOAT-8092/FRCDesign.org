@@ -1,25 +1,26 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Tasarım Metodolojisi - Basit Swerve Şasisi
 
-## Project Overview
-In this stage, you will be designing a swerve drivebase. A drivebase is the mobile platform on which all our other mechanisms are designed around and attached to. With the advent of reliable COTS swerve, designing a swerve drivebase has been made significantly easier and has become the most commonly used competitive drivetrain in FRC. 
+## Proje Genel Bakış
 
-A swerve drivebase is composed of four *swerve modules*. Each module has two motors: one for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module "SDS MK4i Product Page"){:target="_blank"}. There are many other COTS options available, each with their own advantages and tradeoffs. 
+Bu aşamada, bir swerve şasisi tasarlayacaksınız. Bir şasi, tüm diğer mekanizmalarımızın etrafında tasarlandığı ve tutturulduğu mobil platformdur. Güvenilir COTS swerve'in ortaya çıkışı ile, swerve şasisi tasarımı önemli ölçüde kolaylaşmıştır ve FRC'de en yaygın kullanılan rekabetçi şasi haline gelmiştir.
+
+Bir swerve şasisi dört *swerve modülünden* oluşur. Her modülün iki motoru vardır: biri tekerleği döndürmek için ve diğeri onu yönlendirmek için. Bu, robotun rotasyonundan bağımsız olarak herhangi bir yönde hareket etmesini sağlar. Bu projede, [SDS MK4i modüllerini](https://www.swervedrivespecialties.com/products/mk4i-swerve-module "SDS MK4i Product Page"){:target="_blank"} kullanacağız. Birçok başka COTS seçeneği mevcuttur, her birinin kendi avantajları ve ticari ödünleşimleri vardır.
 
 <!-- You can learn more about drivetrains on the [Design Handbook](/design-handbook/mechanisms/drivetrain/) page. -->
 
 <figure>
     <img src="../images/drivetrain-assembly.webp" style="width:80%">
-    <figcaption>Stage 1D swerve drivebase project.</figcaption>
+    <figcaption>1D Aşaması swerve şasisi projesi.</figcaption>
 </figure>
 
-As with previous exercises, the finished project is available for reference. If you need help, please feel free to ask on [the Discord](https://discord.gg/qdx7pdZKx4 "DDS Discord Invite"){:target="_blank"}!
+Önceki egzersizlerde olduğu gibi, tamamlanmış proje referans için mevcuttur. Yardıma ihtiyacınız varsa, lütfen [Discord'da](https://discord.gg/qdx7pdZKx4 "DDS Discord Invite"){:target="_blank"} sormaktan çekinmeyin!
 
-<center markdown>[1D Drivebase Reference](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51 "1D Drivebase Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
+<center markdown>[1D Şasi Referansı](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51 "1D Drivebase Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
-### Drivebase Frame
+### Şasi Çerçevesi
 
-As was introduced in Stage 1A, robot structures are typically constructed out of aluminum box tubing. The drivebase is no exception to this. Most teams will opt to design their box tubing with a standard 0.5" spacing pattern of 0.196" diameter holes. This enables modularity and allows for easy integration of many COTS components like gussets.
+1A Aşamasında tanıtıldığı gibi, robot yapıları genellikle alüminyum kutu tüplerinden inşa edilir. Şasi de bir istisna değildir. Çoğu takım, kutu tüplerini standart 0.5" aralıklı 0.196" çaplı delik deseniyle tasarlamayı tercih eder. Bu, modülerlik sağlar ve köşebentler gibi birçok COTS bileşeninin kolay entegrasyonuna izin verir.
 
-Box tubing extrusions can be purchased at most metal suppliers, but many FRC vendors including [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing){:target="_blank"}, [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion){:target="_blank"}, and [REV](https://www.revrobotics.com/MAXTube/){:target="_blank"} sell box tubing with pre-cut hole patterns which can significantly reduce manufacturing time and equipment requirements.
+Kutu tüp ekstrüzyonları çoğu metal tedarikçiden satın alınabilir, ancak [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing){:target="_blank"}, [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion){:target="_blank"} ve [REV](https://www.revrobotics.com/MAXTube/){:target="_blank"} gibi birçok FRC satıcısı önceden kesilmiş delik desenlerine sahip kutu tüpleri satar ve bu da üretim süresini ve ekipman gereksinimlerini önemli ölçüde azaltabilir.
 
 <br>

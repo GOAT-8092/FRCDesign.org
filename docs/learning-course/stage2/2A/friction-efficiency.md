@@ -2,53 +2,53 @@
 
 ## Friction & Efficiency
 
-Friction reduces efficiency by converting energy into heat and adding unnecessary load to the motor. Excessive friction can prevent the flywheel from reaching speed, causing shot inconsistencies, and may overheat or damage the motors.
+Sürtünme, enerjiyi ısıya dönüştürerek ve motora gereksiz yük ekleyerek verimliliği düşürür. Aşırı sürtünme flywheel'in hıza ulaşmasını engelleyebilir, atış tutarsızlıklarına neden olabilir ve motorların aşırı ısınmasına veya zarar görmesine neden olabilir.
 
-### Minimizing Friction
+### Sürtünmeyi En Aza İndirme
 
-The following are all practices that should be followed to reduce friction.
+Sürtünmeyi azaltmak için izlenmesi gereken aşağıdaki uygulamalar vardır.
 
-#### Belt Tension
-Slightly reduce belt tension by shortening the center-to-center distance (0.01-0.02") to improve efficiency.
+#### Kayış Gerginliği
+Merkezden merkeze mesafeyi kısaltarak (0.01-0.02") kayış gerginliğini hafifçe azaltarak verimliliği artırın.
 
-#### Spacers
-Use spacers between components on shafts and bearings. Components should not contact the outer race of the bearing to avoid friction.
+#### Spacerler
+Miller ve rulmanlardaki bileşenler arasında spacerler kullanın. Bileşenler, sürtünmeyi önlemek için rulmanın dış yarığı ile temas etmemelidir.
 <figure>
     <img src="/img/learning-course/stage2-shooter/hexspacers.webp" width="60%" style="border-radius: 2%">
-    <figcaption>A COTS 1/2 hex delrin spacer which is used to reduce friction and constrain the object.
+    <figcaption>Sürtünmeyi azaltmak ve nesneyi kısıtlamak için kullanılan COTS 1/2 hex delrin spacer.
 </figure>
 
-#### Shaft Support 
-Don't over-constrain shafts by using more than 2 fixed bearing points to hold a shaft; small misalignments can cause massive friction with the bearings.
+#### Miller Desteği
+Bir mili tutmak için 2'den fazla sabit rulman noktası kullanarak milleri fazla kısıtlamayın; küçük hizalamalar rulmanlarla büyük sürtünmeye neden olabilir.
 
 !!! Example
     <div class = "right">
         <center>
         <img src="/img/learning-course/stage2-shooter/overconstrained-shaft.webp" width="40%">
-        <figcaption>Example of a shaft being overconstrained by having a fixed bearing in the middle of the shaft.</figcaption>
+        <figcaption>Milin ortasında sabit bir rulman olması nedeniyle fazla kısıtlanmış bir mil örneği.</figcaption>
         </center>
     </div>
     <div class = "left">
         <center>
         <img src="/img/learning-course/stage2-shooter/proper-constraint.webp" width="40%">
-        <figcaption>Example of a shaft being properly constrained with two fixed bearings.</figcaption>
+        <figcaption>İki sabit rulman ile düzgün bir şekilde kısıtlanmış bir mil örneği.</figcaption>
         </center>
     </div>
-    
 
-#### Bent Shafts
-Bent shafts reduce efficiency. Prevent bending by avoiding excessive cantilevering and ensuring proper alignment of bearings. Keep pulleys close to bearings
 
-#### Tolerance Stackup
-Minimize tolerance stackup, which occurs when multiple parts connect and introduce friction. Improve precision in fabrication or reduce the number of connections. Generally its best to keep belt runs on the same plate. In this design, a single manufactured plate for bearing holes and center-to-center distances helps reduce tolerance stackup.
+#### Bükülmüş Miller
+Bükülmüş miller verimliliği düşürür. Aşırı konsol kullanımından kaçınarak ve rulmanların uygun hizalanmasını sağlayarak bükülmeyi önleyin. Kasnakları rulmanlara yakın tutun
 
-#### Larger Wheels
-Larger shooter wheels mean lower RPMs are necessary for the same surface speed, which reduces the amount of friction throughout the system. Additionally, gearing your motors down and running them at at not max speeds is better for the motor.
+#### Tolerans Yığılması
+Tolerans yığlmasını en aza indirin, bu birden fazla parça bağlandığında ve sürtünme getirdiğinde oluşur. İmalatta hassasiyeti artırın veya bağlantı sayısını azaltın. Genel olarak, kayış runs aynı plakada tutmak en iyisidir. Bu tasarımda, rulman delikleri ve merkezden merkeze mesafeler için tek bir imal edilmiş plaka tolerans yığlmasını azaltmaya yardımcı olur.
 
-#### Last Resort
-If necessary, throw another motor at your shooter. This is the easiest way to deal with your problems in case you have slightly too much friction and need something that works without too much effort. 
+#### Daha Büyük Tekerlekler
+Daha büyük shooter tekerlekleri, aynı yüzey hızı için daha düşük RPM'ler gerektirir, bu da sistem genelindeki sürtünme miktarını azaltır. Ayrıca, motorlarınızı dişlendirmek ve onları maksimum hızda değil çalıştırmak motor için daha iyidir.
+
+#### Son Çare
+Gerekirse, shooter'ınıza başka bir motor atın. Biraz fazla sürtünmeniz varsa ve çok fazla çaba harcamadan çalışan bir şeye ihtiyacınız varsa, bu sorunlarınızla başa çıkmanın en kolay yoludur.
 
 !!! Note
-    These tips for reducing friction can be applied to all power transmissions
+    Sürtünmeyi azaltma ipuçları tüm güç aktarımları için uygulanabilir
 
 <br>

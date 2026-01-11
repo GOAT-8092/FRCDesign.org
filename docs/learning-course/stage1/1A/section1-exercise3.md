@@ -1,58 +1,58 @@
-# 1A: Onshape Fundamentals - Section 1
-## Exercise 3: More Extrudes
+# 1A: Onshape Temelleri - Bölüm 1
+## Egzersiz 3: Daha Fazla Extrude
 
-In this exercise, you'll extrude four rectangles by two inches symmetrically — and turn them into tubes.  
-Use just one extrude feature. What happens?
+Bu egzersizde, dört dikdörtgeni simetrik olarak iki inç extrude edeceksiniz — ve onları borulara dönüştüreceksiniz.
+Sadece bir extrude özelliği kullanın. Ne olur?
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise3-rectangles.webp" style="width:70%">
-  <figcaption>Starting setup with four rectangles.</figcaption>
+  <figcaption>Dört dikdörtgen ile başlangıç kurulumu.</figcaption>
 </figure>
 
-Don't forget: use the Tube Converter after extruding.
+Unutmayın: extrude yaptıktan sonra Tube Converter'ı kullanın.
 
 ---
-***Click the boxes below to expand them!*** (Check out the [website feature guide](../../../website-feature-guide.md))
-??? question "Looks a bit weird? Click here after trying it."
+***Kutuları genişletmek için tıklayın!*** ([Web sitesi özellik rehberine](../../../website-feature-guide.md) bakın)
+??? question "Biraz garip görünüyor mu? Denedikten sonra burayı tıklayın."
 
-    If you followed the instructions and used a single extrude, all four rectangles probably merged into one big block.
-    In real life, you don't want parts fused together like this unless you meant to.
+    Talimatları takip ettiyseniz ve tek bir extrude kullandıysanız, tüm dört dikdörtgen muhtemelen tek büyük bir blokta birleşti.
+    Gerçek hayatta, istemediğiniz sürece parçaların bu şekilde birleşmesini istemezsiniz.
 
-    > Can you figure out how to extrude them **individually** to keep them separate?
+    > Onları **ayrı ayrı** extrude ederek **ayırmayı nasıl çözebilirsiniz?**
 
-    If you need to restart, here's a quick video showing how to delete your bad tubes:
+    Yeniden başlamanız gerekiyorsa, kötü borularınızı nasıl sileceğinizi gösteren hızlı bir video:
 
     <iframe width="100%" height="400" src="https://www.youtube.com/embed/2Jzb1Xr6NBE?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-??? success "Click Here if you fixed your extrude."
+??? success "Extrude'unuzu düzelttiyseniz burayı tıklayın."
 
-    Manually doing four extrudes is tedious. There's a better way!
+    Manuel olarak dört extrude yapmak zahmetlidir. Daha iyi bir yol var!
 
-    - Delete your old extrudes.
+    - Eski extrude'larınızı silin.
 
-    - Use the `Extrude Individual` Featurescript you added in [required course tools](../../course-setup/required-course-tools/featurescripts.md){:target="_blank"}.
-    - (Hit `Alt+C` and search "extrude individual" if needed.)
+    - [Gerekli kurs araçlarında](../../course-setup/required-course-tools/featurescripts.md){:target="_blank"} eklediğiniz `Extrude Individual` Featurescript'ini kullanın.
+    - (Gerekirse `Alt+C` tuşlarına basın ve "extrude individual" araması yapın.)
 
-    This tool lets you extrude multiple sketch regions separately, all in one step.
+    Bu araç, birden fazla sketch bölgesini tek bir adımda ayrı ayrı extrude etmenizi sağlar.
 
-    Also, if you click the "Symmetric" option inside Extrude Individual, you can force symmetry.
+    Ayrıca, Extrude Individual içindeki "Symmetric" seçeneğine tıklarsanız, simetriyi zorlayabilirsiniz.
 
     <figure>
       <img src="/img/learning-course/stage1a/extrude-individual.webp" style="width:90%">
-      <figcaption>Using "Symmetric" inside Extrude Individual.</figcaption>
+      <figcaption>Extrude Individual içinde "Symmetric" kullanma.</figcaption>
     </figure>
 
 ---
 
-## Exercise 3.1: Sketching Basics
+## Egzersiz 3.1: Sketch Temelleri
 
-In the last exercise, you extruded an existing sketch. Now it's your turn to **create the sketch yourself**.
+Son egzersizde, mevcut bir sketch'i extrude ettiniz. Şimdi sıra **sketch'i kendiniz oluşturmak**.
 
-When we sketch, we use rectangles to represent box tubes in 2D, and use **dimensions** and **constraints** to lock everything into place.
+Sketch yaparken, kutu borularını temsil etmek için 2D'de dikdörtgenler kullanırız ve her şeyi yerine kilitlemek için **dimension'ları** ve **constraint'leri** kullanırız.
 
-Follow along with the video below to practice sketching fundamentals in Onshape.
+Onshape'de sketch temellerini pratiğini yapmak için aşağıdaki videoyu takip edin.
 
 <br>
 
@@ -62,71 +62,71 @@ Follow along with the video below to practice sketching fundamentals in Onshape.
 
 <br>
 
-!!! tip "Key Sketching Points"
+!!! tip "Önemli Sketch Noktaları"
 
-    - **Dimensions** control distances (like making a rectangle exactly 5 inches wide).
-    - **Constraints** define relationships (like locking a rectangle edge to another).
-    - **Yellow dotted lines** show automatic constraints — use them!
-    - **The Origin** is your anchor. Attach sketches to the origin whenever possible.
-    - **Blue is bad** — a blue sketch means it's not fully defined yet. Everything should turn black.
-    - **Less is better** — use the fewest dimensions necessary to fully lock down your design.
-
----
-
-### What You Learned
-
-- How to extrude multiple tubes separately
-- How to create and constrain a sketch
-- How to make rectangles properly
-- How to use basic dimensions and relationships
-- How to mirror using construction lines
+    - **Dimension'lar** mesafeleri kontrol eder (bir dikdörtgeni tam olarak 5 inç genişliğinde yapmak gibi).
+    - **Constraint'ler** ilişkileri tanımlar (bir dikdörtgen kenarını diğerine kilitlemek gibi).
+    - **Sarı noktalı çizgiler** otomatik constraint'leri gösterir — bunları kullanın!
+    - **Origin** çapanızdır. Sketch'leri mümkün olduğunca origin'e bağlayın.
+    - **Mavi kötü** — mavi bir sketch henüz tam olarak tanımlanmamış demektir. Her şey siyaha dönmelidir.
+    - **Daha az iyidir** — tasarımınızı tam olarak kilitlemek için gereken en az dimension'ı kullanın.
 
 ---
 
-## Exercise 3.2: Adding Rails
+### Ne Öğrendiniz
+
+- Birden fazla boruyu ayrı ayrı nasıl extrude edeceksiniz
+- Bir sketch'i nasıl oluşturacağınız ve kısıtlayacağınız
+- Dikdörtgenleri nasıl düzgün yapacağınız
+- Temel dimension'ları ve ilişkileri nasıl kullanacağınız
+- Construction çizgileri kullanarak nasıl aynalayacağınız
+
+---
+
+## Egzersiz 3.2: Raylar Ekleme
 
 <figure>
   <img src="/img/learning-course/stage1a/3-2-sketch.webp" style="width:100%">
-  <figcaption>Edit this sketch</figcaption>
+  <figcaption>Bu sketch'i düzenleyin</figcaption>
 </figure>
 
 
-Now let's apply this to the robot.
+Şimdi bunu robota uygulayalım.
 
-Open the Top Tube Sketch in the Exercise 3.2 part studio and **add two cross tubes** that are **8 inches apart**.  
+Egzersiz 3.2 part studio'sundaki Üst Boru Sketch'ini açın ve **birbirinden 8 inç uzaklıkta olan iki çapraz boru ekleyin**.
 
 !!! Tip
-    Double-click the sketch in the feature tree to edit it.
+    Sketch'i düzenlemek için feature tree'deki sketch'e çift tıklayın.
 
-Draw the new rails yourself. Only use **one new dimension** total.
+Yeni rayları kendiniz çizin. Sadece **toplamda bir yeni dimension** kullanın.
 
-The only numbers you should see:
+Görmemeniz gereken tek sayılar:
 
-- 4.25" (gap between modules)
-- 1" (tube width)
-- 8" (distance between cross rails)
+- 4.25" (modüller arasındaki boşluk)
+- 1" (boru genişliği)
+- 8" (çapraz raylar arasındaki mesafe)
 
 <figure>
   <img src="/img/learning-course/stage1a/drivetrain-crossrail-sketch2.webp" style="width:90%">
-  <figcaption>Final cross rail sketch setup.</figcaption>
+  <figcaption>Final çapraz ray sketch kurulumu.</figcaption>
 </figure>
 
 ---
 
-### Check Your Work
+### Çalışmanızı Kontrol Edin
 
-??? info "Click here after you finish your sketch"
+??? info "Sketch'inizi bitirdikten sonra burayı tıklayın"
 
-    Here's an optimized way to sketch it:
+    Bunu sketch etmenin optimize edilmiş bir yolu:
 
     <iframe width="100%" height="400" src="https://www.youtube.com/embed/ktKuSFVV10U?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 
-    Compare your approach to the video.  
-    > What did you do differently?  
-    > How would you avoid mistakes like that next time?
+    Yaklaşımınızı videoyla karşılaştırın.
+    > Farklı olarak ne yaptınız?
+    > Bir dahaki sefere böyle hatalardan nasıl kaçınırsınız?
 
 <br>
 
-After you're done checking your work and reviewing your approach, move on to the next exercise.
+Çalışmanızı kontrol etmeyi ve yaklaşımınızı gözden geçirmeyi bitirdikten sonra, bir sonraki egzersize geçin.
 
 <br>

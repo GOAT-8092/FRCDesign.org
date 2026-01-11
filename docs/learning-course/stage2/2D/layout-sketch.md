@@ -1,12 +1,12 @@
-# 2D: Cascade Elevator
+# 2D: Kaskat Asansör
 
 ## Layout Sketches
 
-Elevator main layout sketches usually start with an extended side view so you can drive the length of it based off of the extension limits and your required beginning and end position for whatever mechanism you're moving. 
+Asansör ana layout eskizleri genellikle uzatılmış bir yan görünümle başlar, böylece uzatma sınırlarına ve hangi mekanizmayı hareket ettirdiğiniz için gereken başlangıç ve bitiş pozisyonuna dayanarak uzunluğunu sürebilirsiniz.
 
-Though this elevator doesn't have that context, it's still useful to follow the same workflow of starting with a side sketch, which will contain most important dimensions but can be hard to conceptualize at first.
+Bu asansörün bu bağlamı olmasa bile, aynı iş akışını takip etmek yine de yararlıdır, bu da en önemli boyutları içeren bir yan eskiz ile başlar, ancak başlangıçta kavraması zor olabilir.
 
-Follow the instructions in the slides to create your elevator layout sketches.
+Asansör layout eskizlerinizi oluşturmak için slaytlardaki talimatları izleyin.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -14,25 +14,25 @@ Follow the instructions in the slides to create your elevator layout sketches.
     <div id="slide1" class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-elevator/master-sketch.webp" style="width:40%">
-            <figcaption>A clean view of the front sketch of the elevator tubes.</figcaption>
+            <figcaption>Asansör borularının ön eskizinin temiz bir görünümü.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-elevator/elevatorSideExtendedSketch.webp" style="width:75%" style="border:5px solid #ADADAD">
-            <figcaption> As practice for stage 3, we'll start with defining the position of the elevator in relation to drivetrain side sketch. Use rectangles to represent the 2x2 tube and the length of the stages. Add rectangles to represent the bottom tubes of each stage and carriage as well. </figcaption>
+            <figcaption> Aşama 3 için pratik olarak, drivetrain yan eskizine göre asansör konumunu tanımlamakla başlayacağız. 2x2 boruyu ve aşamaların uzunluğunu temsil etmek için dikdörtgenleri kullanın. Her aşamanın ve carriage'ın alt borularını temsil etmek için dikdörtgenleri de ekleyin. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-elevator/elevatorSideRetractedSketch.webp" style="width:70%" style="border:5px solid #ADADAD">
-            <figcaption> Feel free to create a retracted side sketch (constraining it to the geometry of the first side sketch) to help double check geometry and integration. This especially helpful when designing a full robot. </figcaption>
+            <figcaption> Geometriyi ve entegrasyonu iki kez kontrol etmeye yardımcı olmak için geri çekilmiş bir yan eskiz oluşturmayı çekinmeyin (ilk yan eskizin geometrisine kısıtlayarak). Bu özellikle tam bir robot tasarlıyorsanız yardımcı olur. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-elevator/elevatorFrontSketch.webp" style="width:75%" style="border:5px solid #ADADAD">
-            <figcaption> Now add the front sketch to define all the elevator tubes, the width of the elevator, and the distance between stages on the side.</figcaption>
+            <figcaption> Şimdi tüm asansör borularını, asansörün genişliğini ve taraftaki aşamalar arasındaki mesafeyi tanımlamak için ön eskizi ekleyin.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
@@ -45,6 +45,6 @@ Follow the instructions in the slides to create your elevator layout sketches.
 </div>
 
 !!! Tip
-    Instead of creating "extended" and "retracted" views, you can separate the stages into their own individual side sketches to let you "animate" how it moves in the sketch. You can use configurations to do this.
+    "Genişletilmiş" ve "geri çekilmiş" görünümler oluşturmak yerine, aşamaları kendi bireysel yan eskizlerine ayırarak, eskizde nasıl hareket ettiğini "animasyon" yapmasına izin verebilirsiniz. Bunu yapmak için configurations'ları kullanabilirsiniz.
 
 <br>

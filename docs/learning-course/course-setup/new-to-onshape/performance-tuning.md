@@ -1,37 +1,37 @@
-# New to Onshape
+# Onshape'e Yeni
 
-## Performance Tuning
+## Performans Ayarı
 
-After your initial account setup, Onshape will run a browser check to ensure compatibility. Depending on your browser, additional steps can be taken to improve performance.
+İlk hesap kurulumunuzdan sonra, Onshape uyumluluğu sağlamak için bir tarayıcı kontrolü çalıştıracaktır. Tarayıcınıza bağlı olarak, performansı iyileştirmek için ek adımlar atılabilir.
 
 !!! Tip
-    You can test your current performance at the [Onshape Compatibility Check Page](https://cad.onshape.com/check "Compatibility Check").
+    Mevcut performansınızı [Onshape Uyumluluk Kontrol Sayfasında](https://cad.onshape.com/check "Compatibility Check") test edebilirsiniz.
 
 !!! Note
-    If the browser check fails, you may want to try a different browser. Currently, chromium browsers like Chrome, Edge, Opera, and Arc are the best supported browsers for Onshape, but Firefox usually works with no issues as well. Safari is not well supported.
+    Tarayıcı kontrolü başarısız olursa, farklı bir tarayıcı denemek isteyebilirsiniz. Şu anda, Chrome, Edge, Opera ve Arc gibi chromium tarayıcıları Onshape için en iyi desteklenen tarayıcılardır, ancak Firefox genellikle sorun olmadan çalışır. Safari iyi desteklenmemektedir.
 
-### Improving Chrome Performance
-If you are using Chrome, You can try modifying the following settings to improve rendering speeds.
+### Chrome Performansını İyileştirme
+Chrome kullanıyorsanız, işleme hızlarını artırmak için aşağıdaki ayarları değiştirmeyi deneyebilirsiniz.
 
-- First, type `chrome://settings/` in your search bar to navigate to chrome settings. Make sure that "Use graphics acceleration when available" is enabled. Relaunch chrome if you have updated it to enable it.
+- Öncelikle, chrome ayarlarına gitmek için arama çubuğunuza `chrome://settings/` yazın. "Mevcut olduğunda grafik hızlandırmayı kullan"ın etkinleştirildiğinden emin olun. Etkinleştirmek için güncellediyseniz chrome'u yeniden başlatın.
 
   <center><img src="/img/learning-course/course-setup/performance-tuning/graphicsacceleration.webp" style="width:80%;border:5px solid #ADADAD; border-radius: 2%"></center>
 
-- Go to `chrome://flags/` and enable "Override Software Rendering List":
+- `chrome://flags/` adresine gidin ve "Override Software Rendering List"i etkinleştirin:
 
   <center><img src="/img/learning-course/course-setup/performance-tuning/override-rendering-list.png" style="width:80%;border:5px solid #ADADAD; border-radius: 2%"></center>
 
-- Finally, Try adjusting your ANGLE graphics backend:
+- Son olarak, ANGLE grafik arka ucunuzu ayarlamayı deneyin:
 
   <center><img src="/img/learning-course/course-setup/performance-tuning/ANGLE-backend.png" style="width:80%; border:5px solid #ADADAD; border-radius: 2%"></center>
 
-Please note that performance will depend on your individual computer setup. We suggest the following process:
+Lütfen performansın bireysel bilgisayar kurulumunuza bağlı olacağını unutmayın. Aşağıdaki süreci öneriyoruz:
 
-- Choose an ANGLE graphics backend: `chrome://flags/#use-angle`
-- Click the Relaunch button
-- [Check your performance](https://cad.onshape.com/check "Compatibility Check")
+- Bir ANGLE grafik arka ucu seçin: `chrome://flags/#use-angle`
+- Yeniden Başlat düğmesine tıklayın
+- [Performansınızı kontrol edin](https://cad.onshape.com/check "Compatibility Check")
 
-Repeat these steps for each backend and use whichever is the most performant. Here are some examples all taken from the same machine.
+Her bir arka uç için bu adımları tekrarlayın ve en performanslı olanı kullanın. İşte aynı makineden alınan bazı örneklerin hepsi.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -40,7 +40,7 @@ Repeat these steps for each backend and use whichever is the most performant. He
   <div id="slide1" class="mySlides fade">
     <figure markdown="span">
       <img src="/img/learning-course/course-setup/performance-tuning/performance-examples/default.png" style="width:80%; data-description="The default configuration">
-      <figcaption>The default configuration</figcaption>
+      <figcaption>Varsayılan yapılandırma</figcaption>
     </figure>
   </div>
 
@@ -81,6 +81,6 @@ Repeat these steps for each backend and use whichever is the most performant. He
   </div>
 </div>
 
-In the above example, Direct3D 11 narrowly beats out OpenGL, but that won't always be the case.
+Yukarıdaki örnekte, Direct3D 11 OpenGL'i hafifçe geçmiştir, ancak her zaman böyle olmayacaktır.
 
 <br>

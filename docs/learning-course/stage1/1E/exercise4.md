@@ -1,67 +1,67 @@
 
 
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Alt Sistem İş Akışı - Drivebase Detaylandırma
 
-## Exercise: Bumpers
-Bumper construction is described in each year’s FRC game manual. In the past, it was required to be two 2.5” diameter pool noodles backed by a 5” tall 3/4" thick plywood sheet. Refer to the latest game manual for the most up to date bumper rules. Bumper cutout and ground clearance rules will vary from year to year.
+## Egzersiz: Tamponlar
+Tampon yapımı her yılın FRC oyun kılavuzunda açıklanmıştır. Geçmişte, iki 2.5" çapında havuz noodlesu ve arkasında 5" boyunda 3/4" kalınlığında kontrplak levha olması gerekiyordu. En güncel tampon kuralları için en son oyun kılavuzuna bakın. Tampon kesimi ve yerden yükseklik kuralları yıldan yıla değişecektir.
 
-### Bumper Model
-It is recommended to place the bumpers in a new part studio and assembly to keep your feature and assembly trees organized. The minimum level of detail should be a block model of the bumper. Some teams may opt to model the bumper wood, bumper wood holes, angle brackets for the bumper wood, and other details to assist with manufacturing. You should communicate with the rest of your team members to determine the level of detail that is required. 
+### Tampon Modeli
+Özellik ve assembly ağaçlarınızı düzenli tutmak için tamponları yeni bir part studio ve assembly'de yerleştirmeniz önerilir. Minimum detay seviyesi, tamponun blok modeli olmalıdır. Bazı takımlar üretime yardımcı olmak için tampon ahşabı, tampon ahşap delikleri, tampon ahşabı için açı braketleri ve diğer detayları modellemeyi seçebilirler. Gerekli detay seviyesini belirlemek için takım arkadaşlarınızla iletişim kurmalısınız.
 
-### Instructions
+### Talimatlar
 
-**Add bumpers to your drivetrain.** You can take inspiration from the following instructions slides.
+**Drivetrain'inize tamponlar ekleyin.** Aşağıdaki talimat slaytlarından ilham alabilirsiniz.
 
-<!-- <center>**Sample Bumper Modeling Slides**</center> -->
+<!-- <center>**Örnek Tampon Modelleme Slaytları**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
     <!-- Full-width images with number and caption text -->
     <div id="slide1" class="mySlides fade">
         <figure>
             <img src="../images/bumper/bumper-0.webp" style="width:100%">
-            <figcaption>0. Finished bumpers assembly inserted into drivetrain assembly. </figcaption>
+            <figcaption>0. Tamponlar assembly'si drivetrain assembly'sine eklenmiş tamamlanmış durumda. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper/bumper-1.webp" style="width:100%">
-            <figcaption>1. Create a new sketch in the Main Layout Sketch part studio with the bumper profile. A 3/4" ground clearance and 1/4" gap between the bumper and frame is recommended.</figcaption>
+            <figcaption>1. Tampon profili ile Main Layout Sketch part studio'da yeni bir sketch oluşturun. 3/4" yerden yükseklik ve tampon ile çerçeve arasında 1/4" boşluk önerilir.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper/bumper-2.webp" style="width:100%">
-            <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Main Layout Sketch.</figcaption>
+            <figcaption>2. Tamponlar için drivetrain klasöründe yeni bir part studio oluşturun. Origin Cube'u ekleyin ve drivetrain ve tampon sketch'lerini Main Layout Sketch'ten derive edin.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper/bumper-3.webp" style="width:100%">
-            <figcaption>3. Sweep the bumper profile along the edges of the drivetrain top layout sketch to create the block model of the bumpers.</figcaption>
+            <figcaption>3. Tamponların blok modelini oluşturmak için tampon profilini drivetrain üst layout sketch'inin kenarları boyunca sweep edin.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper/bumper-4.webp" style="width:100%">
-            <figcaption>4. Optionally add a fillet on the corners. Size it according to how your team wraps the bumper pool noodles.</figcaption>
+            <figcaption>4. İsteğe bağlı olarak köşelere bir fillet ekleyin. Takımınız tampon havuz noodlesularını nasıl sararsa ona göre boyutlandırın.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper/bumper-5.webp" style="width:100%">
-            <figcaption>5. Optionally model the wood for the bumpers. This can be useful for manufacturing purposes.</figcaption>
+            <figcaption>5. İsteğe bağlı olarak tamponlar için ahşabı modelleyin. Bu üretim amaçları için yararlı olabilir.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper/bumper-6.webp" style="width:100%">
-            <figcaption>6. Create a bumper assembly in the drivetrain folder and insert all the components. Don’t forget to group all the components and mate the origin cube mate connector to the origin.</figcaption>
+            <figcaption>6. Drivetrain klasöründe bir tampon assembly'si oluşturun ve tüm bileşenleri ekleyin. Tüm bileşenleri gruplandırmayı ve origin cube mate connector'ü orijine mate etmeyi unutmayın.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper/bumper-0.webp" style="width:100%">
-            <figcaption>7. Insert the bumper assembly into the drivetrain assembly.</figcaption>
+            <figcaption>7. Tampon assembly'sini drivetrain assembly'sine ekleyin.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
@@ -73,7 +73,7 @@ It is recommended to place the bumpers in a new part studio and assembly to keep
     </div>
 </div>
 
-Keeping the bumper part studio and assembly separate from the drivetrain keeps the drivetrain feature tree cleaner and allows for easier hiding/showing of the bumpers in the top level assembly since you can show and hide the entire bumper assembly at once.
+Tampon part studio ve assembly'sini drivetrain'den ayrı tutmak, drivetrain özellik ağacını daha temiz tutar ve üst düzey assembly'de tamponları gizlemeyi/göstermeyi kolaylaştırır çünkü tüm tampon assembly'sini bir kerede gösterebilir ve gizleyebilirsiniz.
 
 
 

@@ -2,15 +2,15 @@
 
 ## Rigidity
 
-Rigidity is essential for every mechanism you design, and it is particularly critical for shooters to ensure consistent performance. If a shooter wobbles while driving or shooting, accuracy will be compromised, making it difficult to hit the target consistently.
+Rijitlik, tasarladığınız her mekanizma için esastır ve özellikle shooterlar için tutarlı performans sağlamak için kritiktir. Bir shooter sürerken veya ateşlerken sallanırsa, doğruluk tehlikeye girecek ve hedefi tutarlı bir şekilde vurmak zorlaşacaktır.
 
-### Reference Design
+### Referans Tasarım
 
-This shooter uses two 1/4" polycarbonate plates for the sides. The polycarbonate is chosen because it is lighter and easier to machine than aluminum, while the 1/4" thickness is rigid enough for shooters **when properly supported**. In the reference design, the plates are mounted to the bottom drive rails and reinforced with support beams. Standoffs, which also serve as a camera mount and ball guide, keep the plates spaced apart, ensuring the overall rigidity of the shooter.
+Bu shooter, yanlar için iki 1/4" polikarbonat plaka kullanır. Polikarbonat, alüminyumdan daha hafif ve işlenmesi daha kolay olduğu için seçilmiştir, ancak 1/4" kalınlığı shooterlar için yeterince rijittir **düzgün desteklendiğinde**. Referans tasarımda, plakalar alt drive raylarına monte edilir ve destek kirişlerle güçlendirilir. Ayrıca kamera montajı ve top kılavuzu olarak görev yapan standoffs, plakaları aralarında tutarak, shooter'ın genel rijitliğini sağlar.
 
 <figure>
     <img src="/img/learning-course/stage2-shooter/shooterfront.webp" width="60%">
-    <figcaption>1x1 structure with the gussets helping support the polycaronbate plates.</figcaption>
-</figure>  
+    <figcaption>Polikarbonat plakaları desteklemeye yardımcı olan gusset'li 1x1 yapı.</figcaption>
+</figure>
 
 <br>

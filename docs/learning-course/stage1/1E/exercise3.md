@@ -1,52 +1,52 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Alt Sistem İş Akışı - Drivebase Detaylandırma
 
 
-## Exercise: Bellypan Pocketing
+## Egzersiz: Bellypan Pocketing
 
-Some teams may choose to pocket their bellypan to reduce weight and make wiring easier. A pocketed bellypan can save around 3-4 lbs. However, this will add significant machining time if you are manufacturing the bellypan yourself or increase cost if you are purchasing the bellypan from a fabrication service (eg: [Fabworks](https://fabworks.com/ "Fabworks Sheet Metal Services"){:target="_blank"}). You should carefully consider the tradeoffs with your team.
+Bazı takımlar ağırlığı azaltmak ve kablo bağlamayı kolaylaştırmak için bellypan'ı pocketlemeyi seçebilir. Pocketli bir bellypan yaklaşık 3-4 libre (1.4-1.8 kg) tasarruf sağlayabilir. Ancak, bu bellypan'ı kendiniz üretiyorsanız önemli ölçüde üretim süresi ekleyecek veya bir üretim hizmetinden (örn: [Fabworks](https://fabworks.com/ "Fabworks Sheet Metal Services"){:target="_blank"}) bellypan satın alıyorsanız maliyeti artıracaktır. Takımınızla ödünleleri dikkatli bir şekilde düşünmelisiniz.
 
-### Instructions
+### Talimatlar
 
-**If you choose to pocket your bellypan for your drivetrain**, you can **follow the instructions in the slides** which utilize the `Part Lighten` [Featurescript](../../../resources/featurescripts.md "Featurescripts Page"){:target="_blank"}. You could also use the `Vent` or `Part Lighten` [Featurescripts](../../../resources/featurescripts.md "Featurescripts Page"){:target="_blank"} to pocket the bellypan. While the workflow may vary slightly between each Featurescript, the general idea is the same. A diamond pattern is recommended for strength and ease of modeling.
+**Eğer drivetrain'iniz için bellypan'ınızı pocketlemeyi seçerseniz**, `Part Lighten` [Featurescript](../../../resources/featurescripts.md "Featurescripts Sayfası"){:target="_blank"} kullanan slaytlardaki talimatları **takip edebilirsiniz**. Bellypan'ı pocketlemek için `Vent` veya `Part Lighten` [Featurescripts'lerini](../../../resources/featurescripts.md "Featurescripts Sayfası"){:target="_blank"} de kullanabilirsiniz. Her Featurescript arasında iş akışı biraz farklı olsa da, genel fikir aynıdır. Güç ve kolay modelleme için elmas deseni önerilir.
 
-<!-- <center>**Sample Bellypan Pocketing Slides**</center> -->
+<!-- <center>**Örnek Bellypan Pocketing Slaytları**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
     <!-- Full-width images with number and caption text -->
     <div id="slide1" class="mySlides fade">
         <figure>
             <img src="../images/pocket/pocket-0.webp" style="width:100%">
-            <figcaption>0. Pocketed bellypan. </figcaption>
+            <figcaption>0. Pocketli bellypan. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/pocket/pocket-1.webp" style="width:100%">
-            <figcaption>1. Draw two perpendicular lines that are offset 45 degrees from vertical and a line offset slightly from the edge of the crosstube. </figcaption>
+            <figcaption>1. Dikeyden 45 derece ofset iki dik çizgi ve crosstube kenarından hafif ofset bir çizgi çizin. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/pocket/pocket-2.webp" style="width:100%">
-            <figcaption>2. Linear pattern the diagonal lines until they completely cover the top portion of the bellypan. These will be the main ribs.
+            <figcaption>2. Dikey çizgileri bellypan'ın üst kısmını tamamen kaplayana kadar doğrusal desen yapın. Bunlar ana kaburgalar olacak.
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/pocket/pocket-3.webp" style="width:100%">
-            <figcaption>3. Mirror the top ribs to the bottom of the bellypan.</figcaption>
+            <figcaption>3. Üst kaburgaları bellypan'ın alt kısmına ayna yapın.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <div class="slide-content">
             <iframe src="https://www.youtube.com/embed/ZvEMMgEf420?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-            <figcaption>4. Connect any islands that might result from mounting holes being too far from a rib. The video shows a potential workflow that allows you to see the end result of the lighten feature while adding ribs.</figcaption>
+            <figcaption>4. Montaj deliklerinin bir kaburgadan çok uzak olması sonucunda oluşabilecek adaları bağlayın. Video, kaburgalar eklerken lighten özelliğinin son sonucunu görmenize izin veren potansiyel bir iş akışı gösterir.</figcaption>
         </div>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/pocket/pocket-0.webp" style="width:100%">
-            <figcaption>5. Use a pocketing Featurescript to pocket the bellypan. Recommended settings are 0.15” wide ribs and 3/16” tool radius.</figcaption>
+            <figcaption>5. Bellypan'ı pocketlemek için bir pocketing Featurescript kullanın. Önerilen ayarlar 0.15" genişliğinde kaburgalar ve 3/16" takım yarıçapıdır.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->

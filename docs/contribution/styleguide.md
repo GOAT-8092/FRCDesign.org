@@ -1,101 +1,101 @@
 ---
-title: Style Guide
-description: The style guide for contribution according to the goals of the website.
+title: Stil Kılavuzu
+description: Web sitesinin hedeflerine göre katkı için stil kılavuzu.
 ---
 
-# Contribution Style Guide
+# Katkı Stil Kılavuzu
 
-## Futureproofing and Usefulness
+## Geleceğe Hazırlık ve Yararlılık
 
-To make the content you write useful for teams of all resource levels, while maintaining validity in the future, the goal isn’t to go broad and shallow, but rather to go extra deep so you can equip students with the understanding of the underlying fundamentals behind concepts which they can then apply to their own unique situations. Pros and cons are context dependent while fundamentals are universal.
+Yazdığınız içeriğin tüm kaynak seviyeleri için takımlar için yararlı olmasını sağlamak için, aynı zamanda gelecekte geçerliliğini korumak için amaç geniş ve yüzeysel olmak değil, derinlemeye gitmektir, böylece öğrencilere kavramların arkasındaki temel ilkeleri anlama becerisini sağlayabilirler, bunları kendi benzersiz durumlarına uygulayabilirler. Artıları ve eksiler bağlama göre değişir, ilkeller evrenseldir.
 
-At the same time, things that aren’t easily accessible and/or commonly used by teams, like billet chassis and ball drive, shouldn’t be included to prevent confusion.
+Aynı zamanda, takımlar tarafından kolayca erişilebilen ve/veya yaygın olarak kullanılan şeyler, billet şasi ve ball drive gibi dahil edilmemelidir, böylece kafa karışıklığını önlenir.
 
-On the other hand, including small details that you’d only discover through actually making the thing tends to be a lifesaver for everyone (such as electrical taping cat-tongue tape to make it not peel).
+Öte yandan, sadece şeyi gerçekten yaparak keşfedebileceğiniz küçük detayları dahil etmek genellikle herkes için hayat kurtarıcıdır (örneğin, cat-dili bantını sökülmemesi için elektrik bandıyla bantlamak).
 
-### Why is this important?
+### Neden bu önemli?
 
-1. We don’t need to figure out the pros and cons of everything for students to make a decision. New products come out all the time, and equipping them with the skills lets students find creative solutions that no one would think of for their circumstances.
+1. Öğrencilerin bir karar vermesi için her şeyin artılarını ve eksilerini figuring out yapmamıza gerek yok. Yeni ürünler sürekli çıkar ve onlara becerilerini kazandırmak, öğrencilerin durumları için kimse düşünmeyeceği yaratıcı çözümleri bulmalarını sağlar.
 
-2. This enables students to understand WHY a team would make a certain decision and figure out tradeoffs without us explicitly telling them.
+2. Bu, öğrencilerin bir takımın neden belirli bir karar verdiğini anlamalarını ve tradeoff'ları biz açıkça söylmeden figuring out yapmalarını sağlar.
 
-3. It makes it significantly less intensive to future proof and maintain. If the meta shifts, having to redo sections to stay competitive is time consuming. If the project dies and is no longer maintained, the information stays useful for way longer.
+3. Geleceğe hazırlamayı ve bakımı önemli ölçüde azaltır. Meta değişirse, rekabetçi kalmak için bölümleri yeniden yapmak zaman alıcıdır. Proje ölür ve artık bakım yapılmazsa, bilgi çok daha uzun süre yararlı kalır.
 
-4. The small details are often the experience gap between the most reliable successful robots and not. It’s a lifesaver for teams without experience, and reduces the review workload on design mentors with experience.
+4. Küçük detaylar genellikle en güvenilir başarılı robotlar ve olmayanlar arasındaki deneyim farkıdır. Deneyimi olmayan takımlar için hayat kurtarıcıdır ve deneyimli tasarım mentörlerinin inceleme iş yükünü azaltır.
 
-### To make this easier, here are a few tips:
+### Bunu kolaylaştırmak için, işte birkaç ipucu:
 
-1. You can usually find extremes for each concept to make it more obvious. (stealth wheels vs brass flywheels for inertia.)
+1. Her kavram için uç noktalar bulabilirsiniz, böylece daha belirgin hale gelir (sürtünme tekerlekleri ve pirinç flywheel'ler atalet için).
 
-2. It may be useful to find one or two meta team applications and figure out what fundamental trade offs are made for that decision. This helps learners understand how these concepts relate to each other. This also applies to mechanism examples.
+2. Bir veya iki meta takım uygulaması bulabilir ve o karar için yapılmış temel tradeoff'ları figuring out yapmak kullanışlı olabilir. Bu, öğrenicilerin bu kavramların birbirleriyle nasıl ilişkili olduğunu anlamalarına yardımcı olur. Bu ayrıca mekanizma örnekleri için de geçerlidir.
 
-3. “how to cad xyz” and IRL nuances are very useful for certain applications. Examples include sketching linkages or tensioner placement depending on load.
+3. "xyz'yi nasıl cad yaparım" ve gerçek hayattaki nüanslar belirli uygulamalar için çok yararlıdır. Örnekler arasında linkage sketch'lemek veya yüke bağlı olarak gerginlik yerleşimi vardır.
 
-## Inspired by gm0's Style Guide
+## gm0'nun Stil Kılavuzundan Esinlenen
 
-Don’t deal in absolutes.
+Mutlaklarda uğraşmayın.
 
-- Only a Sith deals in absolutes
-- Use pros/cons lists to compare options
-- Explain WHY something is good or bad
-  - For example, we all know deadaxle pivots are better than liveaxle. But don’t just say they’re better, say: "Deadaxles have a higher second moment of area as the torque being directly transferred to the part. As a result your pivot is significantly more robust and less prone to breaking.
-    ”
-  - Similarly, we know the Kraken motors are generally good. But explain why they are good, e.g. “We would recommend using Krakens on your drivetrain because they are extremely high torque motors and will improve your acceleration. In addition, they have integrated Talon FX motor controllers that make them easier to wire and feature a high resolution encoder which will help the precision of your swerve odometry. Keep in mind that Kraken motors are not yet compatible with stock REV Maxswerve modules and require an extra adaptor from WCP to mate with other existing modules.”
-- Still emphasize that teams are free to explore and innovate, but help set realistic expectations (see the following point)
+- sadece bir Sith mutlaklarda uğraşır
+- seçenekleri karşılaştırmak için artı/eksi listeleri kullanın
+- Neden bir şeyin iyi veya kötü olduğunu açıklayın
+  - Örneğin, hepimiz biliriz ki deadaxle pivot'lar liveaxle'den daha iyidir. Ama sadece onların daha iyi olduğunu söylemeyin, şöyle deyin: "Deadaxle'ler, torkun doğrudan parçaya aktarıldığı için daha yüksek ikinci moment of alana sahiptir. Sonuç olarak, pivotunuz çok daha sağlamdır ve kırılmaya daha az eğilimlidir."
+  - Benzer şekilde, Kraken motorların genellikle iyi olduğunu biliyoruz. Ama neden iyi olduklarını açıklayın, örneğin: "Drivetrain'inizde Kraken kullanmanızı öneririz, çünkü bunlar aşırı yüksek torklu motorlardır ve ivmelenmenizi iyileştirir. Ayrıca, wiring'lerini kolaylaştıran entegre Talon FX motor denetleyicilerine sahiptirler ve swerve odometrinizin hassasiyetine yardımcı olan yüksek çözünürlüklü bir encoder içerirler. Kraken motorların henüz stok REV Maxswerve modülleriyle uyumlu olmadığını ve diğer mevcut modüllerle eşleştirmek için WCP'den ek bir adaptör gerektirdiğini unutmayın."
+- Yine de takımların keşfetmeye ve yenilik yapmekte özgür olduklarını vurgulayın, ancak gerçekçi beklentiler ayarlamaya yardımcı olun (aşağıdaki noktaya bakın)
 
-FRCDesign.org is a guide **from a competitive standpoint**.
+FRCDesign.org rekabetçi bir bakış açısından bir kılavuzdur.
 
-- Try to leave out stuff that doesn’t work well and is unpopular; if it is popular it is worth explaining the disadvantages (See tank drive vs mecanum drive; explaining tank drive, as a relatively popular and simple drivetrain makes sense, but mecanum drive, a drivetrain that no longer makes sense in the era of swerve and has little-to-no pushing power or traction.)
-- Try to leave opinions out as much as possible. Do not speak authoritatively on stuff you do not have first-hand experience with whenever possible
+- İyi çalışmayan ve popüler olmayan şeyleri dışarıda bırakmaya çalışın; popülerse, dezavantajlarını açıklamaya değer (bkz. tank drive vs mecanum drive; tank drive'i, nispeten popüler ve basit bir drivetrain olarak açıklamak mantıklıdır, ancak mecanum drive, swerve çağında artık anlama alan bir drivetrain değildir ve çok az veya hiç itme gücü veya çekişi vardır.)
 
-Keep in mind that FRC design trends are temporary and transient.
+- Mümkün olduğunca görüşleri dışarıda bırakmaya çalışın. Birinci el deneyiminiz olmadığı şeyler hakkında otoriter bir dille konuşmaktan kaçının
 
-- Just because something is popular one season doesn’t mean it’s the end all be all. There was a time when WCD and sheet metal superstructures was all the rage, but that doesn’t mean that we should recommend them in this guide. Try your best to think about why something is popular, and what benefits in design, function, and execution they actually bring to the table.
+FRC tasarım trendlerinin geçici ve geçici olduğunu unutmayın.
 
-<!-- Adding examples of mechanisms really helps with knowledge transfer.
+- Bir şeyin bir sezon popüler olması, her şey demek değildir. Bir zamanlar WCD ve sheet metal süper yapıları çok popülerdi, ancak bu onları bu kılavuzda önermemiz gerektiği anlamına gelmez. Bir şeyin neden popüler olduğunu ve tasarıma, işlevselliğe ve uygulamaya gerçekten ne gibi faydalar getirdiklerini düşünmek için elinizden geleni yapın.
 
-Credit the teams: Caption Format is: [Team Number] [Team Name], (Relevant Accomplishment), [Season], (description)
+<!-- Mekanizma örneklerini eklemek gerçekten bilgi transferine yardımcı olur.
 
-[]s mean all the time, ()s means when relevant
+Takımlara kredi: Başlık formatı: [Takım Numarası] [Takım Adı], (İlgili Başarı), [Sezon], (açıklama)
 
-If you have multiple pictures by the same part from the same team only credit them on the last one to avoid repetition.
+[] sürekli, () ise ilgili olduğunda demektir
 
-Examples
+Aynı takımın aynı parçasından birden fazla resminiz varsa, tekrarlamaktan kaçınmak için sadece sonuncusuna kredi verin.
+
+Örnekler
 
 11115 Gluten Free, Finalist Alliance Captain (Detroit), Relic Recovery, springloaded
 
-8417 ‘Lectric Legends, Rover Ruckus, TPU intake flaps
+8417 'Lectric Legends, Rover Ruckus, TPU intake flaps
 
 7236 Recharged Green, Rover Ruckus, Misumi SAR3 -->
 
-## Standards
+## Standartlar
 
-### File Formats:
+### Dosya Biçimleri:
 
-- Compress images to .webp format using [squoosh](https://squoosh.app/ "sqoosh Image Compressor"){:target="\_blank"}
-- Embed longer videos using a Youtube embed, and shorter videos with a webm file
-- Add images by using `<center><img src="absolute link" width="x%"></center>`
+- Resimleri [squoosh](https://squoosh.app/ "sqoosh Resim Sıkıştırıcı"){:target="\_blank"} kullanarak .webp biçiminde sıkıştırın
+- Daha uzun videoları bir Youtube gömme ile, daha kısa videoları bir webm dosyası ile gömün
+- Resimleri `<center><img src="mutlak link" width="x%"></center>` kullanarak ekleyin
 
-### Brand Standards
+### Marka Standartları
 
-Adhere to brand standards when possible.
+Mümkün olduğunda marka standartlarına uyun.
 
-- Abide by FIRST® Trademark guidelines, available [here](https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf "FIRST Trademark Guidelines"){:target="\_blank"}
-- The first instance of _FIRST_ and FRC on a page should include ® (i.e, FIRST®)
-- Always capitalize and italize the name _FIRST_
-- Do NOT use a possessive on the _FIRST_ name (e.g, FIRST’s)
-<!-- It’s gm0 not GM0 damn it; look at the logo. -->
-- This also applies to team names: spell them how they are officially spelled
-- Check [The Blue Alliance](https://www.thebluealliance.com/ "The Blue Alliance"){:target="\_blank"} if you don't know how to spell a team's name
+- FIRST® Ticari marka yönergelerine uyun, [burada](https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf "FIRST Ticari Marka Yönergeleri"){:target="_blank"} mevcuttur
+- Bir sayfadaki _FIRST_ ve FRC'nin ilk örneği ® içermelidir (örneğin, FIRST®)
+- _FIRST_ adını her zaman büyük harf ve italik yapın
+- _FIRST_ adına possessive kullanmayın (örneğin, FIRST'in)
+<!-- gm0 değil GM0 damn it; logoya bakın. -->
+Bu ayrıca takım adları için de geçerlidir: takımları resmi olarak nasıl yazıldıkları gibi yazın
+Bir takımın adını nasıl yazacağınızı bilmiyorsanız [The Blue Alliance](https://www.thebluealliance.com/ "The Blue Alliance"){:target="_blank"} kontrol edin
 
-You can use “you” when writing, when it makes writing less awkward. However, try avoiding excessively using it.
+Yazarken "siz" (you) kullanabilirsiniz, ancak yazmayı daha az garip hale getirdiğinde. Ancak, aşırı kullanmaktan kaçının.
 
-### Links:
+### Bağlantılar:
 
-- External links should open in a new tab: `[Link Text](link_url "Link Title"){:target="_blank"}`
-  - Links to CAD documents should use a large centered button: `<center markdown>[Link Text](link_url "Link Title"){:target="_blank" .md-button .md-button--primary}</center>`
-  - Link titles for Onshape documents should be `[Document name] Onshape Document`
-- Internal links should open in the current tab and use a relative link: `[Link Text](relative_link "Link Title")`
-  - Link titles for internal links should be in the format: `"[Page Name] Page"`
+- Dış bağlantılar yeni bir sekmede açılmalıdır: `[Link Metni](link_url "Link Başlığı"){:target="_blank"}`
+  - CAD belgelerine bağlantılar büyük ortalanmış bir buton kullanmalıdır: `<center markdown>[Link Metni](link_url "Link Başlığı"){:target="_blank" .md-button .md-button--primary}</center>`
+  - Onshape belgeleri için bağlantı başlıkları `[Belge adı] Onshape Belgesi` olmalıdır
+- İç bağlantılar mevcut sekmede açılmalı ve göreceli bir bağlantı kullanmalıdır: `[Link Metni](göreceli_bağlantı "Link Başlığı")`
+  - İç bağlantılar için bağlantı başlıkları `"[Sayfa Adı] Sayfası"` biçiminde olmalıdır
 
 <br>

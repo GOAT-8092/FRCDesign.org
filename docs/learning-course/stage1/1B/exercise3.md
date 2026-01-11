@@ -1,17 +1,18 @@
 
 
-# 1B: Power Transmissions
 
-## Exercise 3: Belt and Gear Transmission
+# 1B: Güç Aktarımları
 
-In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A. The goal of this exercise is to continue to ramp up your modeling skills. 
+## Egzersiz 3: Kayış ve Dişli Aktarma
 
-!!! Warning "Remember!"
-    Always make sure to fully **define** your sketches, **rename** your features, and keep your feature and instance trees organized with **folders**.
+Bu egzersizde, dişliler ve kayış kullanan iki kademeli bir şanzıman modelleyeceksiniz. Bu şanzıman, daha önce Stage 1A'da öğrendiğiniz gibi çerçeve ve gusset gibi elemanları da içerir. Bu egzersizin amacı, modelleme becerilerinizi artırmaya devam etmektir.
 
-### Part Studio Instructions
+!!! Uyarı "Hatırlatma!"
+    Sketch'lerinizi her zaman tam olarak **tanımlayın**, özelliklerinizi **yeniden adlandırın** ve feature ve instance ağaçlarınızı **klasörlerle** düzenli tutun.
 
-**Navigate to the "Exercise #3 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
+### Part Studio Talimatları
+
+Kopyaladığınız belgede **"Exercise #3 Part Studio" sekmesine gidin** ve bu egzersiz için part studioyu tamamlamak üzere **slaytlardaki talimatları izleyin**.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -27,203 +28,203 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-1.webp" style="width:100%">
-      <figcaption>1. Begin by using the Origin Cube feature (so the belt functions can be used later). Then draw the tube profiles for the frame. There is a an 1/8" gap between the slanted tube and the vertical tube to allow for assembly tolerances. </figcaption>
+      <figcaption>1. Origin Cube özelliğini kullanarak başlayın (böylece kayış fonksiyonları daha sonra kullanılabilir). Ardından çerçeve için tube profillerini çizin. Egimli tube ve dikey tube arasında montaj toleransları için 1/8" boşluk vardır. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-2.webp" style="width:100%">
-      <figcaption>2. Use the <code>Extrude Individual</code> Featurescript to extrude the tube profiles.</figcaption>
+      <figcaption>2. Tube profillerini extrude etmek için <code>Extrude Individual</code> Featurescript'ini kullanın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-3.webp" style="width:100%">
-      <figcaption>3. Use the <code>Tube Converter</code> Featurescript to convert the rectangles into hole patterned 1x1 thin-wall tube (1/16" thick wall).</figcaption>
+      <figcaption>3. Dikdörtgenleri delik desenli 1x1 ince duvarlı tube'a (1/16" kalınlığında duvar) dönüştürmek için <code>Tube Converter</code> Featurescript'ini kullanın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-4.webp" style="width:100%">
-      <figcaption>4. Sketch a simple L gusset</figcaption>
+      <figcaption>4. Basit bir L gusset sketch'i çizin</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-5.webp" style="width:100%">
-      <figcaption>5. Extrude the gusset</figcaption>
+      <figcaption>5. Gusset'i extrude edin</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-6.webp" style="width:100%">
-      <figcaption>6. Create the gearbox layout sketch on the outer face of the bottom tube. Begin by drawing the two gears, a 60T and 20T gear. The 60T gear is the output, and we would like to constrain it to a specific location given by the 2" and 4.5" dimensions.</figcaption>
+      <figcaption>6. Alt tube'nın dış yüzünde şanzıman layout sketch'ini oluşturun. 60T ve 20T dişlileri olan iki dişliyi çizerek başlayın. 60T dişli output'tur ve onu 2" ve 4.5" boyutlarıyla verilen belirli bir konuma kısıtlamak istiyoruz.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-7.webp" style="width:100%">
-      <figcaption>7. Next, draw the 5mm pitch 12T and 36T pulleys. Use a line to connect the two pulleys. Use the <code>#PulleyPD_5mm()</code> function from the Origin Cube featurescript you inserted at the beginning to calculate the pitch diameters of the pulleys. Also space the 36T pulley to be 0.25" from the vertical tube. This step fully constrains the location of the gears.</figcaption>
+      <figcaption>7. Ardından, başlangıçta eklediğiniz Origin Cube featurescript'indeki #PulleyPD_5mm() fonksiyonunu kullanarak pitch çaplarını hesaplamak için 5mm pitch 12T ve 36T kasnakları çizin. Ayrıca 36T kasnağı dikey tube'dan 0.25" olacak şekilde boşluklandırın. Bu adım dişlilerin konumunu tamamen kısıtlar.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-8.webp" style="width:100%">
-      <figcaption>8. Add the belt c-c to the layout sketch for a 60T HTD5 belt using the <code>#BeltCTC_5mm()</code> function.</figcaption>
+      <figcaption>8. 60T HTD5 kayışı için #BeltCTC_5mm() fonksiyonunu kullanarak layout sketch'e kayış c-c'yi ekleyin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-9.webp" style="width:100%">
-      <figcaption>9. Optionally draw two tangent lines to connect the two pulley circles. This represents the belt.</figcaption>
+      <figcaption>9. İsteğe bağlı olarak iki kasnak daireyi bağlamak için iki teğet çizgi çizin. Bu kayışı temsil eder.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-10.webp" style="width:100%">
-      <figcaption>10. Finally, sketch a 2.5" circle for the motor. Space the motor to be 1/8" away from the slanted tube. The layout sketch is now fully defined.</figcaption>
+      <figcaption>10. Son olarak, motor için 2.5" bir daire sketch'in. Motoru egimli tube'dan 1/8" uzakta olacak şekilde boşluklandırın. Layout sketch artık tamamen tanımlanmış.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-11.webp" style="width:100%">
-      <figcaption>11. Create the plate sketch on the outer face of the bottom tube. Begin by drawing the two 1.125" diameter bearing holes. Add a 1.5" hole for the motor boss so that the 12T pulley on the motor can fit through the hole to assist with real life assembly. This will become more clear when you create the gearbox assembly.</figcaption>
+      <figcaption>11. Alt tube'nın dış yüzünde plaka sketch'ini oluşturun. İki 1.125" çapında rulman deliği çizerek başlayın. Motorun üzerindeki 12T kasnağın deliğe sığabilmesi için gerçek hayatta montaja yardımcı olmak için motor boss'u için 1.5" bir delik ekleyin. Bu, şanzıman montajını oluşturduğunuzda daha net olacaktır.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-12.webp" style="width:100%">
-      <figcaption>12. Add a 2" bolt circle for the motor with a circular pattern. Constrain the center of the top left hole to be coincident with the center line between the pulleys (coincident uses an infinite extension of the line) </figcaption>
+      <figcaption>12. Motor için dairesel pattern ile 2" bolt daire ekleyin. Sol üstteki deliğin merkezini kasnaklar arasındaki merkez çizgisi ile çakışık olacak şekilde kısıtlayın (coincident, çizginin sonsuz uzantısını kullanır) </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-13.webp" style="width:100%">
-      <figcaption>13. Add the tube mounting holes for the plate. Note that the holes reference the edges of the tube and not the holes on the tube. This is to make the model more parametric, as changes in the tube can change the locations of the holes and break the gearbox plate sketch.</figcaption>
+      <figcaption>13. Plaka için tube montaj deliklerini ekleyin. Deliklerin tube'nın kenarlarını referans aldığına ve tube üzerindeki delikleri almadığına dikkat edin. Bu, modeli daha parametrik yapmak içindir, çünkü tube'daki değişiklikler deli konumlarını değiştirebilir ve şanzıman plaka sketch'ini bozabilir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-14.webp" style="width:100%">
-      <figcaption>14. Draw the outline for the plate using centerpoint arcs and tangent lines. Space the bottom of the plate 0.25" from the edge of the pitch circle for the 60T gear. </figcaption>
+      <figcaption>14. Centerpoint arcs ve teğet çizgiler kullanarak plaka outline'ını çizin. Plakanın altını 60T dişlinin pitch çemberinin kenarından 0.25" olacak şekilde boşluklandırın. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-15.webp" style="width:100%">
-      <figcaption>15. Add two holes for spacers. The construction circles represent the 3/8" diameter spacer. The top hole is tangent with the left edge of the plate and tangent with the 2.5" motor circle.</figcaption>
+      <figcaption>15. Spacer'lar için iki delik ekleyin. Construction circle'lar 3/8" çapında spacer'ı temsil eder. Üst delik plakanın sol kenarı ile teğettir ve 2.5" motor daire ile teğettir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-16.webp" style="width:100%">
-      <figcaption>16. Extrude the plate to be 1/4" thick.</figcaption>
+      <figcaption>16. Plakayı 1/4" kalınlığında extrude edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-17.webp" style="width:100%">
-      <figcaption>17. On the opposite side, create a sketch for the inner plate. Utilize the <code>Use</code> sketch feature to copy over common geometry (holes, outline). Do not copy the motor holes, as there will be a cutout on the inner plate for the body of the motor.</figcaption>
+      <figcaption>17. Karşı tarafta, iç plaka için bir sketch oluşturun. Ortak geometriyi (delikler, outline) kopyalamak için <code>Use</code> sketch özelliğini kullanın. Motor deliklerini kopyalamayın, çünkü iç plakada motor gövdesi için bir kesik olacaktır.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-18.webp" style="width:100%">
-      <figcaption>18. Finish the outline of the plate by adding an arc for the motor cutout.</figcaption>
+      <figcaption>18. Motor kesimi için bir arc ekleyerek plaka outline'ını tamamlayın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-19.webp" style="width:100%">
-      <figcaption>19. Extrude the inner plate to be 1/4" thick.</figcaption>
+      <figcaption>19. İç plakayı 1/4" kalınlığında extrude edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-20.webp" style="width:100%">
-      <figcaption>20. Add a 3/16" radius fillet on the two edges for the motor cutout. The radius is selected to match the 3/8" diameter spacer.</figcaption>
+      <figcaption>20. Motor kesimi için iki kenarda 3/16" yarıçapında fillet ekleyin. Yarıçap, 3/8" çapındaki spacer ile eşleşecek şekilde seçilir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-21.webp" style="width:100%">
-      <figcaption>21. Model the 3/8" diameter spacer. The <code>Up to Face</code> end condition can be utilized to keep the spacer length parametric.</figcaption>
+      <figcaption>21. 3/8" çapında spacer'ı modelleyin. Spacer uzunluğunu parametrik tutmak için <code>Up to Face</code> son koşulunu kullanabilirsiniz.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
        <iframe src="https://www.youtube.com/embed/UBT5AGqBYW4?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>22. Use the <code>Belt & Chain Gen</code> Featurescript to create a model of the belt. The pitch of the belt is 5mm and the width is 9mm. Offset the reference plane by 0.5" so that the belt does not collide with the plate. Keep the belt simplified, as turning on teeth modeling will slow down the part studio. Notice that the <code>Belt & Chain Gen</code> Featurescript also calculates the pitch length of the belt which allows us to verify that we calculated the correct C-C in step 7 and 8. </figcaption>
+      <figcaption>22. Kayış modelini oluşturmak için <code>Belt & Chain Gen</code> Featurescript'ini kullanın. Kayışın pitch'i 5mm ve genişliği 9mm'dir. Kayışın plaka ile çarpışmaması için referans düzlemini 0.5" olarak ofset edin. Kayışı basitleştirilmiş tutun, çünkü diş modellemeyi açmak part studioyu yavaşlatır. <code>Belt & Chain Gen</code> Featurescript'inin aynı zamanda kayışın pitch uzunluğunu hesapladığını ve bu sayede adım 7 ve 8'de doğru C-C hesaplayıp hesaplamadığımızı doğrulayabildiğimizi unutmayın. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-23.webp" style="width:100%">
-      <figcaption>23. Use the <code>Robot Shaft</code> Featurescript to create the 1st stage shaft.</figcaption>
+      <figcaption>23. 1. kademe şaftını oluşturmak için <code>Robot Shaft</code> Featurescript'ini kullanın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-24.webp" style="width:100%">
-      <figcaption>24. Use the <code>Robot Shaft</code> Featurescript to create the output shaft.</figcaption>
+      <figcaption>24. Output şaftını oluşturmak için <code>Robot Shaft</code> Featurescript'ini kullanın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-25.webp" style="width:100%">
-      <figcaption>25. Optionally pocket the plates. To begin, create a sketch on the outer face of the motor plate and draw lines to create the struts.</figcaption>
+      <figcaption>25. İsteğe bağlı olarak plakaları pocket edin. Başlamak için motor plakasının dış yüzünde bir sketch oluşturun ve struts oluşturmak için çizgiler çizin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-26.webp" style="width:100%">
-      <figcaption>26. Use the <code>Part Lighten</code> Featurescript to add the pocketing by selecting the previous sketch. Use 0.15" wide ribs and 0.26" tool diameter. </figcaption>
+      <figcaption>26. Önceki sketch'i seçerek pocket eklemek için <code>Part Lighten</code> Featurescript'ini kullanın. 0.15" genişliğinde kaburgalar ve 0.26" takım çapı kullanın. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-27.webp" style="width:100%">
-      <figcaption>27. Create a sketch on the inner plate and draw the strut lines. You can utilize the <code>Use</code> sketch feature to copy over strut lines from the motor plate pocketing sketch.</figcaption>
+      <figcaption>27. İç plakada bir sketch oluşturun ve strut çizgilerini çizin. Motor plakası pocket sketch'inden strut çizgilerini kopyalamak için <code>Use</code> sketch özelliğini kullanabilirsiniz.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-28.webp" style="width:100%">
-      <figcaption>28. Use the <code>Part Lighten</code> Featurescript to add the pocketing by selecting the previous sketch. Again, use 0.15" wide ribs and 0.26" tool diameter. </figcaption>
+      <figcaption>28. Önceki sketch'i seçerek pocket eklemek için <code>Part Lighten</code> Featurescript'ini kullanın. Yine, 0.15" genişliğinde kaburgalar ve 0.26" takım çapı kullanın. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/parts-0.webp" style="width:100%">
-      <figcaption>29. Finished part studio. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. The tube, gusset, and shafts should have their material automatically set already. </figcaption>
+      <figcaption>29. Tamamlanmış part studio. Önemli sketch'leri ve parçaları adlandırın. Plakanın ve spacer'ların malzemesini 6061 Aluminum olarak ayarlayın. Tube, gusset ve şaftların malzemesi otomatik olarak ayarlanmış olmalıdır. </figcaption>
     </figure>
   </div>
 
@@ -236,9 +237,9 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   </div>
 </div>
 
-### Assembly Instructions
+### Assembly Talimatları
 
-Now that you've completed the part studio, **navigate to the "Exercise #3 Assembly" tab** in your copied document and **follow the instructions in the slides** to finish this exercise.
+Artık part studioyu tamamladığınıza göre, bu egzersizi tamamlamak için kopyaladığınız belgede **"Exercise #3 Assembly" sekmesine gidin** ve **slaytlardaki talimatları izleyin**.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -254,54 +255,54 @@ Now that you've completed the part studio, **navigate to the "Exercise #3 Assemb
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/DdvX_09Hd20?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>1. Insert the part studio into the assembly and fix only the bottom tube. Use the group mate on the tubes, plates, and gusset. Copy the gusset and mate it to the other side of the tube. Next, mate the spacer to the plate and use the <code>Replicate</code> tool to replicate the spacer. </figcaption>
+      <figcaption>1. Part studioyu montaja ekleyin ve sadece alt tube'ı sabitleyin. Tube'lar, plakalar ve gusset için group mate kullanın. Gusset'i kopyalayın ve tube'nın diğer tarafına mate edin. Ardından, spacer'ı plakaya mate edin ve <code>Replicate</code> aracını kullanarak spacer'ı replike edin. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/Rait0iVbiD0?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>2. Assemble the bearings and shafts using parts from FRCDesignLib. Use the <code>Replicate</code> tool to replicate the bearing.</figcaption>
+      <figcaption>2. FRCDesignLib parçalarını kullanarak rulmanları ve şaftları monte edin. Rulmanı replike etmek için <code>Replicate</code> aracını kullanın.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/3rhXrBgWlng?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>3. Assemble the 36T pulley, belt, motor, and motor pinion pulley using parts from FRCDesignLib. Notice that the motor pinion is offset 1/16" from the bottom of the shaft to better align with the belt. Additionally, notice that the belt requires only a single fasten mate since its orientation was determined by how it was modeled in the part studio.</figcaption>
+      <figcaption>3. FRCDesignLib parçalarını kullanarak 36T kasnağı, kayışı, motoru ve motor pinion kasnağını monte edin. Motor pinion'un şaftın altından 1/16" ofsetli olduğuna, böylece kayışla daha iyi hizalandığına dikkat edin. Ayrıca, kayışın sadece tek bir fasten mate gerektirdiğine, çünkü yönünün part studio'da nasıl modellendiğine göre belirlendiğine dikkat edin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
        <iframe src="https://www.youtube.com/embed/j-Tofk8_Nfs?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>4. Assemble the shaft spacers and gears using parts from FRCDesignLib. Notice that this time we used a pocketed gear for the 60T gear. Pocketed gears are the same as normal gears except they have some material removed to save weight. </figcaption>
+      <figcaption>4. FRCDesignLib parçalarını kullanarak şaft spacer'larını ve dişlileri monte edin. Bu kez 60T dişli için pocket edilmiş bir dişli kullandığımıza dikkat edin. Pocket edilmiş dişliler, normal dişlilerle aynıdır, sadece ağırlığı tasarruf etmek için bazı malzemeler çıkarılmıştır. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/0yfIqvglCHw?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>5. Assemble the shaft retention bolts using FRCDesignLib parts.</figcaption>
+      <figcaption>5. FRCDesignLib parçalarını kullanarak şaft tutma boltlarını monte edin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
        <iframe src="https://www.youtube.com/embed/h7ABxpXyMbY?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>6. Assemble the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts</figcaption>
+      <figcaption>6. FRCDesignLib parçalarını kullanarak motor boltlarını, şanzıman boltlarını ve somunları monte edin</figcaption>
     </div>
   </div>
   <div class="mySlides fade">
     <div class="slide-content">
        <iframe src="https://www.youtube.com/embed/fd56NxBZHd8?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>7. Assemble the gusset rivets using FRCDesignLib parts.</figcaption>
+      <figcaption>7. FRCDesignLib parçalarını kullanarak gusset perçitlerini monte edin.</figcaption>
     </div>
   </div>
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercises/exercise3/assy-0.webp" style="width:100%">
-      <figcaption>8. Finished assembly. Make sure to sort your parts into folders and name your replicate features. </figcaption>
+      <figcaption>8. Tamamlanmış montaj. Parçaları klasörlere sıraladığınızdan ve replicate özelliklerinizi adlandırdığınızdan emin olun. </figcaption>
     </figure>
   </div>
 
@@ -314,19 +315,18 @@ Now that you've completed the part studio, **navigate to the "Exercise #3 Assemb
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 31 instances.
+!!! Success "Doğrulama"
+    Sizin ve/veya takımınızın daha deneyimli bir üyesinin/mentorünün [**CAD'inizi incelemesini sağlayın!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Montajınızın 31 instance'ı olmalıdır.
 
-In this exercise, you modeled a fairly complex gearbox that was integrated with some frame elements. At this point, you should be begin to feel comfortable with the sketching and extrude tools. You should also familiarize yourself with all the options present in the Featurescripts that you have used up until this point by playing around with different settings. 
+Bu egzersizte, bazı çerçeve elemanlarıyla entegre edilmiş oldukça karmaşık bir şanzıman modellediniz. Bu noktada, sketch ve extrude araçlarına rahat olmaya başlamalısınız. Ayrıca, farklı ayarlarla oynayarak şu ana kadar kullandığınız Featurescript'lerdeki tüm seçeneklere aşina olmalısınız.
 
 
 
-### Parametric Modeling
+### Parametrik Modelleme
 
-To get a feel for how parametric your model is, you can try and change certain key dimensions in the layout sketches, such as the length of the tubes, angle of the tubes, length of the belt, and the size of the gears. Play around with which modifications will update smoothly and which require additional fixes in the CAD.
+Modelinizin ne kadar parametrik olduğunu hissetmek için, layout sketch'teki belirli ana boyutları, örneğin tube'nın uzunluğunu, tube'nın açısını, kayışın uzunluğunu ve dişlilerin boyutunu değiştirmeyi deneyebilirsiniz. Hangi modifikasyonların sorunsuz güncelleneceğini ve hangilerinin CAD'de ek düzeltmeler gerektirdiğini oynayarak görün.
 
-You may also be curious as to how things like the hole sizes, materials, etc were selected in each of these designs. You are encouraged to learn more by browsing the [Design Handbook](/design-handbook/ "Design Handbook Page"){:target="_blank"} pages which contain in-depth information on a wide range of topics, or by discussing with your team and or other students and mentors on the DDS Discord.
+Bu tasarımlarda delik boyutlarının, malzemelerin vb. nasıl seçildiği konusunda merak edebilirsiniz. [Design Handbook](/design-handbook/ "Design Handbook Page"){:target="_blank"} sayfalarını inceleyerek veya takımınızla ve/veya DDS Discord'undaki diğer öğrencilerle ve mentorlarla tartışarak daha fazla bilgi edinmeniz teşvik edilir.
 
 <br>
-
 

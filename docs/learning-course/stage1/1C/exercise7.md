@@ -1,27 +1,28 @@
-# 1C: Practice Mechanisms
+# 1C: Pratik Mekanizmalar
 
-## Exercise 7: Vertical Rollers
+## Egzersiz 7: Dikey Rollers
 
-In this exercise, you will be modeling some vertical rollers. This mechanism features the Configurable Tube Roller System assembly and a 3D printed motor spacer. Be sure to pay attention to the layout sketch and assembly mating when modeling. 
+Bu egzersizde, bazı dikey rollers modelleyeceksiniz. Bu mekanizma Configurable Tube Roller System assembly'sini ve 3D baskı motor spacer'ını içerir. Modelleme yaparken layout sketch ve assembly mating'e dikkat etmeniz önerilir.
 
-### 3D Printing to Reduce Part Count
-3D printing can be used to create spacer blocks. 
-Rather than using multiple spacers to connect two components, we can opt to use a 3D printed block that combines all of the spacers into a single part, this reduces part count and makes assembly easier. This concept was also used in Exercise 4 on the climb hook to reduce the amount of spacers.
+### Parça Sayısını Azaltmak İçin 3D Baskı
+3D baskı spacer blokları oluşturmak için kullanılabilir.
+İki bileşeni bağlamak için birden fazla spacer kullanmak yerine, tüm spacer'ları tek bir parçada birleştiren 3D baskı bir blok kullanmayı seçebiliriz, bu parça sayısını azaltır ve assembly'yi kolaylaştırır. Bu kavram ayrıca parça sayısını azaltmak için egzersiz 4'te climb hook üzerinde de kullanıldı.
 
-If you have a 3D printer, this can be a good option.
+Eğer bir 3D yazıcınız varsa, bu iyi bir seçenek olabilir.
 
-???+ example "3D Printed Spacer Block"
+???+ örnek "3D Baskı Spacer Bloğu"
     <figure>
       <img src="../images/vertical-rollers/3dp-spacer.webp" width="65%">
-      <figcaption>Multiple spacers can be combined into single 3D printed block to reduce part count. </figcaption>
+      <figcaption>Birden fazla spacer tek bir 3D baskı blokta birleştirilebilir parça sayısını azaltmak için. </figcaption>
     </figure>
 
-### Part Studio Instructions
+### Part Studio Talimatları
 
-**Navigate to the "Exercise #7 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instruction slides** only provide a general outline and some key details.
+Kopyalanmış belgenizdeki **"Exercise #7 Part Studio" sekmesine gidin** ve bu egzersiz için part studio'yu tamamlamak için **solution belgesine başvurun**. **Aşağıdaki talimat slaytları** sadece genel bir outline ve bazı önemli detaylar sağlar.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
+
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
@@ -33,53 +34,53 @@ If you have a 3D printer, this can be a good option.
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/parts-1.webp" style="width:100%">
-      <figcaption>1. Begin by creating the layout sketch on an offset mate connector 3" above the origin. 
-                  We subtract 0.015" from each of the belt c-c's to reduce friction since we are linking multiple belts in series. This increases efficiency at the cost of backlash, which doesn't matter for this mechanism</figcaption>
+      <figcaption>1. Origin'den 3" yukarı offset bir mate connector üzerinde layout sketch oluşturarak başlayın.
+                  Seri olarak birden fazla belt bağladığımız için sürtünmeyi azaltmak için her belt c-c'den 0.015" çıkarıyoruz. Bu verimliliği artırır, backlash'e mal olur ancak bu mekanizma için önemli değildir</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/parts-2.webp" style="width:100%">
-      <figcaption>2. Use the <code>Mirror</code> sketch tool to create a right hand reference for the rollers and tube location. Use the distance between the roller pairs to drive the roller locations. </figcaption>
+      <figcaption>2. Rollers ve tüp konumu için bir sağ el referansı oluşturmak için <code>Mirror</code> sketch aracını kullanın. Roller konumlarını sürmek için roller çiftleri arasındaki mesafeyi kullanın. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/parts-3.webp" style="width:100%">
-      <figcaption>3. Create the bottom plate. Then, create the top plate offset 7" from the bottom plate. 
-                    Pay close attention to the plate sketches in the solution document. 
-                    Note that the 1x1" tube plug requires a 4 holes spaced 3/8" apart from each other in a square pattern.
-                    We dont need all 4 so we will only use 2 of them.</figcaption>
+      <figcaption>3. Alt plakayı oluşturun. Sonra, alt plakadan 7" offset üst plakayı oluşturun.
+                    Solution belgesindeki plaka sketch'lerine yakın dikkat edin.
+                    1x1" tüp plug'unun birbirinden 3/8" aralıklı 4 delikli kare bir pattern gerektirdiğini unutmayın.
+                    Hepsine ihtiyacımız yok bu yüzden sadece 2'sini kullanacağız.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/parts-4.webp" style="width:100%">
-      <figcaption>4. Sketch, extrude, then tube convert the thin-wall 1x1 tube.</figcaption>
+      <figcaption>4. İnce cidarlı 1x1 tüpü sketchleyin, extrude edin, sonra tube convert edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/parts-5.webp" style="width:100%">
-      <figcaption>5. Model the the 3D printed motor spacer block and extrude it to be 1" long.</figcaption>
+      <figcaption>5. 3D baskı motor spacer bloğunu modelleyin ve 1" uzunluğunda extrude edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/parts-6.webp" style="width:100%">
-      <figcaption>6. Model the belts.</figcaption>
+      <figcaption>6. Belt'leri modelleyin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/parts-0.webp" style="width:100%">
-      <figcaption>7. Finish the part studio by naming your features and organizing them into folders. Assign the part materials accordingly.</figcaption>
+      <figcaption>7. Özellikleri adlandırarak ve klasörlere organize ederek part studio'yu tamamlayın. Parça malzemelerini buna göre atayın.</figcaption>
     </figure>
   </div>
 
@@ -92,9 +93,9 @@ If you have a 3D printer, this can be a good option.
   </div>
 </div>
 
-### Assembly Instructions
+### Assembly Talimatları
 
-**Next, navigate to the "Exercise #7 Assembly" tab** in your copied document and **refer to the solution document** to complete the assembly for this exercise. The **following instruction slides** only provide a general outline and some key details.
+**Sonra, kopyalanmış belgenizdeki **"Exercise #7 Assembly" sekmesine gidin** ve bu egzersiz için assembly'yi tamamlamak için **solution belgesine başvurun**. **Aşağıdaki talimat slaytları** sadece genel bir outline ve bazı önemli detaylar sağlar.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
@@ -108,58 +109,58 @@ If you have a 3D printer, this can be a good option.
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/assy-1.webp" style="width:100%">
-      <figcaption>1. Add the part studio parts to the assembly. Like before, group mate the rigid components with the Origin Cube and mate the Origin Cube to the assembly origin.</figcaption>
+      <figcaption>1. Part studio parçalarını assembly'ye ekleyin. Önceki gibi, rigid bileşenleri Origin Cube ile grup mate edin ve Origin Cube'u assembly origin'ine mate edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/assy-2.webp" style="width:100%">
-      <figcaption>2. Add 1x1 Tube Plugs to the vertical 1x1 tube.</figcaption>
+      <figcaption>2. Dikey 1x1 tüpe 1x1 Tüp Tapalarını ekleyin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/assy-3.webp" style="width:100%">
-      <figcaption>3. Insert a Kraken X44 and 12t pulley into the assembly. Mate the pulley to the motor, and fasten the motor to the spacer.</figcaption>
+      <figcaption>3. Assembly'ye bir Kraken X44 ve 12t pulley insert edin. Pulley'i motora mate edin ve motoru spacer'a fasten edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/assy-4.webp" style="width:100%">
-      <figcaption>4. Insert the "Tube Roller System" assembly from FRCDesignLib.
-                  Set the overall roller length to 7" and use 24T pulleys on each end. 
-                  Duplicate and fasten the other 2 rollers.</figcaption>
+      <figcaption>4. FRCDesignLib'den "Tube Roller System" assembly'sini insert edin.
+                  Genel roller uzunluğunu 7" olarak ayarlayın ve her uçta 24T pulley'ler kullanın.
+                  Diğer 2 roller'ı kopyalayın ve fasten edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/assy-5.webp" style="width:100%">
-      <figcaption>5. Fasten the belts to the roller pulleys.</figcaption>
+      <figcaption>5. Belt'leri roller pulley'lere fasten edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/assy-6.webp" style="width:100%">
-      <figcaption>6. Insert, fasten, and replicate all of the required fasteners. </figcaption>
+      <figcaption>6. Gerekli tüm fastener'ları insert edin, fasten edin ve replicate edin. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/assy-7.webp" style="width:100%">
-      <figcaption>7. Use Assembly Mirror to copy the left side assembly to the right side. Make sure all items have the mirror strategy set to transform so you don't end up making new parts.</figcaption>
+      <figcaption>7. Sol taraf assembly'sini sağ tarafa kopyalamak için Assembly Mirror kullanın. Yeni parçalar yapmamak için tüm öğelerin mirror stratejisini transform olarak ayarladığından emin olun.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/assy-0.webp" style="width:100%">
-      <figcaption>8. Finish the assembly by organizing your instances into folders.</figcaption>
+      <figcaption>8. Instance'larınızı klasörlere düzenleyerek assembly'nizi tamamlayın.</figcaption>
     </figure>
   </div>
 
@@ -172,8 +173,8 @@ If you have a 3D printer, this can be a good option.
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have approximately 25 instances.
+!!! Success "Doğrulama"
+    Siz ve/veya ekibinizden daha deneyimli bir üye/mentor [**CAD'inizi gözden geçirsin!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Assembly'nizin yaklaşık 25 instance'ı olmalıdır.
 
 
 <br>

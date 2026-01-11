@@ -1,12 +1,12 @@
 # 2A: Basic Shooter
 
-Welcome to Stage 2! This section covers FRC mechanism design, emphasizing CAD skills, best practices, and key engineering concepts. Each project guide explains design decisions and criteria, promoting independent CAD work with less step-by-step instruction.
+Stage 2'ye hoş geldiniz! Bu bölüm FRC mekanizma tasarımını kapsar, CAD becerilerine, en iyi uygulamalara ve önemli mühendislik kavramlarına odaklanır. Her proje rehberi tasarım kararlarını ve kriterlerini açıklar, adım adım talimatlarla daha bağımsız CAD çalışmasını teşvik eder.
 
-## Shooter Mechanisms
+## Shooter Mekanizmaları
 
-Shooters are used in FRC games when you need to score in high places but are not allowed to physically reach up to the scoring position. A flywheel is the most common method of scoring as illustrated below. 
+Shooter'lar, yüksek yerlere skor yapmanız gerektiğinde ancak skor pozisyonuna fiziksel olarak uzanmanıza izin verilmediğinde FRC oyunlarında kullanılır. Flywheel, aşağıda gösterildiği gibi skor yapmanın en yaygın yöntemidir.
 
-While most shooting games involve launching a ball, the fundamentals between ball shooters and shooters for non-spherical objects (discs or rings) remain roughly the same.
+Çoğu atış oyunu top fırlatmayı içerirken, top shooterlar ve küresel olmayan nesneler (diskler veya halkalar) için shooterlar arasındaki temeller kabaca aynı kalır.
 
 <br>
 
@@ -19,13 +19,13 @@ While most shooting games involve launching a ball, the fundamentals between bal
 </div>
 
 <figure>
-<center><figcaption>FRC Team 2910 and's 1690's 2021 Robot Launching Game Pieces</figcaption></center>
+<center><figcaption>FRC Takımı 2910 ve 1690'un 2021 Robotu Oyun Parçalarını Fırlatıyor</figcaption></center>
 </figure>
 <br>
 
-### Flywheel Shooters
+### Flywheel Shooterlar
 
-The most common way to launch game pieces is with flywheel shooters. Other methods, such as catapults or punchers, tend be more challenging to execute with the required accuracy/fire rate and rely on different concepts than flywheel shooters.
+Oyun parçalarını fırlatmanın en yaygın yolu flywheel shooterlardır. Catapultlar veya punchers gibi diğer yöntemler, gereken doğruluk/ateşleme oranıyla yürütmek için daha zor olma eğilimindedir ve flywheel shooterlardan farklı kavramlara dayanır.
 
 <br>
 
@@ -37,13 +37,13 @@ The most common way to launch game pieces is with flywheel shooters. Other metho
 
 </div>
 <figure>
-<figcaption>1678's 2022 and 2024 Flywheel Shooters. The 2022 shooter launched 9.5" diameter inflated balls and the 2024 shooter launched 14" diameter foam rings.</figcaption>
+<figcaption>1678'in 2022 ve 2024 Flywheel Shooterları. 2022 shooter'ı 9.5" çapında şişirilmiş topları fırlattı ve 2024 shooter'ı 14" çapında foam halkaları fırlattı.</figcaption>
 </figure>
 
 <br>
 
-[This video](https://youtu.be/QZKDnRvLhrA "1678 Shooter Slow Mo Video"){:target="_blank"} is a good slow-motion look at how a ball gets propelled out of a shooter.
+[Bu video](https://youtu.be/QZKDnRvLhrA "1678 Shooter Slow Mo Video"){:target="_blank"}, bir topun shooter'dan nasıl fırlatıldığına dair iyi bir yavaş çekili bakıştır.
 
-Other mechanism examples and deep dives for shooters can be found on the [ball shooters page](/mechanism-examples/shooter/ "Ball Shooters Page"){:target="_blank"}. The design handbook page will have a deeper dive when the shooter design page is completed. 
+Shooterlar için diğer mekanizma örnekleri ve derinlemesine bilgiler [ball shooters page](/mechanism-examples/shooter/ "Ball Shooters Page"){:target="_blank"} sayfasında bulunabilir. Tasarım el kitabı sayfası shooter tasarım sayfası tamamlandığında daha derin bir bakış sunacaktır.
 
 <br>

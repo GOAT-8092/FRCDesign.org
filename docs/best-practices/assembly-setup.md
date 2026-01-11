@@ -1,104 +1,104 @@
 ---
-title: Assembly Best Practices
-description: The best practices for inserting parts into assemblies and organizing them.
+title: Assembly En İyi Uygulamaları
+description: Parçaları assembly'lere eklemek ve organize etmek için en iyi uygulamalar.
 ---
 
-# Assembly Best Practices
+# Assembly En İyi Uygulamaları
 
-Assuming you have already named your parts and organized your work within the rest of the document, creating a well-organized assembly is very straightforward. 
+Parçalarınızı zaten adlandırdığınızı ve belgenin geri kalanında işinizi organize ettiğinizi varsayarsak, düzgün organize edilmiş bir assembly oluşturmak çok basittir.
 
-### The Origin Cube 
-The `Origin Cube` Featurescript inserts a 2" transparent cube at the origin of the part studio. The cube has a mate connector at the origin. Because this part will never change and always stays at the origin of the part studio, using it to group and fasten parts to the origin will always be more **robust and parametric** than fixing or using a mate connector attached to another part, as that part may change or be deleted.
+### Origin Cube
+`Origin Cube` Featurescript'i, part studio'nun origin'ine 2 inç şeffaf bir küp ekler. Küpün origin'inde bir mate connector vardır. Bu parça asla değişmeyeceği ve her zaman part studio'nun origin'inde kalacağı için, onu kullanarak parçaları origin'e gruplandırmak ve fasten etmek, başka bir parçaya sabitlenmiş veya eklenmiş bir mate connector kullanmaktan her zaman daha **sağlam ve parametriktir**, çünkü bu parça değişebilir veya silinebilir.
 
-<center markdown>[Origin Cube Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
+<center markdown>[Origin Cube Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Onshape Belgesi"){:target="_blank" .md-button .md-button--primary}</center>
 
 <br>
 
 
 <figure>
 <img src="\img\best-practices\originCubeFeature.webp" width="60%">
-<figcaption>Inserting the Origin Cube feature</figcaption>
+<figcaption>Origin Cube özelliğini ekleme</figcaption>
 </figure>
 
-!!! Tip
-    The origin cube has the option of importing a number of useful constants and functions, including bolt hole sizes, gear outer diameter, and a center-to-center calculator.
+!!! İpucu
+    Origin cube, cıvata deliği boyutları, heat set insert deliği boyutları vb gibi kullanışlı sabitler ve işlevleri içe aktarma seçeneğine sahiptir.
 
-### Process for Inserting Parts
+### Parçaları Ekleme Süreci
 
-As is described in [Sub-Document Setup](sub-document-setup.md#subsystems-with-multiple-degrees-of-freedom "Sub-Document Setup Page"), subsystems with no degrees of freedom will only have one assembly, while subsystems with multiple moving parts are separated into multiple rigid assemblies. The process for inserting parts and finishing assemblies is similar for both circumstances.
+[Alt Belge Kurulumunda](sub-document-setup.md#subsystems-with-multiple-degrees-of-freedom "Alt Belge Kurulumu Sayfası") açıklandığı gibi, hiçbir serbestlik derecesine sahip olmayan alt sistemlerin sadece bir assembly'si olacak, birden fazla hareketli parçası olan alt sistemler ise birden fazla rijit assembly'ye ayrılacaktır. Parçaları ekleme ve assembly'leri bitirme süreci her iki durum için de benzerdir.
 
-1. Create the origin cube in your part studio
-2. Insert the related parts and origin cube into a new assembly document for a rigid subassembly
-3. Use the "group" tool on all parts
-4. Fasten the origin mate connector to the origin
-5. Duplicate and fasten any duplicate parts
-6. Insert standard hardware and COTS components
-7. Sort the instances into folders (i.e. tubes, swerve modules, spacers)
+1. Part studio'nuzda origin cube'u oluşturun
+2. İlgili parçaları ve origin cube'u rijit bir alt assembly için yeni bir assembly belgesine ekleyin
+3. Tüm parçalarda "grup" aracını kullanın
+4. Origin mate connector'ünü origin'e fasten edin
+5. Yinelenen parçaları çoğaltın ve fasten edin
+6. Standart donanım ve COTS bileşenlerini ekleyin
+7. Örnekleri klasörlere sıralayın (örneğin borular, swerve modülleri, spacerler)
 
-!!! Tip
-    As you add more parts in the part studio, you can insert them individually into the assembly with the green checkmark, double click on the initial group, and add the part to the group to avoid mating it. This means that new part will always stay in the same place relative to where it was designed in the part studio.
+!!! İpucu
+    Part studio'ya daha fazla parça ekledikçe, bunları yeşil onay işaretiyle assembly'ye tek tek ekleyebilir, ilk gruba çift tıklayabilir ve parçayı mating'ten kaçınmak için gruba ekleyebilirsiniz. Bu, yeni parçanın her zaman part studio'da tasarlandığı yerde kalacağı anlamına gelir.
 
-If the subsystem has multiple moving parts (like an over-the-bumper intake or elevator), create a mate connector on the main layout sketch for each degree of freedom. This may be a pivot point or the starting point of a slider mate (in the case of an elevator). Make each mate connector owned by the origin cube.
+Alt sistemin birden fazla hareketli parçası varsa (örneğin over-the-bumper intake veya asansör), her serbestlik derecesi için ana layout sketch üzerinde bir mate connector oluşturun. Bu bir pivot noktası veya slider mate'in başlangıç noktası olabilir (asansör durumunda). Her mate connector'ü origin cube'a ait yapın.
 
-Repeat steps 2-7 of the process for all other rigid subassemblies, if applicable. This will result in each subassembly being rigid, with the origin cube fastened to the origin and all the parts in the same place as in the part studio. Each subassembly will also contain the mate connectors owned by the origin cube.
+Geçerli ise, diğer tüm rijit alt assembly'ler için 2-7 adımlarını tekrarlayın. Bu, her alt assembly'nin rijit olmasına, origin cube'un origin'e fasten edilmesine ve tüm parçaların part studio'dakiyle aynı yerde olmasına neden olacaktır. Her alt assembly ayrıca origin cube'a ait olan mate connector'leri içerecektir.
 
-Now create a top-level subsystem assembly and insert each subassembly into it. Fasten the origin cube of the static subassembly to the origin, and use the other mate connectors to mate the other subassemblies together.
+Şimdi üst düzey bir alt sistem assembly'si oluşturun ve her alt assembly'yi içine ekleyin. Statik alt assembly'nin origin cube'unu origin'e fasten edin ve diğer mate connector'leri kullanarak diğer alt assembly'leri birbirine mate edin.
 
-??? Example "Stage 2C - Slapdown Intake"
-    The Stage 2C Slapdown Intake is a subsystem with a static portion and a pivoting portion. An extra mate connector is added for the pivot on the main layout sketch, owned by the origin cube
+??? Örnek "Aşama 2C - Slapdown Intake"
+    Aşama 2C Slapdown Intake, statik bir bölümü ve dönen bir bölümü olan bir alt sistemdir. Pivot için ekstra bir mate connector eklenir, ana layout sketch üzerinde, origin cube'a ait
 
-    <center markdown>[Stage 2C - Slapdown Intake](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2 "Stage 2C Slapdown Intake Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
+    <center markdown>[Aşama 2C - Slapdown Intake](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2 "Aşama 2C Slapdown Intake Onshape Belgesi"){:target="_blank" .md-button .md-button--primary}</center>
 
     <center><img src="/img/best-practices/slapdown-intake-example/slapdown-intake-mate-connector.webp" style="border:5px solid #ADADAD"></center>
 
-    This mate connector exists in both subassemblies.
+    Bu mate connector her iki alt assembly'de de vardır.
     <center><img src="/img/best-practices/slapdown-intake-example/slapdown-intake-static-connectors.webp" style="border:5px solid #ADADAD"></center>
 
     <center><img src="/img/best-practices/slapdown-intake-example/slapdown-intake-arm-connectors.webp" style="border:5px solid #ADADAD"></center>
 
-    The static assembly is fastened to the origin and the arm assembly revolves using the pivot mate connector owned by both instances of the origin cube.
+    Statik assembly origin'e fasten edilir ve kol assembly, origin cube'un her iki örneğine ait pivot mate connector'ini kullanarak döner.
     <center><img src="/img/best-practices/slapdown-intake-example/slapdown-intake-top-level.webp" style="border:5px solid #ADADAD"></center>
 
 
-??? Example "Stage 2D - Cascade Elevator"
-    The Stage 2D Cascade Elevator is a subsystem with a static portion and two subassemblies that slide linearly. This contains a part studio, a static frame/gearbox assembly, assemblies for the first stage and carriage, and a top-level assembly combining the 3 subassemblies with slider mates.
+??? Örnek "Aşama 2D - Cascade Asansör"
+    Aşama 2D Cascade Asansör, statik bir bölümü ve lineer olarak kayan iki alt assembly'yi olan bir alt sistemdir. Bu bir part studio, statik bir çerçeve/dişli kutusu assembly'si, ilk aşama ve carriage için assembly'ler ve slider mate'lerle 3 alt assembly'yi birleştiren üst düzey bir assembly içerir.
 
-    <center markdown>[Stage 2D - Cascade Elevator](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1 "Stage 2D - Cascade Elevator Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
+    <center markdown>[Aşama 2D - Cascade Asansör](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1 "Aşama 2D - Cascade Asansör Onshape Belgesi"){:target="_blank" .md-button .md-button--primary}</center>
 
     <center><img src="/img/best-practices/elevatorAssembly.webp" style="border:5px solid #ADADAD"></center>
 
 
-??? Example "3647 Millennium Falcons 2024 Intake"
-    <center><img src="/img/best-practices/0200-A.webp"><figcaption>Top Level Assembly: 0200-A-Intake. Notice that there are only two mates. The revolute is between the two intake pivot mate connectors, which are attached to the respective origin cubes.</figcaption></center>
+??? Örnek "3647 Millennium Falcons 2024 Intake"
+    <center><img src="/img/best-practices/0200-A.webp"><figcaption>Üst Düzey Assembly: 0200-A-Intake. Sadece iki mate olduğunu unutmayın. Döner, ilgili origin cube'lere ekli olan iki intake pivot mate connector arasındadır.</figcaption></center>
 
-    <center><img src="/img/best-practices/0210-A.webp"><figcaption>Stationary Components Assembly: 0210-A-Intake Base. The components are group mated and the origin cube is fastened to the origin.</figcaption></center>
+    <center><img src="/img/best-practices/0210-A.webp"><figcaption>Stationer Bileşenler Assembly: 0210-A-Intake Base. Bileşenler group mated ve origin cube origin'e fasten edilmiştir.</figcaption></center>
 
-    <center><img src="/img/best-practices/0210-PS.webp"><figcaption>Stationary Components PS: 0210-A-Intake Base. Notice the intake pivot mate connector, derived from the orange main layout sketch. </figcaption></center>
+    <center><img src="/img/best-practices/0210-PS.webp"><figcaption>Stationer Bileşenler PS: 0210-A-Intake Base. Turuncu ana layout sketch'ten türetilmiş intake pivot mate connector'yi unutmayın. </figcaption></center>
 
-    <center><img src="/img/best-practices/0220-A.webp"><figcaption>Moving Components Assembly: 0220-A-Intake Arm. The components are group mated and the origin cube is fastened to the origin.</figcaption></center>
+    <center><img src="/img/best-practices/0220-A.webp"><figcaption>Hareketli Bileşenler Assembly: 0220-A-Intake Arm. Bileşenler group mated ve origin cube origin'e fasten edilmiştir.</figcaption></center>
 
-    <center><img src="/img/best-practices/0220-PS.webp"><figcaption>Moving Components PS: 0220-Intake Arm. Notice the intake pivot mate connector, derived from the orange main layout sketch.</figcaption></center>
+    <center><img src="/img/best-practices/0220-PS.webp"><figcaption>Hareketli Bileşenler PS: 0220-Intake Arm. Turuncu ana layout sketch'ten türetilmiş intake pivot mate connector'yi unutmayın.</figcaption></center>
 
 
-### Simplified Models
+### Basitleştirilmiş Modeller
 
-Make sure to minimize primitives in your assembly. Primitives are a measure of how complex an object is and how hard it is for Onshape to render. The more primitives there are, the more laggy your assembly will be.
+Assembly'nizde primitifleri en aza indirdiğinizden emin olun. Primitifler, bir nesnenin ne kadar karmaşık olduğunu ve Onshape'in ne kadar zor render edeceğini ölçen bir ölçüdür. Ne kadar çok primitif varsa, assembly'niz o kadar gecikmeli olacaktır.
 
-Use simplified modules from [FRCDesignLib](../../course-setup/required-course-tools/part-library.md "Adding FRCDesignApp Tutorial Page"){:target="_blank"} wherever possible to minimize primitives: electronics, swerve modules, motors, etc.
+Mümkün olan her yerde [FRCDesignLib](../../course-setup/required-course-tools/part-library.md "FRCDesignApp Ekleme Öğretici Sayfası"){:target="_blank"} basitleştirilmiş modüllerini kullanarak primitifleri en aza indirin: elektronik, swerve modülleri, motorlar vb.
 
-??? Video "Minimize Primitives"
+??? Video "Primitifleri En Aza İndir"
     <video controls="true" allowfullscreen="true" poster="/img/best-practices/minimizePrimitives.webp">
       <source src="/img/best-practices/minimizePrimitives.webm" type="video/webm">
     </video>
 
-### Other Small Things
+### Diğer Küçük Şeyler
 
-- Import COTS parts from FRCDesignLib
-- Use the **replicate tool** for adding hardware!
-- Minimize the number of mates you use; this lowers the solve time
-- Stay organized with folders
+- FRCDesignLib'den COTS parçalarını içe aktarın
+- Donanım eklemek için **replicate aracını** kullanın!
+- Kullandığınız mate sayısını en aza indirin; bu çözme süresini düşürür
+- Klasörlerle organize kalın
 
-See a well-organized assembly here: 
+İyi organize edilmiş bir assembly'yi burada görün:
 
 <center><img src="/img/best-practices/assembly.webp"></center>
 

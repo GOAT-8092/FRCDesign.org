@@ -1,22 +1,22 @@
 ---
 title: Site Changelog
-description: Updates and changes to FRCDesign.org
+description: FRCDesign.org'a güncellemeler ve değişiklikler
 icon: material/update
 ---
 
 # Site Changelog
 
-All changes to FRCDesign.org are documented here.
+FRCDesign.org'a yapılan tüm değişiklikler burada belgelenmiştir.
 
-!!! info "Live Updates"
-    For the most up-to-date information and community discussion about changes, see the [Chief Delphi thread](https://www.chiefdelphi.com/t/frcdesign-org-2025-2026-season-updates/504891/){:target="_blank"}.
+!!! info "Canlı Güncellemeler"
+   Güncellemeler hakkında en güncel bilgiler ve topluluk tartışması için [Chief Delphi thread](https://www.chiefdelphi.com/t/frcdesign-org-2025-2026-season-updates/504891/){:target="_blank"} bakın.
 
-!!! tip "How to Add Entries"
-    See the [changelog reference guide](changelog.md) for templates and formatting guidelines.
+!!! tip "Girişleri Nasıl Eklersiniz"
+    Şablonlar ve biçimlendirme yönergeleri için [changelog referans kılavuzuna](changelog.md) bakın.
 
 ---
 
-## Added Changelog - 09-19-2025
+## Changelog Eklendi - 19-09-2025
 
-### :material-plus: Added
-- Added changelog system for tracking site updates
+### :material-plus: Eklendi
+- Site güncellemelerini takip etmek için changelog sistemi eklendi

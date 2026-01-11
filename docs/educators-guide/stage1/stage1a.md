@@ -1,73 +1,73 @@
-# Stage 1A: CAD Fundamentals 
+# Aşama 1A: CAD Temelleri
 
-## Overview
-Stage 1A introduces students to fundamental CAD skills through a combination of Onshape's learning courses and FRC-specific exercises. This dual approach ensures students learn proper CAD techniques while maintaining engagement through robotics-relevant applications.
+## Genel Bakış
+Aşama 1A, öğrencileri Onshape'in öğrenme kursları ve FRC'ye özgü alıştırmaların bir kombinasyonu yoluyla temel CAD becerileriyle tanıştırır. Bu çift yaklaşım, öğrencilerin robotik ile ilgili uygulamalar yoluyla katılımlarını korurken düzgün CAD tekniklerini öğrenmelerini sağlar.
 
-## Learning Objectives
-Students will learn to:
+## Öğrenme Hedefleri
+Öğrenciler şunları öğrenecekler:
 
-- Create and constrain basic sketches
-- Model simple parts using features like extrude and fillet
-- Work with multiple parts in a single part studio
-- Create basic assemblies with mates
-- Use FRC-specific Featurescripts
-- Follow proper naming and organization practices
+- Temel sketchler oluşturmak ve kısıtlamak
+- Extrude ve fillet gibi özellikleri kullanarak basit parçalar modellemek
+- Tek bir part studio içinde birden fazla parçayla çalışmak
+- Mate'lerle temel assembly'ler oluşturmak
+- FRC'ye özgü Featurescripts kullanmak
+- Düzgün adlandırma ve organizasyon uygulamalarını takip etmek
 
-## Teaching Structure
+## Öğretim Yapısı
 
-### 1. Onshape Learning Courses
-Have students complete these courses in order:
+### 1. Onshape Öğrenme Kursları
+Öğrencilerin sırayla bu kursları tamamlamasını sağlayın:
 
-- Introduction to Sketching
-- Part Design Using Part Studios
+- Sketch'e Giriş
+- Part Studio Kullanarak Parça Tasarımı
 
-Expected completion time: 2-4 hours per course
+Tahmini tamamlanma süresi: Kurs başına 2-4 saat
 
-### 2. Practice Exercises
-Four guided exercises that apply course concepts to FRC components:
+### 2. Pratik Alıştırmalar
+Kurs kavramlarını FRC bileşenlerine uygulayan 4 kılavuzlu alıştırma:
 
-1. Simple Box Tube: Basic sketching and feature creation
-2. Box Tube and Gusset Joint: Multiple parts in one studio
-3. Box Tube Frame: Using Featurescripts for FRC 
-4. Climber Hook: Complex sketching and assembly practices
+1. Basit Kutu Boru: Temel sketch ve özellik oluşturma
+2. Kutu Boru ve Gusset Eklemi: Bir stüdyoda birden fazla parça
+3. Kutu Boru Çerçeve: FRC için Featurescripts kullanma
+4. Tırmanış Kancası: Karmaşık sketch ve assembly uygulamaları
 
-Expected completion time: 30-45 minutes per exercise
+Tahmini tamamlanma süresi: Alıştırma başına 30-45 dakika
 
-## Teaching Tips
+## Öğretim İpuçları
 
-### Learning Courses
-- Ensure students complete course exercises, not just watch videos
-- Consider reviewing common misconceptions after each course
-- Encourage use of keyboard shortcuts early for efficiency, if someone asks how to do something try and tell them the hotkey for it in addition to where it is on the toolbar.
-- Emphasize proper sketch constraints and design intent if possible (no random dimensions)
+### Öğrenme Kursları
+- Öğrencilerin sadece videoları izlemekle kalmayıp kurs alıştırmalarını tamamladıklarından emin olun
+- Her kurstan sonra yaygın yanlış anlamaları gözden geçirmeyi düşünün
+- Verimlilik için erken klavye kısayollarını kullanmaya teşvik edin, biri bir şeyi nasıl yapacağını sorarsa onun hotkey'ini de söyleyin.
+- Mümkünse düzgün sketch kısıtlamalarını ve tasarım amacını vurgulayın (rastgele boyutlar yok)
 
-### Practice Exercises  
-- Review exercise solutions beforehand to understand key concepts
-- Have students check their work against solution files
-- Pay attention to organization and naming conventions
-- Ensure students fully constrain their sketches
-- Encourage use of construction geometry for better design intent
+### Pratik Alıştırmalar
+- Önce çözümleri inceleyerek temel kavramları anlayın
+- Öğrencilerin işlerini çözüm dosyalarıyla kontrol etmelerini sağlayın
+- Organizasyona ve adlandırma kurallarına dikkat edin
+- Öğrencilerin sketchlerini tamamen kısıtladıklarından emin olun
+- Daha iyi tasarım amacı için inşaat geometrisi kullanmaya teşvik edin
 
-### Common Student Challenges
-- Understanding sketch constraints and degrees of freedom
-- Properly organizing features and parts
-- Deciding when to use separate sketches vs. one sketch
-- Determining correct mate types in assemblies
+### Yaygın Öğrenci Zorlukları
+- Sketch kısıtlamalarını ve serbestlik derecelerini anlamak
+- Özellikleri ve parçaları düzgün bir şekilde organize etmek
+- Ayrı sketchler vs bir sketch kullanmaya ne zaman karar vermek
+- Assembly'lerde doğru mate türlerini belirlemek
 
-## Resources
-- Exercise solution files for reference
-- Discord server for technical questions
-- Onshape's help documentation
+## Kaynaklar
+- Referans için alıştırma çözüm dosyaları
+- Teknik sorular için Discord sunucusu
+- Onshape'in yardım belgeleri
 
-## Assessment
-Student work should demonstrate:
+## Değerlendirme
+Öğrenci çalışması şunları göstermelidir:
 
-- Fully constrained sketches
-- Proper feature and part organization
-- Correct use of Featurescripts
-- Understanding of design intent
-- Basic assembly competence
+- Tamamen kısıtlanmış sketchler
+- Düzgün özellik ve parça organizasyonu
+- Featurescripts'in doğru kullanımı
+- Tasarım amacını anlama
+- Temel assembly yeterliliği
 
-Expected time to complete Stage 1A: 3-5 hours depending on student experience and aptitude.
+Aşama 1A'yı tamamlamak için tahmini süre: Öğrenci deneyimine ve yeteneğine bağlı olarak 3-5 saat.
 
 <br>

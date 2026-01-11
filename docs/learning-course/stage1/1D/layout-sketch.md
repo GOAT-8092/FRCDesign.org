@@ -1,11 +1,12 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Tasarım Metodolojisi - Basit Swerve Şasisi
 
-## Drivetrain Layout Sketches
-To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26" x 26".
+## Şasi Düzen Çizimleri
 
-### Instructions
+Başlamak için, şasinin bir düzen çizimini oluşturacaksınız. Bu, sürüş tüplerinin boyutunu ve konumunu belirleyecektir. Düzen, şasinin yan ve üst görünümünden çizilecektir. Swerve şasiniz için 26" x 26" yapacaksınız.
 
-Start by **creating a new Onshape Document called `Stage 1D Robot`** and within it, **a new part studio called `Main Layout Sketch`**. Then, use the `Origin Cube` Featurescript to create an origin cube. **Follow the instructions in the slides** to complete the layout sketch.
+### Talimatlar
+
+Başlamak için **`Stage 1D Robot` adında yeni bir Onshape Dokümanı oluşturun** ve içinde **`Main Layout Sketch` adında yeni bir part studio oluşturun**. Ardından, origin küp oluşturmak için `Origin Cube` Featurescript'ini kullanın. Düzen çizimini tamamlamak için **slaytlardaki talimatları izleyin**.
 
 
 <!-- <center>**Drivetrain Layout Sketch Slides**</center> -->
@@ -16,7 +17,7 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="../images/layout-sketches/layout-0.webp" style="width:100%">
-      <figcaption>0. The final layout sketch.</figcaption>
+      <figcaption>0. Son düzen çizimi.</figcaption>
     </figure>
   </div>
 
@@ -25,49 +26,49 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
   <div class="mySlides fade">
     <figure>
       <img src="../images/layout-sketches/layout-1.webp" style="width:100%">
-      <figcaption>1. Draw the side profile of the drivetrain on the Right Plane. We place the tube 1.75" from the ground, which is the offset from the ground to the bottom of the tube for the MK4i modules. 
-                  Then, draw the wheel clearance box, which represents the area that the wheel takes up. 
-                  For the MK4i modules, the box is 4.625" wide.</figcaption>
+      <figcaption>1. Şasinin yan profilini Right Plane üzerinde çizin. Tüpü yerden 1.75" uzaklığa yerleştiriyoruz, bu MK4i modülleri için yerden tüpün altına kadar ofsettir.
+                  Ardından, tekerleğin kapladığı alanı temsil eden tekerleks boşluk kutusunu çizin.
+                  MK4i modülleri için kutu 4.625" genişliğindedir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/fE7Zhv1DYt0?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>2. Create the top layout sketch by using the bottom mate connector on the vertical line of the side layout. Utilizing auto-generated mate connectors for sketch planes is a very useful tool to have. Press the "Top" button on the view cube to get a top view.</figcaption>
+      <figcaption>2. Yan düzenin dikey çizgisindeki alt mate connector'ü kullanarak üst düzen çizimini oluşturun. Sketch düzlemleri için otomatik olarak oluşturulan mate connector'leri kullanmak çok kullanışlı bir araçtır. Üst görünümü almak için view cube üzerindeki "Top" butonuna basın.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/HfoS699wNPc?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>3. Sketch the top outline of the drive base. Make the rectangle a square and set the side length equal to the length of the side layout tube. This ensures that the size of the top layout always matches the side layout, which makes the design parametric. Notice that the sketch is fully defined despite having no sketch dimensions.</figcaption>
+      <figcaption>3. Şasinin üst anahatını çizin. Dikdörtgeni bir kare yapın ve kenar uzunluğunu yan düzen tüpünün uzunluğuna eşit ayarlayın. Bu, üst düzenin boyutunun her zaman yan düzenle eşleşmesini sağlar, bu da tasarımı parametrik hale getirir. Sketch boyutu olmamasına rağmen sketch'in tamamen tanımlanmış olduğuna dikkat edin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/layout-sketches/layout-4.webp" style="width:100%">
-      <figcaption>4. To sketch the tubes, draw a square 1" smaller than the previous square. 
-                  This will represent the four 2"x1" tubes that make up the outer frame. 
-                  Then, draw the top profile of the 2"x2" tube.
-                  At the bottom right corner, draw two lines, each offset by 4.25" from the edge. 
-                  This is the required offset for MK4i modules. Other modules will differ</figcaption>
+      <figcaption>4. Tüpleri çizmek için, önceki kareden 1" daha küçük bir kare çizin.
+                  Bu, dış çerçeveyi oluşturan dört 2"x1" tüpü temsil edecektir.
+                  Ardından, 2"x2" tüpün üst profilini çizin.
+                  Sağ alt köşede, kenardan her biri 4.25" ofsetli iki çizgi çizin.
+                  Bu MK4i modülleri için gereken ofsettir. Diğer modüller farklı olacaktır.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/5st3BiDfGdY?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>5. To apply the cutout for all four tubes, we use the <code>Circular Pattern</code> sketch tool to copy the lines to all four corners. 
-                  For a  <code>Circular Pattern</code> we first define the number of instances and then the axis of rotation.</figcaption>
+      <figcaption>5. Dört tüpün tümü için kesiyi uygulamak için, çizgileri dört köşeye kopyalamak için <code>Circular Pattern</code> sketch aracını kullanırız.
+                  <code>Circular Pattern</code> için önce örnek sayısını ve ardından dönme eksenini tanımlarız.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/layout-sketches/layout-0.webp" style="width:100%">
-      <figcaption>6. Finally, name your sketches and organize them into folders in the feature tree. Your sketches should all be fully defined.</figcaption>
+      <figcaption>6. Son olarak, sketch'lerinizi adlandırın ve özellik ağacındaki klasörlere düzenleyin. Sketchleriniz tamamen tanımlanmış olmalıdır.</figcaption>
     </figure>
   </div>
 
@@ -80,6 +81,6 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
   </div>
 </div>
 
-As previously explained, this method of top-down modeling is extremely powerful as it enables you to capture the most important dimensions all in one place. However, you should be careful to not over-detail layout sketches. You will be practicing layout sketches all throughout Stage 2, and use them in Stage 3 alongside multi-document practices to design a whole robot.
+Önceden açıklandığı gibi, bu üsten aşağı modelleme yöntemi çok güçlüdür çünkü en önemli boyutları tek bir yerde yakalamanızı sağlar. Ancak, düzen çizimlerini fazla detaylandırmamaya dikkat etmelisiniz. 2. Aşama boyunca düzen çizimleri pratiği yapacaksınız ve 3. Aşama'da çoklu belge uygulamalarıyla birlikte kullanarak tüm bir robot tasarlayacaksınız.
 
 <br>

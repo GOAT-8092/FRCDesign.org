@@ -1,12 +1,12 @@
-# Designing for Controllability
+# Kontrol Edilebilirlik için Tasarım
 
-A guide on designing mechanisms and power transmissions for controllability. Make your programmer's life easier.
+Kontrol edilebilirlik için mekanizmalar ve güç aktarımları tasarlamak rehberi. Programcınızın hayatını kolaylaştırın.
 
-**WIP**
+**Yapım Aşamasında**
 
-<!-- Tutorial for shimming gears to reduce hex-to-hex interface backlash:
+<!-- Şanzımanları shimming yaparak hex-to-hex arayüz backlash'ini azaltmak için öğretici:
 
-[Link to Buy Shim Tape](https://www.mcmaster.com/1143N23)
+[Shim Bant Satın Alma Bağlantısı](https://www.mcmaster.com/1143N23)
 
 <center><img src="\img\design-handbook/DFC/hightide shim tape gears.webp" style="width:60%"></center>
 <center><img src="\img\design-handbook/DFC/hightide shim tape length.webp" style="width:60%"></center>

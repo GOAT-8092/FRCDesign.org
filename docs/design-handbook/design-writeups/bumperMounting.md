@@ -1,8 +1,8 @@
-# Bumper Mounting Solutions
+# Tampon Montaj Çözümleri
 
-A guide on different bumper mounting solutions.
+Farklı tampon montaj çözümleri rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 
 <br>

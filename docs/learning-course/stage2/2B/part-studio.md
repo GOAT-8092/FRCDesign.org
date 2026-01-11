@@ -1,24 +1,24 @@
-# 2B: Dead Axle Pivot
+# 2B: Dingil Silisi Pivot
 
 ## Part Studio
 
-1. Create a mate connector on the pivot point of the main layout sketch, owned by the origin cube. This will be used in the top level assembly to define motion between the subassemblies.
-2. Create the cross bar tubes
-3. Create the pivot support plates
-4. Create the chain and hex axle using featurescripts
-5. Create the dead axle tube, spacer, and washer.
-6. Create the tubes for the arm, including access holes for bolts.
-7. Create the plate to space the sprocket off from the arm.
-8. Name and give materials and appearances to all your parts
+1. Ana layout eskizindeki pivot noktasında, origin cube tarafından sahip olunan bir mate connector oluşturun. Bu, en üst seviye assembly'de subassembly'ler arasındaki hareketi tanımlamak için kullanılacaktır.
+2. Çubuk borularını oluşturun
+3. Pivot destek plakalarını oluşturun
+4. Featurescript'leri kullanarak zinciri ve hex milini oluşturun
+5. Dead mil borusunu, spacer'ı ve yıkayı oluşturun.
+6. Cıvatalar için erişim delikleri dahil olmak üzere, kolun borularını oluşturun.
+7. Sprocket'ı koldan uzaklaştırmak için plakayı oluşturun.
+8. Tüm parçalarınıza isim verin ve malzeme ve görünüm verin
 
 <center>
 <figure>
     <img src="/img/learning-course/stage2-pivot/PivotPartStudio.webp" width="70%">
-    <figcaption>Finished part studio.</figcaption>
+    <figcaption>Tamamlanmış part studio.</figcaption>
 </figure>
 </center>
 
 !!! Note
-    Try to create folders for related features while modeling the mechanism! It's easier doing it throughout the modeling process than saving all the clean-up for the end.
+    Mekanizmayı modelerken ilgili özellikler için klasörler oluşturmaya çalışın! Tüm temizliği sonuna bırakmaktan daha ziyad modelleme süreci boyunca bunu yapmak daha kolaydır.
 
 <br>

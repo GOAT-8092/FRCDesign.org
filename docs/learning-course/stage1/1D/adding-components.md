@@ -1,17 +1,17 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Tasarım Metodolojisi - Basit Swerve Şasisi
 
-## Adding More Components
+## Daha Fazla Parça Ekleme
 
-When you model more parts in the part studio, you can insert them into the assembly in a similar to fashion to before. Hit insert and immediately click on the green checkmark. Then, edit the initial `Group` you made and add the part to the group. By doing this, you ensure that added parts will always stay in the same place it was modeled in the part studio.
+Part studio içinde daha fazla parça modellediğinizde, bunları montaja daha öncekine benzer bir şekilde ekleyebilirsiniz. Insert tuşuna basın ve hemen yeşil onay işaretine tıklayın. Ardından, oluşturduğunuz ilk `Group`'u düzenleyin ve parçayı gruba ekleyin. Bunu yaparak, eklenen parçaların her zaman part studio içinde modelendiği yerde kalmasını sağlarsınız.
 
-Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
+2"x2" tüpü 2"x1" tüpe bağlamak için bir köşebent (gusset) ekleyelim.
 
-### Instructions
+### Talimatlar
 
-Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` folder. **Follow the instructions in the slides** to add the gusset.
+Başlamak için **`Drivetrain` klasöründeki `Drivetrain` Part Studio'ya gidin**. Köşebenti eklemek için **slaytlardaki talimatları izleyin**.
 
-???+ Tip "Manually Define Mounting Holes"
-    When you project the holes off of the tube or use the gusset featurescript, those references can break easily if the tube converter or length of the tube gets changed. Try to dimension manually defined holes from the edge of the tube or only project one hole and use a linear pattern to minimize the amount of things you need to fix if something changes.
+???+ Tip "Montaj Deliklerini Manuel Olarak Tanımla"
+    Tüpteki delikleri yansıttığınızda veya köşebent featurescript'ini kullandığınızda, tüp dönüştürücüsü veya tüp uzunluğu değiştirilirse bu referanslar kolayca bozulabilir. Manuel olarak tanımlanan delikleri tüp kenarından ölçülendirmeye çalışın veya düzeltilmesi gereken şeyleri en aza indirmek için sadece bir deliği yansıtın ve lineer pattern kullanın.
 
     <figure>
       <img src="../images/define-holes.webp" style="width:60%; border:5px solid #ADADAD; border-radius: 2%">
@@ -25,49 +25,49 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/add-0.webp" style="width:100%">
-      <figcaption>0. Finished drivetrain assembly.</figcaption>
+      <figcaption>0. Tamamlanmış şasi montajı.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/add-1.webp" style="width:100%">
-      <figcaption>1. Sketch and extrude a 1/8" thick gusset to connect the crosstube to the top of the frame using the holes shown.</figcaption>
+      <figcaption>1. Gösterilen delikleri kullanarak crosstube'ı çerçevenin üstüne bağlamak için 1/8" kalınlığında bir köşebenti sketch ve extrude ile oluşturun.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/n8lWSdOV-Ks?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>2. Insert the gusset into the assembly and add it to the <code>Group</code>.</figcaption>
+      <figcaption>2. Köşebenti montaja ekleyin ve <code>Group</code>'a ekleyin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/add-3.webp" style="width:100%">
-      <figcaption>3. Add 2-1/2" #10-32 bolts to the three holes in the bellypan on each side so they go through the gusset holes on the other side. Add nylock nuts to the holes on the gusset. As you learned in 1C, this is to help prevent rivets from loosening and falling out over time.</figcaption>
+      <figcaption>3. Her iki taraftaki bellypan'daki üç deliğe 2-1/2" #10-32 cıvataları ekleyin böylece diğer taraftaki köşebent deliklerinden geçer. Köşebent deliklerine nylock somunlar ekleyin. 1C'de öğrendiğiniz gibi, bu perçintelerin zamanla gevşemesini ve düşmesini önlemeye yardımcı olur.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/CC017qPw2Mk?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>4. Edit the replicate feature to add rivets to the gusset.</figcaption>
+      <figcaption>4. Köşebente perçintleri eklemek için replicate özelliğini düzenleyin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
       <iframe src="https://www.youtube.com/embed/0O1ojhHTgMI?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
-      <figcaption>5. Mirror the gusset, bolts, and rivets to the other side of the drivetrain using a mate connector on the origin cube.</figcaption>
+      <figcaption>5. Origin küpünde bir mate connector kullanarak köşebenti, cıvataları ve perçintleri şasinin diğer tarafına aynalayın.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/add-0.webp" style="width:100%">
-      <figcaption>6. Finished drivetrain assembly.</figcaption>
+      <figcaption>6. Tamamlanmış şasi montajı.</figcaption>
     </figure>
   </div>
 
@@ -80,23 +80,23 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
   </div>
 </div>
 
-Make sure you sort the instances in your assembly into folders (i.e. frame, swerve modules) and name any patterns and replicates used. This will help you locate components in the assembly later down the line.
+Montajınızdaki örnekleri klasörlere (yani çerçeve, swerve modülleri) sıraladığınızdan emin olun ve kullanılan tüm patternleri ve repliceleri adlandırın. Bu, ileride montaj içinde bileşenleri bulmanıza yardımcı olacaktır.
 
-!!! success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} 
-    
-    Your assembly should weigh approximately 37.2lbs.
+!!! success "Doğrulama"
+    Sizin ve/veya ekibinizden daha deneyimli bir üyenin/mentorün [**CAD'inizi incelemesini sağlayın!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"}
 
-    Your tab manager should have the following tabs and folder:
+    Montajınız yaklaşık 37.2 lbs ağırlığında olmalıdır.
+
+    Sekme yöneticiniz aşağıdaki sekmelere ve klasöre sahip olmalıdır:
     <figure>
       <img src="../images/tab-manager.webp" style="width:100%">
     </figure>
 
-### Level of Detail
+### Detay Seviyesi
 
-It should be noted that while modeling every detail of the robot hardware (bolts, rivets, nuts) is beneficial for purchasing and real life assembly purposes, it isn't strictly necessary. Time is a precious resource, especially during build season, so you should spend it on what will give you the biggest return.
+Robot donanımının her detayını (cıvatalar, perçintler, somunlar) modellemenin satın alma ve gerçek hayattaki montaj amaçları için faydalı olduğu belirtilmelidir, ancak kesinlikle gerekli değildir. Zaman değerli bir kaynaktır, özellikle yapım sezonu boyunca, bu yüzden en büyük getiriyi sağlayacağı şeylere harcamalısınız.
 
-More details about best practices for Onshape assemblies are included on the [Assembly Best Practices Page](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}.
+Onshape montajları için en iyi uygulamalar hakkında daha fazla detay [Assembly Best Practices Page](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"} sayfasında yer almaktadır.
 
 
 <br>

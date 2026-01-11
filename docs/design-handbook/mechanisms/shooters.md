@@ -1,7 +1,7 @@
-# Shooters
+# Shooter'lar
 
-A guide on shooter design.
+Shooter tasarımı rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

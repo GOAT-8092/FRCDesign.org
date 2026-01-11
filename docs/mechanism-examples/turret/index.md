@@ -1,3 +1,3 @@
-# Turrets
+# Taretler
 
-**Coming Soon**
+**Yakında**

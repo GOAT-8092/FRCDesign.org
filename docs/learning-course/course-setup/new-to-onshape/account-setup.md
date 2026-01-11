@@ -1,13 +1,13 @@
-# New to Onshape
+# Onshape'e Yeni
 
 !!! Tip
-    Remember to take a look at the [website feature guide](../../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
+    Öğrenme kursunda kullanılan farklı özellikleri anlamak için [web sitesi özellik rehberine](../../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} göz atmayı unutmayın!
 
-## Registering an Account
+## Hesap Oluşturma
 
-Onshape offers a free education license for students to use their software. It is highly recommended to use the education plan, as it allows for the creation of private documents, as well as other useful features.
+Onshape, öğrencilerin yazılımlarını kullanmaları için ücretsiz bir eğitim lisansı sunar. Özel belgeler oluşturmanıza olanak tanıdığı ve diğer kullanışlı özellikleri içerdiği için eğitim planını kullanmanız şiddetle önerilir.
 
-To start registering, go to the [Onshape for Education](https://onshape.com/education-plan "Onshape Education Plan"){:target="_blank"} page and select "Create EDU ACCOUNT" or click [this link](https://www.onshape.com/en/education/sign-up "Onshape Sign Up Page"){:target="_blank"}. Follow the slides below to finish registering.
+Kaydolmaya başlamak için, [Onshape for Education](https://onshape.com/education-plan "Onshape Education Plan"){:target="_blank"} sayfasına gidin ve "Create EDU ACCOUNT" seçeneğini seçin veya [bu bağlantıya](https://www.onshape.com/en/education/sign-up "Onshape Sign Up Page"){:target="_blank"} tıklayın. Kaydolmayı bitirmek için aşağıdaki slaytları takip edin.
 
 <br>
 
@@ -18,21 +18,21 @@ To start registering, go to the [Onshape for Education](https://onshape.com/educ
   <div id="slide1" class="mySlides fade">
       <figure>
           <img src="/img/learning-course/course-setup/account-setup/signup.webp" style="width:90%; border:5px solid #ADADAD; border-radius: 2%">
-          <figcaption> Fill out the details in the sign up form. </figcaption>
+          <figcaption> Kayıt formundaki detayları doldurun. </figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/course-setup/account-setup/edusignup2.webp" style="width:90%; border:5px solid #ADADAD; border-radius: 2%">
-          <figcaption> On the next screen, select that you are a student and that you are in grade school.</figcaption>
+          <figcaption> Bir sonraki ekranda, bir öğrenci olduğunuzu ve ilkokulda olduğunuzu seçin.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/course-setup/account-setup/edusignup3.webp" style="width:60%; border:5px solid #ADADAD; border-radius: 2%">
-          <figcaption> Finally, fill the form with your school information. You may enter "Robotics" as the reason for using Onshape. </figcaption>
+          <figcaption> Son olarak, formu okul bilgilerinizle doldurun. Onshape'i kullanma nedeni olarak "Robotics" girebilirsiniz. </figcaption>
       </figure>
   </div>
 
@@ -46,20 +46,20 @@ To start registering, go to the [Onshape for Education](https://onshape.com/educ
   </div>
 </div>
 
-Onshape will proceed to check your information (which may take some time), then send a verification email to activate your account. You'll be asked to set a password, then you'll enter your dashboard.
+Onshape bilginizi kontrol edecektir (bu biraz zaman alabilir), ardından hesabınızı etkinleştirmeniz için bir doğrulama e-postası gönderecektir. Bir şifre belirlemeniz istenecektir, ardından kontrol panelinize gireceksiniz.
 
-### Account Setup
+### Hesap Kurulumu
 
-The first time you enter Onshape, it will prompt you to set up your account, including the default units and mouse controls used when doing CAD. You can also set a profile picture and a nickname (we recommend keeping this as your real name).
+Onshape'e ilk girdiğinizde, varsayılan birimler ve CAD yaparken kullanılan fare kontrolleri dahil olmak üzere hesabınızı kurmanızı isteyecektir. Bir profil resmi ve bir takma ad da ayarlayabilirsiniz (gerçek isminizi tutmanızı öneririz).
 
-If your team uses Onshape, contact your mentor/design lead for access to the Onshape classroom/team.
+Takımınız Onshape kullanıyorsa, Onshape classroom/takımına erişim için mentorunuz/tasarım liderinizle iletişime geçin.
 
 <center><img src="/img/learning-course/course-setup/account-setup/units.webp" style="width:60%; border:5px solid #ADADAD; border-radius: 2%"></center>
 
-## OPTIONAL: Onshape Educator Plan 
-Besides individual setup, if your team uses Onshape or are switching to it, one of your mentors or design leads should get the Educator plan and add all members to a "classroom". The Educator plan is free for FIRST teams and will make document management easier. It also provides a suite of features for all students added to the "classroom", such as simulation, release management, and classes/assignments. 
+## İSTEĞE BAĞLI: Onshape Eğitmen Planı
+Bireysel kurulumun yanı sıra, takımınız Onshape kullanıyorsa veya ona geçiyorsa, mentorlarınızdan veya tasarım liderlerinizden birinin Eğitmen planını alması ve tüm üyeleri bir "classroom"a eklemesi gerekir. Eğitmen planı FIRST takımları için ücretsizdir ve belge yönetimini kolaylaştırır. Ayrıca "classroom"a eklenen tüm öğrenciler için simülasyon, sürüm yönetimi ve sınıflar/ödevler gibi bir dizi özellik sağlar.
 
-If you are interested, direct your design lead or mentors to read the ChiefDelphi post linked below for a better overview and walkthrough to set it up for your team.
+İlgileniyorsanız, tasarım liderinizi veya mentorlarınızı takımınız için kurmak üzere daha iyi bir genel bakış ve kılavuz için aşağıda bağlantısı verilen ChiefDelphi gönderisini okumaya yönlendirin.
 
 [Onshape Educator Plan: What it Means for FRC Teams](https://www.chiefdelphi.com/t/onshape-educator-plan-what-it-means-for-frc-teams/446394 "Onshape Educator Plan Chief Delphi Thread"){:target="_blank"}
 

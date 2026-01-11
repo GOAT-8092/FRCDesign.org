@@ -1,7 +1,7 @@
-# Wheels and Rollers
+# Tekerlekler ve Rulolar
 
-A extensive guide on wheels found in FRC. Discusses their mechanical properties and use cases.
+FRC'de bulunan tekerlekler hakkında kapsamlı bir rehber. Mekanik özelliklerini ve kullanım durumlarını tartışır.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

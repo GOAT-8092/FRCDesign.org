@@ -1,28 +1,28 @@
 ---
-title: Best Practices
-description: Best practices for modeling a robot in Onshape to encourage a top-down design process and keep loading times low.
+title: En İyi Uygulamalar
+description: Onshape'da bir robotu modellemek için en iyi uygulamalar, üstten aşağı tasarım sürecini teşvik etmek ve yükleme sürelerini düşük tutmak.
 ---
 
-# CAD Best Practices: Why?
+# CAD En İyi Uygulamaları: Neden?
 
-In this guide, we document best practices for Onshape CAD and design standards for FRC. 
+Bu kılavuzda, Onshape CAD ve FRC için tasarım standartları için en iyi uygulamaları belgeliyoruz.
 
-Reasons for these best practices include:
+Bu en iyi uygulamalar için nedenler şunlardır:
 
-- Keeping loading times low
-- Staying organized, so that making changes down the line is easier and more accessible
-- Encouraging top-down design through document structure
-- Making CAD resistant to breaking
+- Yükleme sürelerini düşük tutmak
+- Organize kalmak, böylece sonraki değişiklikler yapmak daha kolay ve daha erişilebilir
+- Belge yapısı yoluyla üstten aşağı tasarımı teşvik etmek
+- CAD'i bozulmaya karşı dirençli yapmak
 
-Why standardize design?
+Neden tasarımı standartlaştırmak?
 
-- Make it easier for new designers to succeed; reduce the number of things to learn
-- Make it harder to make mistakes - encourage good practice through standardization
-- Reduce part cost - only invest in parts that work and last
+- Yeni tasarımcıların başarılı olmasını kolaylaştırmak; öğrenilecek şeylerin sayısını azaltmak
+- Hata yapmayı zorlaştırmak - standartlaşma yoluyla iyi uygulamayı teşvik etmek
+- Parça maliyetini azaltmak - sadece çalışan ve dayanan parçalara yatırım yapmak
 
-Essentially, standardizing practices on your FRC team helps to ease the requirement of institutional knowledge by making things "just work".
+Esasen, FRC takımınızda uygulamaları standartlaştırmak, kurumsal bilgi gereksinimini kolaylaştırmaya yardımcı olur, çünkü şeyler "sadece çalışır".
 
-!!! Note
-    This is a living document.
+!!! Not
+    Bu, canlı bir belgedir.
 
 <br>

@@ -1,32 +1,34 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Tasarım Metodolojisi - Basit Swerve Şasisi
 
-## Top Down Design Methodology 
-When designing a model in CAD, there are two high level strategies that can be employed: top-down and bottom-up. Top-down design employs high level, low detail sketches to dictate the design, and then refining details and components within that framework. Conversely, bottom-up design involves creating individual components or parts separately and then assembling them to form the final product. 
+## Üsten Aşağı Tasarım Metodolojisi
 
-Top-down design offers a holistic approach, allowing for better system integration, consistency, and is more parametric. Bottom-up design offers flexibility and independence in designing individual parts. In FRC robot design, top-down approach is favored as system integration is often the most challenging aspect. Top-down ensures that the robot architecture dictates part design.
+CAD'de bir model tasarlarken, kullanılabilecek iki üst düzey strateji vardır: üsten aşağı ve aşağıdan yukarıya. Üsten aşağı tasarım, tasarımı dikte etmek için üst düzey, düşük detaylı sketchler kullanır ve ardından detayları ve bileşenleri bu çerçeve içinde iyileştirir. Buna karşılık, aşağıdan yukarıya tasarım, bireysel bileşenleri veya parçaları ayrı ayrı oluşturmayı ve ardından nihai ürünü oluşturmak için bunları birleştirmeyi içerir.
 
-### Main Layout Sketch
+Üsten aşağı tasarım, daha iyi sistem entegrasyonu, tutarlılık ve daha parametrik olma sağlayan bütüncül bir yaklaşım sunar. Aşağıdan yukarıya tasarım, bireysel parçaları tasarlarda esneklik ve bağımsızlık sunar. FRC robot tasarımında, sistem entegrasyonu genellikle en zorlayıcı aspect olduğu için üsten aşağı yaklaşım tercih edilir. Üsten aşağı, robot mimarisinin parça tasarımını dikte etmesini sağlar.
 
-To achieve this, a ***main layout sketch*** is utilized. Sometimes these are also referred to as "master" sketches. The main layout sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the main layout sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on layout sketches can be found on the [Layout Sketch Best Practices](../../../best-practices/mastersketch-setup.md "Layout Sketch Best Practices Page"){:target="_blank"} page.
+### Ana Düzen Çizimi
 
-???+ Example "Example Main Layout Sketch"
+Bunu başarmak için, ***ana düzen çizimi*** kullanılır. Bazen bunlara "master" sketchler de denir. Ana düzen çizimi, her mekanizmanın ana boyutlarını, saha öğesi etkileşimlerini ve robot boyut kısıtlamalarını yakalayan bir dizi sketchtir. Ardından, ana düzen sketch(leri) her mekanizmanın part studio'una eklenir ve bireysel bileşenler daha sonra içe aktarılan düzen çizimi etrafında modellenir. Düzen çizimleri hakkında daha fazla bilgi [Layout Sketch Best Practices](../../../best-practices/mastersketch-setup.md "Layout Sketch Best Practices Page"){:target="_blank"} sayfasında bulunabilir.
+
+???+ Example "Örnek Ana Düzen Çizimi"
     <figure>
     <img src="../images/example-master-sketch.webp" style="width:60%">
-    <figcaption>Example of robot main layout sketches. Each mechanism has a number of layout sketches that capture the important details. (Photo Credit: FRC 3647)</figcaption>
+    <figcaption>Robot ana düzen çizimlerine örnek. Her mekanizmanın önemli detayları yakalayan bir dizi düzen çizimi vardır. (Fotoğraf Kaynağı: FRC 3647)</figcaption>
     </figure>
 
 
-### Origin Placement and Origin Cube
-To fully utilize layout sketch top-down design, we must choose a unified origin for all part studios. Utilizing the same origin as the main layout sketch across all part studios and assemblies is twofold:
+### Origin Yerleşimi ve Origin Cube
 
-1. The origin will always be a consistent central point you can reference. This helps keep things parametric too.
-2. To unify the robot CAD and robot software origin point. By having the same origin in CAD and code, the robot can be seamlessly exported to [AdvantageScope](https://github.com/Mechanical-Advantage/AdvantageScope "AdvantageScope Repository"){:target="_blank"} and camera transformations more easily measured. 
+Düzen çizimi üsten aşağı tasarımını tam olarak kullanmak için, tüm part studio'lar için birleştirilmiş bir origin seçmeliyiz. Tüm part studio'lar ve montajlar için ana düzen çizimi ile aynı origin'i kullanmanın iki amacı vardır:
+
+1. Origin her zaman referans verebileceğiniz tutarlı bir merkez nokta olacaktır. Bu da işlerin parametrik kalmasına yardımcı olur.
+2. Robot CAD'ini ve robot yazılımı origin noktasını birleştirmek için. CAD ve kodda aynı origin'e sahip olarak, robot sorunsuz bir şekilde [AdvantageScope](https://github.com/Mechanical-Advantage/AdvantageScope "AdvantageScope Repository"){:target="_blank"}'a aktarılabilir ve kamera dönüşümleri daha kolay ölçülebilir.
 
 !!! Note
-    Although definitions may vary from team to team, the origin of an FRC robot is typically defined as ***the center of the drivebase, on floor level***.
+    Tanımlar takımdan takıma değişebilse de, bir FRC robotunun origini genellikle ***şasinin merkezi, zemin seviyesinde*** olarak tanımlanır.
 
-To achieve this, we use the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Document"){:target="_blank"} you used throughout 1C. This generates a transparent 2" cube at the origin and provides several useful constants and functions that have already been used in previous stage.
+Bunu başarmak için, 1C boyunca kullandığınız [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Document"){:target="_blank"}'ini kullanırız. Bu, origin'de şeffaf 2" bir küp üretir ve önceki aşamada zaten kullanılan birçok kullanışlı sabit ve fonksiyon sağlar.
 
-The Origin Cube will become very useful later on for assembly mating but for now all you need to remember is that **the Origin Cube should be the first feature in all part studios**. You can read more about the Origin Cube on the [assembly best practices page](../../../best-practices/assembly-setup.md "Assembly Best Practices Page"){:target="_blank"}.
+Origin Cube, montaj mating için daha sonra çok yararlı olacak, ancak şimdilik hatırlamanız gereken tek şey **Origin Cube'un tüm part studio'lardaki ilk özellik olmalıdır**. Origin Cube hakkında daha fazla bilgiyi [assembly best practices page](../../../best-practices/assembly-setup.md "Assembly Best Practices Page"){:target="_blank"} sayfasından okuyabilirsiniz.
 
 <br>

@@ -1,20 +1,20 @@
-# 2D: Cascade Elevator
+# 2D: Kaskat Asansör
 
 ## Elevator Blocks
 
-Every modern elevator will use some form of "elevator block" to allow the stages to slide past each other smoothly using bearings. 
+Her modern asansör, aşamaların rulmanlar kullanarak pürüzsüz bir şekilde birbirinin geçmesini sağlamak için bir "elevator block" biçimi kullanır.
 
 ### COTS Elevator Blocks
 
-Most teams will purchase elevator blocks from WCP or TTB instead of manufacturing them in-house (because of the time investment and machining capabilities of a typical team) but elevator blocks can also be made with plates instead of billet (see [2471 2018 Robot CAD](https://cad.onshape.com/documents/bd18a956391f75b5bca27546/w/827793489fb93072e2a1d993/e/adea515b9f2a94ccfd7ca72e "2471's 2018 Robot Onshape Document"){:target="_blank"}). 
+Çoğu takım, elevator block'ları kendi içlerinde üretmek yerine (zaman yatırım ve tipik bir takımın imalat yetenekleri nedeniyle) WCP veya TTB'den satın alır, ancak elevator block'lar plaka yerine billet ile de yapılabilir (bkz. [2471 2018 Robot CAD](https://cad.onshape.com/documents/bd18a956391f75b5bca27546/w/827793489fb93072e2a1d993/e/adea515b9f2a94ccfd7ca72e "2471's 2018 Robot Onshape Document"){:target="_blank"}).
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/elevator-blocks.webp" style="width:75%">
-    <figcaption>Two different types of elevator blocks</figcaption>
+    <figcaption>İki farklı tip elevator block</figcaption>
 </figure>
 
-### Reference Design
+### Referans Tasarım
 
-The reference design uses the WCP Inline Clamping and Inline blocks, but different blocks from WCP or TTB could be substituted with little to no design changes besides the distance between the stages on the sides.
+Referans tasarım, WCP Inline Clamping ve Inline block'ları kullanır, ancak WCP veya TTB'den farklı block'lar, taraflardaki aşamalar arasındaki mesafe dışında, tasarım değişikliği olmadan değiştirilebilir.
 
 <br>

@@ -1,7 +1,7 @@
-# Chain Tensioning Solutions
+# Zincir Gerdirme Çözümleri
 
-A guide on tensioning chain drive mechanisms.
+Zincirli sürücü mekanizmalarını germek rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

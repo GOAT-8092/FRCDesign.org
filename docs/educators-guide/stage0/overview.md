@@ -1,97 +1,97 @@
-# Stage 0: Introduction to CAD
+# Aşama 0: CAD'e Giriş
 
-## Overview
+## Genel Bakış
 
-Stage 0 serves as the foundation for the entire learning course, introducing students to CAD and specifically Onshape, the cloud-based CAD platform used throughout the course. This stage ensures all students have the necessary tools, understanding, and account setup before diving into actual mechanism design.
+Aşama 0, tüm öğrenme kursu için temel oluşturur, öğrencileri CAD'e ve özellikle kurs boyunca kullanılan bulut tabanlı CAD platformu Onshape'e tanıtır. Bu aşama, tüm öğrencilerin gerçek mekanizma tasarımına dalmadan önce gerekli araçlara, anlayışa ve hesap kurulumuna sahip olduklarını sağlar.
 
-These early stages are just as important as the rest, and it is highly recommended that all students run through this section to make sure they have all the necessary tools to complete the rest of course.
+Bu erken aşamalar geri kalanı kadar önemlidir ve kursun geri kalanını tamamlamak için gerekli tüm araçlara sahip olduklarından emin olmak için tüm öğrencilerin bu bölümden geçmeleri şiddetle tavsiye edilir.
 
-## Why CAD?
+## Neden CAD?
 
-CAD is essential in FRC for several key reasons:
+CAD, FRC'de birkaç temel nedenle çok önemlidir:
 
-1. **Design Iteration**: Teams can quickly test and modify designs before manufacturing
-2. **Team Collaboration**: Multiple team members can view and understand designs clearly
-3. **Manufacturing Planning**: CAD serves as a blueprint and helps with manufacturing
-4. **Teaching Tool**: Helps new members understand robot mechanisms and assembly
-5. **Weight Management**: Allows teams to track robot weight throughout the design process
+1. **Tasarım Yinelemesi**: Takımlar üretimden önce tasarımları hızla test edebilir ve değiştirebilir
+2. **Takım İşbirliği**: Birden fazla takım üyesi tasarımları net bir şekilde görebilir ve anlayabilir
+3. **Üretim Planlama**: CAD bir plan olarak hizmet eder ve üretime yardımcı olur
+4. **Öğretim Aracı**: Yeni üyelerin robot mekanizmalarını ve assembly'lerini anlamasına yardımcı olur
+5. **Ağırlık Yönetimi**: Takımların tasarım süreci boyunca robot ağırlığını takip etmesine izin verir
 
-## Account Setup
+## Hesap Kurulumu
 
-The stage walks through several critical setup steps:
+Aşama, birkaç kritik kurulum adımında yürür:
 
-1. Creating an Onshape Education account
-2. Installing necessary Featurescripts:
+1. Bir Onshape Eğitim hesabı oluşturmak
+2. Gerekli Featurescripts'leri yüklemek:
       - Electronics Mounting
-      - Extrude Individual 
+      - Extrude Individual
       - Gusset Generator
       - Shaft Generator
       - Tube Converter
       - Belt & Chain Generator
-3. Setting up MKCad (FRC parts library)
+3. MKCad (FRC parçaları kütüphanesi) kurmak
 
-## CAD Theory
+## CAD Teorisi
 
-Stage 0 introduces fundamental CAD concepts:
+Aşama 0 temel CAD kavramlarını tanıtır:
 
-1. **Sketches**: 2D drawings that form the basis of 3D models
-2. **Features**: Operations that create or modify 3D geometry
-3. **Part Studios vs Assemblies**:
-      - Part Studios: Where individual parts are designed
-      - Assemblies: Where parts are combined and constrained
+1. **Sketchler**: 3D modellerin temelini oluşturan 2D çizimler
+2. **Özellikler**: 3D geometriyi oluşturan veya değiştiren işlemler
+3. **Part Studio'lar vs Assembly'ler**:
+      - Part Studio'lar: Bireysel parçaların tasarlandığı yer
+      - Assembly'ler: Parçaların birleştirildiği ve kısıtlandığı yer
 
-## Navigation
+## Gezinme
 
-Students learn to navigate the Onshape interface:
+Öğrenciler Onshape arayüzünde gezinmeyi öğrenirler:
 
-1. **Document Management**:
-      - Creating new documents
-      - Organizing with folders
-      - Version control
-2. **Interface Elements**:
-      - Toolbars
-      - Feature list
-      - Graphics area
-3. **View Control**:
-      - Pan, zoom, and rotate
-      - Standard views
-      - View shortcuts
+1. **Belge Yönetimi**:
+      - Yeni belgeler oluşturmak
+      - Klasörlerle organize etmek
+      - Sürüm kontrolü
+2. **Arayüz Elemanları**:
+      - Araç çubukları
+      - Özellik listesi
+      - Grafik alanı
+3. **Görünüm Kontrolü**:
+      - Kaydırma, yakınlaştırma ve döndürme
+      - Standart görünümler
+      - Görünüm kısayolları
 
-## Best Practices
+## En İyi Uygulamalar
 
-The stage emphasizes several best practices:
+Aşama birkaç en iyi uygulamayı vurgular:
 
-1. **Organization**:
-      - Proper naming
-      - Folder structure
-      - Feature organization
-2. **File Management**:
-      - Version control
-      - Proper document sharing
+1. **Organizasyon**:
+      - Düzgün adlandırma
+      - Klasör yapısı
+      - Özellik organizasyonu
+2. **Dosya Yönetimi**:
+      - Sürüm kontrolü
+      - Düzgün belge paylaşımı
 
-## Learning Outcomes
+## Öğrenme Sonuçları
 
-By completing Stage 0, students should:
+Aşama 0'ı tamamlayarak, öğrenciler:
 
-1. Have a functioning Onshape account with necessary tools installed
-2. Understand basic CAD concepts and terminology
-3. Be able to navigate the Onshape interface
-4. Know how to create basic sketches and features
-5. Understand proper organization and best practices
-6. Be prepared for the hands-on exercises in Stage 1
+1. Gerekli araçlar yüklenmiş çalışan bir Onshape hesabına sahip olmalıdır
+2. Temel CAD kavramlarını ve terminolojisini anlamalıdır
+3. Onshape arayüzünde gezinebilmelidir
+4. Temel sketchler ve özellikler oluşturmayı bilmelidir
+5. Düzgün organizasyonu ve en iyi uygulamaları anlamalıdır
+6. Aşama 1'deki hands-on alıştırmalar için hazırlanmış olmalıdır
 
-## Moving Forward
+## İleriye Hareket
 
-Stage 0 sets students up for success in later stages by:
+Aşama 0, öğrencileri sonraki aşamalarda başarılı olmak üzere hazırlar:
 
-1. Providing a strong theoretical foundation
-2. Ensuring proper tool setup
-3. Establishing good organizational habits
-4. Introducing key concepts gradually
-5. Preparing for more complex designs
+1. Güçlü bir teorik temel sağlayarak
+2. Düzgün araç kurulumunu sağlayarak
+3. İyi organizasyon alışkanlıkları oluşturarak
+4. Temel kavramları kademeli olarak tanıtarak
+5. Daha karmaşık tasarımlar için hazırlanarak
 
-The stage emphasizes taking time to properly understand fundamentals and set up tools correctly, as this investment pays dividends when tackling more complex mechanisms in later stages. It's designed to be accessible to complete beginners while still providing useful setup information for more experienced CAD users.
+Aşama, temelleri doğru bir şekilde anlamak ve araçları doğru bir şekilde kurmak için zaman ayırmayı vurgular, çünkü bu yatırım sonraki aşamalarda daha karmaşık mekanizmalarla başa çıkarken getiriler sağlar. Tamamen yeni başlayanlar için erişilebilir olacak şekilde tasarlanmıştır, ancak daha deneyimli CAD kullanıcıları için kullanışlı kurulum bilgileri de sağlar.
 
-If you have extra time we encourage everyone to go through the linked Onshape Learning courses, knowing more in depth how Onshape documents work will save time later compared to students needing to figure out how to use those tools themselves.
+Ekstra zamanınız varsa herkesin bağlantılı Onshape Öğrenme kurslarından geçmesini teşvik ediyoruz, Onshape belgelerinin nasıl çalıştığı hakkında daha derinlemesine bilmek daha sonra zaman kazandırır, öğrencilerin bu araçları nasıl kullanacaklarını kendilerinin figuring out yapmasına göre.
 
 <br>

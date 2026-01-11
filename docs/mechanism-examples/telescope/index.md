@@ -1,3 +1,3 @@
-# Telescope Extensions
+# Teleskopik Uzantılar
 
-**Coming Soon**
+**Yakında**

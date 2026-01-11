@@ -1,52 +1,52 @@
-# Stage 1 Overview
+# Aşama 1 Genel Bakış
 
-Stage 1 establishes foundational CAD skills through a carefully structured progression of learning materials and exercises. The stage is designed to build competence and confidence gradually while maintaining student engagement through FRC-relevant content.
+Aşama 1, öğrenme materyallerinin ve alıştırmalarının dikkatle yapılandırılmış bir ilerlemesi yoluyla temel CAD becerilerini oluşturur. Aşama, FRC ile ilgili içerik yoluyla öğrenci katılımını korurken yetkinlik ve güveni kademeli olarak oluşturmak için tasarlanmıştır.
 
-## Teaching Approach
-The stage uses a multi-pronged approach combining:
-- Onshape's professional learning center courses for core CAD concepts
-- Custom FRC-specific exercises that immediately apply these concepts
-- Progressive reduction in step-by-step guidance to develop independence
-- Introduction of FRC-specific tools and best practices
+## Öğretim Yaklaşımı
+Aşama, şunları birleştiren çok yönlü bir yaklaşım kullanır:
+- Temel CAD kavramları için Onshape'in profesyonel öğrenme merkezi kursları
+- Bu kavramları hemen uygulayan özel FRC'ye özgü alıştırmalar
+- Bağımsızlığı geliştirmek için adım adım kılavuzlukta kademeli azalma
+- FRC'ye özgü araçların ve en iyi uygulamaların tanıtımı
 
-## Stage Structure
+## Aşama Yapısı
 
-### Stage 1A: CAD Fundamentals
-Students begin with Onshape's learning center courses covering basic sketching, part modeling, and assemblies. These courses provide professional-grade CAD instruction while minimizing educator workload. The following exercises then contextualize these skills through FRC-relevant tasks like modeling box tubes and gussets. Key learning objectives include:
+### Aşama 1A: CAD Temelleri
+Öğrenciler Onshape'in öğrenme merkezi kurslarıyla başlar, temel sketch, parça modelleme ve assembly'leri kapsar. Bu kurslar profesyonel kalitede CAD öğretimi sağlarken eğitmen iş yükünü en aza indirir. Aşağıdaki alıştırmalar daha sonra box tube ve gusset modelleme gibi FRC ile ilgili görevlerle bu becerileri bağlama sağlar. Temel öğrenme hedefleri şunlardır:
 
-- Basic sketching and part modeling techniques
-- Understanding constraints and design intent
-- Using Featurescripts for common FRC modeling tasks
-- Assembly basics and mate types
+- Temel sketch ve parça modelleme teknikleri
+- Kısıtlamaları ve tasarım amacını anlamak
+- Yaygın FRC modelleme görevleri için Featurescripts kullanmak
+- Assembly temelleri ve mate türleri
 
-!!! warning
-    The Onshape learning course material is essential for ensuring students understand the fundamental tools of Onshape and should not be skipped! If students are already familiar with the basic Onshape they tools they can skip this section, however if they are stumbling with basic tasks it might be a good idea to run them through the Onshape learning center for a refresher.
+!!! uyarı
+    Onshape öğrenme kursu materyali, öğrencilerin Onshape'in temel araçlarını anlamalarını sağlamak için essentiel ve atlanmamalıdır! Öğrenciler zaten temel Onshape araçlarına aşinalarsa bu bölümü atlayabilirler, ancak temel görevlerde takılıyorlarsa Onshape öğrenme merkezinden geçirmek iyi bir fikir olabilir.
 
-### Stage 1B: Power Transmission Basics
-This section introduces mechanical concepts through straightforward power transmission exercises. Students learn about:
+### Aşama 1B: Güç Transmisyon Temelleri
+Bu bölüm, basit güç transmisyon alıştırmaları yoluyla mekanik kavramları tanıtır. Öğrenciler şunları öğrenirler:
 
-- Speed and torque relationships
-- Mechanical advantage through gear/belt/chain ratios
-- Basic gearbox modeling
-- Using the MKCad parts library for COTS components
+- Hız ve tork ilişkileri
+- Dişli/kayış/zincir oranları yoluyla mekanik avantaj
+- Temel dişli kutusu modelleme
+- COTS bileşenleri için MKCad parçaları kütüphanesini kullanma
 
-### Stage 1C: Practice Mechanisms
-A series of increasingly complex mechanism exercises helps students develop fluency and independence. Each exercise introduces new COTS components and design techniques while reinforcing previous concepts. The gradual reduction in step-by-step instructions encourages problem-solving skills.
+### Aşama 1C: Pratik Mekanizmalar
+Artan karmaşıklıkta mekanizma alıştırmaları serisi, öğrencilerin akıcılık ve bağımsızlık geliştirmelerine yardımcı olur. Her alıştırma yeni COTS bileşenleri ve tasarım tekniklerini tanıtırken önceki kavramları pekiştirir. Adım adım talimatlardaki kademeli azalma, problem çözme becerilerini teşvik eder.
 
-### Stage 1D: Design Methodology
-The final section teaches the top-down design approach used in FRC robot design. Students learn:
+### Aşama 1D: Tasarım Metodolojisi
+Son bölüm, FRC robotu tasarımında kullanılan üstten aşağı tasarım yaklaşımını öğretir. Öğrenciler şunları öğrenirler:
 
-- Creating and using layout sketches
-- Organizing robot assemblies effectively 
-- Basic integration considerations
-- Modeling a complete swerve drivebase
+- Layout sketchler oluşturmak ve kullanmak
+- Robot assembly'lerini etkili bir şekilde organize etmek
+- Temel entegrasyon göz önünde bulundurmalar
+- Tam bir swerve drivebase modelleme
 
-## Teaching Tips
-- Encourage use of the exercise solution documents for self-checking work
-- Ask us questions your students have that you are unable to answer in the discord server.
-- Emphasize organization and best practices throughout to build good habits
-- Don't be afraid to have students complete the exercises multiple times through to build proficiency
+## Öğretim İpuçları
+- Kendi kendini kontrol etme işi için alıştırma çözüm belgelerini kullanmaya teşvik edin
+- Discord sunucusunda cevaplayamadığınız öğrencilerin soruları sorun.
+- İyi alışkanlıklar oluşturmak için organizasyonu ve en iyi uygulamaları vurgulayın
+- Yeterlilik oluşturmak için öğrencilerin alıştırmaları birden fazla kez tamamlamalarından korkmayın
 
-The stage is designed to provide approximately 20-30 hours of instruction and practice, though timing may vary based on student experience and aptitude.
+Aşama, yaklaşık 20-30 saat öğretim ve pratik sağlamak için tasarlanmıştır, ancak zamanlama öğrenci deneyimine ve yeteneğine bağlı olarak değişebilir.
 
 <br>

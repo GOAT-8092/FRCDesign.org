@@ -1,93 +1,93 @@
-# 1B Power Transmissions
+# 1B Güç Aktarımı
 
-## Belts and Pulley Basics
+## Kayış ve Kasnak Temelleri
 
-Timing belt and pulley drives are mechanical systems used to transmit motion and power between rotating shafts using flexible belts and pulleys. The system consists of two main components: the belt, which is a flexible loop made of a material like rubber, and the pulleys, which are wheels with grooves that the belt wraps around. As one pulley rotates, it drives the belt, which in turn drives the other pulley, transferring motion and power from one shaft to another.
+Zamanlama kayışı ve kasnak sürücüleri, dönen miller arasında hareket ve gücü iletmek için esnek kayışlar ve kasnaklar kullanan mekanik sistemlerdir. Sistem iki ana bileşenden oluşur: kauçuk gibi bir malzemeden yapılmış esnek bir döngü olan kayış ve kayışın sarıldığı oluklu tekerlekler olan kasnaklar. Bir kasnak dönerken, kayışı sürer ve bu da diğer kasnağı sürerek hareketi ve gücü bir mildden diğerine aktarır.
 
 
 <figure>
   <img src="../images/belt\belt-and-pulley.webp" style="width:50%">
-  <figpcation>A belt and pulley transmission. (Image Source: <a href="https://www.reca.lc/belts" target="_blank">ReCalc</a>)</figcaption>
+  <figpcation>Bir kayış ve kasnak aktarma orgüsü. (Görsel Kaynak: <a href="https://www.reca.lc/belts" target="_blank">ReCalc</a>)</figcaption>
 </figure>
 
-In order to change the torque and speed from the input to the output, different sized pulleys must be used. The mechanical advantage for belt transmissions, similar to gears, is based on the ratio between the number of teeth of the output pulley to the number of teeth of the input pulley. Note that unlike gears, pulleys will spin in the same direction.
+Girişten çıkışa tork ve hızı değiştirmek için, farklı boyutlarda kasnaklar kullanılmalıdır. Kayış aktarma organları için mekanik avantaj, dişlilere benzer şekilde, çıkış kasnağındaki diş sayısının giriş kasnağındaki diş sayısına oranı temelinde oluşturulur. Dişlilerin aksine, kasnakların aynı yönde döneceğini unutmayın.
 
-### Types of Belt
+### Kayış Türleri
 
-Like gears, belts also have a pitch. The pitch is defined as the distance between each tooth on the belt. In FRC, this is typically 5 mm. The *pitch length* of the belt is then the pitch (5 mm) multiplied by the number of teeth. Belts will always have an integer number of teeth so the pitch length will be a multiple of 5mm.
+Dişliler gibi, kayışların da bir pitch'i (adımı) vardır. Pitch, kayıştaki her diş arasındaki mesafe olarak tanımlanır. FRC'de bu genellikle 5 mm'dir. Kayışın *pitch uzunluğu* ise pitch'in (5 mm) diş sayısı ile çarpılmasıdır. Kayışlar her zaman tam sayı diş sayısına sahip olur, bu nedenle pitch uzunluğu 5mm'in bir katı olur.
 
-For example, an 80T belt will have a length of 400 mm.
-<!-- To calculate the pitch diameter of a pulley, the following equation can be used:
+Örneğin, 80 dişli bir kayış 400 mm uzunluğunda olacaktır.
+<!-- Bir kasnağın çap çapını hesaplamak için aşağıdaki denklem kullanılabilir:
 <center>**`PD = Pitch * (# of Teeth) / 3.14`**</center> -->
 
-Belts also come in various widths. In FRC, you will typically use either 9 mm or 15 mm wide belts.
+Kayışlar çeşitli genişliklerde de gelir. FRC'de genellikle 9 mm veya 15 mm genişliğinde kayışlar kullanırsınız.
 
-### Modeling Belt Transmissions
+### Kayış Aktarma Organlarını Modelleme
 
-To model belts, you will need two featurescripts, the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} and the [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}. In order for the `Belt & Chain Gen` Featurescript to create the belt, it needs the pitch diameter of at least two pulleys or sprockets and a correct center to center distance, both of which will use the functions from the `Origin Cube` featurescript.
+Kayışları modellemek için iki featurescript'e ihtiyacınız olacak: [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} ve [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}. `Belt & Chain Gen` Featurescript'inin kayışı oluşturabilmesi için, en az iki kasnağın veya zincir dişlisinin çap çapını ve doğru merkezden merkeze mesafesine ihtiyacı vardır, her ikisi de `Origin Cube` featurescript'indeki fonksiyonları kullanacaktır.
 
-!!! Note 
-    The Origin Cube also has additional functionality for robot and mechanism assemblies that will be discussed in later stages. You can also check out these practices on the [assembly best practices page](../../../best-practices/assembly-setup.md "Assembly Best Practices Page"). The Origin Cube feature must be **the first feature in all part studios** from here on out in order for the functions to be available.
+!!! Note
+    Origin Cube ayrıca robot ve mekanizma assembly'leri için ek işlevlere sahiptir ve bunlar sonraki aşamalarda tartışılacaktır. Bu uygulamaları [assembly best practices page](../../../best-practices/assembly-setup.md "Assembly Best Practices Page") sayfasından inceleyebilirsiniz. Origin Cube özelliği fonksiyonların kullanılabilir olması için bundan böyle tüm part studio'larda **ilk özellik olmalıdır**.
 
-1. Insert the <code>Origin Cube</code> feature using the <code>Origin Cube</code> Featurescript. The exercises in 1B do not require the cube generated by the feature so we will uncheck it.
+1. <code>Origin Cube</code> Featurescript'ini kullanarak <code>Origin Cube</code> özelliğini ekleyin. 1B alıştırmaları özellik tarafından oluşturulan küpü gerektirmediği için işaretini kaldıracağız.
   <figure>
     <img src="../images/belt/origin-cube.webp" style="width:100%">
-    <figcaption>Origin Cube Feature Options</figcaption>
+    <figcaption>Origin Cube Özellik Seçenekleri</figcaption>
   </figure>
 
-2. In your layout sketch, draw two circles to represent pulley pitch diameters. Dimension the circles using the <code>#PulleyPD_5mm(# of teeth)</code> function.
-    
-    - `#PulleyPD_5mm(n)`: Calculates the pitch diameter of a 5 mm pitch pulley with `n` teeth.
-    - Ex: `#PulleyPD_5mm(18)` returns the pitch diameter of an 18T 5mm pitch pulley.
+2. Layout sketch'inizde, kasnak çap çaplarını temsil eden iki daire çizin. <code>#PulleyPD_5mm(# of teeth)</code> fonksiyonunu kullanarak daireleri dimension yapın.
+
+    - `#PulleyPD_5mm(n)`: `n` dişli 5 mm pitch kasnağın çap çapını hesaplar.
+    - Örnek: `#PulleyPD_5mm(18)` 18 dişli 5mm pitch kasnağın çap çapını döndürür.
 
     !!! Tip
-        This is typically done in your layout sketch because distances between shafts connected by belts will be driven by the center-to-center distance for the closest belt size.
+        Bu genellikle layout sketch'inizde yapılır, çünkü kayışlarla bağlanan miller arasındaki mesafeler, en yakın kayış boyutu için merkezden merkeze mesafeye göre belirlenir.
 
 
-3. Draw the center line to connect the pulleys and set your target c-c distance. In this example, our target c-c distance is 5". Make sure all sketch entities are construction. Optionally connect the circles with tangent lines. Confrm the sketch.
+3. Kasnakları bağlamak için merkez çizgisini çizin ve hedef c-c mesafenizi ayarlayın. Bu örnekte, hedef c-c mesafemiz 5". Tüm sketch varlıklarının construction olduğunu doğrulayın. İsteğe bağlı olarak daireleri tangent çizgilerle bağlayın. Sketch'i onaylayın.
   <figure>
     <video width="1920" controls>
       <source src="../images/belt/belt-cad-1.webm" type="video/webm">
-      Your browser does not support the video tag.
+      Tarayıcınız video etiketini desteklemiyor.
     </video>
   </figure>
 
-4. Use the <code>Belt & Chain Gen</code> Featurescript to generate a 3D model of the belt. The reference plane mate connector sets the location of the centerline of the belt. You can modify the selected mate connector to offset the location of the belt. You can also choose to generate belt teeth, but this will significantly increase rebuild time and is not recommended.
+4. Kayışın 3D modelini oluşturmak için <code>Belt & Chain Gen</code> Featurescript'ini kullanın. Referans düzlemi mate connector, kayışın merkez çizgisinin konumunu ayarlar. Seçili mate connector'ı değiştirerek kayışın konumunu ayarlayabilirsiniz. Ayrıca kayış dişleri oluşturmayı seçebilirsiniz, ancak bu yeniden oluşturma süresini önemli ölçüde artırır ve önerilmez.
   <figure>
     <video width="1920" controls>
       <source src="../images/belt/belt-cad-2.webm" type="video/webm">
-      Your browser does not support the video tag.
+      Tarayıcınız video etiketini desteklemiyor.
     </video>
   </figure>
 
-5. The <code>Belt & Chain Gen</code> Featurescript will return the closest whole number belt size and the pitch length. Assuming that you only stock belts in 5T increments, the next closest belt size is 80T.
+5. <code>Belt & Chain Gen</code> Featurescript'i en yakın tam sayı kayış boyutunu ve pitch uzunluğunu döndürecektir. Sadece 5T artışlarında kayış stokladığınızı varsayarsak, bir sonraki en yakın kayış boyutu 80T'dir.
   <figure>
     <img src="../images/belt/belt-cad-3.webp" style="width:100%">
     <figcaption></figcaption>
   </figure>
 
-6. Modify the c-c dimension to use the <code>#BeltCTC_5mm()</code> function to get an exact c-c distance for the 80T belt. Checking the <code>Show Expressions</code> box enables you to see the belt pitch, pulley tooth counts, and belt tooth count.
-    
-    - `#BeltCTC_5mm(n1, n2, n3)`: Calculates the c-c distance of a `n1` tooth 5 mm pitch belt connecting pulleys with tooth count `n2` and pulley with tooth count `n3`.
-    - Ex: `#BeltCTC_5mm(80,18,36)` returns the center distance for an 80T 5 mm pitch belt connecting an 18T pulley to a 36T pulley.
-    
+6. 80T kayışı için tam bir c-c mesafesi elde etmek üzere c-c dimension'ını <code>#BeltCTC_5mm()</code> fonksiyonunu kullanacak şekilde değiştirin. <code>Show Expressions</code> kutusunu işaretlemek, kayış pitch'ini, kasnak diş sayılarını ve kayış diş sayısını görmenizi sağlar.
+
+    - `#BeltCTC_5mm(n1, n2, n3)`: `n2` diş sayısına sahip kasnağı ve `n3` diş sayısına sahip kasnağı bağlayan `n1` dişli 5 mm pitch kayışın c-c mesafesini hesaplar.
+    - Örnek: `#BeltCTC_5mm(80,18,36)` 18T kasnağı 36T kasnağına bağlayan 80T 5 mm pitch kayış için merkez mesafesini döndürür.
+
     <figure>
       <video width="1920" controls>
         <source src="../images/belt/belt-cad-4.webm" type="video/webm">
-        Your browser does not support the video tag.
+        Tarayıcınız video etiketini desteklemiyor.
       </video>
     </figure>
 
-    ???+ Note "Capturing Design Intent"
+    ???+ Note "Tasarım Niyetini Yakalama"
 
-        Before the advent of these two Featurescripts, designers would need to use online calculators, such as [ReCalc](https://www.reca.lc/belts "ReCalc Design Calculator"){:target="_blank"}, to calculate c-c distances. However, this method does not capture design intent as it relies on copy-pasting a calculated value into the layout sketch.
+        Bu iki Featurescript'in ortaya çıkmasından önce, tasarımcılar c-c mesafelerini hesaplamak için [ReCalc](https://www.reca.lc/belts "ReCalc Design Calculator"){:target="_blank"} gibi çevrimiçi hesap makinelerini kullanmak zorundaydı. Ancak, bu yöntem tasarım niyetini yakalamaz, çünkü hesaplanan bir değeri layout sketch'e kopyalama-yapıştırmaya dayanır.
 
         <figure markdown="span">
           <img src="../images/belt/design-intent-1.webp" style="width:75%">
-          <figcaption>Design intent is captured in the top sketch but not the bottom.</figcaption>
+          <figcaption>Tasarım niyeti üst sketch'te yakalanmış ama alt sketch'te yakalanmamış.</figcaption>
         </figure>
 
-7. The <code>Belt & Chain Gen</code> feature automatically updates and we can see that the belt tooth count is correct (80T) and the pitch length is a multiple of 5 mm, meaning that the belt tooth count is exact and not being rounded.
+7. <code>Belt & Chain Gen</code> özelliği otomatik olarak güncellenir ve kayış diş sayısının doğru olduğunu (80T) ve pitch uzunluğunun 5 mm'in bir katı olduğunu, yani kayış diş sayısının tam olduğunu ve yuvarlanmadığını görebiliriz.
   <figure>
     <img src="../images/belt/belt-cad-5.webp" style="width:100%">
   </figure>

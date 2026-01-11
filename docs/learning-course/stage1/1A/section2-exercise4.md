@@ -1,33 +1,33 @@
-# 1A: Onshape Fundamentals - Section 2
-## Exercise 4: Motor Mounting Plate 
+# 1A: Onshape Temelleri - Bölüm 2
+## Egzersiz 4: Motor Montaj Plakası
 
-In this exercise, you will be making a simple motor mounting plate. It shouldn't be too difficult, since it is similar to the gussets and plates made in the previous exercises.
+Bu egzersizde, basit bir motor montaj plakası yapacaksınız. Önceki egzersizlerde yapılan gusset'lere ve plakalara benzer olduğu için çok zor olmamalıdır.
 
-To get started, find the "Exercise 4: Motor Mounting" part studio in the "Section 2" folder in your copy of the template document. 
+Başlamak için, şablon belgenizin kopyasındaki "Bölüm 2" klasöründeki "Egzersiz 4: Motor Montajı" part studio'yunu bulun.
 
-**Using the reference image and dimensions** listed below, sketch out and extrude the motor mounting plate on the front of the provided tube:
+**Aşağıdaki referans görseli ve dimension'ları kullanarak**, sağlanan borunun önüne motor montaj plakasını sketch'leyin ve extrude edin:
 
 <figure>
   <img src="/img/learning-course/stage1a/motor-mount.webp" style="width:50%">
 </figure>
 
-- Create a 2.5" circle above the tube made out of construction geometry to represent the motor. 
-- The cutout at the center of the plate is 1.25", and all the other holes are 0.196" diameter (the clearance fit for #10-32, the standard bolt size for most FRC components). 
-- Try to use the `Circular Pattern` tool to make the holes for the motor in a 2" diameter circle, with a circle cut out for the middle of the motor. 
-- The top arc of the plate should be coincident with the motor outline. Dimension the motor outline from the box tube to ensure there's clearance for it.
+- Motoru temsil etmek için construction geometry'den yapılmış borunun üstünde 2.5" çapında bir daire oluşturun.
+- Plakanın merkezindeki kesik 1.25"tir ve diğer tüm delikler 0.196" çapındadır (#10-32, çoğu FRC bileşeni için standart vida boyutu, için clearance fit).
+- 2" çapında bir daire içinde motor için delikleri yapmak için `Circular Pattern` aracını kullanmayı deneyin, motorun ortası için bir daire kesik ile birlikte.
+- Plakanın üst yayı motor taslağı ile coincident olmalıdır. Motor için boşluğu olduğundan emin olmak için motor taslağını kutu borusundan dimensionlayın.
 
-!!! Tip "Plate Workflow"
-    Remember the plate workflow, adjusted now for the motor mount:
+!!! Tip "Plaka İş Akışı"
+    Motor montajı için ayarlanmış plaka iş akışını hatırlayın:
 
-    1. Fully define construction geometry for the power transmission (motors, gears, belts, etc.) (this will be covered more in 1B).
-    2. Fully define clearance holes, bearing holes, and bolt holes.
-    3. Complete the plate outline using centerpoint arcs around those holes.
+    1. Güç aktarımı için construction geometry'yi (motorlar, çarklar, kayışlar vb.) tam olarak tanımlayın (bu 1B'de daha fazla kapsanacaktır).
+    2. Clearance deliklerini, rulman deliklerini ve vida deliklerini tam olarak tanımlayın.
+    3. Bu deliklerin etrafında centerpoint yayları kullanarak plaka taslağını tamamlayın.
 
-### Complete?
-Go back to your Section 2 Exercise 3 part studio and try and add a motor mount to the to somewhere on the superstructure.
+### Tamamlandı mı?
+Bölüm 2 Egzersiz 3 part studio'nuza geri gidin ve süperyapının bir yerine motor montajı eklemeyi deneyin.
 
 <br>
 
-Move on to the next exercise in Section 3 when you're done with the motor mounting plate.
+Motor montaj plakasını bitirdiğinizde, Bölüm 3'teki bir sonraki egzersize geçin.
 
 <br>

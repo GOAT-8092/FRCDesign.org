@@ -1,20 +1,21 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Alt Sistem İş Akışı - Drivebase Detaylandırma
 
-## Battery Mounting
-Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105 "3647 Battery Falling Out"){:target="_blank"} get [this](https://youtu.be/Dr_rnN2bjno?si=roWawTsyWt5W3RdA&t=86 "3647 Battery Falling Out...Again"){:target="_blank"} wrong. 
-Successful battery mounting can be broken down into two components: good battery placement and a robust battery holder.
+## Batarya Montajı
 
-### Battery Placement
-Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the battery is so heavy, you need to place it as low as possible to keep your robot’s center of gravity low to prevent tipping over. Most teams will typically use the bellypan to support their battery as this is the lowest location on the robot. 
+Robotunuzun bataryasının robottan düşmemesini sağlamak, başarılı robot çalışması için kritik önem taşır. Bu açıkça görünüyor olsa da, deneyimli takımlar bile bazen [bu](https://youtu.be/Dr_rnN2bjno?si=roWawTsyWt5W3RdA&t=86 "3647 Bataryası Tekrar Düşüyor"){:target="_blank"} konuyu [yanlış](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105 "3647 Batarya Düşüyor"){:target="_blank"} yapabiliyor. Başarılı batarya montajı, iyi batarya yerleşimi ve sağlam bir batarya tutucusu olmak üzere iki bileşene ayrılabilir.
 
-### Battery Holder
+### Batarya Yerleşimi
 
-A strong strap is needed to secure the battery to its mount, preventing it from dislodging during hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories "WCP Battery Accessories Product Page"){:target="_blank"} including battery holders and straps.
+Bataryalar ağırdır: FRC robotu bataryası tam 13 libre (yaklaşık 5.9 kg) ağırlığındadır. Batarya bu kadar ağır olduğu için, robotun devrilmesini önlemek için ağırlık merkezini düşük tutmak üzere mümkün olan en alçak yere yerleştirmeniz gerekir. Çoğu takım genellikle bellypan'ı bataryayı desteklemek için kullanır çünkü bu robotun en alçak konumudur.
 
-!!! Example
+### Batarya Tutucusu
+
+Bataryanın montajına sabitlenmesini ve sert çarpışmalarda yerinden çıkmamasını sağlamak için güçlü bir kayış gereklidir. İyi bir seçenek, çoğu mağazadan satın alıp boyuta göre kesilebilen 1" veya 2" genişliğinde tokalı bir kayış kullanmaktır. WCP gibi FRC satıcıları da batarya tutucuları ve kayışlar dahil olmak üzere [batarya montaj aksesuarları](https://wcproducts.com/products/batteries-accessories "WCP Batarya Aksesuarları Ürün Sayfası"){:target="_blank"} satmaktadır.
+
+!!! Örnek
     <figure>
         <img src="../images/battery/batt-strap.webp" style="width:70%">
-        <figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption>
+        <figcaption>Robotta güvenli şekilde sıkılmış batarya. (Fotoğraf: FRC 1538)</figcaption>
     </figure>
 
 <br>

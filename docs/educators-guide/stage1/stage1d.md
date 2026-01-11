@@ -1,108 +1,108 @@
-# Stage 1D - Design Methodology
+# Aşama 1D - Tasarım Metodolojisi
 
-Stage 1D introduces students to top-down design methodology through creating a swerve drivebase. This stage represents a significant shift from modeling individual mechanisms to understanding holistic robot design principles.
+Aşama 1D, öğrencileri bir swerve drivebase oluşturarak üstten aşağı tasarım metodolojisiyle tanıştırır. Bu aşama, bireysel mekanizmaları modellemekten bütünsel robot tasarım ilkelerini anlamaya önemli bir geçişi temsil eder.
 
-## Learning Objectives
+## Öğrenme Hedefleri
 
-Students who complete Stage 1D will:
-- Understand and apply top-down design methodology using layout sketches
-- Learn to use layout sketches to drive parametric part design
-- Practice integrating COTS components (swerve modules) into a larger assembly
-- Develop systematic approaches to complex mechanism design
-- Learn proper origin placement and reference geometry techniques
+Aşama 1D'yi tamamlayan öğrenciler:
+- Layout sketchler kullanarak üstten aşağı tasarım metodolojisini anlayacak ve uygulayacak
+- Layout sketchlerin parametrik parça tasarımını nasıl yönlendirdiğini öğrenecek
+- COTS bileşenlerini (swerve modülleri) daha büyük bir assembly'ye entegre etmeyi pratik yapacak
+- Karmaşık mekanizma tasarımı için sistematik yaklaşımlar geliştirecek
+- Düzgün origin yerleşimini ve referans geometri tekniklerini öğrenecek
 
-## Teaching Structure 
+## Öğretim Yapısı
 
-### Design Process Introduction
+### Tasarım Süreci Girişi
 
-Begin with a thorough introduction to top-down design methodology:
-1. Explain the concept of layout sketches and their importance
-2. Demonstrate how layout sketches drive part geometry
-3. Show examples of good vs poor design intent capture
-4. Review the importance of consistent origin placement
+Üstten aşağı tasarım metodolojisinin kapsamlı bir girişiyle başlayın:
+1. Layout sketch kavramını ve önemini açıklayın
+2. Layout sketchlerin parça geometrisini nasıl yönlendirdiğini gösterin
+3. İyi ve kötü tasarım amacı yakalama örneklerini gösterin
+4. Tutarlı origin yerleşiminin önemini gözden geçirin
 
-### Project Phases
+### Proje Aşamaları
 
-1. Layout Sketching
-- Creating reference geometry
-- Understanding drive layout requirements
-- Practicing parametric dimensioning
+1. Layout Sketch
+- Referans geometrisi oluşturma
+- Drive layout gereksinimlerini anlama
+- Parametrik boyutlandırma pratiği
 
-2. Part Modeling
-- Deriving geometry from layout sketches
-- Creating frame components
-- Modeling the bellypan
+2. Parça Modelleme
+- Layout sketchlerden geometri türetme
+- Çerçeve bileşenlerini oluşturma
+- Bellypan modelleme
 
-3. Assembly Creation
-- Organizing assembly structure
-- Integrating COTS components
-- Proper constraint techniques
+3. Assembly Oluşturma
+- Assembly yapısını organize etme
+- COTS bileşenlerini entegre etme
+- Düzgün kısıtlama teknikleri
 
-## Teaching Tips
+## Öğretim İpuçları
 
-### Key Concepts to Emphasize
+### Vurgulanacak Temel Kavramlar
 
-Layout Sketches
-- Importance of fully defined sketches
-- Using construction geometry effectively
-- Creating parametric relationships
-- Proper dimension placement
+Layout Sketchler
+- Tamamen tanımlanmış sketchlerin önemi
+- İnşaat geometrisini etkili bir şekilde kullanma
+- Parametrik ilişkiler oluşturma
+- Düzgün boyut yerleşimi
 
-Origin Placement
-- Consistent origin location across documents
-- Using the Origin Cube properly
-- Importance for robot code integration
+Origin Yerleşimi
+- Belgeler arasında tutarlı origin konumu
+- Origin Cube'u düzgün bir şekilde kullanma
+- Robot kodu entegrasyonu için önem
 
-Design Intent
-- Making designs parametric
-- Capturing mechanical relationships
-- Planning for future modifications
+Tasarım Amacı
+- Tasarımları parametrik yapma
+- Mekanik ilişkileri yakalama
+- Gelecekteki değişiklikler için planlama
 
-### Common Challenges
+### Yaygın Zorluklar
 
-Watch for these typical stumbling points:
-- Over-complicated layout sketches
-- Incorrect origin placement
-- Non-parametric modeling approaches
-- Disorganized assembly structure
+Bu tipik engel noktalarını izleyin:
+- Karmaşık layout sketchler
+- Yanlış origin yerleşimi
+- Parametrik olmayan modelleme yaklaşımları
+- Organize edilmemiş assembly yapısı
 
-### Assessment Strategies
+### Değerlendirme Stratejileri
 
-Monitor understanding through:
-- Quality of layout sketches
-- Parametric nature of models
-- Assembly organization
-- Design intent capture
-- Ability to modify designs efficiently (How hard is it to change frame perimeter)
+Anlamayı şunlar yoluyla izleyin:
+- Layout sketchlerin kalitesi
+- Modellerin parametrik doğası
+- Assembly organizasyonu
+- Tasarım amacı yakalama
+- Tasarımları verimli bir şekilde değiştirme yeteneği (Çerçeve çevresini ne kadar değiştirmek zor)
 
-## Troubleshooting Guide
+### Sorun Giderme Kılavuzu
 
-Common Issues and Solutions:
-- Layout sketch breaks when modified: Review constraint relationships
-- Parts don't update with layout changes: Check derived geometry setup
-- Assembly constraints fail: Review mating scheme and origin placement
-- Poor performance: Check assembly organization and feature tree structure
+Yaygın Sorunlar ve Çözümler:
+- Layout sketch değiştirildiğinde bozulur: Kısıtlama ilişkilerini gözden geçirin
+- Parçalar layout değişiklikleriyle güncellenmez: Türetilmiş geometri kurulumunu kontrol edin
+- Assembly kısıtlamaları başarısız olur: Mating şemasını ve origin yerleşimini gözden geçirin
+- Zayıf performans: Assembly organizasyonunu ve özellik ağacı yapısını kontrol edin
 
-## Success Criteria
+## Başarı Kriterleri
 
-Students demonstrate mastery when they can:
-- Create clear, parametric layout sketches
-- Model parts that update properly with layout changes
-- Organize assemblies efficiently
-- Explain their design decisions
-- Make modifications without breaking relationships
+Öğrenciler şu şeyleri yapabildiğinde ustalıklarını gösterirler:
+- Net, parametrik layout sketchler oluşturabilir
+- Layout değişiklikleriyle düzgün güncellenen parçaları modelleyebilir
+- Assembly'leri verimli bir şekilde organize edebilir
+- Tasarım kararlarını açıklayabilir
+- İlişkileri bozmadan değişiklikler yapabilir
 
-## Implementation Tips
+### Uygulama İpuçları
 
-Document Setup
-- Create template files with proper origin setup
-- Establish naming conventions
-- Set up standard folder structures
+Belge Kurulumu
+- Düzgün origin kurulumu ile şablon dosyaları oluşturun
+- Adlandırma kurallarını belirleyin
+- Standart klasör yapılarını kurun
 
-Workflow Management
-- Break tasks into manageable chunks
-- Use checkpoints to verify progress
+İş Akışı Yönetimi
+- Görevleri yönetilebilir parçalara ayırın
+- İlerlemeyi doğrulamak için kontrol noktaları kullanın
 
-Top-down design is core to FRC Design and CAD, these fundamentals will be expanded upon later in the course.
+Üstten aşağı tasarım FRC Tasarımı ve CAD için temeldir, bu temeller daha sonra kursunda genişletilecektir.
 
 <br>

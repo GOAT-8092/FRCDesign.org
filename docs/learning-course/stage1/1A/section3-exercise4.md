@@ -1,28 +1,28 @@
-# 1A: Onshape Fundamentals - Section 3
-## Exercise 4: Full Frame Assembly
+# 1A: Onshape Temelleri - Bölüm 3
+## Egzersiz 4: Tam Çerçeve Assembly'si
 
-To get started, find the "S3 Exercise 4" assembly in the "Section 3" folder in your copy of the template document.
+Başlamak için, şablon belgenizin kopyasındaki "Bölüm 3" klasöründeki "S3 Egzersiz 4" assembly'sini bulun.
 
-**Follow the video below** to complete the exercise.
+**Egzersizi tamamlamak için aşağıdaki videoyu takip edin**.
 
 <figure>
     <iframe width="768" height="432" src="https://www.youtube.com/embed/1HXdMi8PiXw?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 </figure>
 
-1. Insert your Section 3 Exercise 3 Part Studio (with the single gusset).
-2. Group all frame components.
-3. Insert the MK4i if you haven't already.
-4. Fasten the modules to the corners of the frame.
-5. Insert bolts using FRCDesignLib (10-32x2.5" Socket Head Cap Screws).
-6. Measure the distance between faces to determine the bolt length, rounding up to the nearest size. 
-7. Fasten the bolts properly.
-8. Use the `Replicate` tool (set to `match edges on a plane`) to duplicate bolts across the modules.
+1. Bölüm 3 Egzersiz 3 Part Studio'nuzu (tek gusset ile) ekleyin.
+2. Tüm çerçeve bileşenlerini gruplandırın.
+3. Henüz eklemediyseniz MK4i'yi ekleyin.
+4. Modülleri çerçevenin köşelerine fasten edin.
+5. FRCDesignLib kullanarak cıvataları ekleyin (10-32x2.5" Socket Head Cap Screws).
+6. Cıvata uzunluğunu belirlemek için yüzler arasındaki mesafeyi ölçün, en yakın boyuta yukarı yuvarlayın.
+7. Cıvataları düzgün bir şekilde fasten edin.
+8. `Replicate` aracını kullanın (bir düzlemde kenarları eşleştirecek şekilde ayarlayın) modüller arasında cıvataları kopyalamak için.
 
-!!! Tip "Threaded Holes"
-    The holes on the top mounting plate of the swerve module are "tapped" or "threaded". This means that nuts are not needed for the bolts because the threads are in the aluminum plate itself.
+!!! Tip "Dişli Delikler"
+    Swerve modülünün üst montaj plakasındaki delikler "tapped" veya "threaded"dir. Bu, cıvatalar için somunlara ihtiyaç olmadığı anlamına gelir, çünkü dişler alüminyum plakanın kendisindedir.
 
 ---
 
-When you're done with the drivetrain frame, move on to the final next exercise in 1A, where you'll be putting everything you've learned so far together.
+Sürücü sistemi çerçevesini bitirdiğinizde, şimdiye kadar öğrendiğiniz her şeyi bir araya getireceğiniz 1A'daki bir sonraki final egzersize geçin.
 
 <br>

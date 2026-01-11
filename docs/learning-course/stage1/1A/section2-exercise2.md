@@ -1,32 +1,32 @@
-# 1A: Onshape Fundamentals - Section 2
-## Exercise 2: Gusset
+# 1A: Onshape Temelleri - Bölüm 2
+## Egzersiz 2: Gusset
 
-In the last exercise, we made a single plate in isolation. In this exercise, you will create a plate that connects two box tubes together by combining tools learned previously with one new tool.
+Son egzersizde, yalnız başına tek bir plaka oluşturduk. Bu egzersizde, daha önce öğrendiğiniz araçları bir yeni araçla birleştirerek iki kutu boruyu birbirine bağlayan bir plaka oluşturacaksınız.
 
-To get started, find the "Exercise 2: Gussets" part studio in the "Section 2" folder in your copy of the template document. 
+Başlamak için, şablon belgenizin kopyasındaki "Bölüm 2" klasöründeki "Egzersiz 2: Gusset'ler" part studio'yunu bulun.
 
-Your task is **create a simple gusset for the provided drivetrain frame** by **repeating the workflow** you should have memorized in the previous exercise. The holes for this gusset will be copied into the sketch from the tubes of the frame with the `Use` tool: 
+Göreviniz, önceki egzersizde ezberlemeniz gereken iş akışını **tekrarlayarak** sağlanan sürücü sistemi çerçevesi için **basit bir gusset oluşturmaktır**. Bu gusset'in delikleri çerçevenin borularından `Use` aracı ile sketch'e kopyalanacaktır:
 
 !!! Warning
-    **Do not use the gusset featurescript tool!** This exercise is meant to help you practice the plate workflow and learn how to create a gusset. The gusset featurescript can easily break if the tubes are changed and the gusset shape is inflexible, so it is not recommended.
+    **Gusset featurescript aracını kullanmayın!** Bu egzersiz, plaka iş akışını pratiğini yapmak ve gusset'in nasıl oluşturulacağını öğrenmek için tasarlanmıştır. Gusset featurescript, borular değiştiğinde kolayca bozulabilir ve gusset şekili esnek değildir, bu yüzden önerilmez.
 
 <center markdown>
 <iframe src="https://www.youtube.com/embed/aS1xknADBaE?controls=1&rel=0&showinfo=0&vq=hd1080" width="768" height="432" frameborder="0" allowfullscreen></iframe>
 </center>
 
-Your final gusset should look like this:
+Final gusset'iniz şöyle görünmeli:
 
 <figure>
   <img src="/img/learning-course/stage1a/plate-gusset-example.webp" style="width:50%">
 </figure>
 
-!!! tip "Remember..."
-    - The keybind for the `Use/Project` tool is the `U` key.
-    - Arcs should only go on the corners of the gusset, not on every hole.
+!!! tip "Hatırla..."
+    - `Use/Project` aracı için kısayol tuşu `U` tuşudur.
+    - Yaylar sadece gusset'in köşelerine olmalı, her delikte değil.
 
-### Complete?
-Try and **remake this gusset** (or a gusset of a different shape, maybe a T) for a **different section of the frame**!
+### Tamamlandı mı?
+**Bu gusset'i yeniden yapmayı deneyin** (veya belki T şeklinde farklı bir şekil) çerçevenin **farklı bir bölümü için**!
 
-When you're done with the **two gussets**, move on to the next exercise
+**İki gusset'i** bitirdiğinizde, bir sonraki egzersize geçin
 
 <br>

@@ -1,16 +1,16 @@
 
 
-# 1B: Power Transmissions
+# 1B: Güç Aktarımı
 
-## Power Transmissions
-In FRC, the three most common types of power transmissions are gears, chain and sprocket, and belt and pulley. Although they all achieve the same end result of changing speed and torque, they each excel in different situations. In the following sections you'll be introduced to each of them and how to model them.
+## Güç Aktarım Organları
+FRC'de, en yaygın üç güç aktarım organı türü dişli, zincir ve dişli ve kayış ve kasnaktır. Hepsi aynı sonucu olan hız ve torku değiştirmeyi başarsalar da, her biri farklı durumlarda mükemmel olur. Aşağıdaki bölümlerde her biriyle ve bunları nasıl modelleyeceğinizle tanışacaksınız.
 
 !!! Note
-    Gears, sprockets, and pulleys all follow profile standards that specify how big the teeth are. This means that the ratio between the number of teeth and diameter of the part is a constant. There are different profile standards, but only parts of the same profile can be meshed or used together.
+    Dişliler, kasnaklar ve dişliler, dişlerin ne kadar büyük olduğunu belirleyen profil standartlarına uyar. Bu, diş sayısı ile parçanın çapı arasındaki oranın sabit olduğu anlamına gelir. Farklı profil standartları vardır, ancak aynı profilin parçaları sadece birlikte meshleşebilir veya kullanılabilir.
 
-## Gear Basics
+## Dişli Temelleri
 
-Gears are mechanical devices with teeth that mesh with each other to transmit motion or power between rotating shafts. They're like wheels with teeth that fit together, allowing them to transfer torque, change speed, and change direction of rotation. 
+Dişliler, dönen miller arasında hareket veya gücü iletmek için birbirine meshleşen dişlere sahip mekanik cihazlardır. Birbirine uygun dişli tekerlekler gibidirler, tork aktarmalarına, hızı değiştirmelerine ve dönüş yönünü değiştirmelerine izin verirler.
 
 
 
@@ -21,11 +21,11 @@ Gears are mechanical devices with teeth that mesh with each other to transmit mo
 - <center><img src="../images/gears/gearbox-animated.gif" style="width:100%"></center>
 
 </div>
-<figcaption>Animations of gears meshing. Notice that meshed gears will spin in opposite directions.</figcaption>
+<figcaption>Dişli meshleşme animasyonları. Meshleşmiş dişlilerin zıt yönde döneceğini unutmayın.</figcaption>
 
-In order to change the torque and speed from the input to output, different sized gears must be used. Remember that the ratio is related to the number of teeth of the gears. Teeth will always mesh together one by one, but the number of teeth per revolution is different for different sized gears, causing a difference in angular speed even if the surface speed of the gear is the same. Click through the following slides to see a visualization of different gear ratios.
+Girişten çıkışa tork ve hızı değiştirmek için, farklı boyutlarda dişliler kullanılmalıdır. Oranın dişlilerin diş sayısı ile ilgili olduğunu unutmayın. Dişler her zaman tek tek meshleşir, ancak farklı boyutlu dişliler için devir başına diş sayısı farklıdır, bu da dişlin yüzey hızı aynı olsa bile açısal hızda bir farka neden olur. Farklı dişli oranlarının görselleştirmesini görmek için aşağıdaki slaytlara tıklayın.
 
-<center markdown>**Changing Speed and Torque with Gears**</center>
+<center markdown>**Dişlilerle Hız ve Torku Değiştirme**</center>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -33,21 +33,21 @@ In order to change the torque and speed from the input to output, different size
 <div id="slide1" class="mySlides fade">
     <figure>
         <img src="../images/gears/gear-reduction.webp" style="width:100%">
-        <figcaption>1. A 12T gear drives an 84T gear. The gear ratio is 84:12, which can be simplified to 7:1. The torque is increased by 7x while the speed is reduced to 1/7 of the original speed. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
+        <figcaption>1. 12 dişli bir dişli 84 dişli bir dişliyi sürer. Dişli oranı 84:12'dir, bu da 7:1 olarak basitleştirilebilir. Tork 7x artırılırken hız orijinal h hızın 1/7'sine düşürülür. (Görsel kaynak: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
         <img src="../images/gears/gear-upduction.webp" style="width:100%">
-        <figcaption>2. A 48T gear drives an 24T gear. The gear ratio is 24:48, which can be simplified to 1:2. The torque is reduced to 1/2 of the original torque while the speed is increased by 2x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
+        <figcaption>2. 48 dişli bir dişli 24 dişli bir dişliyi sürer. Dişli oranı 24:48'dir, bu da 1:2 olarak basitleştirilebilir. Tork orijinal torkun 1/2'sine düşürülürken hız 2x artırılır. (Görsel kaynak: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
         <img src="../images/gears/gear-swap.webp" style="width:100%">
-        <figcaption>3. If the same size gears are used, there is no change in speed and torque. However, the direction of the rotation is flipped if there is an even number of gears from input to output. If there is an odd number of gears, the direction remains the same. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
+        <figcaption>3. Aynı boyut dişliler kullanılırsa, hızda ve torkta değişiklik yoktur. Ancak, girişten çıkışa kadar dişli sayısı çift ise dönüş yönü tersine çevrilir. Dişli sayısı tek ise yön aynı kalır. (Görsel kaynak: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
     </figure>
 </div>
 
@@ -60,38 +60,38 @@ In order to change the torque and speed from the input to output, different size
 </div>
 </div>
 
-### Center to Center Calculation
+### Merkezden Merkeze Hesaplama
 
-To calculate how far apart to space the gears, you can use the following formula to calculate the center-to-center distance:
+Dişlilerin ne kadar uzakta yerleştirileceğini hesaplamak için, merkezden merkeze mesafeyi hesaplamak için aşağıdaki formülü kullanabilirsiniz:
 
 
 <center><code><b>C2C = 0.5 * PD1 + 0.5 * PD2</b></code></center>
 
 
-Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Diameter (PD)**  is the size of the imaginary circle that passes through the center of the gear teeth. The pitch diameters of two gears should be tangent in order for the gears to properly mesh. The equation for PD is as follows:
+Burada `PD1` ve `PD2` iki dişlinin *Çap Çapı*'dır. **Çap Çapı (PD)**, dişlinin diş merkezinden geçen hayali dairenin boyutudur. İki dişlinin çap çaplarının dişlilerin düzgün meshleşmesi için tangent olması gerekir. PD için denklem şöyledir:
 
 <center><code><b>PD = (# of teeth) / DP</b></code></center>
 
-Where DP stands for **diametral pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Handbook pages.
+Burada DP **diametral pitch** anlamına gelir. Şimdilik, her zaman 20 olduğunu varsayabilirsiniz. Merak ediyorsanız, Design Handbook sayfalarında bunun hakkında daha fazla bilgi edinebilirsiniz.
 
 <figure>
     <img src="../images/gears/gear-diagram.webp" style="width:70%">
-    <figcaption>Illustration of a gear's pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).</figcaption>
+    <figcaption>Bir dişlinin çap çapı ve dış çapının çizimi. (Görsel kaynak: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).</figcaption>
 </figure>
 
-### Modeling Gear Transmissions
+### Dişli Aktarma Organlarını Modelleme
 
-When modeling, an easy way to set the center-to-center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set the two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a `20/20 = 1"` and a `60/20 = 3"` circle and add a tangent constraint between the two circles. 
+Modelleme sırasında, iki dişli arasındaki merkezden merkeze mesafeyi ayarlamanın kolay bir yolu, dişlilerin çap çaplarına boyutlandırılmış iki daire çizmek ve ardından iki daireyi birbirine tangent olacak şekilde ayarlamaktır. Örneğin, 20 dişli bir dişliyi 60 dişli bir dişliye meshlemeniz gerekiyorsa, `20/20 = 1"` ve `60/20 = 3"` daire çizebilir ve iki daire arasında tangent constraint ekleyebilirsiniz.
 
 <figure>
 <img src="../images/gears/gear-cad.webp" style="width:60%">
-<figcaption>Modeling gear C-C distance by constraining two pitch diameter construction circles tangent. The diameters of the circle are calculated by dividing the tooth count by DP, which is 20 in this case.</figcaption>
+<figcaption>İki çap çapı construction daire tangent kısıtlayarak dişli C-C mesafesini modelleme. Dairelerin çapları, diş sayısının DP'ye (bu durumda 20) bölünmesiyle hesaplanır.</figcaption>
 </figure>
 
-It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see what the circle represents (a gear, sprocket, or pulley) and how many teeth it has. 
+Hesaplanan çap çapını (Örneğin: sadece `3"` dimension girişi) girmek yerine, çap çapı fraksiyonunu girmeniz önerilir (Örneğin: `(60/20)"`), böylece dairenin neyi temsil ettiğini (dişli, kasnak veya dişli) ve kaç diş olduğunu kolayca görebilirsiniz.
 
 !!! Tip
-    You can show the expression that a dimension was evaluated from by checking the <code>Show Expression</code> checkbox on the sketch menu. The result will look like the previous image, which allowed you to easily see that the two gears were a 20T and 60T gear, both 20 DP.
+    Bir dimension'ın hangi ifadeden değerlendirildiğini sketch menüsündeki <code>Show Expression</code> onay kutusunu işaretleyerek gösterebilirsiniz. Sonuç önceki görüntü gibi görünecektir, bu da iki dişlinin 20 dişli ve 60 dişli bir dişli olduğunu ve her ikisinin de 20 DP olduğunu kolayca görmenizi sağlar.
 
 <br>
 

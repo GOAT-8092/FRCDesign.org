@@ -1,98 +1,98 @@
-# Stage 1E - Subsystem Workflow
+# Aşama 1E - Alt Sistem İş Akışı
 
-Stage 1E teaches students how to fully detail a drivetrain assembly by adding necessary components like battery mounting, electronics, and bumpers. This stage bridges the gap between basic modeling and creating manufacture-ready designs. This allows students to learn and practice the typical workflow of detailing a subsystem.
+Aşama 1E, öğrencilere batarya montajı, elektronik ve bumperler gibi gerekli bileşenleri ekleyerek bir drivetrain assembly'sini tam olarak detaylandırmayı nasıl yapacaklarını öğretir. Bu aşama, temel modelleme ve üretim-ready tasarımlar oluşturma arasındaki boşluğu doldurur. Bu, öğrencilerin bir alt sistemi detaylandırmanın tipik iş akışını öğrenmelerini ve pratik yapmalarını sağlar.
 
-## Learning Objectives
+## Öğrenme Hedefleri
 
-Students who complete Stage 1E will:
-- Understand requirements for core robot systems (battery, electronics, bumpers)
-- Learn practical design considerations for component mounting
-- Practice creating complete, manufacture-ready assemblies
-- Develop systematic approaches to detailing assemblies
-- Apply FRC rules and requirements to designs
+Aşama 1E'yi tamamlayan öğrenciler:
+- Temel robot sistemlerinin gereksinimlerini anlayacaktır (batarya, elektronik, bumperler)
+- Bileşen montajı için pratik tasarım göz önünde bulundurmalarını öğrenecek
+- Tam, üretim-ready assembly'ler oluşturmayı pratik yapacak
+- Assembly'leri detaylandırma için sistematik yaklaşımlar geliştirecek
+- Tasarımlara FRC kurallarını ve gereksinimlerini uygulayacak
 
-## Teaching Structure
+## Öğretim Yapısı
 
-### Project Phases
+### Proje Aşamaları
 
-1. Battery Mounting
-- Safety requirements
-- Center of gravity considerations
-- Mounting methods
-- Access requirements
+1. Batarya Montajı
+- Güvenlik gereksinimleri
+- Ağırlık merkezi göz önünde bulundurmalar
+- Montaj yöntemleri
+- Erişim gereksinimleri
 
-2. Electronics Layout
-- Core components overview
-- Wiring considerations
-- Accessibility needs
+2. Elektronik Düzeni
+- Temel bileşenlere genel bakış
+- Kablo yönlendirme göz önünde bulundurmalar
+- Erişilebilirlik ihtiyaçları
 
-3. Bumper Design
-- Game manual requirements
-- Mounting systems
-- Material considerations
+3. Bumper Tasarımı
+- Oyun kılavuzu gereksinimleri
+- Montaj sistemleri
+- Malzeme göz önünde bulündurmalar
 
-## Teaching Tips
+## Öğretim İpuçları
 
-### Practical Considerations
+### Pratik Göz Önünde Bulındurmalar
 
-Emphasize real-world factors:
-- Maintenance access
-- Wire routing paths
-- Quick replacement needs
-- Competition considerations
+Gerçek dünya faktörlerini vurgulayın:
+- Bakım erişimi
+- Kablo yönlendirme yolları
+- Hızlı değiştirme ihtiyaçları
+- Yarışma göz önünde bulundurmalar
 
-### FRC-Specific Requirements
+### FRC'ye Özgü Gereksinimler
 
-Review relevant rules:
-- Battery mounting requirements
-- Electronics placement rules
-- Bumper specifications
-- Safety considerations
+İlgili kuralları gözden geçirin:
+- Batarya montaj gereksinimleri
+- Elektronik yerleşim kuralları
+- Bumper spesifikasyonları
+- Güvenlik göz önünde bulundurmalar
 
-### Design Validation
+### Tasarım Doğrulama
 
-Teach students to verify:
-- Component clearances
-- Access for maintenance
-- Rule compliance
+Öğrencileri şunları doğrulamayı öğretin:
+- Bileşen boşlukları
+- Bakım için erişim
+- Kural uyumu
 
-## Common Challenges
+## Yaygın Zorluklar
 
-Address typical issues:
-- Overcrowded electronics layouts
-- Poor maintenance access
-- Bad mounting options
+Tipik sorunları ele alın:
+- Fazlalıkla doldurulmuş elektronik düzenleri
+- Zayıf bakım erişimi
+- Kötü montaj seçenekleri
 
-## Assessment Strategies
+## Değerlendirme Stratejileri
 
-Evaluate understanding through:
-- Practical accessibility
-- Assembly organization
-- Documentation quality
-- Design justification
+Anlamayı şunlar yoluyla değerlendirin:
+- Pratik erişilebilirlik
+- Assembly organizasyonu
+- Belgeleme kalitesi
+- Tasarım gerekçesi
 
-## Resources
+## Kaynaklar
 
-Provide access to:
-- FRC Game Manual
-- Electronics documentation
-- COTS component specs
+Şunlara erişim sağlayın:
+- FRC Oyun Kılavuzu
+- Elektronik belgeleri
+- COTS bileşen spesifikasyonları
 
-## Extension Activities
+## Uzantı Aktiviteleri
 
-For advanced students:
-- Design alternative mounting solutions
-- Try out different battery positions
-- Compare bumper mounting methods
+Gelişmiş öğrenciler için:
+- Alternatif montaj çözümleri tasarlayın
+- Farklı batarya konumlarını deneyin
+- Bumper montaj yöntemlerini karşılaştırın
 
-## Success Indicators
+## Başarı Göstergeleri
 
-Students demonstrate competency when they:
-- Meet all FRC requirements
-- Create serviceable designs
-- Provide adequate access to all critical components
-- Justify design decisions
+Öğrenciler şu şeyleri yaptıklarında yeterlilik gösterirler:
+- Tüm FRC gereksinimlerini karşılar
+- Hizmet verilebilir tasarımlar oluşturur
+- Tüm kritik bileşenlere yeterli erişim sağlar
+- Tasarım kararlarını gerekçelendirir
 
-This framework helps students understand the practical aspects of robot design while maintaining focus on creating competition-ready solutions. Regular design reviews and practical considerations help ensure designs are both functional and compliant.
+Bu çerçeve, rekabetçi çözümler oluşturmaya odaklanırken robot tasarımının pratik yönlerini anlamalarına yardımcı olur. Düzenli tasarım gözden geçirmeleri ve pratik göz önünde bulındurmalar, tasarımların hem işlevsel hem de uyumlu olmasını sağlamaya yardımcı olur.
 
 <br>

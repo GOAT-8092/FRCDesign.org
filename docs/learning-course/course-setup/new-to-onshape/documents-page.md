@@ -1,38 +1,38 @@
-# New to Onshape
+# Onshape'e Yeni
 
-## Documents Page
-Documents can be viewed and managed from the documents page. You can sort them with folders and labels. 
+## Belgeler Sayfası
+Belgeler belgeler sayfasından görüntülenebilir ve yönetilebilir. Klasörler ve etiketlerle sıralayabilirsiniz.
 
-!!! Tip 
-    Documents are somewhat analogous to "projects" in other CAD programs and contain multiple types of workspaces related to a project. 
+!!! Tip
+    Belgeler diğer CAD programlarındaki "projelere" biraz benzer ve bir projeyle ilgili çeşitli çalışma alanı türlerini içerir.
 
 <center><img src="/img/learning-course/course-setup/navigation/documentsPage.webp" style="width:90%; border:5px solid #ADADAD"></center>
 
-On the sidebar, you can switch between stuff owned by you and stuff owned by a classroom/team/organization, and a public search page which can be used to look through public Onshape files. 
+Kenar çubuğunda, size ait olan şeyler ile bir classroom/takım/organizasyon tarafından sahip olunan şeyler arasında geçiş yapabilirsiniz ve herkese açık Onshape dosyalarını aramak için kullanılabilecek herkese açık bir arama sayfası vardır.
 
 
 
 !!! Tip
-    The search page can help you find a ton of publicly available robot CAD from other teams to use as examples.
+    Arama sayfası, örnek olarak kullanmak üzere başka takımlardan tonlarca herkese açık robot CAD'i bulmanıza yardımcı olabilir.
 
 <center><img src="/img/learning-course/course-setup/navigation/public-search-results.webp" style="width:90%; border:5px solid #ADADAD"></center>
 
-### Customizing Your Account
-In the top right corner of the page, you can access the app store, learning center, and account settings. Feel free to adjust settings to your liking.
+### Hesabınızı Özelleştirme
+Sayfanın sağ üst köşesinde, app store, öğrenme merkezi ve hesap ayarlarına erişebilirsiniz. İsteğinize göre ayarları ayarlamakta özgürsünüz.
 
-- Change default units and precision
-- Change email notification preferences
-- Change default view manipulation if you're more familiar with a different CAD software
-- Use the subscriptions section to renew your student/educator subscription each year
-- Change and add keybinds to specific actions
+- Varsayılan birimleri ve hassasiyeti değiştirin
+- E-posta bildirim tercihlerini değiştirin
+- Farklı bir CAD yazılımına daha aşina iseniz varsayılan görüntüleme manipülasyonunu değiştirin
+- Öğrenci/eğitmen aboneliğinizi her yıl yenilemek için abonelikler bölümünü kullanın
+- Belirli eylemler için keybind'leri değiştirin ve ekleyin
 
-### Creating Documents
-You can create a document or folder or import CAD files from your computer using the "Create" dropdown button on the left. You'll be able to see any copied documents from the learning course here whenever you want to return to them.
+### Belge Oluşturma
+Sol taraftaki "Create" (Oluştur) açılır menü düğmesini kullanarak bilgisayarınızdan bir belge veya klasör oluşturabilir veya CAD dosyalarını içe aktarabilirsiniz. Ne zaman dönmek isterseniz öğrenme kursundan kopyaladığınız belgeleri burada görebileceksiniz.
 
-**Try creating a document!** Take a look at the different types of workspaces you can create within it and the tools available for each.
+**Bir belge oluşturmayı deneyin!** İçinde oluşturabileceğiniz farklı çalışma alanı türlerine ve her biri için mevcut olan araçlara bir göz atın.
 
 !!! Tip
-    You can complete the [Navigating Onshape Course](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1 "Navigating Onshape Learning Center Course"){:target="_blank"} in the Onshape learning center to learn more about the documents page.
+    Belgeler sayfası hakkında daha fazla bilgi edinmek için Onshape öğrenme merkezindeki [Navigating Onshape Course](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1 "Navigating Onshape Learning Center Course"){:target="_blank"} kursunu tamamlayabilirsiniz.
 
 
 <br>

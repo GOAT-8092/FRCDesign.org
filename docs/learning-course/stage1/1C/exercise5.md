@@ -1,16 +1,16 @@
-# 1C: Practice Mechanisms
+# 1C: Pratik Mekanizmalar
 
-Starting with exercise 5, only an outline of the design process and key details will be provided to you. This is to prepare you for stage 2, where the exercises are less guided.
+Egzersiz 5'ten başlayarak, sadece tasarım sürecinin bir outline'ı ve önemli detaylar size sağlanacaktır. Bu, egzersizlerin daha az rehberlik olduğu stage 2 için sizi hazırlamak içindir.
 
-Focus on capturing design intent and maintaining best practices in your part studios and assemblies. Follow the workflow of the solution document.
+Part studio'larınız ve assembly'lerinizde tasarım amacını yakalamaya ve en iyi uygulamaları sürdürmeye odaklanın. Solution belgesinin iş akışını izleyin.
 
-## Exercise 5: Flipped Gearbox
+## Egzersiz 5: Ters Çevrilmiş Şanzıman
 
-In this exercise, you will be modeling a two motor, two-stage flipped gearbox. These types of gearboxes are referred to as "flipped" because the output shaft points in the opposite direction as the input motors. This style of gearbox can be desired in some situations to meet packaging constraints. This gearbox also serves as a chain tensioning mechanism allowing the gearbox to slide along the mounting tube to adjust chain tension. Having an easily tensioned chain is important to prevent backlash while still being serviceable.
+Bu egzersizde, iki motorlu, iki kademeli ters çevrilmiş bir şanzıman modelleyeceksiniz. Bu tür şanzımanlara "ters çevrilmiş" denir çünkü output shaft input motorların ters yönüne işaret eder. Bu tarz şanzıman bazı durumlarda paketleme kısıtlamalarını karşılamak için istenebilir. Bu şanzıman ayrıca zincir gerginliği mekanizması olarak da görev yapar, şanzımanın zincir gerginliğini ayarlamak için montaj tüpü boyunca kaymasına izin verir. Hala servis yapılabilirken backlash'i önlemek için kolayca gerginleşmiş bir zincire sahip olmak önemlidir.
 
-### Part Studio Instructions
+### Part Studio Talimatları
 
-**Navigate to the "Exercise #5 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instruction slides** only provide a general outline and some key details.
+Kopyalanmış belgenizdeki **"Exercise #5 Part Studio" sekmesine gidin** ve bu egzersiz için part studio'yu tamamlamak için **solution belgesine başvurun**. **Aşağıdaki talimat slaytları** sadece genel bir outline ve bazı önemli detaylar sağlar.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -26,59 +26,59 @@ In this exercise, you will be modeling a two motor, two-stage flipped gearbox. T
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/parts-1.webp" style="width:100%">
-      <figcaption>1. Start by modeling the tube that the gearbox mounts on.</figcaption>
+      <figcaption>1. Şanzımanın monte olduğu tüpü modelleyerek başlayın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/parts-2.webp" style="width:100%">
-      <figcaption>2. Create the layout sketch on the tube face. Remember to only include essential information in the layout sketch. In this case, only the gear PD's and motor OD's are required. </figcaption>
+      <figcaption>2. Tüp yüzünde layout sketch oluşturun. Layout sketch'e sadece gerekli bilgileri eklediğinizi hatırlayın. Bu durumda, sadece gear PD'leri ve motor OD'leri gereklidir. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/parts-3.webp" style="width:100%">
-      <figcaption>3. Sketch the outer plate. We only require two bolts to hold the motor on and choose the two holes that form a line perpendicular to the c-c line between the motor pinion and the gear. This ensures that the motor bolts will be accessible at all times. The bottom mounting bolts are modeled as slots instead of normal holes. This allows the whole gearbox to slide along to tube to tension a chain.</figcaption>
+      <figcaption>3. Outer plate'i sketchleyin. Motoru tutmak için sadece iki cıvata gereklidir ve motor pinion ile gear arasındaki c-c çizgisine dik bir çizgi oluşturan iki deliği seçin. Bu, motor bolt'larının her zaman erişilebilir olmasını sağlar. Alt montaj bolt'ları normal delikler yerine slots olarak modellenmiştir. Bu, zinciri germek için tüm şanzımanın tüp boyunca kaymasına izin verir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/parts-4.webp" style="width:100%">
-      <figcaption>4. When sketching the inner plate, verify that there is clearance between the motor and the inner plates. Pay close attention to the tangency of all the edges so that the plate contour is smooth. Also make sure the back side of the plate remains flat for most of the tube distance. This flat surface is pushed by a bolt to keep the chain tensioned.</figcaption>
+      <figcaption>4. Inner plate'i sketchlerken, motor ve inner plate'ler arasında clearance olduğunu doğrulayın. Plaka contour'unun pürüzsüz olması için tüm kenarların teğetliğine yakın dikkat edin. Ayrıca plakanın arka tarafının tüp mesafesinin çoğu için düz kaldığından emin olun. Bu düz yüzey, zinciri gergin tutmak için bir bolt tarafından itilir.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/parts-5.webp" style="width:100%">
-      <figcaption>5. Model a small crush plate on the outside of the tube. As explained in the prior exercise this prevents the tube from being crushed during assembly by spreading out the bolt force.</figcaption>
+      <figcaption>5. Tüpün dışında küçük bir crush plaka modelleyin. Önceki egzersizde açıklandığı gibi bu, bolt kuvvetini yayarak tüpün assembly sırasında ezilmesini önler.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/parts-6.webp" style="width:100%">
-      <figcaption>6. Use the <code>Robot Shaft</code> Featurescript to make the gearbox shafts.</figcaption>
+      <figcaption>6. Şanzıman shaft'larını yapmak için <code>Robot Shaft</code> Featurescript'ini kullanın.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/parts-7.webp" style="width:100%">
-      <figcaption>7. Pocket the gearbox plates.</figcaption>
+      <figcaption>7. Şanzıman plate'lerini pocket edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/parts-0.webp" style="width:100%">
-      <figcaption>8. Prepare for assembly by organizing parts and naming features.</figcaption>
+      <figcaption>8. Assembly için hazırlanın, parçaları organize edin ve özellikleri adlandırın.</figcaption>
     </figure>
   </div>
-  
+
   <!-- Next and previous buttons -->
   <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
   <button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
@@ -88,9 +88,9 @@ In this exercise, you will be modeling a two motor, two-stage flipped gearbox. T
   </div>
 </div>
 
-### Assembly Instructions
+### Assembly Talimatları
 
-**Next, navigate to the "Exercise #5 Assembly" tab** in your copied document and **refer to the solution document** to complete the assembly for this exercise. The **following instruction slides** only provide a general outline and some key details.
+**Sonra, kopyalanmış belgenizdeki **"Exercise #5 Assembly" sekmesine gidin** ve bu egzersiz için assembly'yi tamamlamak için **solution belgesine başvurun**. **Aşağıdaki talimat slaytları** sadece genel bir outline ve bazı önemli detaylar sağlar.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
@@ -104,56 +104,56 @@ In this exercise, you will be modeling a two motor, two-stage flipped gearbox. T
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/assy-1.webp" style="width:100%">
-      <figcaption>1. Add the frame, gearbox plates, gearbox spacer, and shafts to the assembly. Like before, group mate the rigid components with the Origin Cube and mate the Origin Cube to the assembly origin.</figcaption>
+      <figcaption>1. Frame, şanzıman plate'leri, şanzıman spacer'ı ve shaft'ları assembly'ye ekleyin. Önceki gibi, rigid bileşenleri Origin Cube ile grup mate edin ve Origin Cube'u assembly origin'ine mate edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/assy-2.webp" style="width:100%">
-      <figcaption>2. Insert and fasten the motors and bearings. Make sure to assemble the motor with the correct pinion and shaft spacers.</figcaption>
+      <figcaption>2. Motorları ve bearing'leri insert edin ve fasten edin. Motoru doğru pinion ve shaft spacer'ları ile assembly ettiğinizden emin olun.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/assy-3.webp" style="width:100%">
-      <figcaption>3. Insert and fasten the power transmission components, which includes the gears, pinions, spacers, and sprocket. </figcaption>
+      <figcaption>3. Power transmission bileşenlerini (gear'lar, pinion'lar, spacer'lar ve sprocket) insert edin ve fasten edin. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/assy-4.webp" style="width:100%">
-      <figcaption>4. We use a single 1/2" spacer rather than two 1/4" spacers on each side of the gear to reduce part count. In real life, it's much easier to assemble if there's only one spacer, and centering the gear between the bearings has no tangible benefit.</figcaption>
+      <figcaption>4. Parça sayısını azaltmak için gear'ın her tarafında iki 1/4" spacer yerine tek bir 1/2" spacer kullanıyoruz. Gerçek hayatta, tek bir spacer varsa assembly çok daha kolaydır ve bearing'ler arasında gear'ı ortalamak için hiçbir maddi fayda yoktur.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/assy-5.webp" style="width:100%">
-      <figcaption>5. Copy the crush plate and mate it to the other side of the tube.</figcaption>
+      <figcaption>5. Crush plakayı kopyalayın ve tüpün diğer tarafına mate edin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/assy-6.webp" style="width:100%">
-      <figcaption>6. Fasten a nutstrip to the other side of the crush plate you just added, with a bolt pressing onto the flat face of the gearbox plate. As explained before this prevents the gearbox from sliding from the force of the chain.</figcaption>
+      <figcaption>6. Az önce eklediğiniz crush plakanın diğer tarafına bir nutstrip fasten edin, bir bolt şanzıman plakasının düz yüzüne basın. Önceki açıklandığı gibi bu, şanzımanın zincir kuvvetinden kaymasını önler.</figcaption>
     </figure>
   </div>
 
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/assy-7.webp" style="width:100%">
-      <figcaption>7. Add fasteners to the assembly. Make sure all the fasteners on the slotted holes have washers to properly spread the bolt load over the slot. There should be washers on both the bolt head and the nut.</figcaption>
+      <figcaption>7. Assembly'ye fastener ekleyin. Slotted deliklerdeki tüm fastener'ların bolt yükünü slot üzerinde düzgün bir şekilde yaymak için washer'lara sahip olduğundan emin olun. Hem bolt başında hem de nut'ta washer olmalıdır.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/flipped-gearbox/assy-0.webp" style="width:100%">
-      <figcaption>8. To finish the assembly, organize your components into folders and name your replicates.</figcaption>
+      <figcaption>8. Assembly'yi tamamlamak için, bileşenlerinizi klasörlere düzenleyin ve replicalarınızı adlandırın.</figcaption>
     </figure>
   </div>
 
@@ -166,18 +166,18 @@ In this exercise, you will be modeling a two motor, two-stage flipped gearbox. T
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 30 instances.
+!!! Success "Doğrulama"
+    Siz ve/veya ekibinizden daha deneyimli bir üye/mentor [**CAD'inizi gözden geçirsin!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Assembly'nizin 30 instance'ı olmalıdır.
 
-### Interference Detection
+### Interferans Tespiti
 
-Catch errors in the CAD rather than in real life! Always double and triple check your CAD models for mistakes like interferences. An extra 10 minutes verifying the correctness of your CAD can save you hours of rework if an erroneous part slips through and is fabricated.
+Hataları CAD'de yakalayın, gerçek hayatta değil! Her zaman CAD modellerinizi interferans gibi hatalar için iki ve üç kez kontrol edin. Yanlış bir parça slip through olur ve üretilirse, CAD'inizin doğruluğunu doğrulamak için ekstra 10 dakika size saatlerce yeniden çalışmadan tasarruf edebilir.
 
-!!! warning "Interference Detection"
-    If an interference is detected with the Check Interference tool, it will highlight the intersected volumes in red.
+!!! warning "Interferans Tespiti"
+    Check Interference aracı ile bir interferans tespit edilirse, kesişen hacimleri kırmızı ile vurgular.
     <figure>
       <img src="../images/flipped-gearbox/interference-check.webp" style="width:80%">
-      <figcaption>Interference between a motor and plate detected by the Check Interference tool.</figcaption>
+      <figcaption>Check Interference aracı tarafından tespit edilen motor ve plaka arasındaki interferans.</figcaption>
     </figure>
 
 <br>

@@ -1,8 +1,8 @@
-# 1C: Practice Mechanisms
+# 1C: Pratik Mekanizmalar
 
-## Exercise Overview
+## Egzersiz Genel Bakış
 
-**Make a copy of the Stage 1C Exercises Document** through the button below. Each exercise has a folder, a "reference" tab (a preview of what the final model should look like), and a tab or two for doing your exercise in. Solutions are also provided in the 1C Exercise Solutions Document to check your work afterwards. You **do not** need to make a copy of the solutions document.
+Aşağıdaki düğme aracılığıyla **Stage 1C Egzersizler Dokümanı'nın bir kopyasını oluşturun**. Her egzersizin bir klasörü, bir "referans" sekmesi (final modelin nasıl görünmesi gerektiğine dair bir önizleme) ve egzersizi yapmanız için bir veya iki sekmesi vardır. Çalışmanızı sonradan kontrol etmeniz için çözümler de 1C Egzersiz Çözümleri Dokümanı'nda sağlanmıştır. Çözümler dokümanının bir kopyasını oluşturmanıza **gerek yoktur**.
 
 <center markdown>
 [1C Exercises Document (COPY THIS)](https://cad.onshape.com/documents/a9be0985d5e798d784f8b4cb/w/5c862e02b9b471157ba3ca40/e/c5babadecc47dfbe0d8ab454 "1A Exercises Onshape Document"){:target="_blank"  .md-button .md-button--primary}
@@ -17,26 +17,26 @@
 
 </div>
 <figure>
-<figcaption>Two of the exercises in this section</figcaption>
+<figcaption>Bu bölümdeki egzersizlerden ikisi</figcaption>
 </figure>
 
-Each exercise should take from around an hour to a few hours to complete depending on your experience.
+Her egzersiz deneyiminize bağlı olarak yaklaşık bir saatten birkaç saate kadar sürebilir.
 
-As you progress through the exercises, the level of guidance will gradually decrease. This is to help transition you from more guided exercises to projects that have little more than the parts to be added and the reference model, as will be the norm for the rest of Stages 1 and 2. While you should reference the solutions document to ensure your model and modeling methods are correct, try to avoid _blindly_ copying the model later in the exercises.
+Egzersizlerde ilerledikçe, rehberlik seviyesi giderek azalacaktır. Bu, daha fazla rehberli egzersizlerden, sadece eklenecek parçalar ve referans model bulunan projelere geçiş yapmanıza yardımcı olmak içindir; bu, Stage 1 ve 2'nin geri kalanı için norm olacaktır. Modelinizi ve modelleme yöntemlerinizi doğru olduğunu sağlamak için çözümler dokümanına başvurmalısınız, ancak egzersizlerin ilerleyen bölümlerinde modeli _körü körüne_ kopyalamaktan kaçının.
 
-### Focusing on Improvement
+### İyileştirmeye Odaklanma
 
-The primary goal of this stage is to get you enough practice with CAD and modeling in the context of FRC where you won't need guidance in every step that you do.
+Bu aşamanın birincil amacı, CAD ve modelleme konusunda yeterli pratik yapmanızı ve FRC bağlamında her adımda rehberliğe ihtiyaç duymamanızı sağlamaktır.
 
-Focus on refining your CAD techniques and following best practices such as fully constraining your sketches, learning and practicing keyboard shortcuts, modeling in a way that captures design intent, and naming your features and parts.
+CAD tekniklerinizi mükemmelleştirmeye, sketch'lerinizi tam olarak kısıtlamaya, klavye kısayollarını öğrenip uygulamaya, tasarım niyetini yakalayan şekilde modelleme yapmaya ve özelliklerinizi ve parçalarınızı adlandırmaya odaklanın.
 
-!!! Tip "Customizing Keyboard Shortcuts"
-    If the default for a keyboard shortcut doesn't work for you, you can rebind it by going to your account page, going to `Preferences`, and scrolling down to find the keyboard shortcuts.
+!!! İpucu "Klavye Kısayollarını Özelleştirme"
+    Bir klavye kısayolunun varsayılanı sizin için uygun değilse, hesap sayfanıza giderek, `Preferences`'e gidip ve klavye kısayollarını bularak yeniden bağlayabilirsiniz.
 
-    For example: you can rebind the keyboard shortcut for renaming something (the default is `shift+n`) to something easier, like `shift+r`, to make your workflow faster.
+    Örneğin: bir şeyi yeniden adlandırma klavye kısayolunu (varsayılan `shift+n`) daha kolay bir şeye, iş akışınızı hızlandırmak için `shift+r` gibi bir şeye yeniden bağlayabilirsiniz.
 
-**Following the self-review guidelines outlined in [this page](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="\_blank"}** while going through these exercises will help you target the specific skills and practices you need to improve on.
+**Bu egzersizleri yaparken [bu sayfada](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="\_blank"} özetlenen kendi kendini inceleme yönergelerini izlemek**, iyileştirmeniz gereken belirli beceri ve pratikleri hedeflemenize yardımcı olacaktır.
 
-If you find that you still struggle without guidance on the later exercises, feel free to try and model more small mechanisms of your choice, making sure to get feedback on them from more experienced members/mentors of your team or [the Discord Server](https://discord.gg/qdx7pdZKx4 "David's Design Server Invite"){:target="\_blank"}.
+Eğer sonraki egzersizlerde rehbersizlik halinde hala zorlandığınızı fark ederseniz, seçtiğiniz daha fazla küçük mekanizma modellemeyi deneyebilirsiniz, takımınızın daha deneyimli üyelerinden/mentorlarından veya [Discord Sunucusundan](https://discord.gg/qdx7pdZKx4 "David's Design Server Invite"){:target="\_blank"} geri aldığınızdan emin olun.
 
 <br>

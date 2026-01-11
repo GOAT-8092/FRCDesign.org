@@ -1,7 +1,7 @@
-# Turrets
+# Taretler
 
-A guide on turret design.
+Taret tasarımı rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

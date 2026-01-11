@@ -1,32 +1,32 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Alt Sistem İş Akışı - Drivebase Detaylandırma
 
-## Electronics Mounting
+## Elektronik Montajı
 
-To make wiring the robot and later inspecting the wiring easier, enough space should be left around each electrical component. You should work with your electrical teammates to determine the best location for the various control system parts. Teams typically try to mount their electronics on the bellypan, permitted there is space. 
+Robotun kablo bağlamasını ve daha sonra kablo bağlamasını incelemeyi kolaylaştırmak için, her elektrikli bileşenin etrafında yeterli boşluk bırakılmalıdır. Çeşitli kontrol sistemi parçaları için en iyi konumu belirlemek için elektronik takım arkadaşlarınızla çalışmalısınız. Takımlar genellikle yer varsa elektroniklerini bellypan'a monte etmeye çalışırlar.
 
-!!! Example
+!!! Örnek
     <figure>
         <img src="../images/elec/elec-example.webp" style="width:80%">
-        <figcaption>Example layout of various different electronic components on a bellypan. (Photo Credit: FRC 3647)</figcaption>
+        <figcaption>Bellypan üzerinde çeşitli elektronik bileşenlerin örnek yerleşimi. (Fotoğraf: FRC 3647)</figcaption>
     </figure>
 
-### Electronic Components
+### Elektronik Bileşenler
 
-A list of typical electrical components found on FRC robots is provided below, as well as a recommended mounting location. Again, mounting locations are highly dependent on the rest of your robot, make sure to always coordinate with your electrical team to decide what is best.
+Aşağıda FRC robotlarında bulunan tipik elektrik bileşenlerinin bir listesi ve önerilen montaj konumu sunulmuştur. Yine, montaj konumları robotunuzun geri kalanına büyük ölçüde bağımlıdır, her zaman en iyisinin ne olduğunu karar vermek için elektronik takımınızla koordinasyon içinde olduğunuzdan emin olun.
 
 
-!!! note "FRC Electrical Components"
-    | **Component** | **Function** | **Suggested Location** | **Image** |
+!!! not "FRC Elektronik Bileşenleri"
+    | **Bileşen** | **İşlev** | **Önerilen Konum** | **Görsel** |
     |---|---|---|---|
-    | REV Power Distribution Hub (PDH) or  CTRE Power Distribution Panel (PDP) | Distributes power to all other components | Bellypan | ![PDH](../images/elec-components/pdh.webp) |
-    | Main Breaker | Is used to turn on/off the robot and protect electronics from events with extremely high current drawn | Somewhere easily accessible and close to the PDH and Battery | ![Main Breaker](../images/elec-components/mbreak.webp) |
-    | RoboRIO | Central controller for all robot operations | Bellypan | ![RoboRIO](../images/elec-components/rio.webp) |
-    | Integrated motor controller (eg: Falcon 500, Kraken X60) | Powers and controls the  integrated motor | No electrical mounting required | ![Integrated motor controller](../images/elec-components/kx60.webp) |
-    | Discrete motor controller  (eg: Spark Max, Talon SRX) | Required to power and control some motors  (eg: NEO, CIM) | Near the controlled motor  or on the bellypan | ![Discrete motor controller](../images/elec-components/smax.webp) |
-    | Robot Radio | Allows the robot to establish wireless connections to the field or driver station | Follow Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radio Mounting Guidelines"){:target="_blank"}. | ![Robot Radio](../images/elec-components/vh109.webp) |
-    | Robot Signal Light (RSL) | Indicates whether the robot is on and enabled/disabled | Somewhere easily visible | ![Robot Signal Light](../images/elec-components/rsl.webp) |
-    | Inertial Measurement Unit (IMU) | Used to determine robot heading and acceleration | Close to the center is best practice (on Bellypan or VHB tape to attach to RoboRIO) | ![Inertial Measurement Unit](../images/elec-components/imu.webp) |
-    | Voltage Regulator Module | Can be used for custom circuits | Bellypan | ![Voltage Regulator Module](../images/elec-components/vrm.webp) |
-    | Pneumatics Hub | Controls pneumatic components | Bellypan | ![Pneumatics Hub](../images/elec-components/pcm.webp) |
+    | REV Power Distribution Hub (PDH) veya  CTRE Power Distribution Panel (PDP) | Gücü diğer tüm bileşenlere dağıtır | Bellypan | ![PDH](../images/elec-components/pdh.webp) |
+    | Ana Şalter | Robotu açmak/kapatmak için kullanılır ve elektronikleri aşırı yüksek akım çekilen olaylardan korur | PDH ve Batarya'ya yakın ve kolayca erişilebilen bir yer | ![Ana Şalter](../images/elec-components/mbreak.webp) |
+    | RoboRIO | Tüm robot işlemleri için merkezi kontrolcü | Bellypan | ![RoboRIO](../images/elec-components/rio.webp) |
+    | Entegre motor kontrolörü (örn: Falcon 500, Kraken X60) | Entegre motoru güçlendirir ve kontrol eder | Elektrik montajı gerekmiyor | ![Entegre motor kontrolörü](../images/elec-components/kx60.webp) |
+    | Ayrık motor kontrolörü (örn: Spark Max, Talon SRX) | Bazı motorları (örn: NEO, CIM) güçlendirmek ve kontrol etmek için gereklidir | Kontrol edilen motorun yakınında veya bellypan üzerinde | ![Ayrık motor kontrolörü](../images/elec-components/smax.webp) |
+    | Robot Radyosu | Robotun sahadaki veya sürücü istasyonundaki kablosuz bağlantılar kurmasına izin verir | Vivid Hosting'in [radyo montaj yönergelerini](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radyo Montaj Yönergeleri"){:target="_blank"} takip edin. | ![Robot Radyosu](../images/elec-components/vh109.webp) |
+    | Robot Sinyal Işığı (RSL) | Robotun açık olup olmadığını ve etkinleştirildiğini/devre dışı bırakıldığını gösterir | Kolayca görülebilir bir yerde | ![Robot Sinyal Işığı](../images/elec-components/rsl.webp) |
+    | Atalet Ölçüm Birimi (IMU) | Robot başlangıcını ve ivmesini belirlemek için kullanılır | Merkeze yakın olmak en iyi uygulamadır (Bellypan üzerinde veya RoboRIO'ya takmak için VHB bant) | ![Atalet Ölçüm Birimi](../images/elec-components/imu.webp) |
+    | Voltaj Regülatör Modülü | Özel devreler için kullanılabilir | Bellypan | ![Voltaj Regülatör Modülü](../images/elec-components/vrm.webp) |
+    | Pnömatik Hub | Pnömatik bileşenleri kontrol eder | Bellypan | ![Pnömatik Hub](../images/elec-components/pcm.webp) |
 
 <br>

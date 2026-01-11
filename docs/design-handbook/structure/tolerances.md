@@ -1,7 +1,7 @@
-# Tolerances
+# Toleranslar
 
-A guide on accounting for tolerances to make your parts fit together properly when they are manufactured in real life.
+Parçalarınızın gerçek hayatta üretildiğinde düzgün bir şekilde birbirine oturmasını sağlamak için toleransları hesaba katma rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

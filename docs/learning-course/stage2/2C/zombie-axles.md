@@ -1,11 +1,11 @@
 # 2C: Slapdown Intake
 
-## Zombie Axles 
+## Zombie Axles
 
-Since the arm pivot is a dead axle, the shaft doesn't spin with the arm. This means we can utilize the pivot shaft as a live axle to spin a pulley connected to the rollers. This is called a 'Zombie Axle', since the pivot shaft is being used as both a dead axle for the pivot and a live axle for roller power.
+Kol pivot'u bir dead axle olduğu için, mil kol ile birlikte dönmez. Bu, pivot milini, roller'lara bağlı bir kasnağı döndürmek için live axle olarak kullanabileceğimiz anlamına gelir. Buna 'Zombi Axle' denir, çünkü pivot mil hem pivot için dead axle hem de roller gücü için live axle olarak kullanılır.
 
-This design allows the roller motor to be located on the base of the robot, which reduces arm weight and protects the roller motor.
+Bu tasarım, roller motorunun robotun tabanında yer almasına izin verir, bu da kol ağırlığını azaltır ve roller motorunu korur.
 
-If you are having trouble visualizing this and have a 3d printer, you can print and assemble this 3D-printed model (Coming Soon). 
+Bunu görselleştirmekte zorlanıyorsanız ve bir 3d yazıcınız varsa, bu 3D-yazdırılmış modeli yazdırabilir ve toplayabilirsiniz (Yakında Geliyor).
 
 <br>

@@ -1,43 +1,43 @@
-# Intro to 3D Printing
+# 3D Yazıcıya Giriş
 
-An overview of 3D printing and its use cases in FRC robots.
+3D yazıcıya ve FRC robotlarındaki kullanım durumlarına genel bakış.
 
-## The Power of 3D Printing for FRC
+## FRC için 3D Yazıcının Gücü
 
-1. **Enabling rapid iteration and prototyping of robot components.**   
-    3D printing allows quick production of physical prototypes. You can test them, find flaws, and rapidly improve designs. This speeds up the design cycle, which is critical for FRC.
+1. **Robot bileşenlerinin hızlı iterasyonunu ve prototiplemesini sağlar.**
+   3D yazıcı, fiziksel prototiplerin hızlı üretilmesine izin verir. Onları test edebilir, kusurları bulabilir ve tasarımları hızla iyileştirebilirsiniz. Bu tasarım döngüsünü hızlandırır ve bu FRC için kritiktir.
 
-2. **Facilitating the creation of custom, specialized parts for unique challenges.**   
-   FRC Robots often need unique 3D geometries. 3D printing enables geometry not often possible with other fabrication methods.
+2. **Benzersiz zorluklar için özel, uzman parçaların oluşturulmasını kolaylaştırır.**
+   FRC Robotları genellikle benzersiz 3D geometrilere ihtiyaç duyar. 3D yazıcı, diğer üretim yöntemleriyle genellikle mümkün olmayan geometriyi sağlar.
 
-3. **Offering a pathway to lightweight yet strong designs.**  
-   3D printing enables creating complex internal structures called “infill” inside the part that reduce overall material usage and weight. This can be done while maintaining or increasing strength where needed, enabling lighter mechanism designs.
+3. **Hafif ama güçlü tasarımlara bir yol sunar.**
+   3D yazıcı, parçanın içinde "infill" adı verilen karmaşık iç yapılar oluşturarak genel malzeme kullanımını ve ağırlığı azaltmanızı sağlar. Bu, gereken yerlerde gücü korurken veya artırarak yapılabilir ve daha hafif mekanizma tasarımlarını sağlar.
 
-4. **Providing a cost-effective manufacturing solution for custom parts.**  
-   3D printing can be a cost-effective way to make custom parts. You can get 1 kg / 2.2 lbs of basic printing material (filament) for under $20 USD.
+4. **Özel parçalar için uygun maliyetli bir üretim çözümü sunar.**
+   3D yazıcı, özel parçalar yapmak için uygun maliyetli bir yol olabilir. 1 kg / 2.2 lbs temel yazıcı malzemesi (filament) 20 USD'nin altında alabilirsiniz.
 
-## Core Concepts of 3D Printing
+## 3D Yazıcının Temel Kavramları
 
-### What is 3D Printing?
+### 3D Yazıcı Nedir?
 
-Subtractive manufacturing (for example CNC milling) removes material from an initial form to reveal the final part. 3D printing, or additive manufacturing, builds objects layer by layer.
+Çıkarmalı üretim (örneğin CNC frezeleme) ilk formdan malzeme çıkararak son parçayı ortaya çıkarır. 3D yazıcı veya eklemeli üretim, nesneleri katman katman inşa eder.
 
    <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-process.png" style="width:60%">
-    <figcaption>3D printing process </figcaption>
+    <figcaption>3D yazıcı işlemi </figcaption>
   </figure>
 
-### Overview of the 3D Printing Workflow
+### 3D Yazıcı İş Akışına Genel Bakış
 
-1. **Export From Design (CAD)** Once your design is created you need to process it through 3D printing software, so you’ll need to export it from your CAD software.  
+1. **Tasarımdan (CAD) Dışa Aktarma** Tasarımınız oluşturulduktan sonra, 3D yazıcı yazılımı üzerinden işlemeniz gerekir, bu yüzden onu CAD yazıcınızdan dışa aktarmanız gerekir.
 
-2. **Slicing** Slicing software "slices" the model into horizontal layers. It then creates G-code: instructions telling the printer how to print each layer, including nozzle movements, temperatures, and speeds. This is where you configure things like part infill, material, supports etc.  
-3. **Printing** The G-code is loaded onto the 3D printer and it precisely deposits material layer by layer, building the object from the bottom until complete.  
-4. **Post-Processing** After printing, some parts may need further work. Post processing can include removing support structures, sanding, painting, or assembling multiple printed components. 	
+2. **Dilimleme** Dilimleme yazılımı modeli yatay katmanlara "dilimler". Sonra G-code oluşturur: yazıcıya her katmanı nasıl yazdıracağını söyleyen talimatlar, meme hareketlerini, sıcaklıkları ve hızları içerir. Parça infill, malzeme, destekler vb. gibi şeyleri yapılandırdığınız yer burasıdır.
+3. **Yazdırma** G-code 3D yazıcıya yüklenir ve malzemeyi katman katman hassas bir şekilde biriktir, nesneyi aşağıdan yukarıya doğru tamamlanana kadar inşa eder.
+4. **Son İşleme** Yazdırdıktan sonra, bazı parçaların daha fazla işleme ihtiyacı olabilir. Son işleme, destek yapılarının çıkarılmasını, zımparalanmasını, boyanmasını veya birden fazla yazdırılmış bileşenin montajını içerebilir.
 
-## Types of 3D Printers
+## 3D Yazıcı Türleri
 
-Many 3D printing technologies exist, but Fused Deposition Modeling (FDM) is most common and accessible. Common FDM printers are made by companies like Prusa, Bambu Lab, Creality, Stratasys, and Markforged.
+Birçok 3D yazıcı teknolojisi vardır, ancak Fused Deposition Modeling (FDM) en yaygın ve erişilebilir olandır. Yaygın FDM yazıcıları Prusa, Bambu Lab, Creality, Stratasys ve Markforged gibi şirketler tarafından üretilir.
 
    <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-bambu-a1.png" style="width:60%">
@@ -46,49 +46,49 @@ Many 3D printing technologies exist, but Fused Deposition Modeling (FDM) is most
 
 ### Fused Deposition Modeling (FDM)
 
-FDM printers feed filament into the extruder, melt it, and push it through a heated nozzle. The molten plastic is deposited onto the build plate in thin lines, forming the first layer. The print head moves up, and the next layer adheres as it cools. This repeats until the object is built.
+FDM yazıcıları filamenti ekstrüdere besler, eritir ve ısıtılmış bir memeden geçirir. Eritilmiş plastik ince çizgiler halinde yapım plakasına biriktirilir, ilk katmanı oluşturur. Yazıcı kafası yukarı hareket eder ve bir sonraki katman soğuduğunda tutunur. Bu nesne tamamlanana kadar tekrarlanır.
 
-1. **Advantages (Affordability, Material Variety, Ease of Use)** FDM printers are generally affordable, great for education. They print with many thermoplastics, and are relatively simple to operate.  
-2.  **Disadvantages (Layer Lines, Anisotropy)** FDM prints often show visible layer lines. Parts can be anisotropic, meaning strength varies based on force being applied in different directions. FDM parts are usually strongest along X and Y axes, and are weaker along the printer Z axis (normal to the print bed).
+1. **Avantajları (Uygun Fiyat, Malzeme Çeşitliliği, Kullanım Kolaylığı)** FDM yazıcıları genellikle uygun fiyatlıdır ve eğitim için harikadır. Birçok termoplastikle yazdırırlar ve nispeten basit çalıştırılırlar.
+2.  **Dezavantajları (Katman Çizgileri, Anizotropi)** FDM baskılar genellikle görülebilir katman çizgileri gösterir. Parçalar anizotropik olabilir, bu da kuvvetin farklı yönlerde uygulanmasına bağlı olarak gücün değiştiği anlamına gelir. FDM parçaları genellikle X ve Y eksenleri boyunca en güçlüdür ve yazıcının Z ekseni (yazıcı plakasına normal) boyunca daha zayıftır.
 
-### Other Printer Types
+### Diğer Yazıcı Türleri
 
-1. **Stereolithography (SLA):** Uses a UV laser to cure liquid resin layer by layer. Known for high detail and smooth surfaces, but depending on the resin, parts can be brittle.   
-2. **Digital Light Processing (DLP):** Similar to SLA, but uses a projector to cure whole resin layers at once, for faster prints. Typically a more expensive technology.  
-3. **Selective Laser Sintering (SLS):** Uses a laser to fuse powdered material (like nylon) layer by layer. Produces strong, functional parts without supports.
+1. **Stereolitografi (SLA):** Sıvı reçineyi katman katman tedavi etmek için bir UV lazer kullanır. Yüksek detay ve pürüzsüz yüzeyler ile bilinir, ancak reçineye bağlı olarak parçalar kırılgan olabilir.
+2. **Digital Light Processing (DLP):** SLA'ya benzer, ancak daha hızlı baskılar için tüm reçine katmanlarını bir seferde tedavi etmek için bir projektör kullanır. Tipik olarak daha pahalı bir teknolojidir.
+3. **Selective Laser Sintering (SLS):** Toz malzemeyi (örneğin naylon) katman katman birleştirmek için bir lazer kullanır. Desteksiz güçlü, işlevsel parçalar üretir.
 
-### Slicing Software
+### Dilimleme Yazılımı
 
-Slicing software connects your 3D model to your 3D printer. It translates your design into printer instructions.
+Dilimleme yazılımı 3D modelinizi 3D yazıcınıza bağlar. Tasarımınızı yazıcı talimatlarına çevirir.
 
-1. **What is a Slicer?** A slicer takes a 3D model (STL or OBJ) and converts it into thin layers. For each layer, it determines tool paths, extrusion, temperatures, and speeds. It generates G-code, a language that directs the printer's actions.  
-2. **Popular Slicers** Some printers require specific slicers, but others are compatible with a range of slicers. Common slicers are Bambu Studio, Prusa Slicer, Orca Slicer and Cura.   
-3. **Slicer Setup** There are many intricacies to slicing 3D models that are not covered in this guide. See the appendix for resources to learn more about slicing.  
-4. **Previewing the Slice** Most slicers have a preview mode. This shows exactly how the printer builds your part, layer by layer. This is a vital tool to spot issues (like unsupported overhangs or thin walls) before printing, saving time and material.  
-5. **File Formats to Import (STL, STEP)**  
-    1. **STL (Stereolithography):** Represents a 3D model as connected triangles, a “mesh” format. Good for very intricate models such as sculptures, characters, freeform designs, and works with nearly every slicer. However, it does **not** contain unit information, so you must be careful about exporting and importing that the units match. When exported at low quality there will be tessellation artifacts that can affect the accuracy of things like holes or critical dimensions.  
-    2. **STEP:** Another popular format that can store color and texture, less common for basic FDM printing than STL. Works by feature data instead of thousands of tiny triangles. Contains unit data so there is no conversion required in the slicer. 
+1. **Slicer Nedir?** Bir slicer, 3D modeli (STL veya OBJ) alır ve onu ince katmanlara dönüştürür. Her katman için, takım yollarını, ekstrüzyonu, sıcaklıkları ve hızları belirler. Yazıcının eylemlerini yönlendiren bir dil olan G-code'u üretir.
+2. **Popüler Slicer'lar** Bazı yazıcılar belirli slicer'lar gerektirir, ancak diğerleri bir dizi slicer ile uyumludur. Yaygın slicer'lar Bambu Studio, Prusa Slicer, Orca Slicer ve Cura'dır.
+3. **Slicer Kurulumu** 3D modelleri dilimlemenin birçok inceliği vardır ve bu rehberde kapsanmamaktadır. Daha fazla öğrenmek için ekteki kaynaklara bakın.
+4. **Dilimlemeyi Önizleme** Çoğu slicer'ın bir önizleme modu vardır. Bu, yazıcının parçanızı katman katman nasıl inşa ettiğini tam olarak gösterir. Bu, baskıdan önce sorunları (desteklenmeyen çıkıntılar veya ince duvarlar gibi) tespit etmek için hayati bir araçtır ve zaman ve malzemeden tasarruf sağlar.
+5. **İçe Aktarmak İçin Dosya Formatları (STL, STEP)**
+    1. **STL (Stereolitografi):** Bir 3D modelini bağlantılı üçgenler olarak temsil eder, bir "mesh" formatı. Heykeller, karakterler, serbest tasarım gibi çok karmaşık modeller için iyidir ve neredeyse her slicer ile çalışır. Ancak, birim bilgisi **içermez**, bu yüzden dışa aktarma ve içe aktarma sırasında birimlerin eşleştiğinden dikkatli olmalısınız. Düşük kalitede dışa aktarıldığında, delikler veya kritik boyutlar gibi şeylerin doğruluğunu etkileyen tesselasyon eserleri olabilir.
+    2. **STEP:** Başka bir popüler formatdır, renk ve doku saklayabilir, temel FDM baskısı için STL'den daha az yaygındır. Binlerce küçük üçgen yerine özellik verileri ile çalışır. Birim verisi içerir, bu yüzden slicer'da dönüşüm gerekmez.
 
-### Materials (Filaments for FDM)
+### Malzemeler (FDM için Filamentler)
 
-The type of filament significantly affects your 3D printed part's properties. See the appendix for a table of different filament properties. If you are new to 3D printing, PLA will be the easiest to get started with, and PETG is a great next step for a better balance of strength and durability at reasonable cost.
+Filament türü, 3D yazdırılmış parçanızın özelliklerini önemli ölçüde etkiler. Farklı filament özellikleri tablosu için eke bakın. 3D yazıcıya yeniyseniz, PLA ile başlamak en kolay olacak ve PETG, makul maliyetle güç ve dayanıklılık dengesi için harika bir sonraki adımdır.
 
-1. **Common Materials**   
-    1. **PLA (Polylactic Acid):** Easy to print, good for prototyping, low heat resistance.   
-    2. **PETG (Polyethylene Terephthalate Glycol):** Strong, durable, good for functional parts.   
-    3. **ABS (Acrylonitrile Butadiene Styrene):** Strong, heat-resistant, but more challenging to print.  
-2. **Advanced Materials**  
-   These are more difficult to print and are best reserved for when you really need them:  
-    1. **TPU (Flexible):** Makes flexible, rubber-like parts. Buying different durometer material or changing the part thickness/infill changes how flexible the part is.  
-    2. **Nylon PA-6 (Polyamide):** Engineering grade material. Good for strength and durability. Relatively easy to print with higher end printers.  
-    3. **Carbon Fiber Reinforced Filaments:** Many of the materials above can have carbon fiber pieces added to the filament. This offers increased stiffness and strength, often at higher cost. 
-    !!! Warning 
-        Chopped fiber filaments can be hazardous to sand, drill, or handle as it can release microscopic carbon rods into the air or skin.
+1. **Yaygın Malzemeler**
+    1. **PLA (Polilaktik Asit):** Yazdırması kolay, prototip için iyidir, düşük ısı direnci.
+    2. **PETG (Polietilen Tereftalat Glikol):** Güçlü, dayanıklı, işlevsel parçalar için iyidir.
+    3. **ABS (Akrilonitril Bütadien Stiren):** Güçlü, ısı dirençli, ancak yazdırmak daha zor.
+2. **Gelişmiş Malzemeler**
+   Bunlar yazdırmak daha zordur ve gerçekten ihtiyacınız olduğunda saklanması en iyisidir:
+    1. **TPU (Esnek):** Esnek, kauçuk benzeri parçalar yapar. Farklı durometer malzeme satın almak veya parça kalınlığını/infill değiştirmek parçanın ne kadar esnek olduğunu değiştirir.
+    2. **Naylon PA-6 (Poliamid):** Mühendislik sınıfı malzeme. Güç ve dayanıklılık için iyidir. Daha yüksek seviye yazıcılarla yazdırmak nispeten kolaydır.
+    3. **Karbon Fiber Takviyeli Filamentler:** Yukarıdaki malzemelerin çoğuna filament karbon fiber parçaları eklenebilir. Bu, genellikle daha yüksek maliyetle artırılmış sertlik ve güç sunar.
+    !!! Uyarı
+        Doğranmış fiber filamentler zımparalamak, delik açmak veya handled tehlikeli olabilir, çünkü havaya veya cilde mikroskobik karbon çubuklar salabilir.
 
-    4. **Continuous Carbon Fiber:** Some 3D printers such as certain offerings from Markforged can print with embedded continuous carbon fiber strands. This can offer part strength that matches or even exceeds that of aluminum.  
-    5. **PC (Polycarbonate):** Extremely strong, impact-resistant, and high heat tolerance.  
-    6. **More Niche Filaments:** PPS, PPA, ASA, Tullomer, PEEK, Ultem \- These filaments have some really unique properties that can be beneficial for different use cases.  
-3. **Material Storage and Handling** Filaments absorb moisture from the air (hygroscopic). This can cause print issues like stringing, bubbling, and even weaker parts. Store filaments dry, in sealed containers, ideally with desiccant. Read the filament vendor’s instructions on drying filament.  
-   
+    4. **Sürekli Karbon Fiber:** Markforged'in belirli teklifleri gibi bazı 3D yazıcılar, gömülü sürekli karbon fiber ipliklerle yazdırabilir. Bu, alüminyumla eşleşen veya onu aşan parça gücü sunabilir.
+    5. **PC (Polikarbonat):** Son derece güçlü, darbe dirençli ve yüksek ısı toleransı.
+    6. **Daha Niş Filamentler:** PPS, PPA, ASA, Tullomer, PEEK, Ultem - Bu filamentlerin bazıları farklı kullanım durumları için faydalı olabilecek gerçekten benzersiz özelliklere sahiptir.
+3. **Malzeme Saklama ve İşleme** Filamentler havadan nemi emer (higroskopik). Bu, stringing, kabarcıklanma ve hatta daha zayıf parçalar gibi baskı sorunlarına neden olabilir. Filamentleri kuru, kapalı kaplarda, ideal olarak kurutucu ile saklayın. Filament satıcısının filament kurutma talimatlarını okuyun.
+
 
 

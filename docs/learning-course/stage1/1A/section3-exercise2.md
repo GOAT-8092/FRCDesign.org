@@ -1,29 +1,29 @@
-# 1A: Onshape Fundamentals - Section 3
-## Exercise 2: Swerve Drive Assembly
+# 1A: Onshape Temelleri - Bölüm 3
+## Egzersiz 2: Swerve Sürüş Assembly'si
 
-Now that you've learned to use basic rivets, let's install them on a drivetrain.
+Şimdi temel perçinleri kullanmayı öğrendiğinize göre, onları bir sürücü sistemine kuralım.
 
-To get started, find the "S3 Exercise 2" part studio in the "Section 3" folder in your copy of the template document.
+Başlamak için, şablon belgenizin kopyasındaki "Bölüm 3" klasöründeki "S3 Egzersiz 2" part studio'yunu bulun.
 
-**Follow the video below** to complete the exercise.
+**Egzersizi tamamlamak için aşağıdaki videoyu takip edin**.
 
 <figure>
     <iframe width="768" height="432" src="https://www.youtube.com/embed/UZHMD1GFG44?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 !!! Tip
-    The `replicate` tool is introduced in this exercise. You can use it to easily copy components into similar geometry such as rivets, bolts, or bearings into equal size holes.
+    `Replicate` aracı bu egzersizde tanıtılmaktadır. Bunu, benzer geometriye, örneğin perçinleri, cıvataları veya rulmanları eşit boyuttaki deliklere kolayca kopyalamak için kullanabilirsiniz.
 
-1. Copy, paste, and fasten the remaining gussets onto the drivetrain frame.
-2. Insert rivets from FRCDesignLib and fasten them to the gussets using the **Replicate** tool.
-3. Insert **MK4i** drive modules (Don't worry about the configuration, just leave it as the default).
-4. Fasten the modules to the frame. **Don't worry about adding bolts yet**.
+1. Geri kalan gusset'leri kopyalayın, yapıştırın ve sürücü sistemi çerçevesine fasten edin.
+2. FRCDesignLib'den perçinleri ekleyin ve **Replicate** aracını kullanarak gusset'lere fasten edin.
+3. **MK4i** sürüş modüllerini ekleyin (Configuration hakkında endişelenmeyin, varsayılan olarak bırakın).
+4. Modülleri çerçeveye fasten edin. **Şimdi cıvatalar eklemek için endişelenmeyin**.
 
 !!! Tip
-    Try and use the assembly circular pattern tool to copy one module around the whole drivebase.
+    Bir modülü tüm sürücü tabanı etrafında kopyalamak için assembly circular pattern aracını kullanmayı deneyin.
 
 <br>
 
-Once the gussets, rivets, and swerve modules are inserted, move on to the next exercise.
+Gusset'ler, perçinler ve swerve modülleri eklendiğinde, bir sonraki egzersize geçin.
 
 <br>

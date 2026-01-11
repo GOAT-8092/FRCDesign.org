@@ -1,13 +1,13 @@
 ---
-title: Pivoting Intake Examples
+title: Pivotlu Toplayıcı Örnekleri
 image: docs/img/mechanism-examples/intake/slapdown/6423_2024_intake.webp
 ---
 
-# Pivoting Intakes
+# Pivotlu Toplayıcılar
 
-Pivoting, or "slapdown", intakes offer fast deployment and fine control of intake positioning.
+Pivotlu veya "slapdown" toplayıcılar hızlı yerleştirme ve toplayıcı konumlandırmasının hassas kontrolünü sunar.
 
-## Featured
+## Öne Çıkanlar
 
 <div class="grid cards" markdown>
 
@@ -15,41 +15,41 @@ Pivoting, or "slapdown", intakes offer fast deployment and fine control of intak
 
     ---
 
-    A motor powered slapdown intake with polycarbonate rollers for intaking notes
-    
-    [:octicons-arrow-right-24: 1678's Crescendo Slapdown Intake](1678_2024_intake.md)
+    Notları toplamak için polikarbonat silindirleri olan motor güçlü slapdown toplayıcı
+
+    [:octicons-arrow-right-24: 1678'nin Crescendo Slapdown Toplayıcısı](1678_2024_intake.md)
 
 -   <center>[![](../../../img/mechanism-examples/intake/slapdown/1778_2024_intake.webp){width=100%}](1778_2024_intake.md)</center>
 
     ---
 
-    A motor powered slapdown intake with a zombie axle pivot for intaking notes
-    
-    [:octicons-arrow-right-24: 1778's Crescendo Slapdown Intake](1778_2024_intake.md)
+    Notları toplamak için zombie axle pivotlu motor güçlü slapdown toplayıcı
+
+    [:octicons-arrow-right-24: 1778'nin Crescendo Slapdown Toplayıcısı](1778_2024_intake.md)
 
 -   <center>[![](../../../img/mechanism-examples/intake/slapdown/6423_2024_intake.webp){width=100%}](6423_2024_intake.md)</center>
 
     ---
 
-    A motor powered pivoting intake that flips up for a handoff
-    
-    [:octicons-arrow-right-24: 6423's Crescendo Flip Intake](6423_2024_intake.md)
+    Handoff için yukarı çevrilen motor güçlü pivotlu toplayıcı
+
+    [:octicons-arrow-right-24: 6423'ün Crescendo Flip Toplayıcısı](6423_2024_intake.md)
 
 -   <center>[![](../../../img/mechanism-examples/intake/slapdown/3847_2022_intake.webp){width=100%}](3847_2022_intake.md)</center>
 
     ---
 
-    A spring powered pivoting intake that allows for the pivot motor to be the same as the roller motor
-    
-    [:octicons-arrow-right-24: 3847's Rapid React Springed Intake](3847_2022_intake.md)
+    Pivot motorunun silindir motoru ile aynı olmasına izin veren yay güçlü pivotlu toplayıcı
+
+    [:octicons-arrow-right-24: 3847'nin Rapid React Yaylı Toplayıcısı](3847_2022_intake.md)
 
 -   <center>[![](../../../img/mechanism-examples/intake/slapdown/2910_2021_intake.webp){width=100%}](2910_2021_intake.md)</center>
 
     ---
 
-    A pneumatically actuated intake with vectoring wheels for centering Infinite Recharge balls
-    
-    [:octicons-arrow-right-24: 2910's IR @ Home Pneumatic Intake](2910_2021_intake.md)
+    Infinite Recharge toplarını merkezlemek için vektörlü tekerlekleri olan pnömatik aktüatörlü toplayıcı
+
+    [:octicons-arrow-right-24: 2910'un IR @ Home Pnömatik Toplayıcısı](2910_2021_intake.md)
 
 </div>
 

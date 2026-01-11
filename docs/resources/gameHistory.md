@@ -1,4 +1,4 @@
-# Game History
+# Oyun Geçmişişi
 
 WIP
 

@@ -1,23 +1,23 @@
 ---
-title: Contributors
-description: A list of contributors to FRCDesign.org
+title: Katkıda Bulunanlar
+description: FRCDesign.org'a katkıda bulunanların listesi
 ---
 
-# Website Contributors
+# Web Sitesi Katkıda Bulunanlar
 
-!!! note
+!!! not
 
-    Team affiliations and status' may be out of date. These lists are not sorted in any particular way. If you are missing from this list or need something modified please reach out to a primary contributor or make a PR with the changes.
+    Takım bağlantıları ve durumları güncel olmayabilir. Bu listeler belirli bir şekilde sıralanmamıştır. Bu listede eksik iseniz veya bir şeyin değiştirilmesine ihtiyacınız varsa lütfen birincil katkıda bulunanla iletişime geçin veya değişikliklerle bir PR yapın.
 
-FRCDesign.org would not happen without the wonderful work of these people!
+FRCDesign.org bu harika insanların çalışması olmadan olmazdı!
 
-## Primary Contributors
+## Birincil Katkıda Bulunanlar
 - David
 - Kelly - FRC 1778AM
 - Andrew Card - FRC 6657AM
 - Jonathan Mi - FRC 4414M
 
-## Other Contributors
+## Diğer Katkıda Bulunanlar
 - Brendan - FRC 1153/1119A
 - Astro - FRC 6423A
 - Neel - FRC 5026A
@@ -30,7 +30,7 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - Connor - FRC 8177A
 - Jon Zimmerman - FRC 226M
 
-## Additional Input
+## Ek Girdi
 - Andrew Torrance - FRC 254M
 - JJ - FRC 4414M
 - Mike Corsetto - FRC 1678M
@@ -54,26 +54,26 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - Eric Berquist - FRC 3100M
 - Kevin - FRC 2399M
 - Anand Rajamani - Redux Robotics
-- Nolan - FRC 9432 student 
-- Tim - FRC 8248M 
-- Oliver - FRC 4089 
+- Nolan - FRC 9432 öğrencisi
+- Tim - FRC 8248M
+- Oliver - FRC 4089
 - Cloudcake8 - FRC 3006
-- pointybirb - FRC 3256A 
+- pointybirb - FRC 3256A
 - Lewy - FRC 8033
-- George - FRC 2521A 
+- George - FRC 2521A
 - Ishaan - FRC 8177A
 - Honore - FRC 1072
 - Wither - FRC 6443A
 - Zachary - FRC 4990A
 - Jupiter - FRC 9483
 
-# FRCDesignLib Contributors
+# FRCDesignLib Katkıda Bulunanlar
 
-## Primary Contributors
+## Birincil Katkıda Bulunanlar
 - Kelly - FRC 1778AM
 - Andrew Card - FRC 6657AM
 
-## Other Contributors
+## Diğer Katkıda Bulunanlar
 - Brendan - FRC 1153/1119
 - Soren
 - Jonathan Mi - FRC 4414M

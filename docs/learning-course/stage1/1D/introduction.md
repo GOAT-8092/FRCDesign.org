@@ -1,18 +1,18 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Tasarım Metodolojisi - Basit Swerve Şasisi
 
-## Introduction
+## Giriş
 
-So far, you've worked on CAD fundamentals through courses and FRC-relevant exercises, but haven't done anything within a larger context. In this stage, you'll dive right into designing for a real robot. In this project, you will be designing a swerve drivebase while being introduced to a design workflow that will be applied to all future projects. 
+Şimdiye kadar, kurslar ve FRC ile ilgili egzersizler yoluyla CAD temelleri üzerinde çalıştınız, ancak daha büyük bir bağlam içinde hiçbir şey yapmadınız. Bu aşamada, doğrudan gerçek bir robot için tasarlamaya dalacaksınız. Bu projede, bir tasarım iş akışına tanıtılırken bir swerve şasisi tasarlayacaksınız ve bu iş akışı gelecekteki tüm projelere uygulanacaktır.
 
-1. Learn the basics of top-down design and layout sketching
-2. Model a swerve drivebase using COTS swerve modules
-3. Create a top-level assembly and insert a pre-modeled mechanism (1678's 2023 elevator and manipulator) 
+1. Üsten aşağı tasarım ve düzen çizimi temellerini öğrenin
+2. COTS swerve modüllerini kullanarak bir swerve şasisi modelleyin
+3. Üst düzey bir montaj oluşturun ve önceden modellenmiş bir mekanizma ekleyin (1678'in 2023 asansörü ve manipülatörü)
 
-Even if you've already modeled a drivetrain the past, this guide serves as an excellent introduction to the **top-down** layout sketch design methodology.
+Geçmişte bir şasi modellemiş olsanız bile, bu kılavuz **üsten aşağı** düzen çizimi tasarım metodolojisine mükemmel bir giriş niteliğindedir.
 
 <figure>
     <img src="../images/full-assembly.webp" style="width:100%">
-    <figcaption>The swerve drivebase that you will be modeling with a pre-modeled scoring mechanism.</figcaption>
+    <figcaption>Modelleyeceğiniz swerve şasisi, önceden modellenmiş bir skor mekanizması ile birlikte.</figcaption>
 </figure>
 
 <br>

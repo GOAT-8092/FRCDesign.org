@@ -3,7 +3,7 @@ search:
   exclude: true
 ---
 
-# 2x: Foam Ball Conveyer
+# 2x: Foam Top Konveyör
 
 Work In Progress
 

@@ -1,21 +1,21 @@
-# 2B: Dead Axle Pivot
+# 2B: Dingil Silisi Pivot
 
 ## Power Transmission
 
-Sprocket and chain is used for transmitting power due chain's high load rating and low chance of slipping. Using large sprockets bolted to the mechanism helps reduce backlash and increase load capacity, while ensuring that the axle remains a dead axle. 
+Zincir'in yüksek yük kapasitesi ve kayma riskinin düşük olması nedeniyle güç aktarmak için sprocket ve zincir kullanılır. Mekanizmaya cıvatalanmış büyük sprocket'ler kullanmak backlash'ı azaltmaya ve yük kapasitesini artırmaya yardımcı olurken, milin dead bir mil olarak kalmasını sağlar.
 
-Torque is transmitted directly to the rotating mechanism from the sprocket, while the entire thing only uses the axle as a structural member to rotate on.
+Tork, sprocket'ten dönen mekanizmaya doğrudan aktarılır, while the whole thing only uses the axle as a structural member to rotate on.
 
 <figure>
 <img src="\img\learning-course\stage2-pivot\chaintensioncut.gif" alt="chain with tensioner" width="60%">
-<figcaption> A chain and sprocket powered pivot.</figcaption>
+<figcaption> Zincir ve sprocket ile çalışan bir pivot.</figcaption>
 </figure>
 
-### Reference Design
-The reference design utilizes a 60T #25 chain sprocket to drive the arm.
+### Referans Tasarım
+Referans tasarım, kolu sürmek için 60T #25 zincir sprocket'ini kullanır.
 
 <figure>
 <img src="\img\learning-course\stage2-pivot\power-example.webp" alt="Power Example" width="60%">
-<figcaption> Reference design chain and sprocket.</figcaption>
+<figcaption> Referans tasarım zinciri ve sprocket.</figcaption>
 </figure>
 <br>

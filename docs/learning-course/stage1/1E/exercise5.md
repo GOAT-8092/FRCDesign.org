@@ -1,62 +1,62 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Alt Sistem İş Akışı - Drivebase Detaylandırma
 
-## Exercise: Bumper Mounting
+## Egzersiz: Tampon Montajı
 
-Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to [bumper damage](https://youtu.be/9mawtTD6v7M?si=RyM0fE6GrR4QlMEU&t=78 "3647 Bumpers Breaking"){:target="_blank"}, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42 "Bumpers Falling Off"){:target="_blank"}.
+Batarya montajına benzer şekilde, iyi tampon montajı genellikle gözden kaçırılır. Sağlam bir tampon montaj sistemi size hiçbir maçı kazandırmazken, zayıf bir tampon montaj sistemi kesinlikle bir maçı kaybettirebilir. Zayıf tampon montajı [tampon hasarına](https://youtu.be/9mawtTD6v7M?si=RyM0fE6GrR4QlMEU&t=78 "3647 Tamponları Kırılıyor"){:target="_blank"}, uzun tampon değiştirme süresine veya hatta tamponlarınızın [düşmesine](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42 "Tamponlar Düşüyor"){:target="_blank"} neden olabilir.
 
-In the reference design, the threaded stud bumper mounting system is implemented. 
+Referans tasarımda, threadli stud tampon montaj sistemi uygulanmıştır.
 
-!!! Example "Threaded Stud Bumper Mounting System"
+!!! Örnek "Threadli Stud Tampon Montaj Sistemi"
     <figure>
         <img src="../images/bumper-mount/stud-mount.webp" style="width:70%">
-        <figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the bumpers tight against the frame.</figcaption>
+        <figcaption>Threadli stud tampon montaj sisteminin kesit görünümü. Threadli stud tampon ahşabına takılır ve somun tamponları çerçeveye karşı sıkı tutar.</figcaption>
     </figure>
 
 
-### Instructions
+### Talimatlar
 
-**Add your desired bumper mounts to your drivetrain.** You can take inspiration from the following instructions slides.
-<!-- 
-You can learn more about bumpers and different bumper mounting options in the [Design Handbook](/design-handbook/) pages.  -->
+**Drivetrain'inize istediğiniz tampon montajlarını ekleyin.** Aşağıdaki talimat slaytlarından ilham alabilirsiniz.
+<!--
+Tamponlar ve farklı tampon montaj seçenekleri hakkında daha fazla bilgiyi [Design Handbook](/design-handbook/) sayfalarından öğrenebilirsiniz.  -->
 
-<!-- <center>**Sample Bumper Mount Modeling Slides**</center> -->
+<!-- <center>**Örnek Tampon Montaj Modelleme Slaytları**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
     <!-- Full-width images with number and caption text -->
     <div id="slide1" class="mySlides fade">
         <figure>
             <img src="../images/bumper-mount/bumper-mount-0.webp" style="width:100%">
-            <figcaption>0. Finished bumper mounts. </figcaption>
+            <figcaption>0. Tamamlanmış tampon montajları. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper-mount/bumper-mount-1.webp" style="width:100%">
-            <figcaption>1. Model the bumper mount. This part should be 3/16” thick aluminum. The threaded stud falls into the slot.</figcaption>
+            <figcaption>1. Tampon montajını modelleyin. Bu parça 3/16" kalınlığında alüminyum olmalıdır. Threadli stud yuvaya düşer.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper-mount/bumper-mount-2.webp" style="width:100%">
-            <figcaption>2. Add the pocket for the nut that screws onto the threaded stud. This nut keeps the bumpers tight with the frame. The pocket secures the nut and prevents the bumper from lifting up.</figcaption>
+            <figcaption>2. Threadli stude vidalanan somun için pocket ekleyin. Bu somun tamponları çerçeveyle sıkı tutar. Pocket somunu güvence altına alır ve tamponun yukarı kalkmasını önler.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper-mount/bumper-mount-3.webp" style="width:100%">
-            <figcaption>3. Fillet and optionally pocket the mount. 0.15" wide ribs and 1/8" tool radius are recommended. </figcaption>
+            <figcaption>3. Fillet yapın ve isteğe bağlı olarak montajı pocketleyin. 0.15" genişliğinde kaburgalar ve 1/8" takım yarıçapı önerilir. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper-mount/bumper-mount-4.webp" style="width:100%">
-            <figcaption>4. Insert the mount and add it to the <code>Group</code>. Copy three more mounts and mate them onto the drivetrain assembly. If your team runs multi piece bumpers (eg: two C shaped bumpers) you may need to add more mounts to secure the bumpers.</figcaption>
+            <figcaption>4. Montajı ekleyin ve <code>Group</code>'a ekleyin. Üç montaj daha kopyalayın ve drivetrain assembly'sine mate edin. Takımınız çok parçalı tamponlar çalıştırıyorsa (örn: iki C şeklinde tampon) tamponları güvence altına almak için daha fazla montaj eklemeniz gerekebilir.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="../images/bumper-mount/bumper-mount-0.webp" style="width:100%">
-            <figcaption>5. Finished bumper mounts in drivetrain assembly.</figcaption>
+            <figcaption>5. Drivetrain assembly'sinde tamamlanmış tampon montajları.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->

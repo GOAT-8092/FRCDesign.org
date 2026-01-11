@@ -1,23 +1,23 @@
-# Materials
+# Malzemeler
 
-<!-- Needs an intro -->
+<!-- Girişe ihtiyaç var -->
 
-An overview of raw materials commonly found on FRC robots.
+FRC robotlarında yaygın olarak bulunan hammaddelere genel bakış.
 
-## Aluminum
+## Alüminyum
 
-1/8, 3/16, and 1/4 aluminum stock are generally used for gussets and plates that have to be stiffer than plastic could provide. Avoid using use these materials in applications where they will be exposed beyond the robot frame, as they are not as impact-resistant as plastics and can easily bend, or fail catastrophically. 6061-T6 is the most common alloy, but 7075 is sometimes used and has higher yield strength.
+1/8, 3/16 ve 1/4 alüminyum stok genellikle plastikten daha sert olması gereken gussetler ve plakalar için kullanılır. Bu malzemeleri robot çerçevesinin dışına açık olacak uygulamalarda kullanmaktan kaçının, çünkü plastikler kadar darbe dayanımlı değildir ve kolayca bükülebilir veya felaketle başarısız olabilir. 6061-T6 en yaygın alaşımdır, ancak 7075 bazen kullanılır ve daha yüksek akma dayanımına sahiptir.
 
-## Polycarbonate
+## Polikarbonat
 
-Polycarbonate plastic is used in high impact applications such as subsystems that are exposed beyond the robot frame perimeter. Typically 1/4" thickness is used. 1/8 or 1/16" polycarbonate can be used for dust covers, sponsor panels, etc. - it will almost never shatter, and looks great.
+Polikarbonat plastik, robot çerçevesi çevresinin dışına açık alt sistemler gibi yüksek darbe uygulamalarında kullanılır. Tipik olarak 1/4" kalınlık kullanılır. 1/8 veya 1/16" polikarbonat toz kapaklar, sponsor panelleri vb. için kullanılabilir - neredeyse hiçbir zaman kırılmaz ve harika görünür.
 
 !!! Tip
-    "Smoked" or "tinted" polycarbonate can provide a more aesthetic look than clear. While making smoked polycarbonate is difficult, making frosted is easy! 30 seconds of sanding with an orbital sander using 240 grit will give the material a nice, glassy finish.
+    "Dumanlı" veya "renkli" polikarbonat, net olandan daha estetik bir görünüm sağlayabilir. Dumanlı polikarbonat yapmak zorken, buzlu yapmak kolaydır! Orbital zımpara kullanarak 240 grit ile 30 saniyelik zımparlama malzemeye hoş, cam benzeri bir finiş verir.
 
 
-!!! Note
-    Make sure to check your supplier's thickness and tolerance for each material. Sometimes, something marketed as in imperial measurements is actually manufactured to fit metric tolerances. For instance: 1/4" polycarbonate is actually sometimes manufactured as 6mm, which is 14 thousandths of an inch off of 1/4in. Account for these actual stock measurements when designing to make sure things end up fitting together!
+!!! Not
+    Her malzeme için sağlayıcınızın kalınlığını ve toleransını kontrol ettiğinizden emin olun. Bazen emperyal ölçümlerde pazarlanan şeyler aslında metrik toleranslara göre üretilir. Örneğin: 1/4" polikarbonat bazen 6mm olarak üretilir, bu da 1/4 inç'ten 14 binde inç uzaktadır. Şeylerin sonunda düzgün oturmasını sağlamak için tasarım yaparken bu gerçek stok ölçümlerini hesaba katın.
 
 
 <br>

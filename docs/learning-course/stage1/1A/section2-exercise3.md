@@ -1,35 +1,35 @@
-# 1A: Onshape Fundamentals - Section 2
-## Exercise 3: Superstructure Gussets & Plate
+# 1A: Onshape Temelleri - Bölüm 2
+## Egzersiz 3: Süperyapı Gusset'leri ve Plakası
 
-In this exercise you will be using all of the skills you have learned so far and learn how to use the `Linear Pattern` and `Mirror` features to save time when modeling repeat geometry.
+Bu egzersizde, şimdiye kadar öğrendiğiniz tüm becerileri kullanacak ve tekrarlayan geometriyi modellerken zaman kazanmak için `Linear Pattern` ve `Mirror` özelliklerini nasıl kullanacağınızı öğreneceksiniz.
 
-To get started, find the "Exercise 3: Gusset Practice" part studio in the "Section 2" folder in your copy of the template document. 
+Başlamak için, şablon belgenizin kopyasındaki "Bölüm 2" klasöründeki "Egzersiz 3: Gusset Pratiği" part studio'yunu bulun.
 
-**Using the reference image** below, create the **three frame gussets** and the **large polycarbonate side plate**. 
+**Aşağıdaki referans görseli kullanarak**, **üç çerçeve gusset'ini** ve **büyük polikarbonat yan plağını** oluşturun.
 
 !!! Note
-    No dimensions are provided; try to be deliberate about what you dimension to and from while you fully define your sketches. Think about if you had rollers or wheels or motors, where would you want to add the dimensions to make sure they had clearance?
+    Hiçbir dimension sağlanmamıştır; sketch'lerinizi tam olarak tanımlarken neyi dimension'dan neye dimensionladığınız hakkında bilinçli olmaya çalışın. Eğer silindirler veya tekerlekler veya motorlar olsaydı, onların boşluğu olduğundan emin olmak için dimension'ları nereye eklemek isterdiniz?
 
 
 <figure>
   <img src="/img/learning-course/stage1a/superstructure-gusset-example.webp" style="width:75%">
-  <figcaption>Superstructure gusset example layout</figcaption>
+  <figcaption>Süperyapı gusset örnek düzeni</figcaption>
 </figure>
 
 
-<center markdown> **Video Coming Soon** </center>
+<center markdown> **Video Yakında** </center>
 
-!!! tip "Remember..."
-    - For the gussets and plate, copy at most 1 hole per tube from with the `Use` tool - use `linear pattern` for the rest.
-    - Use the `mirror` tool to make the right or left side of the mounting holes instead of making a third `linear pattern`.
+!!! tip "Hatırla..."
+    - Gusset'ler ve plaka için, boru başına en fazla 1 deliği `Use` aracı ile kopyalayın - geri kalanı için `linear pattern` kullanın.
+    - Üçüncü bir `linear pattern` yapmak yerine montaj deliklerinin sağ veya sol tarafını yapmak için `mirror` aracını kullanın.
 
-!!! Tip "Materials"
-    The two main types of stock materials we use in FRC are **aluminum and polycarbonate** (a type of plastic). The reason we use aluminum instead of steel is because aluminum provides more strength for its weight than steel. Polycarbonate ("polycarb") is much lighter, more flexible, and impact-resistant.
+!!! Tip "Malzemeler"
+    FRC'de kullandığımız iki ana stok malzeme türü **alüminyum ve polikarbonattır** (bir tür plastik). Çelik yerine alüminyum kullanmamızın nedeni, alüminyumun ağırlığına göre çelikten daha fazla güç sağlamasıdır. Polikarbonat ("polikarb") çok daha hafiftir, daha esnektir ve darbeye dayanıklıdır.
 
 <br>
 
 
 
-When you're done with the **gussets and large side plate**, move on to the next exercise.
+**Gusset'leri ve büyük yan plağı** bitirdiğinizde, bir sonraki egzersize geçin.
 
 <br>

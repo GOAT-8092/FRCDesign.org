@@ -1,26 +1,26 @@
-# 1B: Power Transmissions
+# 1B: Güç Aktarımı
 
-## Motors
+## Motorlar
 
-Motors spin! They transform electrical energy supplied by the robot battery into rotational motion. From intaking to climbing to driving, just about anything on your robot can be moved with the right motor(s).
+Motorlar döner! Robot pili tarafından sağlanan elektrik enerjisini döner harekete dönüştürürler. Intake'den tırmanmaya ve sürücüne kadar, robotunuzdaki hemen hemen her şey doğru motor(la)la hareket ettirilebilir.
 
 <figure>
     <img src="../images/examples/motor-lineup.webp" style="width:100%">
-    <figcaption>Some of the motors available for use in FRC.</figcaption>
+    <figcaption>FRC'de kullanıma sunulan motorlardan bazıları.</figcaption>
 </figure>
 
-### CIM Class Motors
+### CIM Sınıfı Motorlar
 
-In FRC, a number of different motor options are available, all with different advantages and use cases. The most common type of motor found in modern FRC is the "CIM class" motor. This includes the CIM, Mini-CIM, VEXpro Falcon 500, WCP Kraken x60, REV NEO, REV NEO Vortex, and Redux Cu60. While each of the CIM class motors have different speeds and power, they have two traits in common for modeling:
+FRC'de, farklı avantajları ve kullanım durumlarına sahip bir dizi farklı motor seçeneği mevcuttur. Modern FRC'de bulunan en yaygın motor türü "CIM sınıfı" motorudur. Bu, CIM, Mini-CIM, VEXpro Falcon 500, WCP Kraken x60, REV NEO, REV NEO Vortex ve Redux Cu60'u içerir. CIM sınıfı motorların her birinin farklı hızları ve güçleri olsa da, modelleme için iki ortak özelliği vardır:
 
-* The motors' outer diameters can be represented with a 2.5" diameter circle (some are slightly smaller at 60mm/2.362").
-* The motors have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are #10-32 threaded, as #10-32 is the hardware standard for FRC COTS parts.
+* Motorların dış çapları 2.5" çaplı bir daire ile temsil edilebilir (bazıları 60mm/2.362" ile biraz daha küçüktür).
+* Motorlarda montaj için 2 ila 11 delik vardır, ancak hepsi 2" çaplı bir cıvata dairesinde yer alır (Aşağıdaki görsele bakın). Delikler #10-32 dişlidir, çünkü #10-32 FRC COTS parçaları için donanım standardıdır.
 
 <figure>
     <img src="../images/examples/cim-bolt-circle.webp" style="width:50%">
-    <figcaption>Mounting holes for CIM class motors are on a 2" diameter bolt circle. All of the holes are 1" away from the center of the motor.</figcaption>
+    <figcaption>CIM sınıfı motorlar için montaj delikleri 2" çaplı bir cıvata dairesindedir. Tüm delikler motorun merkezinden 1" uzaktadır.</figcaption>
 </figure>
 
-All of the exercises for this stage will use CIM class motors. 
+Bu aşama için tüm alıştırmalar CIM sınıfı motorları kullanacaktır.
 
 <br>

@@ -1,20 +1,20 @@
-# 2D: Cascade Elevator
+# 2D: Kaskat Asansör
 
 ## Project Overview
 
-Because elevators are just mechanisms to move other mechanisms around, this project is similar to the dead axle pivot and will be designed without much context to learn the design process and components. You will get practice with designing elevators in the context of a robot in Stage 3.
+Asansörler sadece diğer mekanizmaları hareket ettirmek için mekanizmalar olduğu için, bu proje dead axle pivot'a benzer ve tasarım sürecini ve bileşenleri öğrenmek için çok fazla bağlam olmadan tasarlanacaktır. Stage 3'te bir robot bağlamında asansör tasarlama pratiği yapacaksınız.
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/elevatorTopLevel.webp" style="width:85%">
-    <figcaption>Reference Elevator Assembly</figcaption>
+    <figcaption>Referans Asansör Assembly</figcaption>
 </figure>
 
-To design the elevator, this document will be used as reference. After the engineering concepts section, you will follow a rough guide to model a copy of it.
+Asansörü tasarlamak için, bu doküman referans olarak kullanılacaktır. Mühendislik kavramları bölümünden sonra, onun bir kopyasını modellemek için kaba bir kılavuzu takip edeceksiniz.
 
 <center markdown>[**Cascade Elevator Reference Document**](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/e04be5ee3006a81febc293b6){:target="_blank" .md-button .md-button--primary } </center>
 
 ### Engineering Concepts & Decisions
 
-The engineering concepts and decisions made to design the reference elevator are covered in the following sections. We cover these concepts lightly so you can understand the principles enough to design one yourself. The design handbook covers the "why" for these concepts if you would like to gain a deeper understanding.
+Referans asansörü tasarlamak için yapılan mühendislik kavramları ve kararlar aşağıdaki bölümlerde ele alınmaktadır. Bu kavramları hafifçe ele alıyoruz, böylece ilkelerini anlayarak kendiniz bir tane tasarlayabilirsiniz. Daha derin bir anlayış kazanmak isterseniz, tasarım el kitabı bu kavramlar için "neden" konusunu ele alır.
 
 <br>

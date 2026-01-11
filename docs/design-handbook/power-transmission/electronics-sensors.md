@@ -1,7 +1,7 @@
-# Electronics, Motors, and Sensors
+# Elektronik, Motorlar ve Sensörler
 
-A guide on how to design space for electronics, an overview of motors, and incorporating sensors to improve the controllability of a robot.
+Elektronik için nasıl alan tasarlanacağı, motorlara genel bakış ve bir robotun kontrol edilebilirliğini artırmak için sensörlerin nasıl entegre edileceği rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <br>

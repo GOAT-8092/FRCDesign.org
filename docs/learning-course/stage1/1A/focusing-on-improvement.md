@@ -1,40 +1,40 @@
-# Focusing on Improvement
+# İyileştirmeye Odaklanma
 
-When going through the exercises throughout Stage 1 and 2, an intentional focus on improving specific skills and speeding up your workflow can help accelerate your learning and make the exercises more effective. 
+1 ve 2. Aşamalarındaki egzersizleri yaparken, belirli becerileri iyileştirmeye ve iş akışınızı hızlandırmaya bilinçli bir odaklanmak, öğrenmenizi hızlandırmanıza ve egzersizleri daha etkili hale getirmenize yardımcı olabilir.
 
-### Exercise Instructions
+### Egzersiz Talimatları
 
-When **doing an exercise**, follow these steps:
+Bir **egzersiz yaparken**, şu adımları takip edin:
 
-??? Tip "OPTIONAL: Time Yourself"
-    Optionally, start a stopwatch or timer or record yourself doing CAD. This can help you focus better, but also creates a better sense of awareness of what you're spending the most time on so you can focus on that in the future.
+??? Tip "İSTEĞE BAĞLI: Kendinizi Zamanlayın"
+    İsteğe bağlı olarak, bir kronometre veya zamanlayıcı başlatın veya CAD yaparken kendinizi kaydedin. Bu daha iyi odaklanmanıza yardımcı olabilir, ayrıca gelecekte bunun üzerinde odaklanmanız için en çok zamanı neye harcadığınıza dair daha iyi bir farkındalık yaratır.
 
-1. Try to catch errors as you are modeling. This may be based on awareness built from prior reviews and experience.
-2. Get your CAD as close to finished as possible.
-3. Take a 5-minute break doing something else that isn't your project or on devices. Walking around, cleaning your room/shop, doing laundry, etc.
+1. Model yaparken hataları yakalamaya çalışın. Bu, önceki incelemelerden ve deneyimden oluşturulan farkındalığa dayanabilir.
+2. CAD'inizi mümkün olduğunca bitmişmiş hale getirin.
+3. Projeniz veya cihazlarınız üzerinde olmayan başka bir şey yaparak 5 dakikalık bir mola verin. Etrafında yürümek, odanızı/atölyenizi temizlemek, çamaşır yıkamak vb.
 
 
-### Review Instructions
+### İnceleme Talimatları
 
-The review at the end is to **catch the mistakes you didn't catch during your design process**. As you build awareness, knowledge, and intuition, you will learn to focus on not making those mistakes again or finding them and fixing them while modeling.
+Sondaki inceleme, **tasarım süreciniz sırasında yakalamadığınız hataları yakalamak içindir**. Farkındalık, bilgi ve sezgi oluşturdukça, bu hataları tekrar yapmamaya veya onları model yaparken bulup düzeltmeye odaklanmayı öğreneceksiniz.
 
-It's important to start this early and be consistent to stop bad habits from forming!
+Kötü alışkanlıkların oluşmasını durdurmak için buna erken başlamak ve tutarlı olmak önemlidir!
 
-After doing your exercise and taking the 5-minute break, **use the following instructions/template to self-review effectively:**
+Egzersizinizi yaptıktan ve 5 dakikalık molayı verdikten sonra, **kendinizi etkili bir şekilde gözden geçirmek için aşağıdaki talimatları/şablonu kullanın:**
 
-1. Check your model **without using the reference solution** first to see if you missed anything or made any mistakes along the way (an offset is wrong, a wrong mate connector was used, you missed a part), then try to fix those mistakes.
+1. Önce referans çözümü kullanmadan modelinizi **kontrol edin**, bir şeyleri kaçırıp kaçırmadığınızı veya yolda herhangi bir hata yapıp yapmadığınızı görün (bir ofset yanlış, yanlış bir mate connector kullanıldı, bir parçayı kaçırdınız), ardından bu hataları düzeltmeyi deneyin.
 
-2. Now compare your model and feature tree with the **reference in the provided Solutions Document** for the section and fix any mistakes you find.
-    - You can spend 5 minutes now on good practices to save hours in the future!
+2. Şimdi modelinizi ve feature tree'nizi bölüm için sağlanan **Çözümler Belgesindeki referansla** karşılaştırın ve bulduğunuz hataları düzeltin.
+    - Gelecekte saatlerce tasarruf etmek için şimdi iyi uygulamalara 5 dakika harcayabilirsiniz!
 
-3. Final reflections:
-    - How did you feel about your workflow and your time spent? Were there any parts of your CAD process that felt particularly slow? Anything you struggled on?
-    - What caused you to struggle on those particular processes? Is there a certain lack of experience or knowledge that caused you to have difficulty there?
-    - What do you need to learn or practice to get better in those areas?
+3. Final düşünceleri:
+    - İş akışınız ve harcadığınız zaman hakkında nasıl hissettiniz? CAD sürecinizin özellikle yavaş hissettiği herhangi bir parçası var mı? Herhangi bir şeyde zorlandınız mı?
+    - Sizi bu belirli süreçlerde zorlayan neydi? Orada zorlanmanıza neden olan belirli bir deneyim veya bilgi eksikliği var mıydı?
+    - Bu alanlarda daha iyi olmak için neyi öğrenmeniz veya pratiği yapmanız gerekiyor?
 
-During future exercises and projects, use this review to intentionally focus on the parts of your practices and workflow that need improvement.
+Gelecekteki egzersizlerde ve projelerde, bu incelemeyi iyileştirme ihtiyacı olan uygulamalarınızın ve iş akışınızın parçalarına bilinçli bir şekilde odaklanmak için kullanın.
 
-!!! Tip "OPTIONAL: Have a Mentor Help Review"
-    Your student design lead or mentor, if available, can help review your exercise by asking the questions in the following instructions, alongside giving their own feedback. This is best done after your own self-review, though.
+!!! Tip "İSTEĞE BAĞLI: Bir Mentor İncelemeye Yardım Etsin"
+    Öğrenci tasarım lideriniz veya mentorunuz, müsaitse, aşağıdaki talimatlardaki soruları sorarak ve kendi geri bildirimlerini vererek egzersizinizi gözden geçirmeye yardımcı olabilir. Bununla birlikte, bu en iyi kendi kendinize inceleme yaptıktan sonra yapılır.
 
 <br>

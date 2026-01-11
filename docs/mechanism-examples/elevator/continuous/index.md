@@ -2,10 +2,10 @@
 image: docs/img/mechanism-examples/elevator/continuous/1678_2023_elevator.webp
 ---
 
-# Continuous Elevators
-Continuous elevators are characterized by the *continuous* loop of cable or belt that drives the final stage. The intermediary stages are not directly driven.
+# Sürekli Asansörler
+Sürekli asansörler, son kadimeyi süren kablo veya kayışın *sürekli* döngüsüyle karakterizedir. Aracı kademeler doğrudan sürülmez.
 
-## Featured
+## Öne Çıkanlar
 
 <div class="grid cards" markdown>
 
@@ -13,24 +13,24 @@ Continuous elevators are characterized by the *continuous* loop of cable or belt
 
     ---
 
-    External cable driven 2-stage elevator using COTS bearing blocks with a unique open-top carriage
-    
-    [:octicons-arrow-right-24: 1678's Charged Up Elevator](1678_2023_elevator.md)
+    COTS rulman blokları kullanan benzersiz açık üstlü carriage ile dış kablo sürümlü 2 kademeli asansör
+
+    [:octicons-arrow-right-24: 1678'nin Charged Up Asansörü](1678_2023_elevator.md)
 
 -   <center>[![](../../../img/mechanism-examples/elevator/continuous/3847_2023_elevator.webp)](3847_2023_elevator.md)</center>
 
     ---
 
-    External timing belt driven 2-stage continuous elevator with constant force springs and COTS bearing blocks
-    
-    [:octicons-arrow-right-24: 3847's Charged Up Elevator](3847_2023_elevator.md)
+    Sabit güç yayları ve COTS rulman blokları ile dış zamanlama kayışı sürümlü 2 kademeli sürekli asansör
+
+    [:octicons-arrow-right-24: 3847'nin Charged Up Asansörü](3847_2023_elevator.md)
 
 </div>
 
 <br>
 
-## More Examples
+## Daha Fazla Örnek
 
-**Coming Soon**
+**Yakında**
 
 <br>

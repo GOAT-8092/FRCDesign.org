@@ -1,64 +1,64 @@
 
 
-# 1B: Power Transmissions
+# 1B: Güç Aktarımı
 
-## Chain and Sprocket Basics
+## Zincir ve Dişli Temelleri
 
-Roller chain and sprocket drives are very similar to belt and pulley transmissions. They consist of two main components: a chain, which is a series of interconnected links, and sprockets, which are toothed wheels that mesh with the chain. As the sprockets rotate, they engage with the chain, causing it to move and transmit power from one shaft to another. Bikes are an everyday object that use chain to transmit power. Chains excel at transmitting high force over long distances.
+Zincir ve dişli sürücüleri, kayış ve kasnak aktarma organlarına çok benzer. Birbirine bağlı halkalardan oluşan bir zincir ve zincirle meshleşen dişli tekerlekler olan dişliler olmak üzere iki ana bileşenden oluşurlar. Dişliler dönerken, zincirle etkileşime girer ve onu hareket ettirir, böylece gücü bir mildden diğerine aktarır. Bisikletler, güç iletmek için zincir kullanan günlük nesnelerdir. Zincirler uzun mesafelerde yüksek kuvvet iletmekte mükemmeldir.
 
 <figure>
     <img src="../images/chain/chain-animation.gif" style="width:40%">
-    <figpcation>A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.</figcaption>
+    <figpcation>Basit bir zincir ve dişli animasyonu. Dişlilerin aynı yönde döneceğini unutmayın.</figcaption>
 </figure>
 
-In order to change the torque and speed from the input to the output, different sized sprockets must be used. The mechanical advantage for chain transmissions, similar to gears and pulleys, is based on the ratio between the number of teeth of the output sprocket to the number of teeth of the input sprocket. Similar to pulleys, the sprockets will spin in the same direction.
+Girişten çıkışa tork ve hızı değiştirmek için, farklı boyutlarda dişliler kullanılmalıdır. Zincir aktarma organları için mekanik avantaj, dişlilere ve kasnaklara benzer şekilde, çıkış dişlisinin diş sayısının giriş dişlisinin diş sayısına oranı temelinde oluşturulur. Kasnaklara benzer şekilde, dişliler aynı yönde dönecektir.
 
-### Types of Chain
+### Zincir Türleri
 
-The two commonly used sizes of roller chain in FRC is #25 and #35 chain, with 0.25" and 0.375" pitch respectively. For chain, the **pitch** is the length of each link. The *pitch length* of the chain is then the pitch (0.25" or 0.375") multiplied by the number of links. Try to use an even number of links to avoid the use of a "half-link" which is weaker than a full-link. This means your chain pitch length should be a multiple of 0.5".
-<!-- 
-To calculate the pitch diameter, the following equation can be used:
+FRC'de yaygın olarak kullanılan rulmanlı zincirin iki boyutu vardır: #25 ve #35 zincir, sırasıyla 0.25" ve 0.375" pitch'e sahiptir. Zincir için **pitch** her halkanın uzunluğudur. Zincirin *pitch uzunluğu* ise pitch'in (0.25" veya 0.375") halka sayısı ile çarpılmasıdır. Tam bir halkadan daha zayıf olan "yarım halka" kullanımını önlemek için çift sayıda halka kullanmaya çalışın. Bu, zincir pitch uzunluğunuzun 0.5"in bir katı olması gerektiği anlamına gelir.
+<!--
+Çap çapını hesaplamak için aşağıdaki denklem kullanılabilir:
 
 <center>**`PD = Pitch / sin [180°/# of teeth]`**</center> -->
 
-Additionally, the **chain clearance diameter** describes the diameter of the sprocket with the chain wrapped around it. The following equation can be used:
+Ayrıca, **zincir boşluk çapı**, zincirin sarılmış olduğu dişlinin çapını tanımlar. Aşağıdaki denklem kullanılabilir:
 
 <center markdown>**`Clearance Diameter = PD + Pitch`**</center>
 
-Below is an illustration of the pitch, pitch diameter, outside diameter, and chain clearance diameter of a sprocket.
+Aşağıda bir dişlinin pitch'i, çap çapı, dış çap ve zincir boşluk çapının bir çizimi bulunmaktadır.
 
 <figure>
     <img src="../images/chain/chain-diagram.webp" style="width:70%">
-    <figcaption>Illustration of chain sprocket diameter measures. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/sprockets-and-chain">WCP</a>)</figcaption>
+    <figcaption>Zincir dişlisi çap ölçümlerinin çizimi. (Görsel kaynak: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/sprockets-and-chain">WCP</a>)</figcaption>
 </figure>
 
-In FRC, #25 chain is most commonly used as it is strong yet relatively lightweight. #35 is sometimes used on very high torque transmissions, but it is heavy and bulky. 
+FRC'de #25 zincir genellikle kullanılır, çünkü güçlüdür ve nispeten hafiftir. #35 bazen çok yüksek torklu aktarma organlarında kullanılır, ancak ağır ve hantaldır.
 
-### Modeling Chain Transmissions
+### Zincir Aktarma Organlarını Modelleme
 
-The modeling workflow for chain is the exact same as for belts in the previous page. You will need the pitch diameter of the two sprockets and a correct center-to-center distance.
+Zincirin modelleme iş akışı, önceki sayfadaki kayışlar ile tamamen aynıdır. İki dişlinin çap çapına ve doğru merkezden merkeze mesafesine ihtiyacınız olacak.
 
-Utilize the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} function to dimension the pitch diameters of two sprockets on points you want connected with a chain. 
+[`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} fonksiyonunu kullanarak, bir zincirle bağlanmak istediğiniz noktalarda iki dişlinin çap çaplarını dimension yapın.
 
-* `#SprocketPD_25(n)`: Calculates the pitch diameter of a #25 pitch sprocket with `n` teeth.
-    * Ex: `#SprocketPD_25(16)` returns the pitch diameter of an 16T #25 pitch sprocket.
+* `#SprocketPD_25(n)`: `n` dişli #25 pitch dişlinin çap çapını hesaplar.
+    * Örnek: `#SprocketPD_25(16)` 16 dişli #25 pitch dişlinin çap çapını döndürür.
 
-Generate a 3D model of the chain with the same [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"} that you used for belts, check the chain link count that it generates, then  go back to the sketch and dimension your center-to-center distance using that chain link count to get the correct center-to-center distance. Use the following Origin Cube function: 
+Kayışlar için kullandığınız aynı [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"} ile zincirin 3D modelini oluşturun, ürettiği zincir halka sayısını kontrol edin, ardından doğru merkezden merkeze mesafeyi elde etmek için zincir halka sayısını kullanarak merkezden merkeze mesafenizi dimension yapın. Aşağıdaki Origin Cube fonksiyonunu kullanın:
 
-* `#ChainCTC_25(n1, n2, n3)`: Calculates the c-c distance of a `n1` link #25 pitch chain connecting sprocket with tooth count `n2` and sprocket with tooth count `n3`.
-    * Ex: `#ChainCTC_25(80,16,48)` returns the center distance for an 80 link #25 pitch chain connecting a 16T sprocket to a 48T sprocket.
+* `#ChainCTC_25(n1, n2, n3)`: `n2` diş sayısına sahip dişliyi ve `n3` diş sayısına sahip dişliyi bağlayan `n1` halkalı #25 pitch zincirin c-c mesafesini hesaplar.
+    * Örnek: `#ChainCTC_25(80,16,48)` 16 dişli dişliyi 48 dişli dişliye bağlayan 80 halkalı #25 pitch zincir için merkez mesafesini döndürür.
 
 
-### Chain Tensioners
+### Zincir Gergileri
 
-One difficulty when designing with chain is that it will physically stretch as it is used. This means the distance between each link will slightly increase, making the overall chain longer in a non-insignificant way. Loose chain can be difficult to fix if the chain transmission is not designed with chain tensioning in mind. Although you will not be learning about chain tensioning methods quite yet, you should keep this idea in the back of your mind. 
+Zincir ile tasarlarken bir zorluk, kullanıldıkça fiziksel olarak genişleyeceğidir. Bu, her halka arasındaki mesafenin hafifçe artacağı anlamına gelir ve bu da genel zinciri önemsiz olmayan bir şekilde uzatır. Zincir aktarma organı zincir germe dikkate alınarak tasarlanmadıysa, gevşek zincir düzeltmek zor olabilir. Henüz zincir germe yöntemlerini öğrenmeyecek olmasanız da, bu fikri aklınızda tutmalısınız.
 
-In Stage 2, different chain tensioning methods are introduced in the context of different types of robot mechanisms. The [Design Handbook page](/design-handbook/ "Design Handbook Page"){:target="_blank"} also dives deeper into this topic.
+Aşama 2'de, farklı robot mekanizma türleri bağlamında farklı zincir germe yöntemleri tanıtılır. [Design Handbook page](/design-handbook/ "Design Handbook Page"){:target="_blank"} da bu konuya daha derinlemesine girer.
 
-!!! Example "Example of Chain Tensioning"
+!!! Example "Zincir Gerge Örneği"
     <figure>
         <img src="../images/chain/turnbuckle.webp" style="width:60%">
-        <figcaption>A "turnbuckle" or "inline" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
+        <figcaption>Bir "turnbuckle" veya "inline" zincir gergi. Turnbuckle, zinciri sıkı tutmak için ayarlanabilen değişken uzunluklu bir halka olarak görev yapar. (Fotoğraf Kaynak: FRC 1538)</figcaption>
     </figure>
 
 <br>

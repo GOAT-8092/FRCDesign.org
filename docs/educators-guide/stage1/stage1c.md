@@ -1,73 +1,73 @@
-# Stage 1C - Practice Mechanisms
+# Aşama 1C - Pratik Mekanizmalar
 
-Stage 1C offers an excellent opportunity to help students develop and reinforce their CAD skills through focused practice exercises. This guide provides suggestions for effectively teaching these exercises in a classroom setting.
+Aşama 1C, odaklanmış pratik alıştırmalar yoluyla öğrencilerin CAD becerilerini geliştirmelerini ve pekiştirmelerine yardımcı olmak için mükemmel bir fırsat sunar. Bu kılavuz, bu alıştırmaları bir sınıf ortamında etkili bir şekilde öğretmek için öneriler sunar.
 
-## Learning Objectives
+## Öğrenme Hedefleri
 
-Students who complete Stage 1C will:
+Aşama 1C'yi tamamlayan öğrenciler:
 
-- Apply fundamental CAD techniques learned in previous stages to model complete mechanisms 
-- Practice using COTS components and Featurescripts effectively
-- Learn industry-standard organizational practices for assemblies and part studios
-- Develop problem-solving skills through increasingly independent modeling tasks
+- Önceki aşamalarda öğrenilen temel CAD tekniklerini tam mekanizmaları modellemek için uygulayacak
+- COTS bileşenlerini ve Featurescripts'leri etkili bir şekilde kullanmayı pratik yapacak
+- Assembly'ler ve part studio'lar için endüstri standardı organizasyon uygulamalarını öğrenecek
+- Artan bağımsız modelleme görevleri yoluyla problem çözme becerilerini geliştirecek
 
-## Teaching Structure
+## Öğretim Yapısı
 
-### Progressive Independence 
+### Kademeli Bağımsızlık
 
-Stage 1C gradually reduces guidance with each exercise, helping students transition from following detailed instructions to working more independently. The early exercises provide step-by-step instructions, while later ones give only high-level direction. This progression helps build student confidence.
+Aşama 1C, her alıştırmada kılavuzluk kademeli olarak azaltır, bu da öğrencilerin detaylı talimatları takip etmeden daha bağımsız çalışmaya geçmelerine yardımcı olur. Erken alıştırmalar adım adım talimatlar sağlarken, sonrakiler sadece yüksek seviyeli yön verir. Bu ilerleme öğrenci güvenini inşa eder.
 
-### Exercise Sequence
+### Alıştırma Sırası
 
-Break the exercises into manageable chunks across multiple class periods:
+Alıştırmaları birden fazla sınıf döneminde yönetilebilir parçalara ayırın:
 
-1. Exercises 1-2 (Flat Intake & Dead Axle Rollers): Heavily guided introduction to mechanism modeling
-2. Exercises 3-4 (Ball Shooter & Telescoping Hook): Moderate guidance with increased complexity
-3. Exercises 5-6 (Flipped Gearbox & Direction Swap): Limited guidance to build independence
-4. Exercises 7-8 (Vertical Rollers & Indexer Centering): Minimal guidance for near-independent work
+1. Alıştırmalar 1-2 (Düz Intake ve Dead Aks Silindirler): Mekanizma modellemeye ağır kılavuzlu giriş
+2. Alıştırmalar 3-4 (Top Shooter ve Teleskopik Kanca): Artan karmaşıklıkla orta kılavuzluk
+3. Alıştırmalar 5-6 (Çevrilmiş Dişli Kutusu ve Yön Değişimi): Bağımsızlığı inşa etmek için sınırlı kılavuzluk
+4. Alıştırmalar 7-8 (Dikey Silindirler ve İndekser Merkezleme): Neredeyse bağımsız iş için minimal kılavuzluk
 
-## Teaching Tips
+## Öğretim İpuçları
 
-### Concept Reinforcement
+### Kavram Pekiştirme
 
-Before each exercise, review relevant concepts like:
-- Layout sketches and design intent
-- Assembly organization and mating
-- Use of COTS components and Featurescripts
+Her alıştırmadan önce, ilgili kavramları gözden geçirin:
+- Layout sketchler ve tasarım amacı
+- Assembly organizasyonu ve mating
+- COTS bileşenlerin ve Featurescripts'lerin kullanımı
 
-### Common Challenges
+### Yaygın Zorluklar
 
-Watch for and address these frequent student difficulties:
-- Over-constraining assemblies
-- Disorganized feature trees
-- Inefficient modeling approaches
-- Poor design intent capture
+Bu yaygın öğrenci zorluklarını izleyin ve ele alın:
+- Aşırı kısıtlanmış assembly'ler
+- Organize edilmemiş özellik ağaçları
+- Verimsiz modelleme yaklaşımları
+- Zayıf tasarım amacı yakalama
 
-### Assessment Opportunities
+### Değerlendirme Fırsatları
 
-Monitor student progress through:
-- Completion of exercise requirements
-- Quality of modeling practices
-- Organization of assemblies and part studios
-- Independence in problem-solving
-- Ability to explain design decisions
+Öğrenci ilerlemesini şunlar yoluyla izleyin:
+- Alıştırma gereksinimlerinin tamamlanması
+- Modelleme uygulamalarının kalitesi
+- Assembly'ler ve part studio'ların organizasyonu
+- Problem çözmede bağımsızlık
+- Tasarım kararlarını açıklama yeteneği
 
-## Extension Activities
+## Uzantı Aktiviteleri
 
-For advanced students who complete exercises early:
-- Challenge them to modify designs for different requirements
-- Have them create variations with different COTS components
-- Ask them to document their modeling process to share with peers
+Erken biten gelişmiş öğrenciler için:
+- Farklı gereksinimler için tasarımları değiştirmelerine meydan okuyun
+- Farklı COTS bileşenlerle varyasyonlar oluşturmalarını sağlayın
+- Akranlarıyla paylaşmak için modelleme süreçlerini belgelemelerini isteyin
 
-## Success Indicators
+## Başarı Göstergeleri
 
-Students are ready to move on when they can:
-- Complete mechanisms with minimal guidance
-- Organize their work professionally
-- Use COTS parts and Featurescripts effectively
-- Explain their modeling decisions
-- Troubleshoot common issues independently
+Öğrenciler hazır olduğunda hareket edebilirler:
+- Minimal kılavuzlukla mekanizmaları tamamlayabilir
+- İşlerini profesyonelce organize edebilir
+- COTS parçalarını ve Featurescripts'leri etkili bir şekilde kullanabilir
+- Modelleme kararlarını açıklayabilir
+- Yaygın sorunları bağımsız olarak giderebilir
 
-The key is maintaining a balance between structured guidance and independent practice while ensuring students develop good CAD habits. It might be a good idea to have students run through these twice as extra practice. They should be able to easily recreate these assemblies with high quality.
+Anahtar, yapılandırılmış kılavuzluk ve bağımsız pratik arasında dengeyi korumak ve öğrencilerin iyi CAD alışkanlıkları geliştirdiklerinden emin olmaktır. Ekstra pratik olarak öğrencilerin bunları iki kez geçirmeleri iyi bir fikir olabilir. Yüksek kaliteyle bu assembly'leri kolayca yeniden oluşturabilmelidirler.
 
 <br>

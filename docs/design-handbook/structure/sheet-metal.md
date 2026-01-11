@@ -1,8 +1,8 @@
-# Sheet Metal
+# Sac Metal
 
-A guide on designing for sheet metal. 
+Sac metal için tasarım rehberi.
 
-**Coming Soon**
+**Çok Yakında**
 
 <!-- @ andrew port over fw docs :D -->
 

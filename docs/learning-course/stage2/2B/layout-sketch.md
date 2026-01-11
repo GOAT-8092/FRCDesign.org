@@ -1,16 +1,16 @@
-# 2B: Dead Axle Pivot
+# 2B: Dingil Silisi Pivot
 
 ## Layout Sketch
 
-The layout sketch is very simple as it uses Maxplanetaries for the gear reduction. 
+Layout eskizi diş redüksiyonu için Maxplanetaries kullandığı için çok basittir.
 
-1. Use the origin cube featurescript to insert the origin cube
-2. Dimension the cross bar
-3. Lay out the pivot location and driving sprocket position above the cross bar. Dimension a construction line between them a distance that will give enough chain length to use an inline tensioner.
-4. Create construction circles to represent the pitch circles of both sprockets and the diameter of the motor.
+1. Origin cube featurescript'ini kullanarak origin cube'ü ekleyin
+2. Çubuğu boyutlandırın
+3. Pivot konumunu ve çubuğun üzerindeki sürücü sprocket konumunu düzenleyin. Aralarına bir inline tensioner kullanmak için yeterli zincir uzunluğu verecek mesafette bir yapı çizgisi boyutlandırın.
+4. Her iki sprocket'in step circles'ını ve motorun çapını temsil eden yapı daireleri oluşturun.
 <figure>
     <img src="/img/learning-course/stage2-pivot/pivotMasterSketch.webp" width="70%">
-    <figcaption>Finished Layout Sketch.</figcaption>
+    <figcaption>Tamamlanmış Layout Eskizi.</figcaption>
 </figure>
 
 <br>
