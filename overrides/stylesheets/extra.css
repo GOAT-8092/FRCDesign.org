@@ -1,0 +1,17 @@
+/* Fork repository link styling */
+.md-header__source .md-source {
+  margin-left: 0.4rem;
+}
+
+/* Add tooltip for the fork link */
+.md-header__source .md-source[title="Türkçe katkılar için fork (Çatallama)"] {
+  position: relative;
+}
+
+/* Make sure both repo links are visible on mobile */
+@media screen and (max-width: 76.1875em) {
+  .md-header__source {
+    display: flex;
+    gap: 0.2rem;
+  }
+}
