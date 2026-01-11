@@ -115,7 +115,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../overrides/stylesheets/extra.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -172,6 +172,7 @@
     </div>
     
     
+  
       
 
   
@@ -522,6 +523,21 @@
   
 </header>
     
+  <script>
+    // Add fork repository link next to the source button
+    document.addEventListener('DOMContentLoaded', function() {
+      var headerSource = document.querySelector('.md-header__source');
+      if (headerSource) {
+        var forkLink = document.createElement('a');
+        forkLink.href = 'https://github.com/GOAT-8092/FRCDesign.org';
+        forkLink.className = 'md-source';
+        forkLink.title = 'Türkçe katkılar için fork (Çatallama)';
+        forkLink.innerHTML = '<div class="md-source__icon md-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg></div><div class="md-source__repository">GOAT-8092/FRCDesign.org</div>';
+        headerSource.parentNode.insertBefore(forkLink, headerSource.nextSibling);
+      }
+    });
+  </script>
+
     <div class="md-container" data-md-component="container">
       
       
